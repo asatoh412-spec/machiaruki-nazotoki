@@ -20,10 +20,12 @@ $trigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) -Repetiti
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes 10) -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
 Register-ScheduledTask -TaskName $TaskName -Action $action -Trigger $trigger -Settings $settings -Description "自動アップロード: $Dir" -Force | Out-Null
 Set-Location $Dir
-if (-not (Test-Path .gitignore)) { New-Item -ItemType File .gitignore | Out-Null }
-$have = Get-Content .gitignore -Encoding UTF8
+# .gitignore は BOM なしの UTF-8 で追記する（BOM が付くと先頭の行が効かなくなるため）
+$gi = Join-Path $Dir '.gitignore'
+$utf8 = New-Object Text.UTF8Encoding $false
+$have = if (Test-Path $gi) { [IO.File]::ReadAllLines($gi, $utf8) } else { @() }
 foreach ($l in @('apk/', 'keystore/', '*.tar.gz', '*.new/', 'push-request.txt', 'auto-push.log', '.DS_Store', 'Claude outputs/', '自動アップロード/run-hidden.vbs')) {
-  if ($have -notcontains $l) { Add-Content .gitignore $l -Encoding UTF8 }
+  if ($have -notcontains $l) { [IO.File]::AppendAllText($gi, "$l`n", $utf8) }
 }
 $ErrorActionPreference = 'Continue'
 if (-not (Test-Path .git) -and $RepoUrl) {
