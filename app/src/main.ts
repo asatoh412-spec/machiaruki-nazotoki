@@ -17,7 +17,7 @@ import { abortRun, startRun, resumeRun, recordsScreen } from './run.ts';
 
 // 同梱のパックを初回に入れる。新しい版が同梱されていれば差し替える（地点の記録は別に保存しているので残る）。
 async function installBundledPacks() {
-  for (const file of ['shinjuku-ushigome.json']) {
+  for (const file of ['shinjuku-ushigome.json', 'shinjuku-ochiai.json']) {
     try {
       const p = (await (await fetch(`packs/${file}`)).json()) as Pack;
       const have = await db.getPack(p.pack_id);
@@ -42,11 +42,13 @@ export async function home() {
       <button class="${active ? '' : 'primary '}big" id="new">新しいコースを作る</button>
       <section>
         <h2>保存したコース</h2>
-        ${courses.length === 0 ? '<p class="muted">まだありません。</p>' : `<ul class="list">${courses
-          .map(
-            (c) => `<li><a href="#" data-course="${c.id}"><b>${esc(packTitle.get(c.packId) ?? c.packId)}</b><span>${c.pointIds.length}地点・約${km(c.distanceM)}km・約${c.minutes}分・${esc(c.request.start.kind === 'station' ? c.request.start.name + '駅発' : '現在地発')}</span><small>${new Date(c.createdAt).toLocaleString('ja-JP')}</small></a></li>`,
-          )
-          .join('')}</ul>`}
+        ${(() => {
+          const pending = courses.filter((c) => !runs.some((r) => r.courseId === c.id));
+          return (pending.length === 0 ? '<p class="muted">まだ出発していないコースはありません。</p>' : `<ul class="list">${pending
+            .slice(0, 3)
+            .map((c) => courseItem(c, packTitle.get(c.packId) ?? c.packId, '未出発'))
+            .join('')}</ul>`) + `<button id="courses">保存したコースを管理する（${courses.length}件）</button>`;
+        })()}
       </section>
       <section>
         <h2>地区のパック</h2>
@@ -74,10 +76,95 @@ export async function home() {
   on('#settings', 'click', () => settingsScreen());
   on('#new', 'click', () => newCourse());
   on('#packs', 'click', () => packsScreen());
+  on('#courses', 'click', () => coursesScreen());
   on('[data-course]', 'click', async (e) => {
     e.preventDefault();
     const c = await db.getCourse((e.currentTarget as HTMLElement).dataset.course!);
     if (c) preview(c, [], true);
+  });
+}
+
+// ---------- 保存したコースの管理 ----------
+function startLabel(c: Course): string {
+  return c.request.start.kind === 'station' ? `${c.request.start.name}駅発` : c.request.start.kind === 'home' ? '自宅発' : '現在地発';
+}
+function courseItem(c: Course, title: string, status: string, extra = ''): string {
+  const mode = c.request.mode === 'share' ? 'シェアサイクル' : c.request.mode === 'bike-own' ? '自転車' : '徒歩';
+  return `<li><a href="#" data-course="${c.id}"><b>${esc(title)} <span class="tag">${esc(status)}</span></b><span>${c.pointIds.length}地点・約${km(c.distanceM)}km・約${c.minutes}分・${mode}・${esc(startLabel(c))}</span><small>${new Date(c.createdAt).toLocaleString('ja-JP')}${extra}</small></a></li>`;
+}
+
+type CourseStatus = '未出発' | '進行中' | '回った' | '中止';
+async function coursesScreen(tab: 'pending' | 'done' = 'pending', msg = '') {
+  const [courses, runs, packs] = await Promise.all([db.listCourses(), db.listRuns(), db.listPacks()]);
+  const title = new Map(packs.map((p) => [p.pack_id, p.title]));
+  const recs = await db.recordsFor(courses.flatMap((c) => c.pointIds));
+  const status = (c: Course): CourseStatus => {
+    const rs = runs.filter((r) => r.courseId === c.id);
+    if (rs.some((r) => !r.finishedAt)) return '進行中';
+    if (rs.some((r) => r.finishedAt && !r.aborted)) return '回った';
+    if (rs.some((r) => r.aborted)) return '中止';
+    return '未出発';
+  };
+  // 未出発のコースのうち、ほかのコースで回ったり「見つからない」にした地点を含むもの
+  const stale = (c: Course) => c.pointIds.filter((id) => !isEligible(recs.get(id))).length;
+  const list = courses.filter((c) => (tab === 'pending' ? ['未出発', '進行中'].includes(status(c)) : ['回った', '中止'].includes(status(c))));
+  render(`
+    <header><button class="back" id="back">← 戻る</button><h1>保存したコース</h1></header>
+    <main>
+      ${msg ? `<p class="notice">${esc(msg)}</p>` : ''}
+      <div class="tabs"><button data-tab="pending" class="${tab === 'pending' ? 'chosen' : ''}">未出発</button><button data-tab="done" class="${tab === 'done' ? 'chosen' : ''}">回った・中止</button></div>
+      ${list.length === 0 ? '<p class="muted">ありません。</p>' : ''}
+      <ul class="list">${list
+        .map((c) => {
+          const n = stale(c);
+          const warn = tab === 'pending' && n ? `<br><span class="warn-text">このうち${n}地点は、ほかのコースで回ったか「見つからない」にしました</span>` : '';
+          return courseItem(c, title.get(c.packId) ?? c.packId, status(c), warn) .replace('</li>', `<div class="row-actions">${tab === 'pending' ? `<button data-remake="${c.id}">同じ条件で作り直す</button>` : ''}<button data-delc="${c.id}">削除</button></div></li>`);
+        })
+        .join('')}</ul>
+      ${
+        tab === 'done'
+          ? `<button id="deldone" ${list.length ? '' : 'disabled'}>回った・中止のコースをすべて削除する</button><p class="muted small">コースを削除しても、記録（結果・メモ・写真）は残ります。</p>`
+          : `<button id="delstale" ${list.some((c) => stale(c) > 0) ? '' : 'disabled'}>回った地点を含む未出発のコースを削除する</button>`
+      }
+    </main>`);
+  on('#back', 'click', () => home());
+  on('[data-tab]', 'click', (e) => coursesScreen((e.currentTarget as HTMLElement).dataset.tab as 'pending' | 'done'));
+  on('[data-course]', 'click', async (e) => {
+    e.preventDefault();
+    const c = await db.getCourse((e.currentTarget as HTMLElement).dataset.course!);
+    if (c) preview(c, [], true);
+  });
+  on('[data-delc]', 'click', async (e) => {
+    e.stopPropagation();
+    const id = (e.currentTarget as HTMLElement).dataset.delc!;
+    if (status(courses.find((c) => c.id === id)!) === '進行中') return coursesScreen(tab, '進行中のコースは削除できません。ホームの「途中のコースを中止する」で中止してください。');
+    await db.deleteCourse(id);
+    coursesScreen(tab, 'コースを削除しました。');
+  });
+  on('[data-remake]', 'click', async (e) => {
+    e.stopPropagation();
+    const c = courses.find((x) => x.id === (e.currentTarget as HTMLElement).dataset.remake);
+    const pack = c && (await db.getPack(c.packId));
+    if (!c || !pack) return;
+    const req = { ...c.request, month: new Date().getMonth() + 1 };
+    const res = assemble(pack, req, await db.recordsFor(pack.points.map((p) => p.id)));
+    if (!res.course) return coursesScreen(tab, res.warnings.join(' '));
+    res.course.sunset = c.sunset;
+    res.course.weather = c.weather;
+    await refineByRoute(res.course, pack);
+    preview(res.course, ['前のコースと同じ条件で作り直しました。出発の時刻や天気が変わっていれば「新しいコースを作る」から作ってください。', ...res.warnings], false);
+  });
+  on('#deldone', 'click', async () => {
+    const targets = list.filter((c) => status(c) !== '進行中');
+    if (!confirm(`回った・中止のコース${targets.length}件を削除します。記録は残ります。`)) return;
+    for (const c of targets) await db.deleteCourse(c.id);
+    coursesScreen(tab, `${targets.length}件を削除しました。`);
+  });
+  on('#delstale', 'click', async () => {
+    const targets = list.filter((c) => status(c) === '未出発' && stale(c) > 0);
+    if (!confirm(`回った地点を含む未出発のコース${targets.length}件を削除します。`)) return;
+    for (const c of targets) await db.deleteCourse(c.id);
+    coursesScreen(tab, `${targets.length}件を削除しました。`);
   });
 }
 

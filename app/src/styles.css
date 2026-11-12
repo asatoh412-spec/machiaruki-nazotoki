@@ -114,3 +114,6 @@ fieldset select { display: block; width: 100%; margin-top: 4px; }
 .sky { font-size: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
 .sky small { color: var(--muted); }
 .sky a { color: var(--accent); }
+.row-actions { display: flex; gap: 6px; padding: 0 14px 10px; }
+.row-actions button { flex: 1; padding: 8px; min-height: 36px; font-size: 13px; }
+.warn-text { color: #8a3a1e; }
