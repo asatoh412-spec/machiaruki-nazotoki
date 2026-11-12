@@ -6,3 +6,5 @@ push-request.txt
 auto-push.log
 .DS_Store
 Claude outputs/
+*.new/
+自動アップロード/run-hidden.vbs

@@ -12,6 +12,8 @@ $Msg = Get-Content $Req -Encoding UTF8 -TotalCount 1
 if (-not $Msg) { $Msg = '作業の場からの更新' }
 Remove-Item $Req -Force
 $out = @("=== $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $Msg")
+# ほかのPCから先に上がった分を取り込む（Mac と Windows の両方で使うため）
+git pull -q --rebase --autostash 2>&1 | Out-Null
 Get-ChildItem -File -Filter '*-source.tar.gz' | ForEach-Object {
   $name = $_.Name -replace '-source\.tar\.gz$', ''
   $tmp = "$name.new"
@@ -33,8 +35,13 @@ git add -A
 # コミットの説明は UTF-8 のファイルで渡す（日本語の文字化けを防ぐ）
 $mf = Join-Path $env:TEMP 'autopush-msg.txt'
 [IO.File]::WriteAllText($mf, $Msg, (New-Object Text.UTF8Encoding $false))
-git commit -q -F $mf
-if ($LASTEXITCODE -eq 0) { $out += 'コミットしました' } else { $out += '変更はありません' }
+# 名前とメールが未設定のPCでもコミットできるようにする
+if (-not (git config user.name)) { git config user.name 'aki'; git config user.email 'aki@aki.local' }
+git diff --cached --quiet
+if ($LASTEXITCODE -eq 0) { $out += '変更はありません' } else {
+  $c = git commit -q -F $mf 2>&1
+  if ($LASTEXITCODE -eq 0) { $out += 'コミットしました' } else { $out += ($c | Out-String).Trim(); $out += 'コミットに失敗しました' }
+}
 $p = git push -q 2>&1
 if ($LASTEXITCODE -eq 0) { $out += 'push しました' } else { $out += ($p | Out-String).Trim(); $out += 'push に失敗しました' }
 Add-Content -Path $Log -Value $out -Encoding UTF8

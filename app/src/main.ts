@@ -305,7 +305,10 @@ async function newCourse() {
         </fieldset>
         <label id="startlabel">出発<select name="start" id="start"></select></label>
         <p id="modenote" class="muted small"></p>
-        <label>出発の時刻<input type="time" name="depart" id="depart"></label>
+        <div class="depart-row">
+          <label>出発の日<select id="departday"><option value="0">今日</option><option value="1">明日</option><option value="2">明後日</option></select></label>
+          <label>時刻<input type="time" name="depart" id="depart"></label>
+        </div>
         <fieldset><legend>所要時間</legend>
           ${[60, 120, 240].map((d) => `<label class="radio"><input type="radio" name="dur" value="${d}" ${d === 120 ? 'checked' : ''}>${DUR_LABEL[d]}</label>`).join('')}
         </fieldset>
@@ -338,7 +341,14 @@ async function newCourse() {
   fillStations();
   packSel.addEventListener('change', fillStations);
   const nowHM = new Date(Date.now() + 10 * 60000).toTimeString().slice(0, 5);
-  app.querySelector<HTMLInputElement>('#depart')!.value = nowHM;
+  // 初期値：今日の日没の1時間前を過ぎていれば「明日の10:00」、そうでなければ「今から10分後」
+  {
+    const p0 = packs[0];
+    const sun0 = sunsetOf(new Date(), (p0.area.bbox[0] + p0.area.bbox[2]) / 2, (p0.area.bbox[1] + p0.area.bbox[3]) / 2);
+    const late = Date.now() > sun0.getTime() - 60 * 60000;
+    app.querySelector<HTMLSelectElement>('#departday')!.value = late ? '1' : '0';
+    app.querySelector<HTMLInputElement>('#depart')!.value = late ? '10:00' : nowHM;
+  }
   on('input[name=mode]', 'change', fillStations);
   on('#back', 'click', () => home());
   form.addEventListener('submit', async (e) => {
@@ -376,9 +386,19 @@ async function newCourse() {
     };
     // 出発の時刻（今日。過ぎていれば今）
     const [hh, mm] = (app.querySelector<HTMLInputElement>('#depart')!.value || nowHM).split(':').map(Number);
+    const day = Number(app.querySelector<HTMLSelectElement>('#departday')!.value || 0);
     const depart = new Date();
+    depart.setDate(depart.getDate() + day);
     depart.setHours(hh, mm, 0, 0);
-    if (depart.getTime() < Date.now()) depart.setTime(Date.now());
+    // 今日のすでに過ぎた時刻を選んだときだけ、今から出発する扱いにする
+    if (depart.getTime() < Date.now()) {
+      if (Date.now() - depart.getTime() > 30 * 60000) {
+        err.hidden = false;
+        err.textContent = `今日の${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}はもう過ぎています。明日以降に出かけるなら「出発の日」を選んでください。`;
+        return;
+      }
+      depart.setTime(Date.now());
+    }
     req.departAt = depart.toISOString();
     const notes: string[] = [];
     // 日没までに終わる長さにする
@@ -508,7 +528,8 @@ function skyLine(c: Course): string {
   const wx = w
     ? `気温${w.minTemp ?? '?'}〜${w.maxTemp ?? '?'}℃・降水確率 最大${w.maxProb ?? '?'}%<small>（Weather data by <a href="https://open-meteo.com/" target="_blank">Open-Meteo.com</a>）</small>`
     : '天気は取得できませんでした';
-  return `<p class="sky">出発 ${hm(c.request.departAt)}・日没 ${hm(c.sunset)}<br>${wx}</p>`;
+  const md = (s?: string) => (s ? new Date(s).toLocaleDateString('ja-JP', { month: 'numeric', day: 'numeric', weekday: 'short' }) : '');
+  return `<p class="sky">${md(c.request.departAt)} 出発 ${hm(c.request.departAt)}・日没 ${hm(c.sunset)}<br>${wx}</p>`;
 }
 
 // 経路計算のキーがあれば、道のりで距離と時間を見積もり直す

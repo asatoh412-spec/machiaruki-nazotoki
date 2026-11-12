@@ -15,6 +15,8 @@ MSG="$(head -n 1 "$REQ")"
 rm -f "$REQ"
 {
   echo "=== $(date '+%Y-%m-%d %H:%M:%S') $MSG"
+  # ほかのPCから先に上がった分を取り込む（Mac と Windows の両方で使うため）
+  git pull -q --rebase --autostash >/dev/null 2>&1
   for f in *-source.tar.gz; do
     [ -f "$f" ] || continue
     name="${f%-source.tar.gz}"
@@ -24,6 +26,8 @@ rm -f "$REQ"
   done
   git rm -r -q --cached --ignore-unmatch "Claude outputs" >/dev/null 2>&1
   git add -A
-  if git commit -q -m "$MSG"; then echo "コミットしました"; else echo "変更はありません"; fi
+  git config user.name >/dev/null || { git config user.name aki; git config user.email aki@aki.local; }
+  if git diff --cached --quiet; then echo "変更はありません"
+  elif git commit -q -m "$MSG" 2>&1; then echo "コミットしました"; else echo "コミットに失敗しました"; fi
   if git push -q 2>&1; then echo "push しました"; else echo "push に失敗しました"; fi
 } >> "$LOG" 2>&1
