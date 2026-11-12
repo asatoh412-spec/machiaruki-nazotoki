@@ -1,0 +1,7 @@
+apk/
+keystore/
+*.tar.gz
+app.new/
+push-request.txt
+auto-push.log
+.DS_Store

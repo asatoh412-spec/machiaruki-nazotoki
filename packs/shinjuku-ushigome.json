@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinjuku-ushigome",
- "version": "2026-11-11.1",
+ "version": "2026-11-12.2",
  "title": "牛込・神楽坂・早稲田（新宿区）",
  "prefecture": "東京都",
  "city": "新宿区",
@@ -11,18 +11,78 @@
   "difficulty": "ふつう"
  },
  "stations": [
-  "飯田橋",
-  "神楽坂",
-  "牛込神楽坂",
-  "牛込柳町",
-  "早稲田",
-  "若松河田",
-  "市ケ谷"
+  {
+   "name": "飯田橋",
+   "lines": [
+    "東京地下鉄 5号線東西線",
+    "東京地下鉄 7号線南北線",
+    "東京地下鉄 8号線有楽町線",
+    "東京都 12号線大江戸線",
+    "東日本旅客鉄道 中央線"
+   ],
+   "lat": 35.701477,
+   "lon": 139.744742
+  },
+  {
+   "name": "神楽坂",
+   "lines": [
+    "東京地下鉄 5号線東西線"
+   ],
+   "lat": 35.703865,
+   "lon": 139.73452
+  },
+  {
+   "name": "早稲田",
+   "lines": [
+    "東京地下鉄 5号線東西線"
+   ],
+   "lat": 35.70568,
+   "lon": 139.72219
+  },
+  {
+   "name": "市ヶ谷",
+   "lines": [
+    "東京地下鉄 7号線南北線",
+    "東京地下鉄 8号線有楽町線",
+    "東京都 10号線新宿線",
+    "東日本旅客鉄道 中央線"
+   ],
+   "lat": 35.692363,
+   "lon": 139.736608
+  },
+  {
+   "name": "牛込柳町",
+   "lines": [
+    "東京都 12号線大江戸線"
+   ],
+   "lat": 35.69946,
+   "lon": 139.72519
+  },
+  {
+   "name": "牛込神楽坂",
+   "lines": [
+    "東京都 12号線大江戸線"
+   ],
+   "lat": 35.700915,
+   "lon": 139.73604
+  },
+  {
+   "name": "若松河田",
+   "lines": [
+    "東京都 12号線大江戸線"
+   ],
+   "lat": 35.699165,
+   "lon": 139.718185
+  }
  ],
  "attribution": [
   {
    "text": "新宿区の文化財一覧（新宿区、CC BY）を加工して作成",
    "url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
   }
  ],
  "points": [
@@ -73,10 +133,7 @@
     "accept": [
      "善国寺",
      "善國寺",
-     "ぜんこくじ",
-     "神楽坂毘沙門天",
-     "神楽坂の毘沙門さま",
-     "毘沙門天"
+     "ぜんこくじ"
     ],
     "basis": "地点名"
    },
@@ -129,7 +186,31 @@
    ],
    "status": "unverified",
    "notes": "境内に入れる時間は出典に記載なし（access は null）。寺の公式サイトは robots で取得できず未確認。石虎が本堂左右にあることは紹介記事（旅の手帖・Time Out）の記述で、現地の様子は未確認。『石虎』の読みは出典に無く、いしとらは推定。創建・移転の年は旅の手帖とWikipediaが一致（Wikipediaは同旨の記述、独立した一次資料ではない）。毘沙門天の誕生の由来は、Time Outが「生まれた」、旅の手帖が「降臨した」と表現が異なる。ほおずき市は新宿観光振興協会の神楽坂マップ（7月の神楽坂まつり）による。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は、本堂の左右に一対で据えられた阿吽の石の虎（狛犬のように置かれる）",
+     "confidence": "出典あり",
+     "source_url": "https://tabi-mag.jp/tk0506/"
+    },
+    {
+     "text": "石像そのものが現存し、境内で見られる",
+     "confidence": "出典あり",
+     "source_url": "https://tabi-mag.jp/tk0506/"
+    },
+    {
+     "text": "区の説明板が近くに立つと思われる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "境内は参拝者に開かれている",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100010",
@@ -164,7 +245,6 @@
      "筑土八幡神社",
      "筑土八幡",
      "筑土八幡宮",
-     "筑土八幡さま",
      "つくどはちまんじんじゃ",
      "つくどはちまん"
     ],
@@ -198,7 +278,26 @@
    ],
    "status": "unverified",
    "notes": "鳥居・庚申塔の文化財指定日は区データ1997-03-07（区の一覧PDFも平成9年3月7日で一致）。由緒は散歩の達人の記事のみで、神社公式サイト（robots で取得不可）と二次資料の裏付けがなく、創建年は書いていない。『太田道灌』等の伝承は確認できず不記載。access の『拝観自由』は同記事の施設欄で、時間の制約は未確認。額の文字・鳥居の形状は区データの説明どおり。読み（つくど）は出典で未確認だが一般的な読み。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は石造鳥居（享保11年造立）と、二匹の猿が桃を持つ庚申塔",
+     "confidence": "出典あり",
+     "source_url": "https://san-tatsu.jp/articles/495251/"
+    },
+    {
+     "text": "鳥居・庚申塔とも現存する。境内は拝観自由",
+     "confidence": "出典あり",
+     "source_url": "https://san-tatsu.jp/articles/495251/"
+    },
+    {
+     "text": "境内に田村虎蔵の記念碑がある（神社の入口付近の顕彰碑の写真がCommonsにある）",
+     "confidence": "出典あり",
+     "source_url": "https://commons.wikimedia.org/wiki/File:田村寅蔵先生顕彰碑.jpg"
+    }
+   ],
+   "images": [],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100139",
@@ -232,9 +331,7 @@
     "accept": [
      "田村虎蔵",
      "田村虎藏",
-     "たむらとらぞう",
-     "田村 虎蔵",
-     "虎蔵"
+     "たむらとらぞう"
     ],
     "basis": "地点名"
    },
@@ -273,7 +370,40 @@
    ],
    "status": "unverified",
    "notes": "現地の説明板・標柱があるかは出典で確認できず（onsite は null）。『それまでの唱歌は文語調が多かった』という背景は区の説明にはなく、言文一致の語義からの補足なので、確認担当は削除可。Wikipediaは編集書名を「尋常小学唱歌」とするが、区の説明に従い『尋常唱歌』と書いた。生年・没日・唱歌の作曲は区の説明とWikipediaが一致。境内の碑の存在は区の説明と散歩の達人の記事が一致。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "旧居の建物は残っておらず、現在は個人の敷地と思われる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "区の標示板（説明板）が道沿いにある",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "旧居跡は個人所有地。道路から見るだけにする",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "近くの筑土八幡神社の入口に、〇〇の顕彰碑がある（旧居跡そのものの標識とは別）",
+     "confidence": "出典あり",
+     "source_url": "https://commons.wikimedia.org/wiki/File:田村寅蔵先生顕彰碑.jpg"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:田村寅蔵先生顕彰碑.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/%E7%94%B0%E6%9D%91%E5%AF%85%E8%94%B5%E5%85%88%E7%94%9F%E9%A1%95%E5%BD%B0%E7%A2%91.jpg",
+     "caption": "筑土八幡神社の入口にある田村虎蔵（寅蔵）先生顕彰碑（2019年撮影）",
+     "author": "C2revenge",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100184",
@@ -342,7 +472,26 @@
    ],
    "status": "unverified",
    "notes": "区データの説明は萬昌院の移転後の名を「萬昌院運寺」と書いているが、一般には「萬昌院功運寺」と思われ（功が抜けた誤記の可能性）、出典で確認できていないので long では「萬昌院」だけにした。accept には功運寺も入れた。現地の標識の有無は確認できず（onsite は null）。区の公式ページで登録の詳細は取得できなかった。愛日小学校Wikipediaは、万昌院の第三校が吉井学校の前身、1880年7月31日に吉井学校と市ヶ谷学校が合併して愛日学校となったと記述し、区の説明と整合する。曹洞宗・久宝山の記述は区の説明のみ。hint2 の方角は区データの緯度経度から（神社の約80m西）。善国寺境内に移った件は区の説明のみで第二の出典なし。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "〇〇の建物や遺構は残っておらず、標示板があるだけと思われる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "区の標示板が道沿いにある",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "個人所有地。道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100138",
@@ -376,8 +525,8 @@
     "accept": [
      "尾崎紅葉",
      "おざきこうよう",
-     "尾崎 紅葉",
-     "紅葉"
+     "紅葉",
+     "こうよう"
     ],
     "basis": "地点名"
    },
@@ -423,7 +572,35 @@
    ],
    "status": "unverified",
    "notes": "現地の説明板・標柱の有無は確認できず（onsite は null）。hint2 の『住み込んで学んだ』は、区の一覧が示すのは鏡花が紅葉方に住んだ事実までで、玄関番等の細部は書いていない。指定日は区データ・区の一覧PDFが1985-03-01、Wikipediaは1980年3月と食い違う（区の値を採用）。Wikipediaは没所を『牛込区横井町』と書く（横寺町の誤記と思われる）。『続編を含めて刊行』はWikipediaの『続々金色夜叉』の記述による。『近代文学史の上でも重要』は筆者の補足で出典なし、削除可。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "旧居（十千万堂）の建物は残っていないと思われ、標示板を探すことになる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "区の標示板が道沿いにある",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "個人所有地の区指定史跡。道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Koyo_Ozaki.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Koyo_Ozaki.jpg",
+     "caption": "尾崎紅葉の肖像写真（1903年以前）",
+     "author": "作者不明（国立国会図書館デジタルコレクション掲載の書籍『尾崎紅葉集』より）",
+     "license": "パブリックドメイン（日本：1899年著作権法下で保護期間満了）",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100156",
@@ -457,8 +634,8 @@
     "accept": [
      "島村抱月",
      "しまむらほうげつ",
-     "島村 抱月",
-     "抱月"
+     "抱月",
+     "ほうげつ"
     ],
     "basis": "地点名"
    },
@@ -518,7 +695,40 @@
    ],
    "status": "unverified",
    "notes": "【食い違い】区データの説明は抱月の没日を大正7年11月15日とするが、コトバンク（日本大百科全書ほか）・Wikipedia・区の文学者一覧・asahi-net個人サイトはいずれも11月5日。区の誤記の可能性が高いので、本文は『11月』とし日を書かなかった。確認担当は区に照会を。asahi-netの記述では死去の場所は『牛込矢来倶楽部の一室』とあり、区の『芸術倶楽部』『横寺町』と表記が異なる（Wikipediaは横寺町の芸術倶楽部）。須磨子の自死は区の説明と、asahi-netの『翌年1月5日』が一致。現地の説明板の有無は確認できず（onsite は null）。riddle は自死に触れていない。短い解説には須磨子の死を含めたので、不適切なら確認担当が調整を。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "芸術倶楽部の建物は残っておらず、標示板を探すことになると思われる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "区の標示板が道沿いにある",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "個人所有地。道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "区の史跡名は「芸術倶楽部跡」で、所在は横寺町9〜11",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/kanko/file03_01_00003.html"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shimamura_Hogetsu_circa_1917.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Shimamura_Hogetsu_circa_1917.jpg",
+     "caption": "島村抱月の肖像写真（1917年ごろ）",
+     "author": "作者不明（『抱月全集 第1巻』より、国立国会図書館デジタルコレクション掲載）",
+     "license": "パブリックドメイン（日本：1899年著作権法下で保護期間満了）",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100136",
@@ -553,9 +763,6 @@
      "松井須磨子",
      "松井スマ子",
      "まついすまこ",
-     "松井 須磨子",
-     "須磨子",
-     "すまこ",
      "小林正子"
     ],
     "basis": "地点名"
@@ -602,7 +809,40 @@
    ],
    "status": "unverified",
    "notes": "・境内への立入・参拝可能な時間、墓所の公開可否は、確認できた出典に記載なし（access は null）。多聞院は永代供養墓・樹木葬の見学を受け付ける寺だが、一般の参拝時間は未確認。\n・説明板の設置（平成3年1月、区教育委員会）は個人ブログの記述のみで、区の資料では確認できていない。\n・「芸術比翼塚」は区データと区の案内ページには記載があるが、多聞院Wikipediaには名称がなく「比翼塚」とのみ別サイトにある。\n・ヒント2の「草間彌生美術館の真向かい」はWikipedia（多聞院）の記述のみ。\n・同じ座標に吉川湊一の墓（登録史跡 131041100183）があるため1地点にまとめた。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は多聞院の墓所にある〇〇の墓。墓前に「芸術比翼塚」の碑が建つ",
+     "confidence": "出典あり",
+     "source_url": "http://tokyoshinjuku.blog.shinobi.jp/%E5%BC%81%E5%A4%A9%E7%94%BA/%E6%9D%BE%E4%BA%95%E9%A0%88%E7%A3%A8%E5%AD%90%E5%A2%93%EF%BC%88%E5%A4%9A%E8%81%9E%E9%99%A2%EF%BC%89"
+    },
+    {
+     "text": "墓は現存し、墓の所有者は多聞院（区指定史跡）",
+     "confidence": "出典あり",
+     "source_url": "https://bunkakanko-annai.city.shinjuku.lg.jp/shosai3/?id=A109"
+    },
+    {
+     "text": "境内のどこに墓があるかは",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "寺の境内に入れるか（寺への確認が必要）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sumako.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sumako.jpg",
+     "caption": "松井須磨子の肖像写真（1919年以前）",
+     "author": "作者不明（『恋に生きたる須磨子の一生』より、国立国会図書館デジタルコレクション掲載）",
+     "license": "パブリックドメイン（日本：1899年著作権法下で保護期間満了）",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+    }
+   ],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100174",
@@ -643,9 +883,7 @@
     "accept": [
      "光照寺",
      "こうしょうじ",
-     "コウショウジ",
      "樹王山光照寺",
-     "樹王山 光照寺",
      "樹王山正覚院光照寺"
     ],
     "basis": "地点名"
@@ -699,7 +937,26 @@
    ],
    "status": "unverified",
    "notes": "・境内の入れる時間、休日、本堂に上がれるかは出典で確認できず（access は null、indoor は false のまま）。攻城団に「境内全域と本堂外観が撮影禁止（2017年11月〜）」「2023年の訪問で10時以降に開門」とのユーザー投稿があるが、公式出典ではないため採用していない。\n・寺の開創・創建年が出典で食い違う（Wikipediaとtesshow：慶長8年=1603、神楽坂の史跡解説ページ：慶長3年=1598）。解説では書かず、区データの「正保2年（1645）に神田から移転」のみ採用。\n・牛込城の築城年も食い違う（区データ：不明、別ページ：大永4年=1524築城と伝わる）。解説では「不明」とした。\n・説明板の位置は食い違い（slowstandard：寺の入口、攻城団：門前と本堂前の両説）。onsite と hint3 は「入口付近」としたが要現地確認。\n・涅槃図の特別公開（文化の日前後）はWikipediaのみの記述。公開の実施有無は未確認。\n・「光照寺」の読みは出典未確認（一般的な読みで記載）。\n・便々館湖鯉鮒の墓（131041100176）は同座標のため1地点にまとめた。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "境内に便々館湖鯉鮒の墓（区登録史跡）がある",
+     "confidence": "出典あり",
+     "source_url": "https://tesshow.jp/shinjuku/temple_fukuro_kosho.html"
+    },
+    {
+     "text": "寺の前に地蔵坂がある（寺の木造地蔵菩薩坐像に由来）",
+     "confidence": "出典あり",
+     "source_url": "https://tesshow.jp/shinjuku/temple_fukuro_kosho.html"
+    },
+    {
+     "text": "牛込城の遺構は残らず、区の説明板で城跡を知ることになる。",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100172",
@@ -732,12 +989,7 @@
     "display": "鏑木清方",
     "accept": [
      "鏑木清方",
-     "かぶらききよかた",
-     "カブラキキヨカタ",
-     "鏑木 清方",
-     "鏑木きよかた",
-     "清方",
-     "きよかた"
+     "かぶらききよかた"
     ],
     "basis": "地点名"
    },
@@ -769,7 +1021,40 @@
    ],
    "status": "unverified",
    "notes": "・矢来公園の説明板の位置（旧居跡から公園までの距離や公園の正確な位置）は区の案内ページに「隣接」とあるのみで、座標は未確認。50m判定の範囲に入るかは現地で要確認。\n・ヒント2・3の「矢来公園」への誘導は区の案内ページ1件のみが根拠。\n・個人宅であることは区データ（所有者等：個人）と区の案内ページ（所有者は個人）による。見学可否そのものの記載はなし。\n・清方の経歴は区データの説明のみを根拠にし、ほかの出典では裏付けていない（「築地明石町」の制作年など）。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は旧居跡ではなく、隣の新宿区立矢来公園の中に立つ説明板",
+     "confidence": "出典あり",
+     "source_url": "https://bunkakanko-annai.city.shinjuku.lg.jp/shosai3/?id=A209"
+    },
+    {
+     "text": "旧居の建物は残っていないと思われる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "旧居跡は個人宅。道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "最寄りは東京メトロ東西線神楽坂駅から徒歩6分",
+     "confidence": "出典あり",
+     "source_url": "https://bunkakanko-annai.city.shinjuku.lg.jp/shosai3/?id=A209"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kaburaki_Kiyokata_photographed_by_Shigeru_Tamura.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Kaburaki_Kiyokata_photographed_by_Shigeru_Tamura.jpg",
+     "caption": "鏑木清方の肖像写真（1953年刊『現代日本の百人』より）",
+     "author": "田村茂（Shigeru Tamura, 1909-1987）",
+     "license": "パブリックドメイン（日本：1958年1月1日より前に公表された写真）",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100179",
@@ -803,8 +1088,6 @@
     "accept": [
      "泉鏡花",
      "いずみきょうか",
-     "イズミキョウカ",
-     "泉 鏡花",
      "泉鏡太郎",
      "鏡花",
      "きょうか"
@@ -846,7 +1129,30 @@
    ],
    "status": "unverified",
    "notes": "・現地の説明板・標示の有無は、確認できた出典に記載なし（onsite は null）。旧居跡の現地の様子も写真付きの出典を見つけられていない。\n・住居期間は、区データ「明治32年から4年間」と、区の文学者一覧「明治32年秋～36年2月」でわずかに差がある（約3年半）。short・long は一覧の表記に合わせた。\n・『湯島詣』『高野聖』は、一覧では「在住時の主な作品」、区データでは「この地で発表した」とある。発表年・執筆場所は別の文献で未確認。\n・神楽坂2-22の旧居の記述は、出典が個人サイトのみ（区資料は区データにある記述のみ）。\n・ヒント2の「多聞院から南東へ約270m」は、区データの緯度経度から計算した値（出典の記述ではない）。同一パック内の別地点を使っているので、必要なら差し替えてください。\n・ヒント1の「町名に木の名」は南榎町の字面からの表現で、出典はない。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "所有者は個人で、区の登録文化財（登録番号21）。敷地には入らず道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000360399.pdf"
+    },
+    {
+     "text": "新宿区の史跡には区の説明板が立つことが多い",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kyoka_Izumi.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kyoka_Izumi.jpg",
+     "caption": "泉鏡花の肖像（1939年以前）",
+     "author": "不明（国立国会図書館「近代日本人の肖像」掲載の画像）",
+     "license": "パブリックドメイン",
+     "license_url": null
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100143",
@@ -879,11 +1185,7 @@
     "display": "日野熊蔵",
     "accept": [
      "日野熊蔵",
-     "ひのくまぞう",
-     "ヒノクマゾウ",
-     "日野 熊蔵",
-     "日野大尉",
-     "日野"
+     "ひのくまぞう"
     ],
     "basis": "地点名"
    },
@@ -929,7 +1231,25 @@
    ],
    "status": "unverified",
    "notes": "・碑の現物の位置・文言・設置者は未確認。区の広報ページ（PDF）の写真キャプションにあるだけで、碑文に日野熊蔵の名が刻まれているかも不明。そのため答えは現地表示ではなく人名（出典で確認できる区データ）とし、basis は「地点名」とした。\n・所有者が出典間で異なる（区データ：リアルパートナーズ株式会社、区の文化財一覧PDF：株式会社むぎくら）。所在地も一覧PDFは「西五軒町12-10」。民間敷地内かどうか、立入・見学の可否は確認できず（access は null）。\n・飛行の成否が食い違う。区広報ページは「戸山ヶ原で初の飛行試験」、乗りものニュースは「明治43年2月の実験では機体は浮かび上がらなかった」。謎では「組み上げられた」とし、飛行したとは書いていない。\n・日野の12月の飛行の記述はWikipediaを根拠にしたが、本文が日野式一号機・林田商会に触れていないため、一号機の件の裏付けにはなっていない。\n・「ライト兄弟の有人動力飛行から7年後」は区広報ページの記述。\n・弘文学院跡（131041100232）とは約34m しか離れておらず、半径50mの到着判定が重なる。パック側でどう扱うか判断が必要。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は「国産飛行機発祥の地」の碑。所在地は西五軒町12-10",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000360399.pdf"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kumazo_Hino.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Kumazo_Hino.jpg",
+     "caption": "日野熊蔵の肖像",
+     "author": "西日本新聞社（『明治おもしろ博覧会』所載）",
+     "license": "パブリックドメイン",
+     "license_url": null
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100232",
@@ -963,9 +1283,7 @@
     "accept": [
      "弘文学院",
      "こうぶんがくいん",
-     "コウブンガクイン",
-     "弘文學院",
-     "弘文学院跡"
+     "弘文學院"
     ],
     "basis": "地点名"
    },
@@ -997,7 +1315,21 @@
    ],
    "status": "unverified",
    "notes": "・現地の説明板・標示の有無は確認できず（onsite は null）。区の地域文化財一覧には「当時の遺構は残っていない」とある。民間ビル敷地への立入・見学の可否も未確認（access は null）。\n・内容は区データと区の地域文化財一覧が同じ文面系統で、独立した第三の出典（文献・学術論文など）では裏付けていない。魯迅・陳独秀の在籍は区資料のみ。検索で出た筑波大学リポジトリのPDF等は未読。\n・国産飛行機発祥の地（131041100143）とは約34mしか離れておらず、半径50mの到着判定が重なる。\n・「弘文学院」の読みは出典未確認（一般的な読みで記載）。\n・解説末尾の「明治末の牛込の新しい技術と教育の舞台」という表現は作成者の要約で、出典の文言ではない。不要なら削除してください。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "遺構は残っていない。探す物は跡を示す説明板（標示板）と考えられる",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "2018年に区の文化財保護審議会が地域文化財として認定してよいと結論した",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/kanko/bunka02_002149.html"
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100147",
@@ -1030,10 +1362,7 @@
     "display": "漱石山房",
     "accept": [
      "漱石山房",
-     "そうせきさんぼう",
-     "漱石山坊",
-     "夏目漱石終焉の地",
-     "夏目漱石旧居"
+     "そうせきさんぼう"
     ],
     "basis": "地点名"
    },
@@ -1079,7 +1408,40 @@
    ],
    "status": "unverified",
    "notes": "開館時間・休館日は区の施設案内ページと2017年の区資料で一致。記念館の公式サイトは robots により本文が取得できず、公式の利用案内ページ自体は未確認。観覧料は区の博物館案内ページ（300円/100円）。漱石公園の開園時間と季節の見どころは確認できず seasonal は空。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "跡地は漱石公園と〇〇記念館。公園は記念館の東側にあり、胸像の右側から入る",
+     "confidence": "出典あり",
+     "source_url": "https://tetsudo-ch.com/11403852.html"
+    },
+    {
+     "text": "記念館は夏目坂に面して建ち、坂の下側に漱石の胸像がある",
+     "confidence": "出典あり",
+     "source_url": "https://tetsudo-ch.com/11403852.html"
+    },
+    {
+     "text": "記念館の庭側に「猫の墓」と呼ばれる供養塔がある",
+     "confidence": "出典あり",
+     "source_url": "https://tetsudo-ch.com/11403852.html"
+    },
+    {
+     "text": "〇〇は書斎・客間・回廊の一部が記念館に再現されている。旧居の建物そのものは残らない",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/kanko/file03_00012.html"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Natsume_Soseki_photo.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Natsume_Soseki_photo.jpg",
+     "caption": "夏目漱石の肖像（1912年9月撮影）",
+     "author": "小川一真",
+     "license": "パブリックドメイン",
+     "license_url": null
+    }
+   ],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100146",
@@ -1114,10 +1476,8 @@
      "夏目漱石",
      "漱石",
      "夏目金之助",
-     "金之助",
      "なつめそうせき",
-     "そうせき",
-     "夏目 漱石"
+     "そうせき"
     ],
     "basis": "地点名"
    },
@@ -1149,7 +1509,40 @@
    ],
    "status": "unverified",
    "notes": "区データの所有者が個人のため、敷地に入らず道路から見る前提とした（実際の立入可否は未確認）。区の生い立ちページには碑の記述なし。観光協会PDFは「生誕100年を記念して記念碑」とのみ記載。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は黒御影石の碑。先の尖った四角錐のような形で、高さは2m超とされ、「〇〇誕生之地」と刻まれる",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11344498"
+    },
+    {
+     "text": "早稲田通りから夏目坂に入ってすぐ左側、坂の下あたり。周囲の店に紛れて目立たないという声がある",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11344498"
+    },
+    {
+     "text": "碑の奥に『硝子戸の中』の一節を刻んだ石板、横に説明板がある。説明板は新宿区教育委員会のもの",
+     "confidence": "出典あり",
+     "source_url": "https://tetsudo-ch.com/11403852.html"
+    },
+    {
+     "text": "生家は残っていない。碑は1966年に生誕100年を記念して建てられた",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11344498"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Natsume_Soseki_photo.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Natsume_Soseki_photo.jpg",
+     "caption": "夏目漱石の肖像（1912年9月撮影）",
+     "author": "小川一真",
+     "license": "パブリックドメイン",
+     "license_url": null
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100096",
@@ -1182,9 +1575,7 @@
     "display": "来迎寺",
     "accept": [
      "来迎寺",
-     "らいこうじ",
-     "ライコウジ",
-     "来迎寺の庚申塔"
+     "らいこうじ"
     ],
     "basis": "地点名"
    },
@@ -1209,7 +1600,31 @@
    ],
    "status": "unverified",
    "notes": "境内の拝観時間・参拝可否は公式情報が見つからず access は null。onsite（説明板・碑の現況）も確認できず null。出典の浄土宗である旨は Wikipedia 系ミラーのみ（ヒント2で使用）。同ミラーは移設元を夏目坂とし、区データは馬場下の供養塚としており食い違う（区データは『はっきりしない』）。long 最後の1文は区データの『庚申講によって奉納』から言い換えたのみ。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "庚申塔は〇〇の山門を入ってすぐ左手にある",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11331962"
+    },
+    {
+     "text": "板碑型の石塔で高さ約120cm。中央に三猿が彫られ、日月と鶏は摩耗している",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11331962"
+    },
+    {
+     "text": "〇〇は夏目坂の途中、坂上の右側にある参道の奥。門は開いていて入りやすいという口コミがある（口コミは情報に食い違いがある）",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11331962"
+    },
+    {
+     "text": "もとは夏目坂にあったものが現在地に移された",
+     "confidence": "出典あり",
+     "source_url": "https://pedia.3rd-in.co.jp/wiki/%E6%9D%A5%E8%BF%8E%E5%AF%BA%20%28%E6%96%B0%E5%AE%BF%E5%8C%BA%29"
+    }
+   ],
+   "images": [],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100149",
@@ -1244,7 +1659,6 @@
      "永井荷風",
      "荷風",
      "永井壮吉",
-     "壮吉",
      "ながいかふう",
      "かふう"
     ],
@@ -1278,7 +1692,21 @@
    ],
    "status": "unverified",
    "notes": "区データの所有者は株式会社で、現地の公開条件・説明板の有無は確認できず（access/onsite は null）。long 末尾の築地・麻布への転居はWikipedia（1918年12月に余丁町の邸を売却し築地へ、1919年に麻布へ）による。『断腸亭日乗の名がここに由来』は、Wikipedia では1916年に余丁町の邸内の一隅を断腸亭と名づけ1917年9月から日記を書き始めたとあり、区データの『明治41年から住み離れを断腸亭と呼んだ』とは時期の書き方が異なる。Wikipedia は荷風本人の記述の裏取りに使っただけで、地点の事実は区データに依拠。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "旧居の建物は残っていないと考えられる。探す物は跡を示す標示",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "土地の所有者は民間会社（区の一覧）。敷地に入らず道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000360399.pdf"
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100004",
@@ -1312,9 +1740,7 @@
     "accept": [
      "幸国寺",
      "幸國寺",
-     "こうこくじ",
-     "幸国寺の山門",
-     "幸国寺のイチョウ"
+     "こうこくじ"
     ],
     "basis": "地点名"
    },
@@ -1339,7 +1765,26 @@
    ],
    "status": "unverified",
    "notes": "境内・墓地への立入時間、イチョウの黄葉の見頃や実の時期（月）は公式情報が見つからず、seasonal は空、access は null。区データには山門・題目塔・イチョウの3件あり、解説で全てに触れた。加藤清正の下屋敷の由来は景観審議会資料の記述。ヒントの『日蓮宗』は題目塔の説明から。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は境内のイチョウ2本（雄木と雌木、樹高15m以上、幹周り4m以上）。区内最大とされる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000082837.pdf"
+    },
+    {
+     "text": "景観重要樹木で、道路など公共の場所から望見できることが対象の条件。牛込柳町駅の西口や寺の入口から撮った写真が区の資料にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000082837.pdf"
+    },
+    {
+     "text": "牛込柳町駅東口から徒歩2分",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000082837.pdf"
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100003",
@@ -1372,9 +1817,7 @@
     "display": "甘露門",
     "accept": [
      "甘露門",
-     "かんろもん",
-     "浄栄寺の山門",
-     "浄栄寺"
+     "かんろもん"
     ],
     "basis": "地点名"
    },
@@ -1399,7 +1842,16 @@
    ],
    "status": "unverified",
    "notes": "区データの説明以外の裏付けは取れていない。南畝のページには「甘露門（別資料）（浄栄寺）」の項目名しかなく、南畝との関係の裏取りにはならない。ヒントの『牛込弁天が近い』『浄土真宗』は地図表示と区データによる。境内の開放時間・見学可否は確認できず（access null）。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は寺の山門（薬医門）。扁額に安永7年（1778）の年紀がある",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100142",
@@ -1433,9 +1885,6 @@
     "accept": [
      "浄瑠璃坂",
      "じょうるりざか",
-     "ジョウルリザカ",
-     "浄瑠璃坂の仇討跡",
-     "浄瑠璃坂の仇討",
      "浄るり坂"
     ],
     "basis": "地点名"
@@ -1461,7 +1910,31 @@
    ],
    "status": "unverified",
    "notes": "説明板・碑の有無は出典で確認できず（onsite=null）。区の一覧PDFは指定日・所在地のみで、仇討の経緯は区データCSVの説明に依拠。坂の名の由来（浄瑠璃にちなむ等）は確認できておらず、ヒント3は「浄瑠璃の名がつく」とだけ書いた。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は坂そのもの。区の指定史跡で、所在は「〇〇上」（市谷鷹匠町・払方町の境）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "外堀通りから市谷砂土原町に入ってすぐの所に〇〇がある",
+     "confidence": "出典あり",
+     "source_url": "https://precious.jp/articles/-/37374"
+    },
+    {
+     "text": "道路上の史跡で、見学自由とされる",
+     "confidence": "出典あり",
+     "source_url": "https://san-tatsu.jp/articles/486297/"
+    },
+    {
+     "text": "近くに市谷亀岡八幡宮がある（徒歩約8分）",
+     "confidence": "出典あり",
+     "source_url": "https://san-tatsu.jp/articles/486297/"
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100169",
@@ -1495,9 +1968,8 @@
     "accept": [
      "長谷川時雨",
      "はせがわしぐれ",
-     "ハセガワシグレ",
      "時雨",
-     "長谷川 時雨"
+     "しぐれ"
     ],
     "basis": "地点名"
    },
@@ -1522,7 +1994,43 @@
    ],
    "status": "unverified",
    "notes": "説明板・標識の有無は確認できず（onsite=null）。三上於菟吉の記述は区データのみ（中央区ページには無し）。所有者はマンション管理組合のため道路から見る前提。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "所有者はマンションの管理組合（ロワ・ヴェール市ヶ谷左内坂）で、敷地に入らず道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "旧居・社屋の建物は残っておらず、現在はマンションの敷地。区の標示板が立つ可能性があるが、位置・形は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "すぐ近くの目印は左内坂（市谷左内町の坂）。長泰寺も同じ坂沿い",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11379745"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shigure_Hasegawa.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Shigure_Hasegawa.jpg",
+     "caption": "長谷川時雨（1928〜29年ごろ）",
+     "author": "作者不明（ファイルページに Unknown author と記載）",
+     "license": "パブリックドメイン（PD-Japan-oldphoto）",
+     "license_url": "https://commons.wikimedia.org/wiki/File:Shigure_Hasegawa.jpg"
+    },
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Nyonin-Geijutsu-1929-August-1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Nyonin-Geijutsu-1929-August-1.jpg",
+     "caption": "『女人藝術』誕生祭の集合写真（1929年6月28日、小石川植物園。長谷川時雨・林芙美子ら）",
+     "author": "女人藝術社",
+     "license": "パブリックドメイン（日本の旧写真）",
+     "license_url": "https://commons.wikimedia.org/wiki/File:Nyonin-Geijutsu-1929-August-1.jpg"
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100214",
@@ -1556,7 +2064,6 @@
     "accept": [
      "祭馬碑",
      "さいばひ",
-     "サイバヒ",
      "祭馬の碑",
      "さいばのひ"
     ],
@@ -1583,7 +2090,31 @@
    ],
    "status": "unverified",
    "notes": "長泰寺の公式ページは見つけられず、曹洞宗・山号は口コミサイト（4travel）のみ。同サイトでは祭馬碑の名称は確認できず、山門の横に陸軍士官学校・馬に関する碑があるとの口コミのみ。碑の位置（山門付近か）、境内の公開時間は未確認。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は〇〇。高さ210cm・幅53cmの細長い碑で、長泰寺の境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "寺は左内坂のすぐ傍の高台にあり、山門へは5段の階段を上る。山門は濃紺で、上部に扁額が掛かる",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11379745"
+    },
+    {
+     "text": "山門をくぐると境内は奥へ延び、右手にお堂、奥に鉄筋コンクリートの本堂、南側に墓地がある（口コミ）",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11379745"
+    },
+    {
+     "text": "寺の境内のため、参拝の作法を守り、拝観・立入の時間は寺の掲示に従う",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100164",
@@ -1617,11 +2148,7 @@
     "accept": [
      "柳田國男",
      "柳田国男",
-     "やなぎだくにお",
-     "ヤナギダクニオ",
-     "柳田",
-     "柳田 國男",
-     "柳田 国男"
+     "やなぎだくにお"
     ],
     "basis": "地点名"
    },
@@ -1646,7 +2173,30 @@
    ],
    "status": "unverified",
    "notes": "説明板・標識の有無は区の記事に記載なく確認できず（onsite=null）。ヒント2の「女子校のキャンパスのそば」は所有者が大妻学院であることからの推定で、現地の位置関係は未確認。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "所有者は大妻学院で、学校敷地に入らず道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "探す物は区の説明板か標示板（新宿区の史跡で多い形式）だが、位置・色は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kunio_Yanagita.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Kunio_Yanagita.jpg",
+     "caption": "柳田國男（1940年ごろ）",
+     "author": "作者不明（ファイルページに Unknown author と記載）",
+     "license": "パブリックドメイン（PD-Japan-oldphoto）",
+     "license_url": "https://commons.wikimedia.org/wiki/File:Kunio_Yanagita.jpg"
+    }
+   ],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100212",
@@ -1679,11 +2229,7 @@
     "display": "元赤城神社",
     "accept": [
      "元赤城神社",
-     "もとあかぎじんじゃ",
-     "モトアカギジンジャ",
-     "元赤城",
-     "赤城神社",
-     "元赤城神社の田島森碑"
+     "もとあかぎじんじゃ"
     ],
     "basis": "地点名"
    },
@@ -1708,7 +2254,26 @@
    ],
    "status": "unverified",
    "notes": "大胡氏の移住年が食い違う：区データは正安2年（1300）の伝承としつつ、15世紀末頃と推定される旨を注記。smtrc.jpは大胡重治・1300年と記載。碑の現地設置場所・参拝時間は未確認。「田島の森」はsmtrc.jpのページには出ず、区データのみ。ヒント1の方角は座標からの推定。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は田島森碑。高さ116cm・幅72.5cm・厚さ11.5cmの記念碑で、〇〇の境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "碑文に赤城神社の由来と、〇〇として維持されてきたことが刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "管理は赤城神社と鶴巻東町会",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    }
+   ],
+   "images": [],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100200",
@@ -1770,7 +2335,21 @@
    ],
    "status": "unverified",
    "notes": "区長コラムは「早稲田地区への本土初空襲（昭和17年4月18日）」までで、岡崎医院・早稲田鶴巻町は出ず。ホーネット・ドーリットル・岡崎病院の記述は区データCSVのみ。説明板・碑の有無は未確認。ヒント2の位置関係（早稲田大学の北）は座標からの推定で未確認。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "所有者は医療法人社団早正会の岡崎医院で、敷地に入らず道路から見る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "区の地域文化財（平和）で、標示板や説明板が付く可能性があるが、現物は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": false
   },
   {
    "id": "shinjuku-131041100002",
@@ -1804,10 +2383,7 @@
     "accept": [
      "坪内逍遙",
      "坪内逍遥",
-     "つぼうちしょうよう",
-     "ツボウチショウヨウ",
-     "坪内",
-     "坪内博士"
+     "つぼうちしょうよう"
     ],
     "basis": "地点名"
    },
@@ -1839,7 +2415,40 @@
    ],
    "status": "unverified",
    "notes": "開館時間・休館日・入館料は公式の利用案内で確認（休館日は「大学の臨時休業日」とのみ記載。曜日固定の休館日は記載なし）。2018年の旧記事は火・金19時までと無料で一致。2020年の別記事の「水曜休館のことがある」は現行ページに無く不採用。公式about欄は「新宿区有形文化財」、区CSVは「指定有形文化財」。公式サイトのトップページは取得不可、トップの開館カレンダーは未確認。展示替え等による臨時休館は要確認。展示室の入口・正面の見え方（onsite）は公式の記述だけでは写真等で確かめず null。「富塚跡」は構内で現地の標識が見られるかを確認できていない。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は建物そのもの。エリザベス朝のフォーチュン座を模した様式で、建物は昭和3年の竣工当時のまま現存する（区指定有形文化財）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "建物正面が舞台になっており、2階廊下が上舞台、両翼が桟敷席、前庭が客席の造り",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "館内は無料で入れる。開館10:00〜17:00（火・金は19:00まで）、大学の臨時休業日は休館",
+     "confidence": "出典あり",
+     "source_url": "https://enpaku.w.waseda.jp/visitor/"
+    },
+    {
+     "text": "外観は道路や前庭から見られるが、大学構内に入る門や入口の位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tsubouchi_Memorial_Theatre_Museum.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tsubouchi_Memorial_Theatre_Museum.jpg",
+     "caption": "坪内博士記念演劇博物館の外観（2008年12月撮影）",
+     "author": "Wiiii",
+     "license": "CC BY-SA 3.0（GFDL 1.2以降との複数ライセンス）",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
+   "on_foot": true
   },
   {
    "id": "shinjuku-131041100229",
@@ -1872,9 +2481,7 @@
     "display": "放生寺",
     "accept": [
      "放生寺",
-     "ほうじょうじ",
-     "ホウジョウジ",
-     "放生寺の水掛け地蔵"
+     "ほうじょうじ"
     ],
     "basis": "地点名"
    },
@@ -1906,7 +2513,26 @@
    ],
    "status": "unverified",
    "notes": "放生寺の由来・創建・境内公開時間は確認できず。放生寺の公式ページは見つからなかった。穴八幡宮の隣という位置・一陽来復御守の頒布は穴八幡宮の観光情報ページ（gltjp.com）による。「水掛け不動尊」を紹介するgltjp.comの別ページは大阪の法善寺と思われ不採用。ヒント1の「早稲田大学の南側」は座標からの推定。説明板・碑の現地の様子は未確認（onsite=null）。",
-   "last_checked": null
+   "last_checked": null,
+   "onsite_hints": [
+    {
+     "text": "探す物は地蔵菩薩立像2軀と、大震火災死亡群霊塔1基。群霊塔には14名の名前が刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.shinjuku.lg.jp/content/000399966.csv"
+    },
+    {
+     "text": "〇〇は高野山真言宗の寺院で、住所は西早稲田二丁目1-14",
+     "confidence": "出典あり",
+     "source_url": "https://japanese-religions.com/en/jr1011105000833"
+    },
+    {
+     "text": "寺の境内のため、参拝の作法を守り、掲示に従う",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true
   }
  ],
  "area": {
