@@ -91,6 +91,8 @@ export interface CourseRequest {
     | { kind: 'here'; lat: number; lon: number }
     | { kind: 'home'; lat: number; lon: number };
   maxMeters?: number; // 自転車区間の上限（自分の自転車・シェアサイクル）
+  departAt?: string; // 出発時刻（ISO）。日没・天気の判断に使う
+  indoorBoost?: number; // 雨や寒い日に屋内の地点の優先度を上げる量
   month: number; // 1-12
 }
 
@@ -104,6 +106,8 @@ export interface Course {
   endStation: Station; // 自宅着のときは name が「自宅」
   distanceM: number; // 目安（直線距離×係数、または経路計算の道のり）
   routed?: boolean; // 経路計算の道のりで見積もったか
+  sunset?: string; // その日の日没（ISO）
+  weather?: { maxProb: number | null; precipMm: number | null; minTemp: number | null; maxTemp: number | null; rainy: boolean; cold: boolean } | null;
   minutes: number; // 目安（移動＋滞在）
 }
 
@@ -117,6 +121,8 @@ export interface StopResult {
   arrivedByGps: boolean; // 位置情報で到着を確かめたか（手動で答えた場合は false）
   rating: 'easy' | 'ok' | 'hard' | null; // 難しさの評価
   memo?: string; // 現地で気づいたこと（説明板の位置など）。パックを直す材料にする
+  method?: 'text' | 'photo'; // 文字で答えたか、写真で答えたか
+  photoJudge?: { model: string; inputTokens: number; outputTokens: number; match: boolean; reason: string }[]; // 写真の判定（Claude API）の記録
   at: string;
 }
 

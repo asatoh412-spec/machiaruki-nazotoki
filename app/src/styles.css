@@ -111,3 +111,6 @@ figcaption a { color: var(--accent); }
 .op.hello { background: #e08e00; }
 form label input[type=password], fieldset label input:not([type=radio]) { display: block; width: 100%; margin-top: 6px; font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 8px; }
 fieldset select { display: block; width: 100%; margin-top: 4px; }
+.sky { font-size: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
+.sky small { color: var(--muted); }
+.sky a { color: var(--accent); }

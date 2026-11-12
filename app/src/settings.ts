@@ -9,9 +9,11 @@ export interface Settings {
   bikeMaxKm: number; // 自分の自転車の1周の上限（初期値40km、55kmまで）
   shareMaxKm: number; // シェアサイクル区間の上限（初期値30km）
   orsKey: string; // OpenRouteService のAPIキー（任意）
+  claudeKey: string; // 写真で答える機能の Claude API キー（任意）
+  photoModel: string; // 写真の判定に使うモデル
 }
 
-const DEFAULTS: Settings = { arrivalRadiusM: null, home: null, bikeMaxKm: 40, shareMaxKm: 30, orsKey: '' };
+const DEFAULTS: Settings = { arrivalRadiusM: null, home: null, bikeMaxKm: 40, shareMaxKm: 30, orsKey: '', claudeKey: '', photoModel: 'claude-sonnet-5-5' };
 
 export async function getSettings(): Promise<Settings> {
   return { ...DEFAULTS, ...((await get<Partial<Settings>>('settings', store)) ?? {}) };

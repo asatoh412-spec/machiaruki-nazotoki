@@ -4,10 +4,12 @@ import { Geolocation } from '@capacitor/geolocation';
 import { assemble, isEligible, planOf } from './course.ts';
 import { checkShare, OPERATORS, type Operator } from './gbfs.ts';
 import { routeMeters } from './routing.ts';
+import { sunsetOf, weatherFor } from './sky.ts';
 import { createMap, showPorts } from './map.ts';
 import * as db from './store.ts';
 import { deleteAllPhotos, photoStats } from './photos.ts';
 import { getSettings, saveSettings } from './settings.ts';
+import { PHOTO_MODELS } from './claude.ts';
 import type { Course, CourseRequest, Mode, Pack } from './types.ts';
 
 import { app, DUR_LABEL, esc, km, on, render, setMap } from './ui.ts';
@@ -105,12 +107,18 @@ async function settingsScreen(msg = '') {
         <p class="muted small">入れると、距離の目安を直線距離×1.3ではなく実際の道のりで出します（無料、1日2,000回まで）。キーは openrouteservice.org で自分で取得します。経路の線は地図に描きません。</p>
         <button id="saveors">保存</button>
       </fieldset>
+      <fieldset><legend>写真で答える（任意・Claude API）</legend>
+        <label>Claude API のキー<input id="claudekey" type="password" value="${esc(s.claudeKey)}" autocomplete="off"></label>
+        <label>判定に使うモデル<select id="photomodel">${PHOTO_MODELS.map((m) => `<option value="${m.id}" ${s.photoModel === m.id ? 'selected' : ''}>${m.label}</option>`).join('')}</select></label>
+        <p class="muted small">キーを入れると、現地で文字で答えにくいときに「写真で答える」が使えます。写真は長辺1024pxに縮めて送ります。1回あたりの見積もりは Sonnet 5.5 で約0.6円、Haiku 5.5 で0.1円未満（実際のトークン数と費用は記録に残ります）。キーは console.anthropic.com で自分で取得します。</p>
+        <button id="saveclaude">保存</button>
+      </fieldset>
       <fieldset><legend>写真</legend>
         <p>${ph.count}枚・${(ph.bytes / 1024 / 1024).toFixed(1)}MB</p>
         <button id="delphotos" ${ph.count ? '' : 'disabled'}>写真をすべて削除する</button>
       </fieldset>
       <fieldset><legend>出典・利用しているデータ</legend>
-        <p class="small">地図：地理院地図Vector（国土地理院）／シェアサイクル：株式会社ドコモ・バイクシェア、OpenStreet株式会社 / 公共交通オープンデータ協議会（CC BY 4.0、台数は参考値）／経路：openrouteservice（キーを入れた場合）／古地図：今昔マップ on the web（谷謙二）／史跡：新宿区の文化財一覧（CC BY）ほか、各パックの出典／駅：国土数値情報（鉄道データ）／解説の画像：Wikimedia Commons（各画像に作者とライセンスを表示）</p>
+        <p class="small">地図：地理院地図Vector（国土地理院）／シェアサイクル：株式会社ドコモ・バイクシェア、OpenStreet株式会社 / 公共交通オープンデータ協議会（CC BY 4.0、台数は参考値）／経路：openrouteservice（キーを入れた場合）／天気：Open-Meteo.com（CC BY 4.0）／古地図：今昔マップ on the web（谷謙二）／史跡：新宿区の文化財一覧（CC BY）ほか、各パックの出典／駅：国土数値情報（鉄道データ）／解説の画像：Wikimedia Commons（各画像に作者とライセンスを表示）</p>
       </fieldset>
     </main>`);
   on('#back', 'click', () => home());
@@ -146,6 +154,12 @@ async function settingsScreen(msg = '') {
     s.orsKey = app.querySelector<HTMLInputElement>('#orskey')!.value.trim();
     await saveSettings(s);
     settingsScreen(s.orsKey ? '経路計算のキーを保存しました。' : '経路計算のキーを消しました。');
+  });
+  on('#saveclaude', 'click', async () => {
+    s.claudeKey = app.querySelector<HTMLInputElement>('#claudekey')!.value.trim();
+    s.photoModel = app.querySelector<HTMLSelectElement>('#photomodel')!.value;
+    await saveSettings(s);
+    settingsScreen(s.claudeKey ? '写真で答える機能の設定を保存しました。' : 'Claude API のキーを消しました。');
   });
   on('#delphotos', 'click', async () => {
     if (!confirm('記録に付けた写真をすべて削除します。元に戻せません。')) return;
@@ -204,6 +218,7 @@ async function newCourse() {
         </fieldset>
         <label id="startlabel">出発<select name="start" id="start"></select></label>
         <p id="modenote" class="muted small"></p>
+        <label>出発の時刻<input type="time" name="depart" id="depart"></label>
         <fieldset><legend>所要時間</legend>
           ${[60, 120, 240].map((d) => `<label class="radio"><input type="radio" name="dur" value="${d}" ${d === 120 ? 'checked' : ''}>${DUR_LABEL[d]}</label>`).join('')}
         </fieldset>
@@ -235,6 +250,8 @@ async function newCourse() {
   };
   fillStations();
   packSel.addEventListener('change', fillStations);
+  const nowHM = new Date(Date.now() + 10 * 60000).toTimeString().slice(0, 5);
+  app.querySelector<HTMLInputElement>('#depart')!.value = nowHM;
   on('input[name=mode]', 'change', fillStations);
   on('#back', 'click', () => home());
   form.addEventListener('submit', async (e) => {
@@ -270,6 +287,36 @@ async function newCourse() {
       month: new Date().getMonth() + 1,
       maxMeters: mode() === 'share' ? settings.shareMaxKm * 1000 : mode() === 'bike-own' ? settings.bikeMaxKm * 1000 : undefined,
     };
+    // 出発の時刻（今日。過ぎていれば今）
+    const [hh, mm] = (app.querySelector<HTMLInputElement>('#depart')!.value || nowHM).split(':').map(Number);
+    const depart = new Date();
+    depart.setHours(hh, mm, 0, 0);
+    if (depart.getTime() < Date.now()) depart.setTime(Date.now());
+    req.departAt = depart.toISOString();
+    const notes: string[] = [];
+    // 日没までに終わる長さにする
+    const center = { lat: (pack.area.bbox[0] + pack.area.bbox[2]) / 2, lon: (pack.area.bbox[1] + pack.area.bbox[3]) / 2 };
+    const sunset = sunsetOf(depart, center.lat, center.lon);
+    const untilSunset = Math.floor((sunset.getTime() - depart.getTime()) / 60000);
+    const hm = (d: Date) => d.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
+    if (untilSunset < 30) {
+      err.hidden = false;
+      err.textContent = `日没（${hm(sunset)}）まで30分もありません。出発の時刻を早めてください。`;
+      return;
+    }
+    if (untilSunset < req.durationMin) {
+      notes.push(`日没（${hm(sunset)}）までに終わるよう、所要時間を${req.durationMin}分から${untilSunset}分に縮めました。`);
+      req.durationMin = untilSunset;
+    }
+    // 天気：雨や寒い日は屋内の地点を優先する
+    const wx = await weatherFor(center.lat, center.lon, depart, req.durationMin);
+    if (wx) {
+      req.indoorBoost = (wx.rainy ? 3 : 0) + (wx.cold ? 2 : 0);
+      const indoorN = pack.points.filter((p) => p.indoor).length;
+      if (wx.rainy) notes.push(`雨の予報です（降水確率 最大${wx.maxProb ?? '?'}%・${wx.precipMm ?? '?'}mm）。屋内の地点を優先しました（この地区の屋内の地点は${indoorN}か所）。短いコースにすることも考えてください。`);
+      if (wx.rainy && req.mode !== 'walk') notes.push('雨の日の自転車は滑りやすく危険です。徒歩にするか、日を改めることをおすすめします。');
+      if (wx.cold && !wx.rainy) notes.push(`寒い予報です（最低${wx.minTemp}℃）。屋内の地点を優先しました（この地区の屋内の地点は${indoorN}か所）。`);
+    }
     const records = await db.recordsFor(pack.points.map((p) => p.id));
     const r = assemble(pack, req, records);
     if (!r.course) {
@@ -277,8 +324,10 @@ async function newCourse() {
       err.textContent = r.warnings.join(' ');
       return;
     }
+    r.course.sunset = sunset.toISOString();
+    r.course.weather = wx;
     await refineByRoute(r.course, pack);
-    preview(r.course, r.warnings, false);
+    preview(r.course, [...notes, ...r.warnings], false);
   });
 }
 
@@ -305,6 +354,7 @@ async function preview(c: Course, warnings: string[], saved: boolean) {
         <div><dt>所要（目安）</dt><dd>${c.minutes}分</dd></div>
       </dl>
       <p>${esc(startName)}発 → ${esc(endName)}着・${DUR_LABEL[c.request.durationMin] ?? c.request.durationMin + '分'}・${MODE_LABEL[c.request.mode ?? 'walk']}${indoor ? `・屋内${indoor}か所` : ''}${seasonal ? `・今月の見どころ${seasonal}か所` : ''}</p>
+      ${skyLine(c)}
       ${warnings.map((w) => `<p class="notice">${esc(w)}</p>`).join('')}
       ${outdated ? '<p class="notice">このコースを作ったあとに、地区のパックが新しい版になっています。</p>' : ''}
       <p class="muted small">${c.routed ? '距離は経路計算（openrouteservice）の道のり' : '距離は直線距離×1.3'}、時間は${isBike ? '時速12km（駐輪の時間は1地点7分に含む）' : '時速4.5km'}と1地点7分（記念館・博物館は35分）${c.request.mode === 'share' ? '、借りる・返す10分' : ''}で見積もっています。</p>
@@ -338,7 +388,10 @@ async function preview(c: Course, warnings: string[], saved: boolean) {
     const records = db.recordsFor(pack.points.map((p) => p.id));
     records.then((r) => {
       const res = assemble(pack, c.request, r);
-      if (res.course) refineByRoute(res.course, pack).then(() => preview(res.course!, res.warnings, false));
+      if (!res.course) return;
+      res.course.sunset = c.sunset;
+      res.course.weather = c.weather;
+      refineByRoute(res.course, pack).then(() => preview(res.course!, res.warnings, false));
     });
   });
   on('#save', 'click', async () => {
@@ -359,6 +412,16 @@ async function preview(c: Course, warnings: string[], saved: boolean) {
     await db.putCourse(c);
     startRun(c);
   });
+}
+
+// 出発・日没・天気の一行
+function skyLine(c: Course): string {
+  const hm = (s?: string) => (s ? new Date(s).toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }) : '—');
+  const w = c.weather;
+  const wx = w
+    ? `気温${w.minTemp ?? '?'}〜${w.maxTemp ?? '?'}℃・降水確率 最大${w.maxProb ?? '?'}%<small>（Weather data by <a href="https://open-meteo.com/" target="_blank">Open-Meteo.com</a>）</small>`
+    : '天気は取得できませんでした';
+  return `<p class="sky">出発 ${hm(c.request.departAt)}・日没 ${hm(c.sunset)}<br>${wx}</p>`;
 }
 
 // 経路計算のキーがあれば、道のりで距離と時間を見積もり直す

@@ -9,6 +9,7 @@ import { imageUrl } from './images.ts';
 import { addPhoto, deletePhoto, photosOf } from './photos.ts';
 import { getSettings } from './settings.ts';
 import { exportRecords } from './export.ts';
+import { costYen, judgePhoto } from './claude.ts';
 import * as db from './store.ts';
 import type { Course, Pack, Point, Run, StopResult } from './types.ts';
 import { app, esc, km, on, onLeave, render, setMap, sourcesHtml } from './ui.ts';
@@ -62,7 +63,9 @@ export async function resumeRun(run: Run) {
 // ---------- 地点の画面 ----------
 async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Point[] }) {
   const p = ctx.pts[run.index];
-  const radius = (await getSettings()).arrivalRadiusM ?? (ctx.pack.rules.arrival_radius_m || 50);
+  const settings = await getSettings();
+  const radius = settings.arrivalRadiusM ?? (ctx.pack.rules.arrival_radius_m || 50);
+  const judges: NonNullable<StopResult['photoJudge']> = [];
   let arrived = false;
   let manual = false;
   render(`
@@ -87,6 +90,7 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
         <label>${esc(p.answer.prompt)}<input name="a" autocomplete="off" enterkeyhint="done"></label>
         <button class="primary" type="submit">答える</button>
         <p id="wrong" class="notice" hidden>違います。もう一度どうぞ。</p>
+        ${settings.claudeKey ? '<label class="file small" id="photoans">文字で答えにくいときは、写真で答える（Claude が判定）<input type="file" id="photoin" accept="image/*" capture="environment"></label><p id="judging" class="muted small" hidden></p>' : ''}
       </form>
       <div class="actions">
         <button id="manual" class="linkish">着いているのに判定されない</button>
@@ -161,21 +165,51 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
   });
   on('#notfound', 'click', async () => {
     if (!confirm('答えを表示して次の地点へ進みます。この地点は以後のコースに出なくなります。')) return;
-    await finishStop(run, ctx, p, 'notfound', arrived && !manual);
+    await finishStop(run, ctx, p, 'notfound', arrived && !manual, 'text', judges);
+  });
+  app.querySelector<HTMLInputElement>('#photoin')?.addEventListener('change', async (e) => {
+    const input = e.target as HTMLInputElement;
+    const f = input.files?.[0];
+    input.value = '';
+    if (!f) return;
+    const msg = app.querySelector<HTMLElement>('#judging')!;
+    msg.hidden = false;
+    msg.textContent = '写真を判定しています…';
+    try {
+      const v = await judgePhoto(settings.claudeKey, settings.photoModel, p, f);
+      judges.push({ model: v.model, inputTokens: v.inputTokens, outputTokens: v.outputTokens, match: v.match, reason: v.reason });
+      const yen = costYen(v);
+      const cost = Number.isFinite(yen) ? `（入力${v.inputTokens}・出力${v.outputTokens}トークン、約${yen.toFixed(2)}円）` : '';
+      if (v.match) {
+        await finishStop(run, ctx, p, 'correct', arrived && !manual, 'photo', judges);
+      } else {
+        msg.textContent = `写真では確かめられませんでした：${v.reason}${cost}。手がかりがはっきり写るように撮り直すか、文字で答えてください。`;
+      }
+    } catch (err) {
+      msg.textContent = `判定できませんでした：${String(err)}`;
+    }
   });
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const v = (form.elements.namedItem('a') as HTMLInputElement).value;
     if (isCorrect(v, p.answer.accept)) {
-      await finishStop(run, ctx, p, 'correct', arrived && !manual);
+      await finishStop(run, ctx, p, 'correct', arrived && !manual, 'text', judges);
     } else {
       app.querySelector<HTMLElement>('#wrong')!.hidden = false;
     }
   });
 }
 
-async function finishStop(run: Run, ctx: { course: Course; pack: Pack; pts: Point[] }, p: Point, outcome: StopResult['outcome'], byGps: boolean) {
-  const res: StopResult = { pointId: p.id, outcome, hintsUsed: run.hintsShown, arrivedByGps: byGps, rating: null, at: new Date().toISOString() };
+async function finishStop(
+  run: Run,
+  ctx: { course: Course; pack: Pack; pts: Point[] },
+  p: Point,
+  outcome: StopResult['outcome'],
+  byGps: boolean,
+  method: StopResult['method'] = 'text',
+  judges: StopResult['photoJudge'] = [],
+) {
+  const res: StopResult = { pointId: p.id, outcome, hintsUsed: run.hintsShown, arrivedByGps: byGps, rating: null, at: new Date().toISOString(), method, photoJudge: judges?.length ? judges : undefined };
   run.results.push(res);
   run.index += 1;
   run.hintsShown = 0;
@@ -190,7 +224,7 @@ function explainScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Point[]
   render(`
     <header class="runhead"><span></span><span>${run.index} / ${ctx.pts.length}</span></header>
     <main>
-      <p class="verdict ${res.outcome === 'correct' ? 'ok' : ''}">${res.outcome === 'correct' ? '正解' : '答え'}：${esc(p.answer.display)}</p>
+      <p class="verdict ${res.outcome === 'correct' ? 'ok' : ''}">${res.outcome === 'correct' ? (res.method === 'photo' ? '正解（写真で確認）' : '正解') : '答え'}：${esc(p.answer.display)}</p>
       <h2>${esc(p.name)}</h2>
       ${imagesHtml(p)}
       <p>${esc(p.short)}</p>

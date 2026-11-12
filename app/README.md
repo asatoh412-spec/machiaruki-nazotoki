@@ -24,6 +24,8 @@
 | src/photos.ts | 記録の写真（縮小して保存） |
 | src/export.ts | 記録の書き出し |
 | src/settings.ts | 設定（自宅の位置、距離の上限、到着の半径、経路計算のキー） |
+| src/sky.ts | 日没（suncalc、端末内）と天気（Open-Meteo） |
+| src/claude.ts | 写真で答える（Claude API、使用者のキー）と費用の計算 |
 | src/hints.ts | ヒントの円（中心を地点からずらし、地点が円に入るようにする） |
 | public/packs/ | APK に同梱するパック（起動時に新しい版なら入れ替える） |
 

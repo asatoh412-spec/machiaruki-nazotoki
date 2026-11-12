@@ -9,14 +9,15 @@ import { trackMeters } from './geo.ts';
 export async function buildExport() {
   const [packs, runs, records, courses] = await Promise.all([db.listPacks(), db.listRuns(), db.allRecords(), db.listCourses()]);
   const name = new Map(packs.flatMap((p) => p.points.map((x) => [x.id, x.name] as const)));
-  const byPoint = new Map<string, { ratings: string[]; memos: string[]; hintsUsed: number[]; arrivedByGps: boolean[] }>();
+  const byPoint = new Map<string, { ratings: string[]; memos: string[]; hintsUsed: number[]; arrivedByGps: boolean[]; photoJudges: unknown[] }>();
   for (const r of runs) {
     for (const s of r.results) {
-      const e = byPoint.get(s.pointId) ?? { ratings: [], memos: [], hintsUsed: [], arrivedByGps: [] };
+      const e = byPoint.get(s.pointId) ?? { ratings: [], memos: [], hintsUsed: [], arrivedByGps: [], photoJudges: [] };
       if (s.rating) e.ratings.push(s.rating);
       if (s.memo) e.memos.push(s.memo);
       e.hintsUsed.push(s.hintsUsed);
       e.arrivedByGps.push(s.arrivedByGps);
+      if (s.photoJudge) e.photoJudges.push(...s.photoJudge);
       byPoint.set(s.pointId, e);
     }
   }
@@ -38,7 +39,7 @@ export async function buildExport() {
           minutes: Math.round((Date.parse(r.finishedAt!) - Date.parse(r.startedAt)) / 60000),
           walked_m: Math.round(trackMeters(r.track)),
           estimate: c ? { minutes: c.minutes, distance_m: c.distanceM, points: c.pointIds.length, duration_min: c.request.durationMin } : null,
-          results: r.results.map((s) => ({ id: s.pointId, outcome: s.outcome, at: s.at })),
+          results: r.results.map((s) => ({ id: s.pointId, outcome: s.outcome, method: s.method ?? 'text', at: s.at })),
         };
       }),
   };

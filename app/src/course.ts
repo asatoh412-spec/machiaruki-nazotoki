@@ -64,8 +64,9 @@ export function isEligible(rec: PointRecord | undefined): boolean {
 }
 
 // 地点の優先度。季節の見どころが今月なら上げる。
-export function weight(p: Point, rec: PointRecord | undefined, month: number): number {
+export function weight(p: Point, rec: PointRecord | undefined, month: number, indoorBoost = 0): number {
   let w = 1;
+  if (p.indoor) w += indoorBoost;
   if (p.seasonal.some((s) => s.months.includes(month))) w += 2;
   if (rec?.status === 'verified') w += 0.5;
   return w;
@@ -131,7 +132,7 @@ export function assemble(
   if (plan.fixedEnd && (approach * 2 > plan.maxMeters || (approach * 2) / plan.mPerMin > req.durationMin * 0.8)) {
     return { course: null, warnings: [`出発点から地区までが遠すぎます（片道 約${(approach / 1000).toFixed(1)}km）。所要時間を長くするか、電車を使う移動手段を選んでください。`] };
   }
-  const w = new Map(eligible.map((p) => [p.id, weight(p, records.get(p.id), req.month)]));
+  const w = new Map(eligible.map((p) => [p.id, weight(p, records.get(p.id), req.month, req.indoorBoost ?? 0)]));
   // 所要時間が長いほど、離れた地点まで足をのばす（自転車はさらに広く）
   const reach = Math.max(120, 250 * (req.durationMin / 120)) * (plan.mPerMin / WALK_M_PER_MIN);
 
