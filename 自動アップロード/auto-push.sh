@@ -15,6 +15,7 @@ rm -f "$REQ"
   if [ -f app-source.tar.gz ]; then
     rm -rf app.new && mkdir app.new && tar xzf app-source.tar.gz -C app.new && rm -rf app && mv app.new/app app && rmdir app.new && rm app-source.tar.gz && echo "app/ を更新"
   fi
+  git rm -r -q --cached --ignore-unmatch "Claude outputs" >/dev/null 2>&1
   git add -A
   if git commit -q -m "$MSG"; then echo "コミットしました"; else echo "変更はありません"; fi
   if git push -q 2>&1; then echo "push しました"; else echo "push に失敗しました"; fi
