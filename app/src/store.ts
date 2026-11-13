@@ -32,21 +32,7 @@ export const putCourse = (c: Course) => set(c.id, c, courses);
 export const deleteCourse = (id: string) => del(id, courses);
 
 // パックの検査。形式が違うファイルを読み込まないようにする。
-export function validatePack(x: unknown): string[] {
-  const errs: string[] = [];
-  const p = x as Partial<Pack>;
-  if (!p || typeof p !== 'object') return ['JSONの形式ではありません'];
-  if (p.schema !== 'machiaruki-pack/1') errs.push(`形式が違います（schema: ${String(p.schema)}）`);
-  if (!p.pack_id) errs.push('pack_id がありません');
-  if (!Array.isArray(p.points) || p.points.length === 0) errs.push('地点がありません');
-  if (!Array.isArray(p.stations) || p.stations.length === 0) errs.push('駅がありません');
-  for (const pt of p.points ?? []) {
-    if (typeof pt.lat !== 'number' || typeof pt.lon !== 'number') errs.push(`${pt.name}: 座標がありません`);
-    if (!pt.answer?.accept?.length) errs.push(`${pt.name}: 答えがありません`);
-    if (!pt.sources?.length) errs.push(`${pt.name}: 出典がありません`);
-  }
-  return errs;
-}
+export { validatePackShape as validatePack } from './packcheck.ts';
 
 // 実施の記録
 const runs = createStore('machiaruki-runs', 'runs');

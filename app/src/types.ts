@@ -123,7 +123,10 @@ export interface StopResult {
   memo?: string; // 現地で気づいたこと（説明板の位置など）。パックを直す材料にする
   method?: 'text' | 'photo'; // 文字で答えたか、写真で答えたか
   photoJudge?: { model: string; inputTokens: number; outputTokens: number; match: boolean; reason: string }[]; // 写真の判定（Claude API）の記録
-  at: string;
+  at: string; // 正解（または「見つからない」）の時刻
+  shownAt?: string; // 謎を出した時刻（0.8.0〜）
+  arrivedAt?: string; // 位置情報で到着した時刻（0.8.0〜）
+  interrupted?: boolean; // この地点の途中で中断した（時間の平均に使わない）
 }
 
 export interface Run {
@@ -133,6 +136,8 @@ export interface Run {
   startedAt: string;
   finishedAt: string | null;
   aborted?: boolean; // 途中で中止した
+  departedAt?: string; // 「出発」を押した時刻（任意。押さなければ1つ目の区間を時間の平均に使わない）
+  cur?: { shownAt?: string; arrivedAt?: string; interrupted?: boolean }; // いまの地点の時刻（中断・再開しても残す）
   index: number; // いま解いている地点の番号
   hintsShown: number; // いまの地点で出したヒントの数
   results: StopResult[];

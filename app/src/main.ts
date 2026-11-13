@@ -14,10 +14,18 @@ import type { Course, CourseRequest, Mode, Pack } from './types.ts';
 
 import { app, DUR_LABEL, esc, km, on, render, setMap } from './ui.ts';
 import { abortRun, startRun, resumeRun, recordsScreen } from './run.ts';
+import { allLegs, ENOUGH, statsOf, type TimingStats } from './timing.ts';
 
 // 同梱のパックを初回に入れる。新しい版が同梱されていれば差し替える（地点の記録は別に保存しているので残る）。
+// 同梱の一覧は public/packs/index.json（地区を足すときはここに書くだけでよい）
 async function installBundledPacks() {
-  for (const file of ['shinjuku-ushigome.json', 'shinjuku-ochiai.json']) {
+  let files: string[] = ['shinjuku-ushigome.json', 'shinjuku-ochiai.json'];
+  try {
+    files = (await (await fetch('packs/index.json')).json()) as string[];
+  } catch {
+    /* 一覧が読めなければ最初の2地区だけ */
+  }
+  for (const file of files) {
     try {
       const p = (await (await fetch(`packs/${file}`)).json()) as Pack;
       const have = await db.getPack(p.pack_id);
@@ -169,9 +177,22 @@ async function coursesScreen(tab: 'pending' | 'done' = 'pending', msg = '') {
 }
 
 // ---------- 設定 ----------
+function timingHtml(ts: TimingStats): string {
+  const r = (x: number | null, u: string) => (x === null ? '—' : `${Math.round(x)}${u}`);
+  const mark = (n: number) => (n >= ENOUGH ? '' : '<small>*</small>');
+  return `<table class="timing"><thead><tr><th></th><th>件数</th><th>実測</th><th>見積もり</th></tr></thead><tbody>
+    <tr><td>徒歩</td><td>${ts.speed.walk.n}${mark(ts.speed.walk.n)}</td><td>${r(ts.speed.walk.mPerMin, 'm/分')}</td><td>${ts.speed.walk.current}m/分</td></tr>
+    <tr><td>自転車</td><td>${ts.speed.bike.n}${mark(ts.speed.bike.n)}</td><td>${r(ts.speed.bike.mPerMin, 'm/分')}</td><td>${ts.speed.bike.current}m/分</td></tr>
+    <tr><td>1地点の時間</td><td>${ts.dwell.normal.n}${mark(ts.dwell.normal.n)}</td><td>${r(ts.dwell.normal.min, '分')}</td><td>${ts.dwell.normal.current}分</td></tr>
+    <tr><td>博物館など</td><td>${ts.dwell.museum.n}${mark(ts.dwell.museum.n)}</td><td>${r(ts.dwell.museum.min, '分')}</td><td>${ts.dwell.museum.current}分</td></tr>
+  </tbody></table>
+  <p class="muted small">実測は中央値。*は${ENOUGH}件未満で、まだ参考値。速さは見積もりと同じ測り方（地点間の直線距離×1.3を、謎を出してから着くまでの時間で割る）。1地点の時間は、着いてから次の謎を出すまで。中断した区間、位置情報で着いていない区間、見積もりの3倍以上かかった区間は除きます。1つ目の地点までは「出発」を押したときだけ使います。どれも${ENOUGH}件ほどたまったら、記録を書き出して渡してもらえれば見積もりの数字を直します（アプリが自分で書き換えることはしません）。</p>`;
+}
+
 async function settingsScreen(msg = '') {
   const s = await getSettings();
   const ph = await photoStats();
+  const ts = statsOf(await allLegs());
   const radii = [30, 50, 80];
   render(`
     <header><button class="back" id="back">← 戻る</button><h1>設定</h1></header>
@@ -199,6 +220,9 @@ async function settingsScreen(msg = '') {
         <label>判定に使うモデル<select id="photomodel">${PHOTO_MODELS.map((m) => `<option value="${m.id}" ${s.photoModel === m.id ? 'selected' : ''}>${m.label}</option>`).join('')}</select></label>
         <p class="muted small">キーを入れると、現地で文字で答えにくいときに「写真で答える」が使えます。写真は長辺1024pxに縮めて送ります。1回あたりの見積もりは Sonnet 5.5 で約0.6円、Haiku 5.5 で0.1円未満（実際のトークン数と費用は記録に残ります）。キーは console.anthropic.com で自分で取得します。</p>
         <button id="saveclaude">保存</button>
+      </fieldset>
+      <fieldset><legend>実際にかかった時間（見積もりの調整用）</legend>
+        ${timingHtml(ts)}
       </fieldset>
       <fieldset><legend>写真</legend>
         <p>${ph.count}枚・${(ph.bytes / 1024 / 1024).toFixed(1)}MB</p>

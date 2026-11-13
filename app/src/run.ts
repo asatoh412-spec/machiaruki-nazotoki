@@ -10,6 +10,7 @@ import { addPhoto, deletePhoto, photosOf } from './photos.ts';
 import { getSettings } from './settings.ts';
 import { exportRecords } from './export.ts';
 import { costYen, judgePhoto } from './claude.ts';
+import { legsOf } from './timing.ts';
 import * as db from './store.ts';
 import type { Course, Pack, Point, Run, StopResult } from './types.ts';
 import { app, esc, km, on, onLeave, render, setMap, sourcesHtml } from './ui.ts';
@@ -42,10 +43,15 @@ export async function startRun(course: Course) {
     track: [],
   };
   await db.putRun(run);
-  resumeRun(run);
+  resumeRun(run, false);
 }
 
-export async function resumeRun(run: Run) {
+// fromHome: ホームから再開した（いまの地点の時間は中断を含むので平均に使わない）
+export async function resumeRun(run: Run, fromHome = true) {
+  if (fromHome && run.cur?.shownAt) {
+    run.cur.interrupted = true;
+    await db.putRun(run);
+  }
   const ctx = await load(run);
   if (!ctx) {
     render(`<main><p class="notice">このコースか地区のパックが見つかりません。</p><button id="home">ホームへ</button><button id="abort">この記録を消す</button></main>`);
@@ -68,9 +74,22 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
   const judges: NonNullable<StopResult['photoJudge']> = [];
   let arrived = false;
   let manual = false;
+  run.cur ??= {};
+  if (!run.cur.shownAt) {
+    run.cur.shownAt = new Date().toISOString();
+    await db.putRun(run);
+  }
+  const hm = (iso: string) => new Date(iso).toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
+  const departHtml =
+    run.index !== 0 || run.results.length
+      ? ''
+      : run.departedAt
+        ? `<p class="muted small">出発 ${hm(run.departedAt)} を記録しました。</p>`
+        : '<button id="depart" class="depart">いま出発する（時間の記録用。押さなくても進められます）</button>';
   render(`
     <header class="runhead"><button class="back" id="pause">← 中断</button><span>${run.index + 1} / ${ctx.pts.length}</span></header>
     <main>
+      ${departHtml}
       <h2>謎 ${run.index + 1}</h2>
       <p class="riddle">${esc(p.riddle)}</p>
       <div id="map" class="map"></div>
@@ -129,6 +148,10 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     const d = haversine(lat, lon, p.lat, p.lon);
     if (!arrived && d <= radius + Math.min(accuracy, 30)) {
       arrived = true;
+      if (run.cur && !run.cur.arrivedAt) {
+        run.cur.arrivedAt = new Date().toISOString();
+        db.putRun(run);
+      }
       status.textContent = '到着しました。答えを入力してください。';
       status.classList.add('ok');
       if (navigator.vibrate) navigator.vibrate(200);
@@ -145,8 +168,14 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
   });
 
   on('#pause', 'click', async () => {
+    if (run.cur) run.cur.interrupted = true;
     await db.putRun(run);
     home();
+  });
+  on('#depart', 'click', async () => {
+    run.departedAt = new Date().toISOString();
+    await db.putRun(run);
+    stopScreen(run, ctx);
   });
   on('#onsitebtn', 'click', () => {
     app.querySelector<HTMLElement>('#onsitelist')!.hidden = false;
@@ -209,7 +238,21 @@ async function finishStop(
   method: StopResult['method'] = 'text',
   judges: StopResult['photoJudge'] = [],
 ) {
-  const res: StopResult = { pointId: p.id, outcome, hintsUsed: run.hintsShown, arrivedByGps: byGps, rating: null, at: new Date().toISOString(), method, photoJudge: judges?.length ? judges : undefined };
+  const cur = run.cur ?? {};
+  const res: StopResult = {
+    pointId: p.id,
+    outcome,
+    hintsUsed: run.hintsShown,
+    arrivedByGps: byGps,
+    rating: null,
+    at: new Date().toISOString(),
+    shownAt: cur.shownAt,
+    arrivedAt: byGps ? cur.arrivedAt : undefined,
+    interrupted: cur.interrupted || undefined,
+    method,
+    photoJudge: judges?.length ? judges : undefined,
+  };
+  run.cur = {};
   run.results.push(res);
   run.index += 1;
   run.hintsShown = 0;
@@ -254,7 +297,7 @@ function explainScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Point[]
     app.querySelectorAll('[data-r]').forEach((b) => b.classList.toggle('chosen', b === e.currentTarget));
     await db.putRun(run);
   });
-  on('#next', 'click', () => resumeRun(run));
+  on('#next', 'click', () => resumeRun(run, false));
   loadImages();
   let old: ReturnType<typeof createOldMap> | null = null;
   app.querySelector('#oldmapbox')!.addEventListener('toggle', (e) => {
@@ -307,11 +350,30 @@ async function finish(run: Run, ctx: { course: Course; pack: Pack; pts: Point[] 
         <div><dt>所要時間</dt><dd>${min}分</dd></div>
       </dl>
       <p class="muted small">見積もりは約${km(ctx.course.distanceM)}km・約${ctx.course.minutes}分でした。歩いた距離は位置情報の記録から計算しています。</p>
+      ${legsHtml(run, ctx)}
       ${runListHtml(run, ctx.pts)}
       <button class="primary big" id="home">ホームへ</button>
     </main>`);
   loadImages();
   on('#home', 'click', () => home());
+}
+
+// 地点ごとの時間（見積もりと実際）
+function legsHtml(run: Run, ctx: { course: Course; pts: Point[] }): string {
+  const legs = legsOf(run, ctx.course, ctx.pts);
+  if (!legs.some((l) => l.travelMin !== null || l.searchMin !== null)) return '';
+  const f = (x: number | null) => (x === null ? '—' : `${Math.round(x)}分`);
+  const rows = legs
+    .map((l) => {
+      const p = ctx.pts.find((x) => x.id === l.pointId);
+      return `<tr><td>${l.index + 1}. ${esc(p?.name ?? '')}</td><td>${f(l.estTravelMin)}</td><td>${f(l.travelMin)}</td><td>${f(l.searchMin)}</td><td>${f(l.readMin)}</td></tr>${
+        l.usable ? '' : `<tr class="why"><td colspan="5">平均に使わない：${esc(l.why)}</td></tr>`
+      }`;
+    })
+    .join('');
+  return `<details class="legs"><summary>地点ごとの時間</summary>
+    <table><thead><tr><th>地点</th><th>移動の見積もり</th><th>移動</th><th>探す</th><th>読む</th></tr></thead><tbody>${rows}</tbody></table>
+    <p class="muted small">移動＝謎を出してから位置情報で着くまで（1つ目は「出発」から）。探す＝着いてから正解まで。読む＝正解から次の謎まで。たまった区間の中央値は設定の画面で見られます。</p></details>`;
 }
 
 function runListHtml(run: Run, pts: Point[]): string {

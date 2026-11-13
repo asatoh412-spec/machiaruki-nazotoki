@@ -5,6 +5,7 @@ import { Directory, Encoding, Filesystem } from '@capacitor/filesystem';
 import { Share } from '@capacitor/share';
 import * as db from './store.ts';
 import { trackMeters } from './geo.ts';
+import { allLegs, statsOf } from './timing.ts';
 
 export async function buildExport() {
   const [packs, runs, records, courses] = await Promise.all([db.listPacks(), db.listRuns(), db.allRecords(), db.listCourses()]);
@@ -22,6 +23,7 @@ export async function buildExport() {
     }
   }
   const course = new Map(courses.map((c) => [c.id, c]));
+  const legs = await allLegs();
   return {
     schema: 'machiaruki-records/1',
     exported_at: new Date().toISOString(),
@@ -39,9 +41,24 @@ export async function buildExport() {
           minutes: Math.round((Date.parse(r.finishedAt!) - Date.parse(r.startedAt)) / 60000),
           walked_m: Math.round(trackMeters(r.track)),
           estimate: c ? { minutes: c.minutes, distance_m: c.distanceM, points: c.pointIds.length, duration_min: c.request.durationMin } : null,
-          results: r.results.map((s) => ({ id: s.pointId, outcome: s.outcome, method: s.method ?? 'text', at: s.at })),
+          mode: c?.request.mode ?? null,
+          start_kind: c?.request.start.kind ?? null,
+          departed_at: r.departedAt ?? null,
+          results: r.results.map((s) => ({
+            id: s.pointId,
+            outcome: s.outcome,
+            method: s.method ?? 'text',
+            shown_at: s.shownAt ?? null,
+            arrived_at: s.arrivedAt ?? null,
+            at: s.at,
+            interrupted: !!s.interrupted,
+            hints_used: s.hintsUsed,
+          })),
         };
       }),
+    // 地点ごとの時間（移動・探す・読む、分）と、平均に使えるか。速さは直線距離×1.3で測る
+    legs: legs.map((l) => ({ id: l.pointId, mode: l.mode, museum: l.museum, meters: Math.round(l.meters), est_travel_min: +l.estTravelMin.toFixed(1), travel_min: l.travelMin === null ? null : +l.travelMin.toFixed(1), search_min: l.searchMin === null ? null : +l.searchMin.toFixed(1), read_min: l.readMin === null ? null : +l.readMin.toFixed(1), usable: l.usable, why: l.why })),
+    timing: statsOf(legs),
   };
 }
 

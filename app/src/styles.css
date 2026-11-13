@@ -120,3 +120,13 @@ fieldset select { display: block; width: 100%; margin-top: 4px; }
 .depart-row { display: flex; gap: 10px; }
 .depart-row label { flex: 1; }
 .depart-row input, .depart-row select { display: block; width: 100%; margin-top: 6px; font: inherit; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+.depart { width: 100%; margin: 4px 0 8px; border-color: var(--accent); color: var(--accent); }
+.legs table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; font-variant-numeric: tabular-nums; }
+.legs th, .legs td { padding: 4px 3px; border-bottom: 1px solid var(--line); text-align: right; }
+.legs th:first-child, .legs td:first-child { text-align: left; }
+.legs tr.why td { text-align: left; color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--line); }
+.legs tr:has(+ tr.why) td { border-bottom: none; }
+.timing td, .timing th { padding: 4px 6px; text-align: right; font-variant-numeric: tabular-nums; }
+.timing th:first-child, .timing td:first-child { text-align: left; }
+.timing { width: 100%; border-collapse: collapse; font-size: 14px; }
+.timing tr { border-bottom: 1px solid var(--line); }
