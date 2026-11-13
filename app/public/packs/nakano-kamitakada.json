@@ -1,0 +1,2236 @@
+{
+ "schema": "machiaruki-pack/1",
+ "pack_id": "nakano-kamitakada",
+ "version": "2026-11-13.1",
+ "title": "中野・新井・上高田（中野区）",
+ "prefecture": "東京都",
+ "city": "中野区",
+ "created": "2026-11-13",
+ "rules": {
+  "arrival_radius_m": 50,
+  "difficulty": "ふつう"
+ },
+ "stations": [
+  {
+   "name": "中野",
+   "lines": [
+    "東京地下鉄 5号線東西線",
+    "東日本旅客鉄道 中央線"
+   ],
+   "lat": 35.705748,
+   "lon": 139.66572
+  },
+  {
+   "name": "新中野",
+   "lines": [
+    "東京地下鉄 4号線丸ノ内線"
+   ],
+   "lat": 35.697475,
+   "lon": 139.66951
+  },
+  {
+   "name": "中野新橋",
+   "lines": [
+    "東京地下鉄 4号線丸ノ内線分岐線"
+   ],
+   "lat": 35.691698,
+   "lon": 139.674005
+  },
+  {
+   "name": "中野坂上",
+   "lines": [
+    "東京地下鉄 4号線丸ノ内線",
+    "東京地下鉄 4号線丸ノ内線分岐線",
+    "東京都 12号線大江戸線"
+   ],
+   "lat": 35.697348,
+   "lon": 139.682457
+  },
+  {
+   "name": "東中野",
+   "lines": [
+    "東京都 12号線大江戸線",
+    "東日本旅客鉄道 中央線"
+   ],
+   "lat": 35.70681,
+   "lon": 139.684165
+  },
+  {
+   "name": "沼袋",
+   "lines": [
+    "西武鉄道 新宿線"
+   ],
+   "lat": 35.71916,
+   "lon": 139.66484
+  },
+  {
+   "name": "落合",
+   "lines": [
+    "東京地下鉄 5号線東西線"
+   ],
+   "lat": 35.710635,
+   "lon": 139.685965
+  },
+  {
+   "name": "中野富士見町",
+   "lines": [
+    "東京地下鉄 4号線丸ノ内線分岐線"
+   ],
+   "lat": 35.69082,
+   "lon": 139.668155
+  },
+  {
+   "name": "新井薬師前",
+   "lines": [
+    "西武鉄道 新宿線"
+   ],
+   "lat": 35.715802,
+   "lon": 139.672497
+  },
+  {
+   "name": "方南町",
+   "lines": [
+    "東京地下鉄 4号線丸ノ内線分岐線"
+   ],
+   "lat": 35.683515,
+   "lon": 139.657935
+  },
+  {
+   "name": "西新宿五丁目",
+   "lines": [
+    "東京都 12号線大江戸線"
+   ],
+   "lat": 35.6899,
+   "lon": 139.684665
+  },
+  {
+   "name": "中井",
+   "lines": [
+    "東京都 12号線大江戸線",
+    "西武鉄道 新宿線"
+   ],
+   "lat": 35.714467,
+   "lon": 139.686477
+  },
+  {
+   "name": "野方",
+   "lines": [
+    "西武鉄道 新宿線"
+   ],
+   "lat": 35.719587,
+   "lon": 139.653493
+  }
+ ],
+ "attribution": [
+  {
+   "text": "中野区 文化財一覧（中野区）を加工して作成",
+   "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  }
+ ],
+ "area": {
+  "bbox": [
+   35.6812545292203,
+   139.64031694659698,
+   35.7173187226486,
+   139.685087793175
+  ]
+ },
+ "points": [
+  {
+   "id": "nakano-7",
+   "name": "蓮華寺",
+   "kana": "れんげじ",
+   "lat": 35.7128918705434,
+   "lon": 139.642316946597,
+   "address": "東京都中野区大和町4-37-15",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内に入れる時間や参拝の決まりは、出典で確認できなかった（まるっと中野の記事に参拝の案内はなく、「関係者以外立ち入り禁止」の場所があるとの記載がある）。",
+   "seasonal": [
+    {
+     "months": [
+      4
+     ],
+     "note": "毎年4月の第1日曜日に花まつり（まるっと中野の記事）"
+    }
+   ],
+   "riddle": "江戸の切支丹屋敷で獄死した人々を悼んで建てられた碑が、のちに中野へ移ってきた。この碑を境内に守っている日蓮宗の寺はどこだろう。",
+   "hints": [
+    {
+     "text": "環七通りから住宅街に入る通りの終点にあたる。",
+     "radius_m": 500
+    },
+    {
+     "text": "鹿鳴館の礎石でできた庭石のある小さな公園がある四辻の、正面側にある。",
+     "radius_m": 250
+    },
+    {
+     "text": "朱塗りの山門の手前、参道の途中に区の表示板が立つ石碑がある。境内には湧水の池がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "蓮華寺",
+    "accept": [
+     "蓮華寺",
+     "れんげじ",
+     "泉光山蓮華寺",
+     "せんこうざんれんげじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "山門の手前の参道沿いにある山荘の碑（区登録有形文化財）と、区の表示板",
+   "short": "日蓮宗の泉光山蓮華寺。万治元年（1658）に文京区で創建され、明治44年に中野へ移った。境内の「山荘の碑」は、切支丹屋敷で獄死した人々を悼む碑で、区の登録有形文化財です。",
+   "long": "蓮華寺は日蓮宗の寺で、山号は泉光山です。万治元年（1658）に文京区の関口台町で創建され、明治44年（1911）に現在の中野区大和町へ移りました（まるっと中野の記事は、移転を1911年から大正初期にかけてのこととしています）。\n\n境内の「山荘の碑」は中野区の登録有形文化財（1991年4月）で、区の文化財表示板も設けられています。「山荘」とは、初代の切支丹奉行を務めた井上政重の別邸で、切支丹屋敷とも呼ばれた場所を指し、キリスト教徒が収容されました。碑は、屋敷の所有者が代わった際に、獄死した人々を悼んで建てられたものと紹介されています。もとは文京区の茗荷谷にあり、のちに蓮華寺へ移され、寺とともに現在地へ来たといいます。\n\n境内には湧水の池があり、かつて池から流れ出ていた蓮華寺川は、いまは暗渠になっています。毎年4月の第1日曜日には花まつりが開かれ、例年約1,500人が訪れるといいます。山門をくぐってすぐの場所には、檀家の寄進による、茨城県真壁町の窯元の埴輪（はにわ）が置かれていると紹介されています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【まるっと中野】大和町の緑に囲まれた「蓮華寺」",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/rengeji.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "八幡通り・大和鹿鳴公園の紹介（まるっと中野 区民レポーター記事）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/75.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "蓮華寺。中野区大和町にある日蓮宗寺院",
+     "publisher": "tesshow（個人サイト）",
+     "url": "https://tesshow.jp/nakano/temple_yamato_renge.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "蓮華寺（東京都 中野区大和町4丁目37番の15号）-早稲田通り沿いの住宅街に出現した朱塗り門",
+     "publisher": "個人ブログ（Ameba）",
+     "url": "https://ameblo.jp/composure3956/entry-12328825036.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・中野区認定観光資源の資料は蓮華寺を「江古田1-6-4、池上本門寺の末寺、井上円了の墓」とし、表示板一覧にも「井上円了の墓所：江古田一丁目6番4号 蓮華寺本堂前」とある。区データの所在（大和町4-37-15、山荘の碑）とは別の所在で、別の寺とみられる（同名の別寺かは確かめられず）。この地点には井上円了の墓を書いていない。\n・山荘の碑の由来は、区の公式ページには説明がなく、個人サイト・個人ブログによる。大江氏の名が「政晴」（tesshow）と「政時」（japanmystery）で食い違うため、人名は書かなかった。\n・「寺門の手前の参道」「朱塗り門」は個人ブログによる（区の資料では未確認）。\n・座標はGSIの住所検索と照合した（差の大きさは下の自動注記を参照）。\n・座標は区データの値のまま。GSI住所検索との差は約65m。\n・区データの対象：山荘の碑（NO 0000000007）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は山荘の碑。区の登録有形文化財で、区の表示板が立つ。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "碑は参道の途中、寺門の手前にあるという。山門は朱塗り。",
+     "confidence": "出典あり",
+     "source_url": "https://ameblo.jp/composure3956/entry-12328825036.html"
+    },
+    {
+     "text": "碑は移されたもので、もとの場所は文京区の茗荷谷。碑そのものが現存する。",
+     "confidence": "出典あり",
+     "source_url": "https://tesshow.jp/nakano/temple_yamato_renge.html"
+    },
+    {
+     "text": "山門をくぐってすぐに埴輪（はにわ）が置かれている。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/rengeji.html"
+    },
+    {
+     "text": "境内に湧水の池がある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/machiaruki/rengeji.html"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Renge-ji_main_gate_2023-08-10.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Renge-ji_main_gate_2023-08-10.jpg/1280px-Renge-ji_main_gate_2023-08-10.jpg",
+     "caption": "蓮華寺の山門",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-46",
+   "name": "大和町八幡神社",
+   "kana": "やまとちょうはちまんじんじゃ",
+   "lat": 35.7141915166633,
+   "lon": 139.650543578209,
+   "address": "東京都中野区大和町2-30-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "平安時代、奥州へ向かう源氏の武将が陣を敷いて軍陣祭を行った跡と伝わる場所に、村人がやしろを建てた。社内には、江戸の髪型を結った姿の狛犬がいるという。",
+   "hints": [
+    {
+     "text": "環七通りから住宅街に入った通り沿い。進行方向の右手に見える。",
+     "radius_m": 500
+    },
+    {
+     "text": "同じ通りをさらに進むと、突き当たりに日蓮宗の寺がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "社内に、髷（ちょんまげ）と丸髷を結った姿の狛犬がいる。境内には区指定の手洗鉢がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "大和町八幡神社",
+    "accept": [
+     "大和町八幡神社",
+     "やまとちょうはちまんじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "髷と丸髷の狛犬、乃木希典直筆の忠魂碑、区指定の手洗鉢",
+   "short": "祭神は応神天皇。永承年間に源義家が陣を敷き軍陣祭を行った跡に、村人が建てたと伝わります。社内には髷と丸髷を結った姿の狛犬があり、手洗鉢は区の指定文化財になっています。",
+   "long": "大和町八幡神社の祭神は応神天皇です。中野区の観光資源の資料によると、永承年間（1046〜53）に源義家が奥州征伐の途中でこの地に陣を敷き、石清水八幡の遥拝所を設けて軍陣祭を行いました。村人たちが義家の武勇を慕い、その跡に八幡社を建てたと伝えられています。\n\n社内には、髷（ちょんまげ）や丸髷を結った姿の狛犬があるほか、乃木希典直筆の忠魂碑や日露戦役記念碑があると、区の資料は紹介しています。\n\n区の文化財としては、手洗鉢が中野区指定有形文化財（1997年11月指定）、庚申塔が中野区登録有形文化財（1994年7月登録）になっています。手洗鉢と庚申塔の年代や形、境内のどこにあるかは、今回確かめた資料には書かれていません。\n\n環七通りから住宅街に入る通りは、1993年から「八幡通り」の愛称で呼ばれ、この神社の前を通って蓮華寺まで続いています。通りの先の大和鹿鳴公園には、鹿鳴館の礎石でつくった庭石が使われているといいます（以上、まるっと中野の区民レポーター記事）。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "大和町八幡神社（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/tourism/yamatocho-hachimanjinja/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "八幡通り・大和鹿鳴公園の紹介（まるっと中野 区民レポーター記事）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/75.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・区データの庚申塔・手洗鉢の形や位置は、出典で確かめられなかった。\n・区の観光資源の紹介は、神社前の通りを環七から入る道と書く記事（まるっと中野）に基づき、ヒント1・2の位置関係はその記事による。\n・座標は区データの値のまま。GSI住所検索との差は約92m。\n・区データの対象：庚申塔, 手洗鉢（NO 0000000046, 0000000089）。",
+   "onsite_hints": [
+    {
+     "text": "社内に、髷（ちょんまげ）と丸髷を結った姿の狛犬がある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.nakano-kanko.com/tourism/yamatocho-hachimanjinja/"
+    },
+    {
+     "text": "乃木希典直筆の忠魂碑と日露戦役記念碑がある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf"
+    },
+    {
+     "text": "手洗鉢は区指定有形文化財。境内のどこにあるかは未確認。",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Yamatocho_hachiman_jinja_nakano.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Yamatocho_hachiman_jinja_nakano.jpg/1280px-Yamatocho_hachiman_jinja_nakano.jpg",
+     "caption": "大和町八幡神社",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-13",
+   "name": "多田神社",
+   "kana": "ただじんじゃ",
+   "lat": 35.6832545292203,
+   "lon": 139.663763673995,
+   "address": "東京都中野区南台3-43-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "社殿の大絵馬を見られるか、見られるならいつか、は出典で確認できなかった（観光協会ページに記載なし。神社の公式サイト tadajinja.tokyo は未確認）。",
+   "seasonal": [],
+   "riddle": "平安時代の終わりごろ、源氏の武将が大きな八幡宮に参って神鏡を納めた折、祖父を祀る小さなほこらを建てたのが始まりという。社殿には源平の合戦と富士の巻狩を描いた大絵馬が伝わる。",
+   "hints": [
+    {
+     "text": "中野区の南のはずれに近い。杉並区の大宮八幡宮と古い道で結ばれていたと伝わる。",
+     "radius_m": 500
+    },
+    {
+     "text": "隣の番地に、筆塚碑がある寺（寳福寺）がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "江戸時代まで「雑色村」と呼ばれた土地の鎮守。社殿に源平の合戦を描いた大絵馬が伝わる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "多田神社",
+    "accept": [
+     "多田神社",
+     "ただじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "社殿に伝わる大絵馬（壇ノ浦合戦図・冨士の巻狩図）、区の表示板「雑色村と多田神社」",
+   "short": "寛治6年（1092）、源義家が祖父の多田満仲を祀ったのが始まりと伝わる雑色村の鎮守。社殿に伝わる大絵馬（壇ノ浦合戦図・冨士の巻狩図）は区の有形民俗文化財になっています。",
+   "long": "多田神社の祭神は、源頼光・頼信の父で文武に秀でた多田満仲です。寛治6年（1092）、源義家が大宮八幡宮（現・杉並区大宮）へ参詣して神鏡を献じ、別当寺の宝仙寺を建てた際、雑色村に祖父・満仲の祠を建てたのが始まりと伝えられています。\n\n天正19年（1591）の検地帳には「大宮之内雑色村」と記され、この村が大宮領だったことが分かります。江戸時代まで、弥生町から南台のあたりは雑色村と呼ばれていました。「雑色」は、天皇の膳の給仕など雑務を担った蔵人の職位名で、昇殿を許されない雑務係を指すとされます。鎌倉街道と伝わる古道が、多田神社と大宮八幡宮のあいだに通じていたともいわれます。\n\n社殿には源氏ゆかりの大絵馬があり、「壇ノ浦合戦図」と「冨士の巻狩図」が描かれています。地域を知る貴重な資料として、中野区の有形民俗文化財（1992年6月指定）になっています。境内には区の文化財表示板「雑色村と多田神社」も設けられています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "多田神社（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/tourism/tadajinja/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区歴史コラム（多田神社）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/9.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・社殿の大絵馬は社殿の中か外か、いつ見られるかを出典で確かめられなかった。\n・杉並区の大宮八幡宮との関係は区の資料（認定観光資源・歴史コラム）による。\n・座標は区データの値のまま。GSI住所検索との差は約57m。\n・区データの対象：多田神社の大絵馬（NO 0000000013）。",
+   "onsite_hints": [
+    {
+     "text": "社殿に大絵馬（壇ノ浦合戦図・冨士の巻狩図）がある。区指定の有形民俗文化財。社殿の外から見えるかは未確認。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/9.pdf"
+    },
+    {
+     "text": "区の文化財表示板「雑色村と多田神社」が神社にある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "大絵馬の公開の時間・方法は未確認。",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tada_jinja_nakano.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tada_jinja_nakano.jpg/1280px-Tada_jinja_nakano.jpg",
+     "caption": "多田神社",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-95",
+   "name": "新井北野神社",
+   "kana": "あらいきたのじんじゃ",
+   "lat": 35.7153187226486,
+   "lon": 139.666345919114,
+   "address": "東京都中野区新井4-14-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      11
+     ],
+     "note": "11月の酉の市でにぎわう（中野区認定観光資源の資料）"
+    }
+   ],
+   "riddle": "天正のころにはすでに村の鎮守だったという、菅原道真を祀る社。境内には、名前と重さが刻まれた丸い石が十数個ある。かつて若者が力を競ったものといい、区の文化財になっている。",
+   "hints": [
+    {
+     "text": "毎年11月に酉の市でにぎわう、中野区北部の社。",
+     "radius_m": 500
+    },
+    {
+     "text": "平和の森公園の方へ、まっすぐ北へ延びる通りが近くにある。",
+     "radius_m": 250
+    },
+    {
+     "text": "境内に、撫でると無病息災のご利益があるという牛の像と、重さの刻まれた力石がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "新井北野神社",
+    "accept": [
+     "新井北野神社",
+     "あらいきたのじんじゃ",
+     "新井天神北野神社",
+     "新井天神",
+     "あらいてんじん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内の力石（区指定有形文化財）と、区の表示板「力石」",
+   "short": "菅原道真公と保食神を祀り、天正年間にはすでに新井の鎮守だった。名前や重さが刻まれた力石12個は区の指定文化財で、11月の酉の市でにぎわう神社としても知られます。",
+   "long": "新井北野神社（新井天神北野神社）の祭神は、菅原道真公と保食神です。中野区の観光資源の資料によると、天正年間（1573〜91）にはすでに新井の里の鎮守でした。毎年11月には酉の市が開かれ、熊手などの縁起物を求める人でにぎわいます。\n\n境内の「力石（12個）」は、中野区指定有形文化財（1997年11月指定）です。力石は、名前や重さが刻まれた石で、若者が力を競って奉納したものとされ、通過儀礼や神事の名残と考えられています。区の文化財表示板「力石」も境内に設けられています。ほかに、撫でると無病息災のご利益があるとされる牛の像もあります（観光資源の資料の「撫で牛」、およびまるっと中野の体験記事）。\n\n区の一覧では、力石は区内5か所の神社（東中野氷川、沼袋氷川、鷺宮八幡、新井北野、江古田氷川）にあり、いずれも中野区指定有形文化財（1997年11月）です。新井北野神社の力石は12個です。\n\n神社から新井天神通りをまっすぐ北へ行くと、平和の森公園に出ると案内されています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "神社仏閣巡り・新井薬師編（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/citywalk/walking-course-1/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "初詣体験レポート Part.1（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/10.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・「まるっと中野」の体験記事（Part.1）は、記事中の寺社を「中野北野神社」「北野神社」と書き、新井北野神社と同一かは記事から判断できなかった。撫で牛は区の認定観光資源の資料（新井北野神社の項）による。体験記事は参考のみ。\n・区データの力石は12個、観光資源の資料は「十数個」とあり、数の言い方が異なる。\n・座標は区データの値のまま。GSI住所検索との差は約62m。\n・区データの対象：力石（12個）（NO 0000000095）。",
+   "onsite_hints": [
+    {
+     "text": "力石は境内にあり、区の表示板が立つ。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "力石は十数個あり、名前と重さが刻まれている。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf"
+    },
+    {
+     "text": "撫で牛（小さな青銅の牛の像）がある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/10.pdf"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Arai-Tenjin_Kitano_Shrine_-_%E6%96%B0%E4%BA%95%E5%A4%A9%E7%A5%9E%E5%8C%97%E9%87%8E%E7%A5%9E%E7%A4%BE_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arai-Tenjin_Kitano_Shrine_-_%E6%96%B0%E4%BA%95%E5%A4%A9%E7%A5%9E%E5%8C%97%E9%87%8E%E7%A5%9E%E7%A4%BE_-_panoramio.jpg/1280px-Arai-Tenjin_Kitano_Shrine_-_%E6%96%B0%E4%BA%95%E5%A4%A9%E7%A5%9E%E5%8C%97%E9%87%8E%E7%A5%9E%E7%A4%BE_-_panoramio.jpg",
+     "caption": "新井北野神社（新井天神北野神社）",
+     "author": "Carbonium",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-14",
+   "name": "梅照院",
+   "kana": "ばいしょういん",
+   "lat": 35.7141177893522,
+   "lon": 139.667494137363,
+   "address": "東京都中野区新井5-3-5",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内の参拝時間は出典で確認できなかった。縁日は毎月8のつく日（区の資料）。",
+   "seasonal": [],
+   "riddle": "戦乱で姿を消した守り本尊が、天正14年に梅の木の穴から見つかったと伝わる。眼の病を治したことから「眼の薬師」とも呼ばれ、毎月8のつく日に縁日が開かれる寺はどこだろう。",
+   "hints": [
+    {
+     "text": "西武新宿線の駅から歩いて7分ほどの、中野区北部。",
+     "radius_m": 500
+    },
+    {
+     "text": "山門の前に、安永8年（1779）に建てられた供養塔と、区の表示板がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "真言宗豊山派で、御府内八十八ケ所の71番札所。境内を抜けると道を挟んで公園がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "梅照院",
+    "accept": [
+     "梅照院",
+     "ばいしょういん",
+     "新井薬師",
+     "あらいやくし",
+     "新井薬師梅照院",
+     "新井山梅照院薬王寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "山門の前の本堂再営供養塔（区登録有形文化財）と区の表示板。境内に地蔵2体・庚申塔",
+   "short": "真言宗豊山派で通称は新井薬師。天正14年（1586）に梅の木の穴から見つかった黄金仏を本尊とし、治眼薬師として信仰される。地蔵・庚申塔・供養塔は区の登録文化財です。",
+   "long": "梅照院は、通称を新井薬師という真言宗豊山派の寺院で、区の観光資源の資料では「中野区唯一の参詣寺院」と紹介されています。本尊は薬師如来と如意輪観音の二仏一体の黄金仏で、天正14年（1586）に梅の木の穴から見つかり、それを安置するお堂を建てたのが始まりとされます。徳川二代将軍秀忠の子・和子の方の眼病を治したことから、治眼薬師とも呼ばれます。\n\n境内には、地蔵2体、庚申塔、安永8年（1779）建立の本堂再営供養塔があり、いずれも中野区の登録有形文化財（1994年7月登録）です。区データの対象は、地蔵2体、庚申塔1基、本堂再営供養塔1基の計4件です。このうち本堂再営供養塔には、山門の前に区の文化財表示板が設けられています。観光協会のページによると、本尊の薬師如来と如意輪観音は、鎌倉時代には新田家代々の守護仏だったとされます。\n\n毎月8のつく日には縁日が開かれ、御府内八十八ケ所霊場の第71番札所でもあります。境内を抜けると、道を挟んで新井薬師公園があるとされます。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "神社仏閣巡り・新井薬師編（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/citywalk/walking-course-1/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "新井薬師（梅照院）の紹介",
+     "publisher": "tabi-mag",
+     "url": "https://tabi-mag.jp/tk0138/",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・区データの住所（新井5-3-5）は梅照院で確認できた（所有者欄も梅照院）。\n・本堂の焼失・再建の経緯は資料により異なる（tabi-magは明治元年の大火で焼失し平成25年再建、個人サイトは戦災焼失と書く）ため、書かなかった。\n・縁日の日は、区の資料は「毎月8のつく日」、tabi-magは8日・18日・28日で、同じ意味。\n・座標は区データの値のまま。GSI住所検索との差は約58m。\n・区データの対象：地蔵, 地蔵, 庚申塔, 本堂再建供養塔（NO 0000000014, 0000000021, 0000000031, 0000000068）。",
+   "onsite_hints": [
+    {
+     "text": "本堂再営供養塔は山門の前にあり、区の表示板が立つ。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "地蔵2体と庚申塔は区の登録有形文化財。境内のどこかは未確認。",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "毎月8のつく日は縁日で、境内に出店が並ぶ（縁日の日は参拝者が多い）。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Arai_Yakushi_entrance_2022-12-25.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Arai_Yakushi_entrance_2022-12-25.jpg/1280px-Arai_Yakushi_entrance_2022-12-25.jpg",
+     "caption": "梅照院（新井薬師）の山門",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-45",
+   "name": "打越北野神社",
+   "kana": "うちこしきたのじんじゃ",
+   "lat": 35.7072280592283,
+   "lon": 139.671922684833,
+   "address": "東京都中野区中野5-8-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "青梅街道から薬師へ向かう人の安全祈願と道しるべを兼ねて、道ばたに立てられたと考えられている石仏がある。いまは社の拝殿の東に並ぶ。江戸の後期にはすでに「天神社」として記録された社を探そう。",
+   "hints": [
+    {
+     "text": "青梅街道から、薬師で知られる寺へ向かう道筋にあたる。",
+     "radius_m": 500
+    },
+    {
+     "text": "保存樹林の緑に囲まれた、古い拝殿と鳥居の社。",
+     "radius_m": 250
+    },
+    {
+     "text": "拝殿の東側に、如意輪観音の講塔と庚申塔2基が並ぶ。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "打越北野神社",
+    "accept": [
+     "打越北野神社",
+     "うちこしきたのじんじゃ",
+     "打越天神北野神社",
+     "打越天神",
+     "うちこしてんじん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "拝殿の東側に並ぶ石仏3体（如意輪観音講塔と庚申塔2基）と、区の表示板「天神町の石仏」",
+   "short": "境内の拝殿の東に、如意輪観音講塔と庚申塔2基が並ぶ神社。もとは社前の道ばたにあった、安全祈願と道しるべを兼ねた石仏だったと考えられ、中野区の文化財になっています。",
+   "long": "打越北野神社（打越天神北野神社）の拝殿の東側には、如意輪観音講塔と庚申塔2基の石仏が並んでいます。如意輪観音講塔は中野区指定有形文化財（1997年11月）、庚申塔2基は中野区登録有形文化財（1994年7月）で、区は「天神町の石仏」という表示板を拝殿の東に設けています。\n\n中野区観光協会のサイトによると、これらの石仏はかつて神社前の道路際にあり、青梅街道から新井薬師へ向かう人の安全祈願と道しるべを兼ねて造られたと考えられています。ウィキペディアは、昭和7年（1932）ごろに社前の道路にあったものを境内へ移したとします。\n\n区の表示板の一覧は、この場所を「中野五丁目8番 打越天神北野神社拝殿東」とし、「中野区登録有形文化財」と記しています。\n\n社の創建の年代は分かりません。『新編武蔵風土記稿』に「天神社」として載っていることから、江戸時代後期にはすでにあったと推測されています。境内は保存樹林の緑に囲まれ、古い拝殿や鳥居の雰囲気が見どころとされています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "北野神社 中野（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/tourism/kitanojinja/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "北野神社 (中野区中野)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/%E5%8C%97%E9%87%8E%E7%A5%9E%E7%A4%BE_(%E4%B8%AD%E9%87%8E%E5%8C%BA%E4%B8%AD%E9%87%8E)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・祭神・由緒（創建年代）は出典で確かめられなかった（Wikipediaは創建年代不明と書く）。\n・「うちこし」の読みは、紹介ブログのURL表記（uchigoshitenjin）による推定で、公式の読みは未確認。\n・区データは如意輪観音講塔を「指定」、観光協会のページは「登録または指定」と併記し、石仏の位置は「本殿の東」（観光協会）と「拝殿東」（区の表示板）で表現が異なる。\n・画像のファイルはカテゴリが「Kitano-jinja (Nakano, Nakano)」であることで同定した（説明文は短い）。\n・座標は区データの値のまま。GSI住所検索との差は約25m。\n・区データの対象：庚申塔, 庚申塔, 如意輪観音講塔（NO 0000000045, 0000000050, 0000000090）。",
+   "onsite_hints": [
+    {
+     "text": "石仏は拝殿（本殿）の東側に並ぶ。如意輪観音講塔1基と庚申塔2基。",
+     "confidence": "出典あり",
+     "source_url": "https://www.nakano-kanko.com/tourism/kitanojinja/"
+    },
+    {
+     "text": "区の表示板「天神町の石仏」が拝殿の東にある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "境内は保存樹林に囲まれ、古い拝殿と鳥居がある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.nakano-kanko.com/tourism/kitanojinja/"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kitano_Jinja_(Nakano,_Nakano,_Tokyo).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kitano_Jinja_%28Nakano%2C_Nakano%2C_Tokyo%29.JPG/1280px-Kitano_Jinja_%28Nakano%2C_Nakano%2C_Tokyo%29.JPG",
+     "caption": "打越北野神社（北野神社・中野）",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": "https://commons.wikimedia.org/wiki/File:Kitano_Jinja_(Nakano,_Nakano,_Tokyo).JPG"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-15",
+   "name": "慈眼寺",
+   "kana": "じげんじ",
+   "lat": 35.6981155258782,
+   "lon": 139.672005149133,
+   "address": "東京都中野区中央3-33-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "入口の近くで金色の塔が目を引く。タイの寺院から贈られた仏舎利が納められているという。境内には、地蔵や庚申塔などの石仏がたくさん並ぶ寺を探そう。",
+   "hints": [
+    {
+     "text": "地下鉄丸ノ内線の駅から青梅街道を新宿方面へ歩くと、左側にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "入口の近くに、金色の仏塔（パゴダ）がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "本堂の手前に、区の表示板が立つ石仏の群れがある。天文13年（1544）の創建と伝わる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "慈眼寺",
+    "accept": [
+     "慈眼寺",
+     "じげんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "入口付近の金色のパゴダと、本堂の手前の石仏群（区の表示板「慈眼寺の石仏群」）",
+   "short": "天文13年（1544）創建と伝わる寺。入口付近にタイの寺院から寄贈された仏舎利を納める金色のパゴダがあり、境内の地蔵や庚申塔など多くの石仏は区の登録文化財です。",
+   "long": "慈眼寺は、天文13年（1544）の創建と伝えられる寺です。以前は現在地から北東の中央3丁目7付近にあり、江戸時代にこの地へ移りました。\n\n入口付近には、金色のパゴダ（仏塔）があります。内部にはタイ国の寺院から寄贈された仏舎利が安置され、東京に暮らす東南アジア出身の仏教徒の信仰を集めています。\n\n境内には、地蔵や庚申塔など多くの石仏があります。区データでは、地蔵2体と庚申塔5基が中野区登録有形文化財（1994年7月登録）で、区の文化財表示板「慈眼寺の石仏群」が本堂の手前に設けられています。\n\n庚申塔5基はそれぞれ別の登録（NO 43・44・47・51・55）ですが、個々の形や造立年は、今回確かめた資料には書かれていませんでした。区の表示板の一覧は、石仏群の所在を「中央三丁目33番3号 慈眼寺本堂手前」とし、中野区登録有形文化財と記しています。\n\n東京メトロ丸ノ内線の新中野駅から青梅街道を新宿方面へ歩くと、左側にあるとされます。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "慈眼寺（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/tourism/jigenji/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・区データの地蔵・庚申塔の個数は、records（地蔵2、庚申塔5）による。出典で個々の石仏の年代や形は確かめられなかった。\n・座標は区データの値のまま。GSI住所検索との差は約49m。\n・区データの対象：地蔵, 地蔵, 庚申塔, 庚申塔, 庚申塔, 庚申塔, 庚申塔（NO 0000000015, 0000000016, 0000000043, 0000000044, 0000000047, 0000000051, 0000000055）。",
+   "onsite_hints": [
+    {
+     "text": "入口付近に金色のパゴダがある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.nakano-kanko.com/tourism/jigenji/"
+    },
+    {
+     "text": "石仏群は本堂の手前にあり、区の表示板が立つ。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "地蔵や庚申塔など石仏が境内に点在する。個々の位置は未確認。",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jigenji_temple_nakano.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jigenji_temple_nakano.jpg/1280px-Jigenji_temple_nakano.jpg",
+     "caption": "慈眼寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-24",
+   "name": "正蔵院",
+   "kana": "しょうぞういん",
+   "lat": 35.6889542538709,
+   "lon": 139.672577691595,
+   "address": "東京都中野区弥生町4-12-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "墓所（川住行教の墓所）が参拝できるか、境内に入れる時間は出典で確認できなかった。",
+   "seasonal": [],
+   "riddle": "享保10年、村人が一人も欠けずに建てたという7体の地蔵が、参道の入口に並ぶ。境内の墓所には、藩の改革に力を尽くし、明治になって雑色村に隠居した人物が眠る。この寺はどこだろう。",
+   "hints": [
+    {
+     "text": "川島通りを方南通りの方へ歩くと、右手に参道の入口がある。",
+     "radius_m": 500
+    },
+    {
+     "text": "参道の入口の右側に、7体の地蔵が並んでいる。",
+     "radius_m": 250
+    },
+    {
+     "text": "真言宗豊山派で、本尊は聖観音菩薩。境内に庚申塔が2基ある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "正蔵院",
+    "accept": [
+     "正蔵院",
+     "しょうぞういん",
+     "正藏院"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "参道入口の右側に並ぶ川島地蔵尊（7体）と、墓所の区の表示板（川住行教の墓所）",
+   "short": "真言宗豊山派の寺。参道入口に享保10年（1725）建立と刻む川島地蔵尊が並び、庚申塔2基は区の登録文化財。三河の西尾藩出身で、明治に中野へ隠居した川住行教の墓所もある寺です。",
+   "long": "正蔵院は真言宗豊山派の寺で、本尊は聖観音菩薩です。参道の入口の右側には「川島地蔵尊」が安置され、7つの地蔵が並びます。台石には、享保10年（1725）に旧川島村内の善男善女が一人も欠けずにこれを建てたと刻まれています。\n\n境内には庚申塔が2基あり、中野区の登録有形文化財です。区データには、このほか地蔵1体と六地蔵も登録文化財として載っています。\n\n墓所には川住行教の墓所があり、区の文化財表示板が設けられています。区の資料によると、川住行教は文政8年（1825）に三河国西尾藩で生まれ、藩の改革に努めました。明治維新後は新政府から三河国の大参事に任命され、明治9年（1876）に職を退いて中野雑色村で隠居し、明治17年（1884）に没しました。子の川住鋥三郎は「中野長者の伝説」を調査したとされます。川住行教の墓所は区の認定観光資源（2014年認定）で、参道の入口は、川島通りを方南通りへ向かって歩くと右手にあります。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源 アーカイブ（2014年認定）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/nakanokuninteikankoshigenarchive.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "正蔵院（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/tourism/syouzouin/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・区データの「地蔵」「六地蔵」と、観光協会の「川島地蔵尊（7体）」が同じものかは出典で確かめられなかった。\n・川住行教の墓所は区の認定観光資源（2014年認定の資料）。墓所の場所や参拝の可否は確かめられなかった。\n・座標は区データの値のまま。GSI住所検索との差は約29m。\n・区データの対象：地蔵, 六地蔵, 庚申塔, 庚申塔（NO 0000000024, 0000000028, 0000000037, 0000000042）。",
+   "onsite_hints": [
+    {
+     "text": "参道の入口の右側に川島地蔵尊（地蔵が7体並ぶ）がある。",
+     "confidence": "出典あり",
+     "source_url": "https://www.nakano-kanko.com/tourism/syouzouin/"
+    },
+    {
+     "text": "川住行教の墓所は墓地内にあり、区の表示板が立つ。墓地の中のどこかは未確認。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "庚申塔2基は境内にある。場所は未確認。",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shozoin_temple_nakano.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Shozoin_temple_nakano.jpg/1280px-Shozoin_temple_nakano.jpg",
+     "caption": "正蔵院",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-71",
+   "name": "本郷氷川神社",
+   "kana": "ほんごうひかわじんじゃ",
+   "lat": 35.6943041397535,
+   "lon": 139.673391068181,
+   "address": "東京都中野区本町4-10-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸城を築いた武将が、城の守りのために大宮の社から神を迎えて創建したという。社の前の一対の狛犬のうち、口を開けた側は赤ちゃんに乳をやる姿。境内の奥には、明治の道づくりを記念する碑がある。",
+   "hints": [
+    {
+     "text": "中野区の本町四丁目にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "境内の奥に、明治33年に始まった道路の改修を記した石碑が立つ。",
+     "radius_m": 250
+    },
+    {
+     "text": "社の正面の一対の狛犬のうち、口を開けた側が、授乳している姿をしている。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "本郷氷川神社",
+    "accept": [
+     "本郷氷川神社",
+     "ほんごうひかわじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "社の正面の一対の狛犬（阿形は授乳の姿）と、境内奥の本郷道改修記念碑（区の表示板あり）",
+   "short": "文明元年（1469）に太田道灌が江戸城鎮護のため創建したと伝わる本郷村の鎮守。授乳する姿の阿形の狛犬と、明治の道路改修を記す本郷道改修記念碑が知られる神社です。",
+   "long": "本郷氷川神社の祭神は素戔嗚尊です。文明元年（1469）に太田道灌が江戸城を築く際、鎮護のため大宮氷川神社から勧請して創建したといわれています。江戸時代には、本郷村と呼ばれた地域の鎮守でした。中野区の認定観光資源として、境内の本郷道改修記念碑が紹介されています。\n\n社の正面には一対の狛犬があり、阿形の狛犬は授乳している姿をしています。境内の奥には「本郷道改修記念碑」があり、明治33年（1900）に改修工事が始まり、2年余りで完成したことが刻まれていると区の資料は紹介しています。碑は中野区の登録有形文化財（1994年7月登録）で、区の認定観光資源でもあり、区の文化財表示板も境内に設けられています。\n\n区データの対象は本郷道改修記念碑の1件で、所有者は本郷氷川神社です。碑の寸法や形、碑文の全文は、今回確かめた資料には書かれていません。区の観光資源の資料と観光協会のページは、社の正面の一対の狛犬と、境内の奥の記念碑を、この神社の見どころとして紹介しています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源（寺社の紹介）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "本郷氷川神社（中野区観光協会サイトとみられる nakano-kanko.com）",
+     "publisher": "中野区観光協会",
+     "url": "https://www.nakano-kanko.com/tourism/hongo-hikawajinja/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源 アーカイブ（2014年認定）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/nakanokuninteikankoshigenarchive.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区文化財表示板一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区登録文化財・指定文化財一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/torokubunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "・碑の大きさ・形は出典で確かめられなかった。\n・座標は区データの値のまま。GSI住所検索との差は約22m。\n・区データの対象：本郷道改修記念碑（NO 0000000071）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は、境内の奥にある本郷道改修記念碑。区の表示板が立つ。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/torokubunkazai/bunkazaihyojiban.html"
+    },
+    {
+     "text": "社の正面に一対の狛犬があり、阿形は授乳の姿をしている。",
+     "confidence": "出典あり",
+     "source_url": "https://www.nakano-kanko.com/tourism/hongo-hikawajinja/"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hikawa_jinja_honcho_nakano.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Hikawa_jinja_honcho_nakano.jpg/1280px-Hikawa_jinja_honcho_nakano.jpg",
+     "caption": "本郷氷川神社",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-9",
+   "name": "萬昌院功運寺",
+   "kana": "まんしょういんこううんじ",
+   "lat": 35.7124738479698,
+   "lon": 139.678703284811,
+   "address": "東京都中野区上高田4-14-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内の拝観は日中のみ無料とする記載がある（Wikipediaのみ。公式で未確認）。墓参の可否や墓所の場所は出典で確認できず",
+   "seasonal": [],
+   "riddle": "忠臣蔵で討たれた側の家の墓が、格式高い宝篋印塔の形で並ぶ曹洞宗の寺。浮世絵の大きな流派を興した絵師の墓もある。もとは都心にあった二つの寺が、明治の末から大正にかけて移ってきて、のちに一つになった。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田四丁目。早稲田通りの北側にも寺が集まる「寺町」の一角にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "区の登録文化財の墓が複数ある大きな寺。すぐ近くにも別の寺が並んでいる。",
+     "radius_m": 250
+    },
+    {
+     "text": "国の登録有形文化財になっている山門・鐘楼・庫裏を持つ、曹洞宗の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "萬昌院功運寺",
+    "accept": [
+     "萬昌院功運寺",
+     "万昌院功運寺",
+     "まんしょういんこううんじ",
+     "功運寺",
+     "こううんじ",
+     "萬昌院",
+     "万昌院",
+     "まんしょういん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "山門・鐘楼・庫裏（国登録有形文化財）。吉良家四代の墓と歌川豊国の墓は区の登録有形文化財",
+   "short": "上高田の寺町にある曹洞宗の寺。萬昌院と功運寺が都心から移り、戦後に合併した。吉良家四代の墓（宝篋印塔）と初代歌川豊国の墓は区の登録有形文化財で、山門などは国の登録有形文化財です。",
+   "long": "上高田一丁目の早稲田通り沿いと四丁目は「寺町」と呼ばれ、寺々は東京の都市化にともなって明治時代の末から大正時代に旧江戸市中から移転してきたものだと、中野区立歴史民俗資料館の館長が紹介しています。その代表格がこの寺で、Wikipediaによると、天正2年（1574）の創建と伝わる萬昌院は大正3年（1914）に、慶長3年（1598）創建の功運寺は大正11年（1922）に現在の地へ移り、昭和23年（1948）に合併して今の寺になりました。\n\n墓所には、赤穂事件の相手方とされる吉良上野介と吉良家四代の墓があります。中野区の紹介では、格式の高い宝篋印塔という形の墓で、区の登録有形文化財です。浮世絵の最大派閥の創始者とされる初代歌川豊国の墓石も、同じく区の登録有形文化財です。区のデータには、水野重郎左衛門の墓石も同じ寺に登録されています。\n\nまた「功運寺庫裏・鐘楼・山門」は国の登録有形文化財です。吉良家のほか、Wikipediaには今川家や永井家の墓も記されています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近代編5－】寺町江戸墓物語－忠臣蔵と上高田（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "萬昌院功運寺 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/萬昌院功運寺",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田4-14-1）の位置とは約78m離れるが、住所検索は番地の代表点のため区データを優先した。年号の食い違い：Wikipedia（萬昌院功運寺）は萬昌院の現在地移転を1914年、功運寺を1922年とするが、ページ内で表記が揺れており、公式未確認。解説では「と伝わる」「Wikipediaによると」で書いた。区データの「吉良家四代の墓」「歌川豊国　墓石」「水野重郎左衛門　墓石」は同住所。板倉重昌墓石（区データNO 66、住所は上高田4-13-1、宝泉寺）は別の寺なので nakano-66 に分けた（座標で約60m離れ、半径50mの到着円はほぼ接する）。墓参の可否・墓所の位置は確認できなかったため access は未確認の旨とした。",
+   "onsite_hints": [
+    {
+     "text": "探す物は山門。国登録有形文化財「功運寺庫裏・鐘楼・山門」の一つ",
+     "confidence": "出典あり",
+     "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+    },
+    {
+     "text": "吉良家四代の墓は宝篋印塔という形の墓で、墓所は境内にあるとみられるが、場所や標識は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "境内に入って見る。墓参できるかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "近くに別の寺（宝泉寺）があり、座標では南へ約60mの位置",
+     "confidence": "出典あり",
+     "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-66",
+   "name": "宝泉寺",
+   "kana": "ほうせんじ",
+   "lat": 35.7119520512983,
+   "lon": 139.678853611936,
+   "address": "東京都中野区上高田4-13-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内に入れる時間、墓参の可否は出典で確認できず",
+   "seasonal": [],
+   "riddle": "江戸時代のはじめ、九州の大きな一揆を鎮める軍の指揮官として出陣し、年明けの総攻撃で討死した武将の五輪塔がある寺。同じ寺町には、忠臣蔵で討たれた側の家の墓がある大きな寺も隣り合う。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田四丁目。早稲田通りの北に広がる寺町の一角にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "隣り合う大きな寺には、吉良家の墓がある。その近く、五輪塔の墓が区の登録文化財になっている寺。",
+     "radius_m": 250
+    },
+    {
+     "text": "島原の乱で討死した板倉重昌の五輪塔の墓がある寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "宝泉寺",
+    "accept": [
+     "宝泉寺",
+     "ほうせんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "板倉重昌の墓（五輪塔、区の登録有形文化財）",
+   "short": "上高田の寺町にある寺。江戸初期の島原の乱で、鎮圧軍の指揮官として討死した悲劇の武将・板倉重昌の墓があり、区の登録有形文化財の立派な五輪塔と区の記事が紹介しています。",
+   "long": "中野区立歴史民俗資料館の館長は、上高田の寺町の墓を江戸時代の順に紹介し、前期の例として、島原の乱の鎮圧軍の指揮官ながら討死した悲劇の武将「板倉重昌」の墓（宝泉寺）を挙げています。区の登録有形文化財で、立派な五輪塔だとされています。\n\nWikipediaによると板倉重昌は天正16年（1588）に生まれ、寛永14年（1637）11月に島原の乱の鎮圧の上使に任じられ、嫡子の重矩を伴って出陣しました。原城への攻撃が二度失敗したのち、後続の上使が迫るなかで寛永15年（1638）1月1日に総攻撃を命じ、自ら突撃して銃弾を受け戦死したと記されています。享年51です。\n\n上高田一丁目の早稲田通り沿いと四丁目の寺々は、明治時代の末から大正時代に旧江戸市中から移転してきたものだと同じ紹介にあります。この寺そのものの由緒や、境内の様子を伝える出典は確認できませんでした。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近代編5－】寺町江戸墓物語－忠臣蔵と上高田（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "板倉重昌 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/板倉重昌",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田4-13-1）の位置とは約39m離れるが、住所検索は番地の代表点のため区データを優先した。出典の食い違い：区の記事（COL34）は本文で「宝泉寺」、写真キャプションで「宝和寺」と書き、区データ・本文は宝泉寺。区データの所有者等も宝泉寺のため宝泉寺とした。Wikipedia（板倉重昌）は墓所を島原市の江東寺とし、宝泉寺の記述はない（墓が複数あるかは未確認）。宝泉寺の由緒・境内・参拝の可否は出典なし。読み（ほうせんじ）は出典で確認できず、一般的な読みを仮に付けた。座標は区データの板倉重昌墓石（上高田4-13-1）の値。入力では功運寺（4-14-1）と同じ住所グループに入っていた。",
+   "onsite_hints": [
+    {
+     "text": "探す物は板倉重昌の墓の五輪塔（区の登録有形文化財）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf"
+    },
+    {
+     "text": "境内の墓所のどこにあるか、標識の有無は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "座標では、北の萬昌院功運寺から南へ約60mの位置",
+     "confidence": "出典あり",
+     "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-1000000001",
+   "name": "高徳寺",
+   "kana": "こうとくじ",
+   "lat": 35.7089729617415,
+   "lon": 139.679550096223,
+   "address": "東京都中野区上高田1-2-9",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "墓参の可否・境内に入れる時間は出典で確認できず（区の記事は境内に白石の墓と英語の解説板があると紹介）",
+   "seasonal": [],
+   "riddle": "『折たく柴の記』『西洋紀聞』などを著し、六代将軍の側で政治を支えた江戸中期の学者。その墓は直方体のめずらしい形で、東京都の旧跡になっている。明治の終わりに浅草から移ってきた寺にある。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田一丁目。早稲田通り沿いに寺が並ぶ「寺町」にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "東中野駅から歩いて6分ほど。近くに、江戸の劇作家の墓がある寺と、狂歌師の墓がある寺が並んでいる。",
+     "radius_m": 250
+    },
+    {
+     "text": "江戸の儒者・新井白石の墓がある寺。境内に英語の解説板もある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "高徳寺",
+    "accept": [
+     "高徳寺",
+     "こうとくじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内の新井白石の墓（東京都指定旧跡）と、英語で書かれた解説板",
+   "short": "上高田の寺町にある寺。明治41年（1908）に現在地へ移りました。朱子学者・新井白石の墓は直方体の形で、東京都指定旧跡です。区の観光記事は英語の解説板もあると紹介しています。",
+   "long": "区の認定観光資源の紹介によると、この寺は建仁元年（1201）に信州で正行寺として釈了智が開いたと伝わり、群馬、千葉、江戸八丁堀、浅草北松山町を経て、明治41年（1908）に現在地へ移りました。\n\n境内には、江戸中期の朱子学者で政治家の新井白石（1657〜1725）の墓があり、東京都指定旧跡です。白石は木下順庵に学び、のちの六代将軍徳川家宣の儒臣となり、家宣の将軍就任後は幕臣として補佐して「正徳の治」を進めました。武家諸法度の改訂、貨幣改鋳、海舶互市新令の施行などに携わり、『藩翰譜』『読史余論』『西洋紀聞』『采覧異言』『折たく柴の記』などの著書があります。\n\n白石の墓について区の歴史コラムは、直方体のユニークな形だと書き、まち歩きの記事は、境内の墓に英語で書かれた解説板があると紹介しています。Wikipediaによると、白石は新井家とのつながりで、この寺に二度寄留したことがあり、平成7年（1995）には白石にちなむ「新井白石記念ホール」が完成しました。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近代編5－】寺町江戸墓物語－忠臣蔵と上高田（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "JR「中野駅」までひと駅歩く！モダンなまちと瀟洒な寺々「落合駅」編（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "高徳寺 (中野区) - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/高徳寺_(中野区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "新井白石 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/新井白石",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田1-2-9）の位置とは約23m離れるが、住所検索は番地の代表点のため区データを優先した。源通寺（上高田1-2-7）と座標で約30m、青原寺とも近く、半径50mの到着円が重なる。Wikipedia（高徳寺）の寄留・新井白石記念ホールの記述は公式未確認。墓の場所（本堂裏の墓地、案内の標柱など）は旅行サイトの口コミにしか見当たらず、解説には書かず onsite_hints で未確認とした。口コミには宗派を浄土真宗大谷派とする記述があるが、公式で確認できず書いていない。墓参の可否は未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は新井白石の墓。直方体の形で、東京都指定旧跡",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf"
+    },
+    {
+     "text": "境内の白石の墓に、英語で書かれた解説板がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf"
+    },
+    {
+     "text": "墓は本堂の裏手の墓地の中ほどにあり、標柱が立つという口コミがあるが、公式では未確認",
+     "confidence": "未確認",
+     "source_url": "https://4travel.jp/dm_shisetsu/11302672"
+    },
+    {
+     "text": "近くの源通寺とは座標でおよそ30mしか離れておらず、並んでいる",
+     "confidence": "出典あり",
+     "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-61",
+   "name": "源通寺",
+   "kana": "げんつうじ",
+   "lat": 35.7091133413039,
+   "lon": 139.679853705833,
+   "address": "東京都中野区上高田1-2-7",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内の墓地にある河竹黙阿弥の墓に参ることができると区の観光記事にある。境内に入れる時間は出典で確認できず",
+   "seasonal": [],
+   "riddle": "『三人吉三』『白浪五人男』などで知られる江戸から明治の劇作家の墓がある浄土真宗の寺。江戸のはじめに神田で開かれ、何度か移ったのち、明治41年に浅草から今の地へ移ってきた。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田一丁目。早稲田通り沿いの寺町にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "東中野駅の西口から歩いて7分ほど。東中野ギンザ通り商店街の入口を過ぎたあたり。",
+     "radius_m": 250
+    },
+    {
+     "text": "劇作家・河竹黙阿弥の墓所を伝える碑が立つ、浄土真宗大谷派の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "源通寺",
+    "accept": [
+     "源通寺",
+     "げんつうじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "河竹黙阿弥の墓所を伝える碑と、境内の墓地の墓",
+   "short": "上高田の寺町にある浄土真宗大谷派の寺。慶長15年（1610）の開設で、明治41年（1908）に移ってきました。大劇作家・河竹黙阿弥の墓があり、区の登録有形文化財です。",
+   "long": "区の観光記事によると、この寺は浄土真宗大谷派で、小笠原長隆により慶長15年（1610）に外神田の東本願寺内に創建され、何度か移転したのち、明治41年（1908）に現在の地へ移りました。本尊は長隆が東本願寺から下附された阿弥陀如来像です。親鸞聖人像、聖徳太子像、浄土七祖像は区指定有形文化財です。\n\n敷地内の墓地には、江戸時代末から明治の中ごろに活躍した劇作家・河竹黙阿弥（二代河竹新七、1816〜1893）の墓所があり、墓石は区の登録有形文化財です。黙阿弥は盗賊を主人公にした生世話狂言で世相を写実的に描き、近代演劇への道を開いた人物として知られます。『三人吉三』『白浪五人男』などの作品があります。区の観光記事は、墓に参ることができ、墓所を伝える碑もあると紹介しています。\n\nWikipediaによると、黙阿弥は浅草にあった源通寺に葬られました。区の認定観光資源の紹介は、墓も明治41年に寺とともに浅草から移されたとしています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "大劇作家、河竹黙阿弥の墓所がある「源通寺」（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/aruku.files/32.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近代編5－】寺町江戸墓物語－忠臣蔵と上高田（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "河竹黙阿弥 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/河竹黙阿弥",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田1-2-7）の位置とは約24m離れるが、住所検索は番地の代表点のため区データを優先した。出典の食い違い：創建時の場所が、区の観光記事（GEN）は「外神田の東本願寺内」、区の認定観光資源の紹介（SHIGEN）は「湯島南ヶ岡」とする。解説は観光記事に従い、食い違いは書かなかった。高徳寺（上高田1-2-9）と座標で約30m、青原寺とも近い。",
+   "onsite_hints": [
+    {
+     "text": "探す物は河竹黙阿弥の墓所を伝える碑",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/aruku.files/32.pdf"
+    },
+    {
+     "text": "黙阿弥の墓は境内の墓地にあり、参ることができる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/aruku.files/32.pdf"
+    },
+    {
+     "text": "隣（東側）に高徳寺、西側に青原寺が並ぶ",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf"
+    },
+    {
+     "text": "本堂には阿弥陀如来像が安置されている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/aruku.files/32.pdf"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-67",
+   "name": "願正寺",
+   "kana": "がんしょうじ",
+   "lat": 35.7122365156121,
+   "lon": 139.680088734777,
+   "address": "東京都中野区上高田4-10-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "墓参の可否・境内に入れる時間は出典で確認できず",
+   "seasonal": [],
+   "riddle": "幕末、条約の批准書を交換するため、はじめて太平洋を渡ってワシントンを訪れた使節団の首席を務めた旗本。その家の代々の墓があり、区の登録文化財になっている寺。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田四丁目。早稲田通りの北側に寺が集まる寺町の東寄り。",
+     "radius_m": 500
+    },
+    {
+     "text": "上高田四丁目の寺町のなかでも東のはずれに近い。大きな寺が並ぶ西の一角から少し離れている。",
+     "radius_m": 250
+    },
+    {
+     "text": "1860年の遣米使節の首席、新見正興の墓がある寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "願正寺",
+    "accept": [
+     "願正寺",
+     "がんしょうじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "新見正興の墓石（区の登録有形文化財）",
+   "short": "上高田の寺町にある寺。1860年に遣米使節の首席としてワシントンを訪れた旗本・新見正興の墓石があり、区の登録有形文化財です。新見家代々の墓所でもあります。",
+   "long": "区の歴史コラムは、上高田の寺町の墓として、幕府の遣米使節としてアメリカに渡った「新見正興」の墓（願正寺）を挙げています。墓石は区の登録有形文化財です。\n\n新見正興（1822〜1869）は旗本で、新見家は徳川家康が江戸に入る前から手柄を立て、家康の仰せで「しんみ」と名乗るようになったと伝わる家です。正興は1860年（安政7年・万延元年）に派遣された遣米使節団の首席を務めました。使節団は同年2月9日に軍艦ポーハタン号で品川を出港し、近代日本の外交団として初めてアメリカの首都ワシントンを訪れました。Wikipediaによると、5月23日に国務長官と日米修好通商条約の批准書を交換しています。\n\n横須賀市の博物館が掲載する展示解説資料は、旗本新見家の墓が現在は願正寺（中野区上高田）にあると記します。正興は慶応2年（1866）に隠居し、明治2年（1869）に亡くなりました。この寺そのものの由緒や境内の様子を伝える出典は確認できませんでした。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近代編5－】寺町江戸墓物語－忠臣蔵と上高田（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "遣米使節派遣150年 新見正興と幕末外交団の展示解説資料（2010年作成のPDF）",
+     "publisher": "横須賀市博物館のサイト掲載資料",
+     "url": "https://www.museum.yokosuka.kanagawa.jp/wp/wp-content/uploads/2013/12/2ab5d5d18a84d195c12fa1c50b28f8c8.pdf",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "新見正興 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/新見正興",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田4-10-1）の位置とは約27m離れるが、住所検索は番地の代表点のため区データを優先した。寺の由緒・境内・参拝の可否は出典なし。読み（がんしょうじ）は出典で確認できず、一般的な読みを仮に付けた。区データの座標（上高田4-10-1）が国土地理院の住所検索（4-10）とどれだけずれるかは上記のとおり。展示資料（NIIMI）は『首席』、Wikipediaは『正使』とする。Wikipedia（新見正興）には墓所の記述がなく、没地は武蔵国下奥富村（現・埼玉県狭山市）とある。",
+   "onsite_hints": [
+    {
+     "text": "探す物は新見正興の墓石。区の登録有形文化財",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf"
+    },
+    {
+     "text": "新見家代々の墓がある。墓所の中の位置や標識は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "境内に入れるか、墓参できるかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-62",
+   "name": "青原寺",
+   "kana": "せいげんじ",
+   "lat": 35.7094168488732,
+   "lon": 139.680389417139,
+   "address": "東京都中野区上高田1-2-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "樹木葬を行う寺として紹介されている。墓参の可否・境内に入れる時間は出典で確認できず",
+   "seasonal": [
+    {
+     "months": [
+      10,
+      11
+     ],
+     "note": "境内の柿の木に実がなる（区のまち歩き記事）"
+    }
+   ],
+   "riddle": "江戸の寛政のころ、狂歌の名手として大田南畝（蜀山人）らと並び称された人物の墓がある寺。名前は「あっけらかん」に通じるという説もある。江戸より前に太田道灌の師が青山に開いた寺が、明治に今の地へ移ってきた。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田一丁目。早稲田通り沿いの寺町にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "東中野銀座通りから早稲田通りへ戻ると、すぐに目に入る。隣には劇作家の墓がある寺。",
+     "radius_m": 250
+    },
+    {
+     "text": "秋には柿の実がなる境内に、狂歌師・朱楽菅江の墓がある寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "青原寺",
+    "accept": [
+     "青原寺",
+     "せいげんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "山門と本堂、朱楽菅江の墓（区の登録有形文化財）",
+   "short": "上高田の寺町にある寺。永正10年（1513）に青山北町で創建され、明治42年（1909）に今の地へ移りました。江戸の狂歌師・朱楽菅江の墓があり、区の登録有形文化財です。",
+   "long": "区の認定観光資源の紹介によると、この寺は永正10年（1513）、太田道灌の師で芝青松寺の開山である雲岡瞬徳禅師が創建しました。はじめは青山北町にあり、明治42年（1909）に現在の地へ移りました。\n\n墓があるのは朱楽菅江（あけらかんこう）で、江戸の寛政年間を代表する狂歌師の一人です。同じ紹介では、蜀山人（大田南畝）らと並んで名声を得たとされ、名前は「あっけらかん」に通じるという説もあります。Wikipediaによると、天明の狂歌ブームを築いた「狂歌三大家」の一人で、妻の節松嫁々とともに朱楽連を結成し、狂歌界の中心人物でした。本名は山崎景基で、『万載狂歌集』『狂言鶯蛙集』などの編者・刊行者としても知られます。墓石は区の登録有形文化財です。\n\n区のまち歩き記事は、早稲田通りに面したこの寺の境内を、立派な枝ぶりの木が並び、秋には柿の実が鈴なりになると紹介し、樹木葬を行っていることも伝えています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "JR「中野駅」までひと駅歩く！モダンなまちと瀟洒な寺々「落合駅」編（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "朱楽菅江 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/朱楽菅江",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田1-2-3）の位置とは約30m離れるが、住所検索は番地の代表点のため区データを優先した。区データの墓の名称は『朱楽菅公　墓石』だが、区の認定観光資源の紹介・Wikipediaは『朱楽菅江』で、区データの『菅公』は誤記とみられる。解説では『朱楽菅江』と書いた。墓参の可否・墓所の位置は未確認。読み（せいげんじ）は出典で確認できず、一般的な読みを仮に付けた。創建者（太田道灌の師）と創建年（永正10年）の年代の整合は出典の記述のままで未確認。源通寺（上高田1-2-7）とは座標で約58m。",
+   "onsite_hints": [
+    {
+     "text": "探す物は山門と本堂。境内に柿の木が多い",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf"
+    },
+    {
+     "text": "朱楽菅江の墓は区の登録有形文化財だが、墓所の中の位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "隣（東側）が源通寺",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-63",
+   "name": "正見寺",
+   "kana": "しょうけんじ",
+   "lat": 35.7096901621148,
+   "lon": 139.681137820527,
+   "address": "東京都中野区上高田1-1-10",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "墓参の可否・境内に入れる時間は出典で確認できず",
+   "seasonal": [],
+   "riddle": "江戸の谷中の稲荷の門前、水茶屋の看板娘として評判をとり、浮世絵師が錦絵に描いた人物の墓がある寺。「江戸の三美人」の一人にも数えられる。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の上高田一丁目。落合駅から早稲田通りを西へ歩いて5分ほど。ここから西へ寺が続く。",
+     "radius_m": 500
+    },
+    {
+     "text": "早稲田通りを西へ歩いて右手（北側）にある。白と青の本堂が遠目にも目立つ。",
+     "radius_m": 250
+    },
+    {
+     "text": "江戸の三美人の一人、笠森お仙の墓がある寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "正見寺",
+    "accept": [
+     "正見寺",
+     "しょうけんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "白と青の本堂。笠森お仙の墓石は区の登録有形文化財",
+   "short": "上高田の寺町、早稲田通り沿いの寺。谷中の水茶屋の看板娘で、江戸の三美人に数えられ、鈴木春信の錦絵のモデルとなった笠森お仙の墓石があり、区の登録有形文化財です。",
+   "long": "区の歴史コラムは、上高田の寺町にある墓として、江戸三大美人の一人「笠森お仙」の墓（正見寺）を紹介しています。区の登録有形文化財です。\n\nWikipediaによると、お仙（1751〜1827）は江戸谷中の笠森稲荷の門前にあった水茶屋「鍵屋」の店主の娘で、1763年ごろから茶汲み女として働いて評判を呼び、看板娘となりました。人気のため茶代が値上がりしたとも記されます。明和年間には柳屋お藤、蔦屋およしとともに「明和三美人」の一人に数えられました。1768年ごろ、浮世絵師・鈴木春信の美人画のモデルとなって江戸中で評判になったとされます。1770年ごろ突然店から姿を消し、旗本の御庭番に嫁いで長寿を全うしたと伝わります。墓石は1994年に区の登録有形文化財になりました。\n\n区のまち歩き記事は、落合駅から徒歩5分ほどの寺町の入口で、この寺の白とブルーのコントラストが木々に映える本堂が見えてくると紹介し、お仙にさらなる美に出会えるよう願うと書いています。この寺そのものの由緒を伝える出典は確認できませんでした。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近代編5－】寺町江戸墓物語－忠臣蔵と上高田（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/34.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "JR「中野駅」までひと駅歩く！モダンなまちと瀟洒な寺々「落合駅」編（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "笠森お仙 - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/笠森お仙",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区上高田1-1-10）の位置とは約24m離れるが、住所検索は番地の代表点のため区データを優先した。寺の由緒・墓の位置・参拝の可否は出典なし。読み（しょうけんじ）は出典で確認できず、一般的な読みを仮に付けた。お仙の嫁ぎ先の詳細（倉地政之助）はWikipediaのみで解説では「旗本の御庭番」とだけ書いた。『江戸三大美人』（区の記事）と『明和三美人』（Wikipedia）の呼び方の違いは、そのまま併記した。",
+   "onsite_hints": [
+    {
+     "text": "探す物は白とブルーの本堂。早稲田通りの右手（落合駅から西へ向かって）にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/category-search/hito.files/51.pdf"
+    },
+    {
+     "text": "笠森お仙の墓石は区の登録有形文化財だが、墓所の中の位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "境内に入れるか、墓参できるかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-17",
+   "name": "成願寺",
+   "kana": "じょうがんじ",
+   "lat": 35.6940524209277,
+   "lon": 139.681644911369,
+   "address": "東京都中野区本町2-26-6",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内の墓所に入れる時間は出典で確認できず（旅行サイトの口コミでは塔のそばに説明板がある）。鈴木九郎の墓の塔は本堂の手前左側との口コミがあるが公式では未確認",
+   "seasonal": [],
+   "riddle": "室町のはじめ、馬を売った金を浅草観音に納めたところ長者になったと語られる男が、病で亡くなった娘を弔う堂を建てたのが始まりと伝わる曹洞宗の寺。その墓の塔は、東京都の旧跡になっている。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の本町二丁目。山手通り沿いにあり、中野坂上駅から歩いて5分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "青梅街道が神田川を渡る橋の近く。「姿見ず橋」の伝説でも知られる一帯。",
+     "radius_m": 250
+    },
+    {
+     "text": "「中野長者」と呼ばれた鈴木九郎が開いた、多宝山の山号をもつ曹洞宗の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "成願寺",
+    "accept": [
+     "成願寺",
+     "じょうがんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "鈴木九郎の墓（宝篋印塔、東京都指定旧跡）と説明板、開山堂（龍鳳閣）、百観音堂（園通閣）",
+   "short": "「中野長者」鈴木九郎の伝説で知られる曹洞宗の寺。九郎の屋敷に始まると伝わり、宝篋印塔の墓は東京都指定旧跡です。伝説の「正歓寺」はこの寺のことだと区の記事は書きます。",
+   "long": "区の歴史コラムによると、室町時代の応永のころ、紀州から来た鈴木九郎は、馬を売って得た金をすべて浅草観音に奉納したところ家が黄金に満ちて「中野長者」と呼ばれました。のちに悪業を重ね、一人娘の婚礼の夜に不思議なことが起こり、反省して僧となり、屋敷に正歓寺を建てて娘を弔ったと語られます。区は、この寺が長者の屋敷跡とされ、伝説の正歓寺は成願寺のことだと説明しています。ただし区の認定観光資源の紹介は、この伝説を実話ではないとしています。\n\n区立図書館の広報誌によると、娘の戒名にちなんで寺号を正観寺とし、寛永5年（1628）に神社と分かれて今の本町に移り、成願寺と改めました。九郎の墓も江戸中期の享保年間（1716〜36）に成願寺へ改葬されたとあります。鈴木九郎宝篋印塔は東京都指定旧跡で、昭和47年（1972）に開山像を解体修理した際には胎内から骨片が見つかり、人類学者の鑑定で九郎、娘、犬の骨と推定されています。\n\n境内には園通閣（百観音堂）や龍鳳閣（開山堂）などが並び、区のデータには川庵宗鼎像、釈迦如来坐像、地蔵も登録されています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－中世編3－】中野長者伝説を御存じですか？（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/10.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－中世編4－】長者伝説ゆかりの地を訪ねて（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/11.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野長者伝説（図書館だより seebiblia vol.60 p.2-3）",
+     "publisher": "中野区立図書館",
+     "url": "https://library.city.tokyo-nakano.lg.jp/lib/files/seebiblia_vol60_p02-3.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "成願寺 (中野区) - Wikipedia",
+     "publisher": "Wikimedia Foundation",
+     "url": "https://ja.wikipedia.org/wiki/成願寺_(中野区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区本町2-26-6）の位置とは約69m離れるが、住所検索は番地の代表点のため区データを優先した。出典の食い違い：①伝説の寺名を区の記事（NAGA1・2）は「正歓寺」、図書館の広報誌・Wikipediaは「正観寺」とする。解説は「正歓寺」を区の記事の表記、「正観寺」を広報誌の表記として併記した。②娘の没年齢を広報誌は18歳、区の認定観光資源の紹介は『14歳ほどの病弱な女性』（遺骨の調査）とするため、解説では年齢を書かなかった。③九郎の没年・生年は広報誌で『1372頃〜1440頃』とあるが、解説では使っていない。伝説であることを区の資料が明記しているため、解説は伝説として書いた。塔の位置（本堂手前左側）は旅行サイトの口コミのみのため未確認とした。区データの『地蔵』『釈迦如来坐像』『川庵宗鼎像』は寺の所蔵で、普段は見られないとみられる（公開の有無は未確認）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は鈴木九郎の墓の宝篋印塔（東京都指定旧跡）と、近くの説明板",
+     "confidence": "出典あり",
+     "source_url": "https://4travel.jp/dm_shisetsu/11302674"
+    },
+    {
+     "text": "宝篋印塔は本堂の手前、左側にあるという口コミがあるが、公式では未確認",
+     "confidence": "未確認",
+     "source_url": "https://4travel.jp/dm_shisetsu/11302674"
+    },
+    {
+     "text": "境内に開山堂（龍鳳閣）と百観音堂（園通閣）が並ぶ",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf"
+    },
+    {
+     "text": "山手通りをはさんで第六天が祀られている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf"
+    },
+    {
+     "text": "釈迦如来坐像や川庵宗鼎像など寺の所蔵品は、普段見られるか未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-34",
+   "name": "中野氷川神社",
+   "kana": "なかのひかわじんじゃ",
+   "lat": 35.702736772478,
+   "lon": 139.683087793175,
+   "address": "東京都中野区東中野1-11-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      9
+     ],
+     "note": "例大祭（区内最大級。山手通りを神輿が練り歩く）"
+    }
+   ],
+   "riddle": "平安の中ごろ、東国の乱を鎮めた武将が、武蔵国一之宮の神を迎えて祠を建てたのが始まりと伝わる神社。境内には、力自慢が持ち上げた石や、近くの横丁の茶屋の主人が寄進した鳥居が残る。毎年9月の例祭は区内でも大きな祭り。この神社の名前は？",
+   "hints": [
+    {
+     "text": "中野区の東中野一丁目。東中野駅の西口から約600m。",
+     "radius_m": 500
+    },
+    {
+     "text": "武蔵国一之宮の神を迎えたと伝わる、中野村の鎮守。",
+     "radius_m": 250
+    },
+    {
+     "text": "力石や鳥居などの区の文化財が境内に並ぶ、須佐之男命を主祭神とする神社。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "中野氷川神社",
+    "accept": [
+     "中野氷川神社",
+     "なかのひかわじんじゃ",
+     "東中野氷川神社",
+     "ひがしなかのひかわじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "鳥居、狛犬、力石、手水鉢、庚申塔などの区の文化財",
+   "short": "長元3年（1030）ごろ、源頼信が平忠常の乱を鎮めたあと、大宮氷川神社の神霊を迎えて祠を建てたのが始まりと伝わります。区の文化財の力石や狛犬、鍋屋勘右衛門寄進の鳥居などがあります。",
+   "long": "区の認定観光資源の紹介によると、この神社は長元3年（1030）、源頼信が平忠常の乱の征討のとき、大宮氷川神社の神霊を勧進して祠を建てたのが起源とされます。文明9年（1477）には、太田道灌が戦勝を祈願し、凱旋後に社殿を造営したとも伝わります。別当寺は宝仙寺でした。\n\n境内には区の文化財が多く、区のデータには、鍋屋勘右衛門寄進鳥居、力石（5個）、狛犬（一対）、手洗鉢、石橋供養塔、庚申塔、中野公園の記、覚順の敷石記念碑が登録されています。神社の案内を載せるサイトによると、三基の鳥居は文久2年（1862）に、中野の鍋屋横丁の茶屋の主人、鍋屋勘右衛門の支援で建てられたものです。\n\n明治5年（1872）に村社に列せられ、拝殿は明治10年（1877）、本殿は明治15年（1882）に再建されました。例大祭は毎年9月で、区内最大級の祭りです。山手通りを練り歩く神輿が見どころとされています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野氷川神社",
+     "publisher": "rodsshinto.com（神社紹介サイト）",
+     "url": "https://www.rodsshinto.com/ja/13-114-01",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区東中野1-11-1）の位置とは約86m離れるが、住所検索は番地の代表点のため区データを優先した。社名：区データの所有者は『東中野氷川神社』、区の認定観光資源の紹介と神社紹介サイトは『中野氷川神社』。地点名は区の紹介に合わせ、accept に両方を入れた。狛犬の年代：区の紹介は『7〜800年前の作とされる』、神社紹介サイトは1941年・2007年の一対とし、食い違うため年代は書かなかった。鳥居の寄進者は区データの名称と神社紹介サイトで一致するが、区データの『鍋屋勘右衛門寄進鳥居』が三基すべてかは未確認。例祭の日付（9月14・15日）は神社紹介サイトのみで、解説は『9月』とした。境内に入れる時間は出典なし（神社は通常自由に参拝できるが書かなかった）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は鳥居。三基あり、鍋屋勘右衛門の寄進と伝わる",
+     "confidence": "出典あり",
+     "source_url": "https://www.rodsshinto.com/ja/13-114-01"
+    },
+    {
+     "text": "力石が5個、区の文化財として境内にある（場所は未確認）",
+     "confidence": "出典あり",
+     "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+    },
+    {
+     "text": "狛犬、手水舎、庚申塔、地蔵、狐の像などが境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.rodsshinto.com/ja/13-114-01"
+    },
+    {
+     "text": "境内に入って見る",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-5",
+   "name": "宝仙寺",
+   "kana": "ほうせんじ",
+   "lat": 35.6989555952361,
+   "lon": 139.679394159784,
+   "address": "東京都中野区中央2-33-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内に入れる時間・三重塔や墓所の公開は出典で確認できず",
+   "seasonal": [],
+   "riddle": "江戸のはじめ、地元の夫婦が建てた高さ24mの三重塔があったが、昭和20年の空襲で焼け、いまは新しい塔が境内に立つ寺。「中野長者」が建てた塔の伝説も伝わる。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の中央二丁目。青梅街道のそばにある、区内でも屈指の広い寺。",
+     "radius_m": 500
+    },
+    {
+     "text": "本尊は不動明王。御府内八十八ヶ所の第12番札所にあたる。",
+     "radius_m": 250
+    },
+    {
+     "text": "怒った顔の仁王が立つ山門をもつ、区内最大級の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "宝仙寺",
+    "accept": [
+     "宝仙寺",
+     "寶仙寺",
+     "ほうせんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "仁王の立つ山門、再建された三重塔、堀江家の墓所",
+   "short": "千年近い歴史をもつ区内屈指の大寺院。江戸初期の寛永11年（1636）に建てられた三重塔は空襲で焼け、いまの塔は再建です。堀江家の墓所や中野町役場の跡もあります。",
+   "long": "区の認定観光資源の紹介によると、この寺は区内屈指の広大な寺院で千年近い歴史があり、本尊の不動明王は良弁の作と伝わります。忿怒の形相の仁王が立つ山門、堀江家の墓所、中野町役場跡などがあり、御府内八十八ヶ所12番札所、関東三十六不動霊場第15番札所に指定されています。著名人の葬儀・告別式が行われることでも知られます。\n\n区の歴史コラムによると、江戸時代の三重塔は飯塚惣兵衛夫妻が寛永11年（1636）に建立した高さ24mの塔で、現在の区立第十中学校の校庭の場所にありましたが、昭和20年（1945）5月の空襲で焼失しました。いま境内にある塔は再建されたもので、塔内には飯塚夫妻の木像が安置されていました。別の区の記事は、塔を「中野長者」が建てたと伝えられてきたものとして紹介しています。区のデータには、堀江家伝来の朱印状と五輪塔も区指定有形文化財として登録されています。\n\n神社紹介サイトにも、中野氷川神社の別当寺はこの寺だったと記されています。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－近世編2－】宝仙寺三重塔の謎（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/16.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "【中野の歴史－中世編4－】長者伝説ゆかりの地を訪ねて（まるっと中野）",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/11.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野氷川神社",
+     "publisher": "rodsshinto.com（神社紹介サイト）",
+     "url": "https://www.rodsshinto.com/ja/13-114-01",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区中央2-33-3）の位置とは約86m離れるが、住所検索は番地の代表点のため区データを優先した。入力の住所（中央2-33-3）は宝仙寺で、堀江家伝来の朱印状・五輪塔が登録されている。朱印状は寺の所蔵のため普段は見られない。旧三重塔の建立について、区の記事（NAGA2）は『長者が建てたといわれる』、別の区の記事（HOSEN）は東京府の調査に基づき飯塚惣兵衛夫妻の建立とするため、解説では両方を併記した。宗派は出典で確認できず書かなかった。区立第十中学校の校庭にあった旧三重塔の跡には『三重塔の碑』が区の記事（HOSEN）にあるが、碑は中学校側にあるため別地点で、本地点では書かなかった。堀江家墓所・仁王の山門の位置は未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は仁王が立つ山門と、境内の三重塔（昭和20年の空襲後に再建されたもの）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shiru/rekishicolumn.files/11.pdf"
+    },
+    {
+     "text": "堀江家の墓所が境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf"
+    },
+    {
+     "text": "朱印状や五輪塔などは寺の所蔵品で、公開されているかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "nakano-41",
+   "name": "福寿院",
+   "kana": "ふくじゅいん",
+   "lat": 35.6948692371538,
+   "lon": 139.67470154548,
+   "address": "東京都中野区本町3-12-9",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "板碑や庚申塔を見られるかどうか、境内に入れる時間は出典で確認できず",
+   "seasonal": [],
+   "riddle": "鎌倉の終わりごろ、薬師堂として始まったと伝わる寺。江戸の明和年間の火事で焼けたのち、いまの地に移って寺となった。区内でも古いとされる板碑がある。この寺の名前は？",
+   "hints": [
+    {
+     "text": "中野区の本町三丁目。",
+     "radius_m": 500
+    },
+    {
+     "text": "本町二丁目の「中野長者」の寺から、西へおよそ600m。",
+     "radius_m": 250
+    },
+    {
+     "text": "薬師堂から福寿院になったと伝わる、庚申塔が残る寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "福寿院",
+    "accept": [
+     "福寿院",
+     "ふくじゅいん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "鎌倉末の元応元年（1319）に薬師堂として始まったと伝わる寺。明和年間の火災のあと現在地に移りました。文和3年（1354）などの板碑があり、庚申塔は区の登録有形文化財です。",
+   "long": "区の認定観光資源の紹介によると、この寺は元応元年（1319）、本町五丁目のあたりにあった薬師堂に始まると伝わります。明和年間の火災で焼失し、のちに現在の地に移って福寿院となりました。\n\n文和3年（1354）、貞治4年（1365）、文安年間の三つの時代の板碑があり、そのうち文和3年のものは区内でも古いとされます。区のデータには、庚申塔が区の登録有形文化財として登録されています。\n\nこの寺について、境内の様子や、板碑や庚申塔を外から見られるかを伝える出典は確認できませんでした。区の資料に載る範囲での紹介です。",
+   "sources": [
+    {
+     "title": "中野区 文化財一覧（オープンデータ）",
+     "publisher": "中野区",
+     "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "中野区認定観光資源一覧",
+     "publisher": "中野区",
+     "url": "https://www.city.tokyo-nakano.lg.jp/kanko/shigen.files/ninteikankoshigen.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データのまま使用。国土地理院の住所検索（中野区本町3-12-9）の位置とは約90m離れるが、住所検索は番地の代表点のため区データを優先した。出典は区の認定観光資源の紹介（SHIGEN）のみで、解説は短い（400字にやや届かない）。見られるもの（外観・山門・板碑・庚申塔の位置）は出典で確認できず、onsite は null とした。明和年間は出典のまま年号のみで書いた。ヒント2の『成願寺から西へ600m』は区データの座標から算出。ヒント1は町名のみ。地点として成り立つか（見て探せる物の有無）は確認担当の判断を仰ぐ。",
+   "onsite_hints": [
+    {
+     "text": "探す物は庚申塔（区の登録有形文化財）。境内のどこにあるか、外から見られるかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "文和3年（1354）などの板碑があるが、公開の有無は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "座標では、成願寺から西へ約600mの位置",
+     "confidence": "出典あり",
+     "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  }
+ ]
+}
