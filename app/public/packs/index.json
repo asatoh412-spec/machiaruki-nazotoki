@@ -1,5 +1,8 @@
 [
  "chiyoda-kanda-kojimachi.json",
+ "minato-azabu.json",
+ "minato-shiba.json",
+ "minato-takanawa.json",
  "nakano-ekoda.json",
  "nakano-kamitakada.json",
  "nerima-shakujii.json",
@@ -11,6 +14,8 @@
  "suginami-koenji.json",
  "suginami-ogikubo.json",
  "suginami-takaido.json",
+ "taito-asakusa.json",
+ "taito-ueno-yanaka.json",
  "toshima-sugamo.json",
  "toshima-zoshigaya.json"
 ]
