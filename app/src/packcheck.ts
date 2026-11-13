@@ -13,6 +13,8 @@ export function validatePackShape(x: unknown): string[] {
     if (typeof pt.lat !== 'number' || typeof pt.lon !== 'number') errs.push(`${pt.name}: 座標がありません`);
     if (!pt.answer?.accept?.length) errs.push(`${pt.name}: 答えがありません`);
     if (!pt.sources?.length) errs.push(`${pt.name}: 出典がありません`);
+    if ((pt.onsite_hints ?? []).some((h) => typeof h?.text !== 'string')) errs.push(`${pt.name}: 現地のヒントの形式が違います`);
+    if ((pt.images ?? []).some((im) => !im?.image_url || !im?.file_page)) errs.push(`${pt.name}: 画像の形式が違います`);
   }
   return errs;
 }
