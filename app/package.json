@@ -1,12 +1,12 @@
 {
   "name": "machiaruki-nazotoki",
   "private": true,
-  "version": "0.9.5",
+  "version": "0.9.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
-    "test": "node --experimental-strip-types src/course.test.ts && node --experimental-strip-types src/judge.test.ts && node --experimental-strip-types src/sky.test.ts && node --experimental-strip-types src/timing.test.ts && node --experimental-strip-types src/packs.test.ts"
+    "test": "node --experimental-strip-types src/course.test.ts && node --experimental-strip-types src/judge.test.ts && node --experimental-strip-types src/sky.test.ts && node --experimental-strip-types src/timing.test.ts && node --experimental-strip-types src/hints.test.ts && node --experimental-strip-types src/packs.test.ts"
   },
   "dependencies": {
     "@capacitor/android": "^8.6.0",

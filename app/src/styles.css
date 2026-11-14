@@ -136,3 +136,4 @@ fieldset select { display: block; width: 100%; margin-top: 4px; }
 .pack-chosen { font-weight: 600; margin: 4px 0 0; }
 .pack-map .pack-label { display: none; }
 .pack-map .pack-label.chosen, .pack-map.zoomed .pack-label { display: block; }
+.guide { font-size: 15px; font-weight: 600; margin: 6px 0; }

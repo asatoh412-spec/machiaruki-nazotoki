@@ -2,7 +2,7 @@
 import { Geolocation } from '@capacitor/geolocation';
 import { haversine, trackMeters } from './geo.ts';
 export { trackMeters };
-import { hintCircle } from './hints.ts';
+import { guideText, hintCircle, narrowText } from './hints.ts';
 import { isCorrect } from './judge.ts';
 import { createMap, createOldMap, OLD_PERIODS, showHintCircle, showMe } from './map.ts';
 import { imageUrl } from './images.ts';
@@ -79,6 +79,12 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     run.cur.shownAt = new Date().toISOString();
     await db.putRun(run);
   }
+  // 探す範囲の円は最初から出す（地名を知らなくても地図で向かえるように）。ヒント2・3で狭まる
+  const circleNow = hintCircle(p, Math.max(0, run.hintsShown - 1), run.id);
+  const prevPt = run.index > 0 ? ctx.pts[run.index - 1] : null;
+  const st = ctx.course.request.start;
+  const from = prevPt ?? st;
+  const fromName = prevPt ? `前の地点（${prevPt.name}）` : st.kind === 'station' ? `${st.name}駅` : st.kind === 'home' ? '自宅' : '出発した場所';
   const hm = (iso: string) => new Date(iso).toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
   const departHtml =
     run.index !== 0 || run.results.length
@@ -93,12 +99,13 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
       <h2>謎 ${run.index + 1}</h2>
       <p class="riddle">${esc(p.riddle)}</p>
       <div id="map" class="map"></div>
+      <p id="guide" class="guide">${esc(guideText(from, circleNow, fromName))}</p>
       <p id="status" class="status">位置を確かめています…</p>
       <ol class="hints">${p.hints
         .slice(0, run.hintsShown)
-        .map((h) => `<li>${esc(h.text)}</li>`)
+        .map((h, i) => `<li>${esc(h.text)}${i > 0 ? `<br><span class="muted small">${esc(narrowText(hintCircle(p, i - 1, run.id), hintCircle(p, i, run.id)))}</span>` : ''}</li>`)
         .join('')}</ol>
-      ${run.hintsShown < p.hints.length ? `<button id="hint">ヒント${run.hintsShown + 1}を見る（範囲が狭まります）</button>` : ''}
+      ${run.hintsShown < p.hints.length ? `<button id="hint">ヒント${run.hintsShown + 1}を見る${run.hintsShown === 0 ? '' : '（範囲が狭まります）'}</button>` : ''}
       <div id="onsite" hidden>
         <button id="onsitebtn">現地のヒント（何を探すか）</button>
         <ul id="onsitelist" class="onsite" hidden>${(p.onsite_hints ?? [])
@@ -118,7 +125,8 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     </main>`);
   const map = createMap(app.querySelector('#map')!, ctx.pack, []);
   setMap(map);
-  if (run.hintsShown > 0) showHintCircle(map, hintCircle(p, run.hintsShown - 1, run.id));
+  showHintCircle(map, circleNow);
+  const guide = app.querySelector<HTMLElement>('#guide')!;
   const status = app.querySelector<HTMLElement>('#status')!;
   const form = app.querySelector<HTMLFormElement>('#ans')!;
   const openForm = () => {
@@ -127,7 +135,7 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     form.querySelector('input')!.focus();
   };
 
-  // 位置情報の監視。距離は画面に出さない（出すと答えが分かるため）。
+  // 位置情報の監視。地点までの距離は画面に出さない（出すと答えが分かるため）。出すのは探す範囲の円の中心までの向きと距離だけ。
   let watchId: string | null = null;
   let lastSave = 0;
   Geolocation.watchPosition({ enableHighAccuracy: true, timeout: 20000, maximumAge: 5000 }, (pos, err) => {
@@ -137,6 +145,7 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     }
     const { latitude: lat, longitude: lon, accuracy } = pos.coords;
     showMe(map, lat, lon);
+    if (accuracy <= 100) guide.textContent = guideText({ lat, lon }, circleNow, '現在地');
     const last = run.track[run.track.length - 1];
     if (accuracy <= 50 && (!last || haversine(last[0], last[1], lat, lon) >= 15)) {
       run.track.push([lat, lon, Date.now()]);
