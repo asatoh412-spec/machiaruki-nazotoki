@@ -1,0 +1,2226 @@
+{
+ "schema": "machiaruki-pack/1",
+ "pack_id": "sumida-mukojima",
+ "version": "2026-11-14.1",
+ "title": "向島・墨堤・東向島（墨田区）",
+ "prefecture": "東京都",
+ "city": "墨田区",
+ "created": "2026-11-14",
+ "rules": {
+  "arrival_radius_m": 50,
+  "difficulty": "ふつう"
+ },
+ "stations": [
+  {
+   "name": "鐘ヶ淵",
+   "lines": [
+    "東武鉄道 伊勢崎線"
+   ],
+   "lat": 35.73376,
+   "lon": 139.82037
+  },
+  {
+   "name": "東向島",
+   "lines": [
+    "東武鉄道 伊勢崎線"
+   ],
+   "lat": 35.724355,
+   "lon": 139.819335
+  },
+  {
+   "name": "曳舟",
+   "lines": [
+    "東武鉄道 亀戸線",
+    "東武鉄道 伊勢崎線"
+   ],
+   "lat": 35.71851,
+   "lon": 139.816673
+  },
+  {
+   "name": "本所吾妻橋",
+   "lines": [
+    "東京都 1号線浅草線"
+   ],
+   "lat": 35.708593,
+   "lon": 139.804473
+  },
+  {
+   "name": "とうきょうスカイツリー",
+   "lines": [
+    "東武鉄道 伊勢崎線"
+   ],
+   "lat": 35.710465,
+   "lon": 139.809395
+  },
+  {
+   "name": "堀切",
+   "lines": [
+    "東武鉄道 伊勢崎線"
+   ],
+   "lat": 35.743345,
+   "lon": 139.81738
+  }
+ ],
+ "attribution": [
+  {
+   "text": "墨田区 文化財一覧（墨田区、CC BY 4.0）を加工して作成",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  }
+ ],
+ "area": {
+  "bbox": [
+   35.710626,
+   139.802857,
+   35.740489000000004,
+   139.837841
+  ]
+ },
+ "points": [
+  {
+   "id": "sumida-1",
+   "name": "牛嶋神社",
+   "kana": "うしじまじんじゃ",
+   "lat": 35.712626,
+   "lon": 139.804857,
+   "address": "東京都墨田区向島一丁目4-5",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "参拝時間は4〜9月が5:00〜17:30、10〜3月が5:30〜17:00、境内自由・無休（日本の観光ガイドgltjp.comの掲載。神社の公式ページでは未確認）",
+   "seasonal": [],
+   "riddle": "貞観のころ、慈覚大師が開いたと伝わる、本所の総鎮守。ここには、体の悪いところと同じ場所を撫でると治るといわれる、黒く光る動物の像がある。この神社の名は？",
+   "hints": [
+    {
+     "text": "隅田川の東側、向島の町。東武線のとうきょうスカイツリー駅から歩いて行ける、江戸の昔から続く古い社。",
+     "radius_m": 500
+    },
+    {
+     "text": "社殿の前には、鳥居が三つ組み合わさった全国的にも珍しい形の鳥居が立つ。",
+     "radius_m": 250
+    },
+    {
+     "text": "狛犬の代わりに「狛牛」が参拝者を迎える。社名は、旧社地の地名「牛島」に由来する。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "牛嶋神社",
+    "accept": [
+     "牛嶋神社",
+     "うしじまじんじゃ",
+     "牛島神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "社殿前の三ツ鳥居、総檜権現造の社殿、撫で牛、社殿横の狛牛",
+   "short": "貞観2年（860）に慈覚大師円仁が創建したと伝わる本所の総鎮守。撫で牛と狛牛で知られ、鳥居・社殿・神牛・狛犬・力石・狂歌碑などが墨田区の登録文化財になっている。",
+   "long": "牛嶋神社は、貞観2年（860）に慈覚大師円仁が創建したと伝わる古社で、明治の神仏分離までは「牛御前王子権現杜」と呼ばれ、最勝寺が別当を務めていた。『江戸名所図会』によれば、「牛御前」の名は旧社地が牛島の出崎にあったことに由来するとされる。治承4年（1180）に源頼朝が隅田川を渡る際、千葉常胤が当社に祈願して全軍が無事に渡れたことから、翌年頼朝が社殿を寄進したとも伝わる。関東大震災のあと、旧社地から現在地（水戸藩江戸下屋敷跡）に遷座した。\n境内では、社殿前の三ツ鳥居と総檜権現造の社殿、そして撫で牛が目を引く。体の悪い部分と同じ箇所を撫でると治るといわれ、文政8年（1825）ごろの奉納で、それ以前は自然石が使われていたという。狛犬の代わりに狛牛が参拝者を迎える。区のデータには、石造鳥居、社殿、神輿蔵、烏亭焉馬の狂歌碑、石造狛犬（享保十四年銘と文政十年銘の各一対）、石造の神牛、撫牛、境内力石群が登録されている。社宝だった葛飾北斎の奉納絵馬は関東大震災で焼失し、推定復元品がすみだ北斎美術館に展示されている。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "牛嶋神社（旅マガ）",
+     "publisher": "旅マガ（tabi-mag.jp、掲載元の明記なし）",
+     "url": "https://tabi-mag.jp/tk0751/",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "牛嶋神社（日本の観光ガイド）",
+     "publisher": "gltjp.com（掲載元の明記なし）",
+     "url": "https://www.gltjp.com/ja/directory/item/14468/",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "牛嶋神社",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/牛嶋神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 遷座の年：旅マガは「昭和3年」、Wikipediaは「1932年（昭和7年）」で食い違うため、本文には年を書かず「関東大震災のあと」とした。旧社地の場所も、旅マガは「長命寺近く」、Wikipediaは「弘福寺のそば（現在の桜橋付近）」と食い違うため本文では触れていない。(2) 創建：旅マガ・gltjpは貞観2年(860)、Wikipediaは「貞観年間（859〜879年）」。本文は前者。(3) 神社の公式ページは開けなかったため、拝観時間はgltjpの掲載による。(4) 区の「登録文化財一覧」と入力データで項目番号が1ずれる（データ行番号115は一覧では116）が、名称は一致。力石群は一覧で「9個」。(5) 烏亭焉馬の狂歌碑・力石の境内での位置、撫で牛の位置は出典で確かめられなかった。(6) 北斎の絵馬の復元展示は旅マガ（すみだ北斎美術館に展示）による。(7) 座標：区データ（35.712626,139.804857）と国土地理院の住所検索（35.712784,139.804947）は約20mで一致。(8) 三囲神社・墨堤の碑との距離は100m以上。向島二丁目3-5（資料館）とは約170m。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "社殿の前に、鳥居が三つ組み合わさった「三ツ鳥居」がある",
+     "confidence": "出典あり",
+     "source_url": "https://tabi-mag.jp/tk0751/"
+    },
+    {
+     "text": "撫で牛は黒く光る牛の像で、体の悪い所と同じ所を撫でる。境内のどこにあるかは出典で確かめられなかった",
+     "confidence": "出典あり",
+     "source_url": "https://www.gltjp.com/ja/directory/item/14468/"
+    },
+    {
+     "text": "狛犬の代わりの狛牛は社殿の横に安置されている",
+     "confidence": "出典あり",
+     "source_url": "https://www.gltjp.com/ja/directory/item/14468/"
+    },
+    {
+     "text": "境内は自由に入れる。4〜9月は5:00〜17:30、10〜3月は5:30〜17:00",
+     "confidence": "出典あり",
+     "source_url": "https://www.gltjp.com/ja/directory/item/14468/"
+    },
+    {
+     "text": "烏亭焉馬の狂歌碑や力石の位置は出典で確かめられなかった",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Nadeushi,_Ushijima_Shrine_in_Sumida,_Tokyo_2014-03-31.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nadeushi%2C_Ushijima_Shrine_in_Sumida%2C_Tokyo_2014-03-31.jpg/1280px-Nadeushi%2C_Ushijima_Shrine_in_Sumida%2C_Tokyo_2014-03-31.jpg",
+     "caption": "牛嶋神社の撫で牛",
+     "author": "Guilhem Vellut",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-42",
+   "name": "すみだ郷土文化資料館",
+   "kana": "すみだきょうどぶんかしりょうかん",
+   "lat": 35.713923,
+   "lon": 139.805933,
+   "address": "東京都墨田区向島二丁目3-5",
+   "kind": "博物館",
+   "indoor": true,
+   "access": "9:00〜17:00（入館は16:30まで）。休館は毎週月曜日、毎月第4火曜日（祝日の場合は翌日）、12月29日〜1月2日。入館料は個人100円、中学生以下と障害者手帳の所持者は無料（museum.or.jp の掲載。2026年11月13日に確認）",
+   "seasonal": [],
+   "riddle": "墨田区の歴史と伝統文化を、実物の資料や模型、パネルで紹介する常設展がある。区の文化財になった扁額や雛人形、中世の板碑なども、この施設の資料として登録されている。この施設の名は？",
+   "hints": [
+    {
+     "text": "隅田川の東側、向島二丁目の町なか。牛嶋神社と三囲神社のあいだあたり。",
+     "radius_m": 500
+    },
+    {
+     "text": "中に入って見学する施設で、個人は100円。月曜日は休み。中学生以下は無料。",
+     "radius_m": 250
+    },
+    {
+     "text": "区の歴史を扱う資料館で、名前は「すみだ」で始まり「資料館」で終わる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この施設の名前は？",
+    "display": "すみだ郷土文化資料館",
+    "accept": [
+     "すみだ郷土文化資料館",
+     "郷土文化資料館",
+     "すみだきょうどぶんかしりょうかん",
+     "きょうどぶんかしりょうかん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "墨田区の歴史と伝統文化を展示する区の資料館で、個人100円で入れる。榎本武揚筆の扁額「牛嶋学校」、雛人形、念仏講道具などが、区の文化財として資料館所蔵で登録されている。",
+   "long": "すみだ郷土文化資料館は、墨田区向島二丁目にある区の施設で、墨田区の歴史と伝統文化を、実物資料、模型、パネル、マルチメディアで紹介する常設展を設けている。入館料は個人100円で、中学生以下は無料。\n区の文化財一覧では、この資料館が所有者となっている資料が数多く登録されている。榎本武揚筆の木造扁額「牛嶋学校」（平成2年登録）、池田輝知筆の紙本墨書扁額「時敏塾」（平成5年登録）、橋本家旧蔵板碑、芥川家旧蔵と鈴木家旧蔵の雛人形、錦糸町駅北口遺跡出土の木製大小暦、柳嶋村念仏講道具一式と関連文書などである。このほか大沢家文書と江東橋二丁目遺跡出土土製品類も登録されているが、区のデータには「非公開」と注記されている。榎本武揚は、墨堤に立つ「墨堤植桜之碑」の題字（篆額）も書いている。\nなお、登録された資料のうち、いま常設展や企画展で見られるものがどれかは出典で確かめられていない。訪ねるときは、展示内容を資料館に確かめるとよい。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ郷土文化資料館",
+     "publisher": "公益財団法人日本博物館協会（museum.or.jp）",
+     "url": "https://www.museum.or.jp/museum/2317",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨堤植桜之碑",
+     "publisher": "個人サイト（asahi-net.or.jp、石碑の写真と碑文の紹介）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/bokutei_shokuou.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区データのこの住所の項目はすべて「墨田区（郷土文化資料館）」所有の資料で、住所は資料館の所在地。外から見えるのは資料館の建物だけなので、地点は資料館とした。(2) 大沢家文書・江東橋二丁目遺跡出土土製品類は区データで「非公開」。(3) 資料の内容（扁額の来歴など）は区データの名称以外に出典を確かめていないため、説明は名称・登録年にとどめた。(4) 榎本武揚が墨堤植桜之碑の篆額を書いた点は個人サイト（asahi-net）と区の資料（sakura06m.pdf）で確認（資料PDFは別地点 sumida-63 の出典）。(5) 開館時間などはmuseum.or.jpの掲載による。区や資料館の公式ページは確かめられていない。企画展は2026年12月12日〜2027年2月21日に「板碑－中世すみだの祈りのかたち－」の予定と同ページにあるが、本文には入れていない。(6) 座標：区データ（35.713923,139.805933）と国土地理院（35.713982,139.805923）は約7mで一致。(7) 区データの登録年は行によって表記が異なり、本文は区の登録文化財一覧の年（H2.7.19、H5.10.5）に従った。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "資料館は向島二丁目3-5にあり、中に入って見学する施設",
+     "confidence": "出典あり",
+     "source_url": "https://www.museum.or.jp/museum/2317"
+    },
+    {
+     "text": "9:00〜17:00（入館16:30まで）で、月曜日などは休み",
+     "confidence": "出典あり",
+     "source_url": "https://www.museum.or.jp/museum/2317"
+    },
+    {
+     "text": "建物の外観や入口の位置は出典で確かめられなかった",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-6",
+   "name": "三囲神社",
+   "kana": "みめぐりじんじゃ",
+   "lat": 35.71499,
+   "lon": 139.806798,
+   "address": "東京都墨田区向島二丁目5-17",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸の大干ばつのとき、ひとりの俳人が雨乞いの句を神前に捧げると、翌日に雨が降ったという。のちに江戸の豪商の守り神となったこの社には、デパートの入口にあるのと同じ型の動物の像も置かれている。この神社の名は？",
+   "hints": [
+    {
+     "text": "隅田川の東側、向島の堤の近く。江戸時代、対岸からは堤の上に鳥居だけが突き出して見え、浮世絵によく描かれた。",
+     "radius_m": 500
+    },
+    {
+     "text": "江戸に進出した三井家が守護神として厚く信仰した。境内には、百貨店ゆかりの銅像や、三本の柱でできた鳥居がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "社名は、数字の「三」と、取り囲むという意味の字に、「神社」がつく。社名の由来は、白い狐が神像のまわりを三度めぐったという伝説。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "三囲神社",
+    "accept": [
+     "三囲神社",
+     "みめぐりじんじゃ",
+     "三囲稲荷",
+     "三囲稲荷神社",
+     "みめぐりいなり"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "三柱鳥居、三越のライオン像（同型の銅像）、宝井其角の句碑、歌川国芳の顕彰碑",
+   "short": "社名は、神像のまわりを白狐が三度めぐったという伝説にちなむ。元禄6年（1693）に其角が雨乞いの句を捧げると翌日に雨が降ったと伝わり、三井家の守護神としても知られる。",
+   "long": "三囲神社は、旧村社で、もとは田中稲荷と称したとされる。社名の由来として、近江の三井寺の僧が小さな祠を改築しようと掘ると壺が出て、白狐に乗った老爺の神像が現れ、白狐が神像のまわりを三度めぐったという伝説が伝わる。\n元禄6年（1693）の大干ばつのとき、俳人の宝井其角が句を神前に捧げると翌日に雨が降ったといわれ、社名が広まった。其角の「雨乞いの句碑」は安永6年（1777）に建てられたが摩滅したため、明治6年（1873）に再建されたと、個人サイトの案内板の紹介にある。\n京都から江戸に進出した三井家は、江戸の守護神として厚く信仰した。向島が江戸の本町から鬼門の方角にあたることと、「囲」の字に「井」が含まれることが理由とされる。三井家の子孫の「三囲講」が祭祀を続け、三越などが交替で小祭を担当している。\n境内には、三柱鳥居、三つ穴の灯籠、石造の狛犬と神狐、明治6年に絵馬堂の脇に建てられた歌川国芳の顕彰碑がある。また、狛犬のそばには、三越デパート入口のものと同型のライオン像（2009年に三越から奉納）が置かれている。堤の下の大鳥居、本社、国芳碑、其角の句碑などが、墨田区の登録文化財となっている。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "三囲神社（Wikipedia）",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/三囲神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "三囲神社（個人サイト、境内の案内板の紹介）",
+     "publisher": "個人サイト（asahi-net.or.jp）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/mimeguri_shrine.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "三囲神社（すみだスポット）",
+     "publisher": "すみだ観光サポーター（visit-sumida.jp）",
+     "url": "https://visit-sumida.jp/spot/6087/",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 其角の句碑の年（安永6年建立、明治6年再建）は個人サイトの記述のみ。Wikipediaには句碑自体の説明がない。(2) ライオン像の経緯：個人サイトは「池袋三越に置かれていたライオン像を移設したもの」、Wikipediaは「2009年に三越から奉納、元は池袋三越の店頭」で一致。(3) 三柱鳥居はWikipediaに「三井邸より移す」とあるが、個人サイトは「三柱鳥居」の名称のみ。(4) 国芳碑はWikipediaの記述（明治6年、絵馬堂脇）。区の登録文化財になっている点は区データ・登録一覧による。(5) 参拝時間は出典で確かめられなかったため access は null。(6) 建立・創建年は「創立年代は不詳」（Wikipedia）で、個人サイトは「千年以上前」とするが本文では年を書いていない。(7) 座標：区データ（35.71499,139.806798）と国土地理院（35.714619,139.806839）は約40mで一致。(8) 墨堤の桜の地点（sumida-157）とは約74m、すみだ郷土文化資料館とは約120m離れている。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "境内に、三本の柱でできた石造の三柱鳥居がある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/三囲神社"
+    },
+    {
+     "text": "狛犬のそばに、三越デパートの入口にあるのと同型のライオン像（銅像）が置かれている",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/三囲神社"
+    },
+    {
+     "text": "本殿の右側の狐は口が開き、左側の狐は口が閉じている",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/mimeguri_shrine.html"
+    },
+    {
+     "text": "歌川国芳の顕彰碑は絵馬堂の脇にある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/三囲神社"
+    },
+    {
+     "text": "灯籠の火袋に三つの穴があいている",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/三囲神社"
+    },
+    {
+     "text": "堤の下の大鳥居や、其角の句碑の境内での位置は出典で確かめられなかった",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:MimeguriLionStatue.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/MimeguriLionStatue.jpg",
+     "caption": "三囲神社のライオン像",
+     "author": "tnoborio",
+     "license": "Public domain（ファイルページの表記）",
+     "license_url": null
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-157",
+   "name": "墨堤の桜",
+   "kana": "ぼくていのさくら",
+   "lat": 35.715077,
+   "lon": 139.805991,
+   "address": "東京都墨田区向島二丁目先～向島一丁目2",
+   "kind": "樹木",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      3,
+      4
+     ],
+     "note": "見頃は3月下旬〜4月上旬。墨田側では例年、桜まつりが開かれ、2026年は3月20日〜4月5日だった（旅マガ）"
+    }
+   ],
+   "riddle": "江戸のころ、将軍の命で桜が植えられ、のちに江戸の五大桜の名所に数えられた川沿いの堤。いまは墨田区の名勝になっている、この桜並木は？",
+   "hints": [
+    {
+     "text": "隅田川の東側の堤。川を挟んだ向かい側は台東区で、浅草の側にも桜が続く。",
+     "radius_m": 500
+    },
+    {
+     "text": "堤は向島の町に沿っている。春の見頃には桜まつりが開かれ、向島には芸者の茶屋もある。",
+     "radius_m": 250
+    },
+    {
+     "text": "「墨田川」の「墨」と、川の「堤」を表す字を組み合わせた二文字の呼び名で、桜の名所として知られる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この桜並木の名前は？",
+    "display": "墨堤の桜",
+    "accept": [
+     "墨堤の桜",
+     "墨堤",
+     "ぼくてい",
+     "ぼくていのさくら",
+     "隅田堤の桜"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "隅田川沿いの堤に続く桜並木",
+   "short": "隅田川東岸の堤に続く桜並木で、墨田区の名勝に登録されている。江戸の五大桜の名所に数えられ、八代将軍吉宗が植え足したと伝わる。見頃は3月下旬から4月上旬で、桜まつりが開かれる。",
+   "long": "墨堤の桜は、隅田川東岸の堤（隅田堤）に続く桜並木で、墨田区の名勝に登録されている。堤は江戸時代初期（1600年前後）に造られ、貞享2年（1685）には五代将軍綱吉の御成りを想定した隅田川御殿が整えられた。\n桜の植樹は、八代将軍吉宗の時代にさかのぼると伝わる。旅マガは、享保2年（1717）と享保11年（1726）の手入れに言及し、墨堤植桜之碑の碑文は、享保2年に吉宗が桜100本を植えさせたと記すという。区の資料は、享保10年（1725）に江戸城吹上御庭の桜やつつじが御前栽場と木母寺に植えられたとしている。四代将軍家綱が常陸の桜川から取り寄せて植えたという説は、江戸時代の史料に見えず、採用は難しいとされる。\n19世紀には、地元の人々の努力で植桜が南へ延び、明治13年（1880）には枕橋に達した。江戸中期から墨堤は江戸の五大桜の名所に数えられ、品種は染井吉野、大島桜、里桜などがある。見頃は3月下旬から4月上旬で、花の時期には桜まつりが開かれる。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "隅田公園の桜（旅マガ）",
+     "publisher": "旅マガ（tabi-mag.jp、掲載元の明記なし）",
+     "url": "https://tabi-mag.jp/sumidaparksakura/",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "隅田堤の植桜（すみだ郷土文化資料館の資料）",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/sakura06.files/sakura06m.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨堤植桜之碑（碑文の紹介）",
+     "publisher": "個人サイト（asahi-net.or.jp）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/bokutei_shokuou.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 植樹の経緯は出典ごとに食い違う：碑文の紹介（asahi-net）は1717年に吉宗が100本、旅マガは1717年と1726年の手入れ、区の資料は1725年に吹上御庭の桜を移植。本文は並べて書いた。家綱説は区の資料が採用困難としている。(2) 見頃と桜まつりの日程は旅マガ（2026年）による。区の公式ページの見頃は確かめられなかった。(3) 木の本数は出典で食い違う（約1,000本、墨田側343本、約510本など）ため本文に書いていない。(4) 地点は並木が長く続く帯状の名勝で、区データの座標は向島二丁目先付近。三囲神社（sumida-6）とは約74m離れる。(5) 区の名勝の範囲や、並木のどこから見ればよいかは出典で確かめられなかった。(6) 隅田公園内で、入場の制約の有無は出典で確かめられなかったため access は null。(7) 座標は住所に番地がなく、国土地理院で向島二丁目（35.715145,139.806824）と約70mで一致。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "隅田川東岸の堤に沿って桜並木が続く",
+     "confidence": "出典あり",
+     "source_url": "https://tabi-mag.jp/sumidaparksakura/"
+    },
+    {
+     "text": "春の見頃には、墨田側で桜まつりが開かれる",
+     "confidence": "出典あり",
+     "source_url": "https://tabi-mag.jp/sumidaparksakura/"
+    },
+    {
+     "text": "並木のうち、区の名勝として示された範囲は出典で確かめられなかった",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "近くの三囲神社は、この地点から約70〜80m東寄り（区データの座標による）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-63",
+   "name": "墨堤植桜之碑と石造墨堤永代常夜燈",
+   "kana": "ぼくていしょくおうのひとせきぞうぼくていえいたいじょうやとう",
+   "lat": 35.717585,
+   "lon": 139.808453,
+   "address": "東京都墨田区向島五丁目1",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": "隅田公園内の屋外（区の登録文化財一覧に「隅田公園内」とある）。入れる時間などの制約は出典で確認できず",
+   "seasonal": [],
+   "riddle": "明治20年に建てられた大きな石碑には、隅田川の堤に桜が植え継がれた歴史が刻まれている。題字を書いたのは榎本武揚。近くには、石の灯籠も立つ。この石碑を探せ。",
+   "hints": [
+    {
+     "text": "隅田川の東側、向島五丁目の堤の公園。春には桜で知られる並木の続く場所。",
+     "radius_m": 500
+    },
+    {
+     "text": "碑文は漢字だけで、題字は篆書体。碑のそばには区の説明板もあるとされる。石の灯籠も近くにある。",
+     "radius_m": 250
+    },
+    {
+     "text": "「墨堤」で始まり、「碑」で終わる名前。桜を植えた歴史を刻んでいる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この碑の名前は？",
+    "display": "墨堤植桜之碑",
+    "accept": [
+     "墨堤植桜之碑",
+     "ぼくていしょくおうのひ",
+     "墨堤植桜碑"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "黒い石の碑（墨堤植桜之碑）。近くに石の常夜燈",
+   "short": "明治20年（1887）建立の石碑で、隅田公園内に立つ。榎本武揚が題字を書き、墨堤に桜が植え継がれた歴史を刻む。近くには、牛嶋神社が所有する区指定の石造墨堤永代常夜燈も立つ。",
+   "long": "墨堤植桜之碑は、墨田区向島五丁目の隅田公園内に立つ石碑で、明治20年（1887）に建てられた。堤が崩れて碑が傾いたため、明治29年（1896）に移されたという。題字（篆額）は榎本武揚が書いた。碑文の紹介によると、碑には、四代将軍家綱の代に桜が植えられたことや、享保2年（1717）に八代将軍吉宗が桜100本を植えさせたこと、地元の坂田家など堤を守り続けた人々のこと、弘化3年（1846）の洪水で堤が決壊したとき、一人で堤を修復した人物に感謝して村人が桜を植えたことなどが記されている。大倉喜八郎と成島柳北が景勝を守る「白鷗社」をおこしたことも刻まれているという。ただし家綱の代の植樹については、区の資料は江戸時代の史料に見えず採用は難しいとしている。\n近くには、牛嶋神社が所有する石造の「墨堤永代常夜燈」がある。区のデータでは、これも歴史資料として登録され、区指定文化財の扱いになっている。昭和12年（1937）に師岡宏次が撮影した、この灯籠と桜の写真が江戸東京博物館に収蔵されている。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨堤植桜之碑（碑文の紹介）",
+     "publisher": "個人サイト（asahi-net.or.jp、石碑の写真と碑文の紹介）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/bokutei_shokuou.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "隅田堤の植桜（すみだ郷土文化資料館の資料）",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/sakura06.files/sakura06m.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "石造墨堤永代常夜燈と桜（師岡宏次撮影の写真）",
+     "publisher": "江戸東京博物館（デジタルアーカイブ）",
+     "url": "https://www.edohakuarchives.jp/detail-296011.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区データの2件（石造墨堤永代常夜燈 行63、墨堤植桜之碑 行65）は約57m離れており、50m以内に重ならないよう1地点にまとめた。座標は先頭の行63（常夜燈）の値。碑（35.717722,139.809058）は約57m離れるため、到着判定の半径50mでは碑の側で外れる可能性がある。国土地理院の住所検索「向島五丁目1番」は35.717705,139.808121で、常夜燈の座標から約30m、碑からは約85m。(2) 弘福寺（sumida-7）とは常夜燈の座標から約67m、碑の座標から約68m。(3) 碑文の内容は個人サイトの要約で、碑文の原文の翻刻ではない。撰文者の名は出典で読み取れなかったので書いていない。「家綱の代に植樹」は碑文の内容として紹介し、区の資料の否定的な見解を併記した。(4) 吉宗の植樹年は区の資料では1725年に吹上御庭の桜を移植、碑文の紹介では1717年に100本。(5) 常夜燈は、建立年・形・大きさ・所在の目印を出典で確かめられなかった。区の登録文化財一覧の「墨田区指定文化財」という注記と、江戸東京博物館の写真の題名（1937年）だけが根拠。ブログ（japanarekore.blogspot.com）は竹屋の渡し跡付近とするが、確かめが弱いので使っていない。(6) 碑の外観（大きさ・台座）は出典で確かめられなかった。個人サイトの写真では黒い石に見える。(7) 区の登録文化財一覧は碑の所在を「隅田公園内」としている。個人サイトによると区の説明板「隅田公園散策解説板8」が立つ。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は、題字が篆書体の黒っぽい石碑で、碑文は漢字だけで刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/bokutei_shokuou.html"
+    },
+    {
+     "text": "碑のそばに、区の「隅田公園散策解説板」（墨堤植桜之碑と桜勧進の解説）がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/bokutei_shokuou.html"
+    },
+    {
+     "text": "場所は隅田公園内（向島五丁目1番）で、屋外にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html"
+    },
+    {
+     "text": "石造の墨堤永代常夜燈が近くにあるが、位置と形は出典で確かめられなかった",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "近くの弘福寺は約70m南東",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-7",
+   "name": "弘福寺",
+   "kana": "こうふくじ",
+   "lat": 35.717119,
+   "lon": 139.808921,
+   "address": "東京都墨田区向島五丁目3-2",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内は5:00〜17:30、定休日なし（さんたつの掲載。拝観の条件は記載なし）。区のデータで「非公開」の絵画資料・鐵牛禅師倚像は見られない。池田冠山墓の境内での位置や参拝の可否は出典で確かめられなかった",
+   "seasonal": [],
+   "riddle": "小田原城主が開基となった黄檗宗の寺。境内には、風邪や咳に効くと信じられる、爺と婆の二体の像が祀られている。この寺の名は？",
+   "hints": [
+    {
+     "text": "隅田川の東側、向島。とうきょうスカイツリー駅から歩いて12分ほどの、堤に近い寺。",
+     "radius_m": 500
+    },
+    {
+     "text": "京都の萬福寺の末寺で、黄檗宗特有の唐風建築の本堂や山門がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "「牛頭山」と号する寺。寺名は「こう」で始まる三文字で、風邪除けの「咳の爺婆尊」で知られる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "弘福寺",
+    "accept": [
+     "弘福寺",
+     "こうふくじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "黄檗宗の本堂（大雄寳殿）、山門、咳の爺婆尊の小さなほこら",
+   "short": "牛頭山と号する黄檗宗の寺で、開山は鐵牛道機、開基は小田原城主の稲葉正則。昭和8年（1933）竣工の本堂は区指定文化財。風邪除けの「咳の爺婆尊」でも知られる古刹。",
+   "long": "弘福寺は、牛頭山と号する黄檗宗の寺で、京都の萬福寺の末寺にあたる。創建は延宝元年（1673）または2年とされ、開山は鐵牛道機、開基は稲葉正則。稲葉正則は小田原城主で、寺は稲葉家の菩提寺だった。現在の伽藍は関東大震災後に復興されたものである。\n本堂（大雄寳殿）は昭和4年（1929）に起工し、昭和8年（1933）に竣工した。棟梁は和田政吉。二重の礼堂に、一重の後堂が接続する複合仏殿で、萬福寺の大雄宝殿のように裳階が付くように見えるが、実際は上重の柱が土居桁の上に建つ二重仏堂だという。月台、聯額、棟飾りなど黄檗宗の大雄宝殿の形式を備え、平成29年（2017）に墨田区の指定文化財となった。\n境内の小さなほこらには、「咳の爺婆尊」と呼ばれる爺像と婆像が祀られている。寺の由緒書きによると、江戸寛永年間の禅僧・風外が洞窟で彫った像を稲葉正則が譲り受け、のち弘福寺に寄贈されたといい、「風外」にちなんで風邪に効くという言い伝えが広まった。\n区のデータには、釈迦如来坐像、梵鐘、史跡の池田冠山墓も載る。池田冠山は因幡若桜藩の第5代藩主、池田定常の号で、墓所の一つが弘福寺とされる。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "弘福寺本堂（大雄寳殿）",
+     "publisher": "文化庁 文化遺産オンライン",
+     "url": "https://online.bunka.go.jp/heritages/detail/398785",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区の記事（咳の爺婆尊の由緒）",
+     "publisher": "墨田区（city.sumida.lg.jp）",
+     "url": "https://www.city.sumida.lg.jp/wadai/r6/070225.files/070225.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "弘福寺（さんたつ）",
+     "publisher": "さんたつ by 散歩の達人",
+     "url": "https://san-tatsu.jp/articles/107157/",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "池田定常",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/池田定常",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 本堂の情報は文化遺産オンライン（区指定の説明）による。創建は延宝元年（1673）または2年と書かれている。さんたつは延宝元年とする。(2) 咳の爺婆尊は区の記事（寺の由緒書きの紹介）による。作者の風外の件は区の記事のみで、さんたつは作者の説明を載せていない。観光PDF（course09.pdf）は「咳の但婆尊」と表記しており誤記と思われる。(3) 池田冠山墓：区データの「池田冠山」と、Wikipediaの「池田定常（号は冠山、墓所は弘福寺）」が同一人物と判断したのは名前の一致による。墓の境内での位置、参拝できるかは出典で確かめられなかったため、謎や答えには使っていない（規則8）。(4) 勝海舟が剣術の師の勧めでこの寺で座禅をしたという伝えが観光PDFにあるが、1件の出典のみのため本文に入れていない。(5) 山門の外観は出典で確かめられなかった（さんたつが「唐風建築の本堂や山門」と書くのみ）。江戸東京博物館の写真（1956年）に山門と本堂の題名があるが、画像は確認できず。(6) 座標：区データ（35.717119,139.808921）と国土地理院（35.717144,139.809067）は約14mで一致。(7) 墨堤の碑・常夜燈（sumida-63）とは約67〜68m離れる。(8) 牛嶋神社の旧社地が弘福寺のそばにあったという記述（Wikipedia）は、遷座の場所が出典で食い違うため使っていない。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "唐風の本堂（大雄寳殿）があり、黄檗宗の形式の外観",
+     "confidence": "出典あり",
+     "source_url": "https://online.bunka.go.jp/heritages/detail/398785"
+    },
+    {
+     "text": "本堂は二重の礼堂に後堂が続く形。月台や聯額、棟飾りがある",
+     "confidence": "出典あり",
+     "source_url": "https://online.bunka.go.jp/heritages/detail/398785"
+    },
+    {
+     "text": "境内の小さなほこらに、爺像と婆像の「咳の爺婆尊」が祀られている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/wadai/r6/070225.files/070225.pdf"
+    },
+    {
+     "text": "境内は5:00〜17:30で、定休日はない",
+     "confidence": "出典あり",
+     "source_url": "https://san-tatsu.jp/articles/107157/"
+    },
+    {
+     "text": "山門の外観や、ほこらの位置は出典で確かめられなかった",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-52",
+   "name": "長命寺",
+   "kana": "ちょうめいじ",
+   "lat": 35.717594,
+   "lon": 139.809165,
+   "address": "東京都墨田区向島五丁目4-4",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "三代将軍が鷹狩りの途中で腹を痛め、境内の井戸の水で薬を飲んだら治ったと伝わる。将軍はその水に名を付け、寺の名もそれにちなんで改めたという。門前では、桜の葉で餅を包む菓子が生まれた。この寺の名を探せ。",
+   "hints": [
+    {
+     "text": "向島五丁目。隅田川の東岸、桜と雪の名所として知られた一帯。",
+     "radius_m": 500
+    },
+    {
+     "text": "もとは「宝樹山常泉寺」と号した天台宗の寺。「芭蕉雪見の寺」としても知られる。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名に「命」の字を持つ。門前に、桜もち発祥の地として知られる店がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "長命寺",
+    "accept": [
+     "長命寺",
+     "ちょうめいじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内に芭蕉の「雪見」の句碑や勝川春英を記念する碑など、多数の碑がある（出典で確かめた範囲）。",
+   "short": "天台宗の寺。三代将軍家光が鷹狩りの途中で境内の井戸水を飲んで治ったことから寺名を改めたと伝わる。芭蕉の雪見の句碑や勝川春英の碑があり、門前は桜もち発祥の地として知られる。",
+   "long": "長命寺は墨田区向島五丁目4番4号にある天台宗の寺で、本尊は阿弥陀如来、隅田川七福神の一つとして弁財天を安置する（Wikipedia）。もとは宝樹山常泉寺と号したが、三代将軍徳川家光が鷹狩りの途中で腹を痛め、寺の井戸の水で薬を飲んだところ治ったため、寺名を改めたと伝わる（墨田区観光協会、ジャパンナレッジ）。\n\n区の文化財データには、この寺の碑や墓など6件が載る。松尾芭蕉「いざさらば」の句碑（雪見の句碑）は「いざさらば雪見にころぶ所まで」の句を刻み、個人の解説ページによれば、安政五年（1858）に自在庵（芭蕉庵）を再興した三世祗徳が建てた。「勝川春英翁略傳」の碑は北斎の兄弟子・勝川春英を記念する碑で、区の広報によれば、碑文には、春英の絵を高く評価した声や、奇抜な格好で町を歩いたなどの逸話が刻まれている。ほかに、庚申塔（地蔵菩薩）、出羽三山の碑、橘守部・橘冬照の墓（史跡）が区データに載る。ジャパンナレッジの記事は、境内に四十余りの句碑や人物碑があると伝える。\n\n門前は、享保2年（1717）創業の「山本や」の長命寺桜もちで知られ、隅田川の堤の桜の葉の塩漬けで餅を包む桜もち発祥の地とされる。明治21年（1888）には正岡子規が、境内にあった桜もち屋「月香楼」の二階に三か月ほど仮寓した（Wikipedia）。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "長命寺 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/長命寺_(墨田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区観光協会 散策コース（長命寺桜もちの記述）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course23.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "堀口茉純のやっぱり江戸が好き！ 向島のいま③",
+     "publisher": "ジャパンナレッジ",
+     "url": "https://japanknowledge.com/articles/edolove/013.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ区報 2014年10月1日号（史跡めぐりの案内）",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kuhou/backnum/141001/pdf/kuhou02_03.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "長命寺（個人の解説ページ）",
+     "publisher": "個人サイト（asahi-net）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/choumeiji.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区データの座標（35.717594,139.809165）は Wikipedia の座標とほぼ一致。国土地理院の住所検索は経度が約30m東（139.809464）。そのまま使った。(2) 同じ住所の6件を1地点にまとめた。「隅田川七福神めぐり」（行番号150）は行事で、長命寺では弁財天（Wikipedia）。観光協会のガイドブック（kanko_book.pdf）の要約に「福禄寿」とあったが、自分で全文を確かめておらず、本文には具体名を書かなかった。(3) 句碑の建立（安政五年・祗徳）は個人サイトの記述のみで、区や寺の資料では確かめていない。(4) 橘守部墓・出羽三山の碑・庚申塔は、区データの名称以上の説明を出典で確かめられず、境内のどこにあるかも不明。墓の参拝可否も不明なので access は null。(5) 桜もち屋「山本や」の営業時間は観光協会PDFに「8:30〜18:00、月曜休」とあるが、本文には入れていない。(6) 勝川春英碑の碑文内容は区報の要約に拠る。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は石碑。本堂から見て左手の庭に石碑がいくつも並び、その先に隅田川の堤へ出る道がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/choumeiji.html"
+    },
+    {
+     "text": "芭蕉の雪見の句碑には「いざさらば雪見にころぶ所まで」と刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/choumeiji.html"
+    },
+    {
+     "text": "本堂の右手に弁財天の碑がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/choumeiji.html"
+    },
+    {
+     "text": "境内には四十余りの句碑や人物碑がある",
+     "confidence": "出典あり",
+     "source_url": "https://japanknowledge.com/articles/edolove/013.html"
+    },
+    {
+     "text": "境内には幕末の外国奉行・成島柳北の碑もある",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/uploads/2017/03/course09.pdf"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-41",
+   "name": "秋葉神社",
+   "kana": "あきばじんじゃ",
+   "lat": 35.716955,
+   "lon": 139.812858,
+   "address": "東京都墨田区向島四丁目9-13",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸の人々が親しみを込めて「山」や「大権現」と呼んだ、火伏せの神を祀る社。将軍家や大奥、大名の信仰を集め、紅葉の名所として広重が江戸百景に描いた。いまは境内が小さくなったが、本殿は昔とほぼ同じ場所にある。この神社の名を探せ。",
+   "hints": [
+    {
+     "text": "向島四丁目。東武スカイツリーラインの東向島駅から徒歩8分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "国道6号（水戸街道）の南側。江戸時代はここに庭園のある寺と料理店が並ぶ行楽地があった。",
+     "radius_m": 250
+    },
+    {
+     "text": "鎮火の神である「秋葉権現」を祀る神社。境内に江戸時代の石燈籠が残る。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "秋葉神社",
+    "accept": [
+     "秋葉神社",
+     "あきばじんじゃ",
+     "請地秋葉",
+     "うけじあきば"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "本殿と、大名が寄進した江戸時代の石燈籠（区データに寛保元年銘・宝永元年銘・宝永二年銘が各2基）。",
+   "short": "13世紀の創建と伝わり、鎮火の神・秋葉権現を祀って江戸で名高かった神社。将軍家や大奥、大名の信仰を集め、広重が『名所江戸百景』に描いた。江戸時代の石燈籠が残る。",
+   "long": "向島四丁目9番13号の秋葉神社は、江戸では「請地（うけじ）の秋葉」の名で知られた神社である。Wikipedia は、正応年間（1288〜1293）の創建で、はじめは稲荷神のみを祀り、のちに遠江国周智郡の秋葉権現の分霊を勧請したと記す。nippon.com の記事は、社伝では13世紀に千代世稲荷社として創建され、江戸初期に修験僧が鎮火の神・秋葉権現の尊像を祀り、元禄15年（1702）に社殿が造営されて別当寺の満願寺も建ち、「秋葉稲荷両社」と呼ばれたと紹介する。\n\n江戸時代の境内は約7000坪あり、火伏せの神として徳川将軍家や大奥、多くの大名の信仰を集めた。満願寺には林泉（庭園）が造られ、門前には料理店も並び、四季の行楽客でにぎわい、特に紅葉の名所だった。歌川広重も『名所江戸百景』に「請地秋葉の境内」を描いている。明治元年（1868）に満願寺が廃寺となって林泉は失われ、境内も大幅に縮小したが、本殿は現在も江戸時代とほぼ同じ場所にある。\n\n区の文化財データには、寛保元年銘・宝永元年銘・宝永二年銘の石燈籠が各2基（計6基）と、非公開の秋葉神社文書104点が載る。Wikipedia は、各大名から寄進された石燈籠が残ると記す。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "秋葉神社 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/秋葉神社_(墨田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "『請地秋葉の境内』：浮世写真家 喜千也の「名所江戸百景」第77回",
+     "publisher": "nippon.com",
+     "url": "https://www.nippon.com/ja/guide-to-japan/gu004077/",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 座標は区データ（35.716955,139.812858）。Wikipedia の座標と一致、国土地理院の住所検索とも約25m。(2) 創建は Wikipedia が正応年間（1288〜1293）、nippon.com が社伝で13世紀の千代世稲荷社創建とし、時期は矛盾しないが書き方が違う。本文では両方を出典名つきで書いた。(3) 区の公式ページや神社公式の説明は見つけられず、由緒は Wikipedia（出典は『墨田区史跡散歩』）と nippon.com に拠る。(4) 石燈籠が境内のどこにあるか、現在の境内の様子（鳥居・社殿の外観）は出典で確かめていない。access は null。(5) 秋葉神社文書は非公開なので謎には使わず、存在だけ触れた。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は神社の本殿と、境内に残る大名寄進の石燈籠",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/秋葉神社_(墨田区)"
+    },
+    {
+     "text": "本殿は今も江戸時代とほぼ同じ場所にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.nippon.com/ja/guide-to-japan/gu004077/"
+    },
+    {
+     "text": "神社のすぐ北側を国道6号（水戸街道）が通り、周辺はビルや住宅が並ぶ",
+     "confidence": "出典あり",
+     "source_url": "https://www.nippon.com/ja/guide-to-japan/gu004077/"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:NDL-DC_1303297-Utagawa_Hiroshige-%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF_%E8%AB%8B%E5%9C%B0%E7%A7%8B%E8%91%89%E3%81%AE%E5%A2%83%E5%86%85.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/NDL-DC_1303297-Utagawa_Hiroshige-%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF_%E8%AB%8B%E5%9C%B0%E7%A7%8B%E8%91%89%E3%81%AE%E5%A2%83%E5%86%85.jpg/1280px-NDL-DC_1303297-Utagawa_Hiroshige-%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF_%E8%AB%8B%E5%9C%B0%E7%A7%8B%E8%91%89%E3%81%AE%E5%A2%83%E5%86%85.jpg",
+     "caption": "歌川広重『名所江戸百景 請地秋葉の境内』（国立国会図書館蔵）",
+     "author": "歌川広重",
+     "license": "パブリックドメイン",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-15",
+   "name": "木母寺",
+   "kana": "もくぼじ",
+   "lat": 35.733936,
+   "lon": 139.814255,
+   "address": "東京都墨田区堤通二丁目16-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      4
+     ],
+     "note": "4月15日に梅若丸の法要「梅若忌」が行われる"
+    }
+   ],
+   "riddle": "都から人買いにさらわれた少年が、この川のほとりで力尽きた。子を探して旅した母の悲しみは、謡曲や浄瑠璃にもなった。少年を弔って築かれた塚の伝説を伝える寺を探せ。",
+   "hints": [
+    {
+     "text": "堤通二丁目。隅田川の東岸で、東武伊勢崎線の鐘ヶ淵駅から徒歩7分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "天台宗の寺。山号は「梅柳山」。江戸時代、境内には将軍家の御殿があった。",
+     "radius_m": 250
+    },
+    {
+     "text": "能の「隅田川」で知られる少年の供養に始まる寺。寺名の音は「もく」で始まる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "木母寺",
+    "accept": [
+     "木母寺",
+     "もくぼじ",
+     "梅若寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "区データの碑2基（「天下之糸平」の碑、亀田鵬斎の漢詩碑）が境内にある。梅若塚の跡地は隣の梅若公園（資料館だより）。",
+   "short": "平安中期、人買いにさらわれ隅田川のほとりで亡くなった梅若丸を弔った塚に始まる天台宗の寺。謡曲『隅田川』などで知られる梅若伝説の地で、毎年4月15日に梅若忌が営まれる。",
+   "long": "木母寺は墨田区堤通二丁目16番1号にある天台宗の寺で、山号は梅柳山、別名を梅若寺という。寺の公式サイトによれば、梅若丸が亡くなった地に、忠円阿闍梨が貞元年間に念仏堂を建てたのが起こりで、能「隅田川」で知られる梅若伝説の発祥の地である。梅若丸は人買いにさらわれてこの地で亡くなった少年で、その子を探して旅をした母の物語が、謡曲や浄瑠璃などの「隅田川物」を生んだ。毎年4月15日には、梅若丸の法要「梅若忌」が行われる（墨田区観光協会）。\n\n江戸時代、境内には将軍家の「隅田川御殿」があった。歌川広重の『名所江戸百景』には「木母寺内川御前栽畑」として描かれている。明治の神仏分離で寺は廃され梅若神社となったが、明治21年（1888）に寺として再興された。すみだ郷土文化資料館の資料によれば、塚の側にあった木母寺は昭和53年（1978）に現在地へ移り、塚の跡地は梅若公園に保存されている。\n\n区の文化財データには、寺の所蔵品として「梅若権現御縁起」（区指定）や近衛信尹の墨跡、都鳥手鑑（いずれも非公開）のほか、境内の碑として「天下之糸平」の碑と、亀田鵬斎「題隅田堤櫻花」の漢詩碑が載る。非公開の所蔵品は見られないので、この地点では寺の由来を知る手がかりにとどめる。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区指定文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumidak_shitei.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "木母寺（公式サイト）",
+     "publisher": "木母寺",
+     "url": "https://mokuboji.org",
+     "kind": "寺社",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "木母寺（墨田区観光協会）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/?p=454",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鎌倉街道下ノ道 歴史と伝統が交差する幻の道を歩こう！（散策コース）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ郷土文化資料館だより 第73号（2025年12月発行）",
+     "publisher": "墨田区すみだ郷土文化資料館",
+     "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/waka07.files/miyakodori73.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "木母寺",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/木母寺",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 入力の住所単位の座標（35.423292,139.493784）は大きく外れており使えない。同じ住所の木母寺の各レコード（35.733936,139.814255）を採った。Wikipedia の木母寺の座標（35.73392,139.81428）と一致。国土地理院の住所検索（堤通二丁目16番）は 35.734203,139.814743 で約50m。(2) 同じ住所に載っていた行番号13（吉野家住宅主屋及び表門、座標35.4233は異常）と行番号14（實相寺熊谷稲荷堂、座標35.70591,139.800125で別の場所）は木母寺のものではないため外した。id は木母寺の最初の行番号15。(3) 開創年が出典で食い違う：公式サイトは977年（貞元2年）に念仏堂建立・塚は976年（貞元元年）、観光協会は976年（貞元元年）開山、Wikipedia は976年に塚を築いたとする。本文は「貞元年間」とした。(4) 「天下之糸平」の碑・亀田鵬斎の漢詩碑は区データの名称以外の説明を出典で確かめられず、境内のどこにあるかも不明。(5) 梅若塚が現在どこにあるか出典で確かめられていない（資料館だよりは「塚の跡地が梅若公園に保存」とする）ので、謎・ヒントには使わず、onsite にも断定を避けて書いた。(6) 拝観時間・入れる範囲は出典で確かめられず access は null。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は寺の境内。区データの碑（「天下之糸平」の碑、亀田鵬斎の漢詩碑）が境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv"
+    },
+    {
+     "text": "木母寺は昭和53年（1978）に現在地へ移った寺で、梅若塚の跡地は隣の梅若公園に保存されている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/waka07.files/miyakodori73.pdf"
+    },
+    {
+     "text": "梅若公園には榎本武揚の銅像もある（別地点）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:NDL-DC_1303298-Utagawa_Hiroshige-%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF_%E6%9C%A8%E6%AF%8D%E5%AF%BA%E5%86%85%E5%B7%9D%E5%BE%A1%E5%89%8D%E6%A0%BD%E7%95%91.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/NDL-DC_1303298-Utagawa_Hiroshige-%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF_%E6%9C%A8%E6%AF%8D%E5%AF%BA%E5%86%85%E5%B7%9D%E5%BE%A1%E5%89%8D%E6%A0%BD%E7%95%91.jpg/1280px-NDL-DC_1303298-Utagawa_Hiroshige-%E5%90%8D%E6%89%80%E6%B1%9F%E6%88%B8%E7%99%BE%E6%99%AF_%E6%9C%A8%E6%AF%8D%E5%AF%BA%E5%86%85%E5%B7%9D%E5%BE%A1%E5%89%8D%E6%A0%BD%E7%95%91.jpg",
+     "caption": "歌川広重『名所江戸百景 木母寺内川御前栽畑』（国立国会図書館蔵）",
+     "author": "歌川広重",
+     "license": "パブリックドメイン",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-12",
+   "name": "隅田川神社",
+   "kana": "すみだがわじんじゃ",
+   "lat": 35.732617,
+   "lon": 139.812738,
+   "address": "東京都墨田区堤通二丁目17-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "川の浮洲に亀に乗った神が上陸し、この川の総鎮守になったと伝わる。狛犬の代わりに、石の亀が置かれているという。幕末に建て直された権現造の社殿は、近年、区の文化財に指定された。この神社を探せ。",
+   "hints": [
+    {
+     "text": "堤通二丁目。東武伊勢崎線の鐘ヶ淵駅から徒歩7分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "周辺は東白鬚公園。かつて木々が茂り、洪水でも沈まなかったので昔は別の名で呼ばれた。",
+     "radius_m": 250
+    },
+    {
+     "text": "川の名を冠した総鎮守。境内に亀の石像があり、社殿は安政・元治に建てられた。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "隅田川神社",
+    "accept": [
+     "隅田川神社",
+     "すみだがわじんじゃ",
+     "水神社",
+     "すいじんしゃ",
+     "水神宮",
+     "浮島神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "権現造の社殿（拝殿・幣殿・本殿）。境内に矢掛弓雄ゆかりの石碑群や歌碑、亀の石像があると出典に載る。",
+   "short": "亀に乗った神が浮洲に上陸し、隅田川の総鎮守になったと伝わる神社。もとは「水神さん」と呼ばれた。拝殿は安政5年、本殿・幣殿は元治元年の築で、令和6年に区指定文化財となった。",
+   "long": "隅田川神社は墨田区堤通二丁目17番1号にあり、「水神社」「水神さん」の名で親しまれてきた神社である。墨田区観光協会の資料は、亀に乗った水神が浮洲に上陸して隅田川の総鎮守の神になったとされ、狛犬の代わりに狛亀が鎮座すると紹介する。かつて樹木が茂って「水神の森」と呼ばれ、川が増水しても沈まないことから「浮島」の名もあり、河川交通の要衝として海運・運送業者に尊崇された。Wikipedia は、創建は不詳で源頼朝の創建という言い伝えがあり、もとの名は浮島神社で、明治5年（1872）に現社名に改めたと記す。\n\n社殿は、区の資料によれば、拝殿が安政5年（1858）、本殿・幣殿が元治元年（1864）に建てられ、棟札で確かめられている。本殿・幣殿・拝殿が連なる権現造で、蟇股や虹梁、脇障子などの彫刻が豊富である。安政江戸地震で嘉永元年に再建された旧社殿が倒壊したのち、現在の社殿が建て直された。令和2年に区登録有形文化財となり、区内では希少な江戸時代の神社建築として、令和6年10月24日に区指定有形文化財に指定された。\n\n幕末から明治にかけての社掌・矢掛弓雄の歌碑や記念碑が数多く残り、区データには矢掛弓雄関係石碑群（7基）、木阿弥（元杢網）「けふよりも」の歌碑、隅田川神社資料（763点）などが載る。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録有形文化財（建造物）隅田川神社社殿を墨田区指定有形文化財に指定しました",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/new_shoukai/shiteibunkazai.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "隅田川神社",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/wp/spot/6131",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鎌倉街道下ノ道 歴史と伝統が交差する幻の道を歩こう！（散策コース）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "隅田川神社の場所について知りたい。（よくある質問）",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/faq/sisetu_info/sonotasisetu/1111.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "隅田川神社",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/隅田川神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 座標は区データ（35.732617,139.812738）。Wikipedia の座標（35.73278,139.81272）と一致。ただし国土地理院の住所検索（堤通二丁目17番）は 35.733978,139.813828 で約170m離れる。住所検索は番の代表点なので区データを採った。(2) 同じ住所に載っていた行番号91（義士墓（那珂湊戦争関連資料））と92（回向院の石造歴史災害供養塔群）は所有者が回向院、座標も両国（35.693）で、この神社のものではないので外した。(3) 「亀に乗った水神」「狛亀」は観光協会の散策コースPDFの記述。観光協会の施設ページは「石亀」とあり、狛亀という語はない。亀の石像が境内のどこにあるかは出典で確かめていない。(4) 創建は不詳で、頼朝創建は言い伝え（Wikipedia）。旧称は Wikipedia が「浮島神社」、観光協会は「水神社」「水神の森」「浮島」。accept にはこれらを入れた。(5) 社殿の建築年は区の指定のお知らせによる。(6) 区データ行番号93（無琴道人墓銘の碑）は入力にないので触れていない。(7) 参拝可能な時間は出典になく access は null。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は社殿。拝殿・幣殿・本殿が連なる権現造で、屋根飾りや彫刻が多い",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/new_shoukai/shiteibunkazai.html"
+    },
+    {
+     "text": "境内に石亀や船の錨が祀られている",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/wp/spot/6131"
+    },
+    {
+     "text": "矢掛弓雄の歌碑・記念碑が多数残る",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/wp/spot/6131"
+    },
+    {
+     "text": "神楽殿を中心に隅田囃子の活動が行われる",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/wp/spot/6131"
+    },
+    {
+     "text": "周辺は東白鬚公園になっている",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/隅田川神社"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-25",
+   "name": "銅造榎本武揚像",
+   "kana": "どうぞうえのもとたけあきぞう",
+   "lat": 35.733019,
+   "lon": 139.815519,
+   "address": "東京都墨田区堤通二丁目6-10（梅若公園内）",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "下町の風情を好み、晩年を向島で過ごして、堤の道を毎日のように馬で散歩したという人物。大正の初めに建てられた銅像は、勲章や軍刀まで細かく写している。公園に立つこの人物は誰か。",
+   "hints": [
+    {
+     "text": "堤通二丁目。隅田川の東岸、東武伊勢崎線の鐘ヶ淵駅の近く。",
+     "radius_m": 500
+    },
+    {
+     "text": "区の「梅若公園」の中。近くに、梅若伝説で知られる寺がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "幕末から明治に活躍した政治家の銅像。名は「武」の字を含み、晩年は向島に住んだ。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この銅像の人物の名前は？",
+    "display": "榎本武揚",
+    "accept": [
+     "榎本武揚",
+     "えのもとたけあき"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "梅若公園内の銅像（墨田区の登録文化財、所有は墨田区道路公園課）。",
+   "short": "大正2年（1913）に建てられた榎本武揚の銅像。榎本は下町の情緒を好んで晩年を向島で暮らし、墨堤を毎日馬で散歩したという。勲章や軍刀まで忠実に再現され、梅若公園に立つ。",
+   "long": "墨田区堤通二丁目6番10号の梅若公園には、榎本武揚の銅像が立つ。区の文化財データでは「銅造榎本武揚像」（有形文化財・彫刻）で、平成12年（2000）12月に登録され、所有者は墨田区（道路公園課）である。\n\n墨田区観光協会の散策コースの資料によれば、榎本武揚は下町の情緒を好み、晩年は向島で暮らして、墨堤を毎日馬で散歩していたという。大正2年（1913）に建てられた銅像は、勲章や軍刀まで忠実に再現されている。Wikipedia は、晩年の榎本が朝夕の散歩がてら向島百花園を訪れて四季の草花を眺め、植物、とくに外国の花に詳しかったと記す。また、墨田区内の多聞寺の山門わきにある毘沙門天の案内碑は、当時向島に住んだ榎本の筆だとされる（Wikipedia の多聞寺の項）。\n\nこの像の作者や、除幕の経緯、台座の銘文などは、今回開いた出典では確かめられていない。園内にある梅若伝説の跡（梅若塚の跡地）や、隣の木母寺とあわせて歩くと、堤通のあたりが江戸以来の行楽と伝説の地だったことが分かる。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鎌倉街道下ノ道 歴史と伝統が交差する幻の道を歩こう！（散策コース）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "榎本武揚",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/榎本武揚",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "多聞寺 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/多聞寺_(墨田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ郷土文化資料館だより 第73号（2025年12月発行）",
+     "publisher": "墨田区すみだ郷土文化資料館",
+     "url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/waka07.files/miyakodori73.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 座標は区データ（35.733019,139.815519）。国土地理院の住所検索（堤通二丁目6番）は 35.733002,139.815521 でほぼ一致。(2) 像の作者・台座の銘・除幕の経緯は出典で確かめられず、書いていない。(3) 区の公式ページに像の個別の説明は見つけられなかった（すみだ文化財・地域資料データベースは検索できなかった）。1913年の建立と細部の再現は観光協会の散策コースPDFのみ。(4) 梅若公園の名の由来は出典で確かめておらず、書いていない（資料館だよりが梅若塚の跡地が梅若公園に保存と記すのみ）。(5) 公園の中のどこに立つか、柵や説明板の有無は未確認。(6) 梅若公園は大きな公園ではなさそうだが、規模を出典で確かめていないので on_foot は true とした。(7) 登録日は区のページでH12.12.7、区データでも2000-12-07。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は梅若公園内に立つ銅像。台座の上に立つ人物像",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html"
+    },
+    {
+     "text": "像は勲章や軍刀まで細かく再現されている",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf"
+    },
+    {
+     "text": "すぐ近くに木母寺があり、梅若塚の跡地が公園に保存されている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.sumida.lg.jp/sisetu_info/siryou/kyoudobunka/info/waka07.files/miyakodori73.pdf"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-48",
+   "name": "正福寺",
+   "kana": "しょうふくじ",
+   "lat": 35.732531,
+   "lon": 139.816728,
+   "address": "東京都墨田区墨田二丁目6-20",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "参道に立つ鎌倉時代の石の板は、都内で最も古いものといわれる。この板碑は、近くの畑から掘り出されたと伝わる。東向島の寺の末寺であるこの寺を探せ。",
+   "hints": [
+    {
+     "text": "墨田二丁目。隅田川の東岸、堤通の梅若公園の東にあたる一帯。",
+     "radius_m": 500
+    },
+    {
+     "text": "参道に、宝治2年（1248）の銘のある石の板が立つと伝わる。",
+     "radius_m": 250
+    },
+    {
+     "text": "東向島の蓮花寺の末寺。寺名は「しょう」で始まる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "正福寺",
+    "accept": [
+     "正福寺",
+     "しょうふくじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "参道の板碑（区データでは板碑2基と石造阿弥陀如来立像が登録）。",
+   "short": "東向島の蓮花寺の末寺。参道の板碑は都内最古といわれ、宝治2年（1248）の銘があり、付近の御前栽畑から出土したと伝わる。区は板碑2基と石造阿弥陀如来立像を文化財に登録している。",
+   "long": "正福寺は墨田区墨田二丁目6番20号にある寺で、墨田区観光協会の資料によれば、東向島の蓮花寺の末寺である。参道の板碑は都内最古といわれ、宝治2年（1248）の銘があり、付近の御前栽畑から出土したと伝わる。\n\n区の文化財データには、「正福寺の板碑」（2基、昭和58年・60年に登録）と、「正福寺の石造阿弥陀如来立像」（有形民俗文化財、昭和59年登録）の2件が載る。区の登録文化財一覧でも、所在は墨田二丁目6番20号の正福寺とされている。ただし、どの板碑が宝治2年のものか、2基の銘や形、石造阿弥陀如来立像が境内のどこにあるかは、今回開いた出典では確かめられていない。\n\n出土地とされる「御前栽畑」は、歌川広重の『名所江戸百景』の画題「木母寺内川御前栽畑」にも見える地名である（墨田区の広報誌）。観光協会の同じ散策コースには、木母寺、隅田川神社、榎本武揚像（梅若公園）、多聞寺、圓徳寺も並んでおり、堤通から墨田にかけての寺社や碑を一続きに歩ける。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鎌倉街道下ノ道 歴史と伝統が交差する幻の道を歩こう！（散策コース）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "木母寺（墨田区観光協会）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/?p=454",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 座標は区データ（35.732531,139.816728）。国土地理院の住所検索（墨田二丁目6番20号）は 35.732555,139.816757 でほぼ一致。(2) 正福寺の個別の説明は観光協会の散策コースPDF（course16.pdf）の数行のみ。区の公式ページ・寺の公式ページは見つけられなかった。板碑の「都内最古といわれる」「宝治2年（1248）銘」「御前栽畑から出土と伝わる」は同PDFの記述で、第二の出典では確かめていない。(3) 区データの板碑は2基で、宝治2年銘がそのうちのどれかは不明。(4) 長文の「御前栽畑」の画題の記述は区の広報誌（すみだ地域学情報We 第59号）に拠る。正福寺の出土地の御前栽畑と広重の画題の「御前栽畑」が同じ場所かは出典で確かめていない。(5) ヒント1の「梅若公園の東にあたる」は区データの座標から導いた位置関係。(6) 境内の公開・参拝可否は出典になく access は null。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は参道の板碑（石の板）。宝治2年（1248）の銘があると伝わる",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf"
+    },
+    {
+     "text": "寺は東向島の蓮花寺の末寺",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf"
+    },
+    {
+     "text": "梅若公園（榎本武揚像）の東、約120mに位置する（区データの座標から）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-3",
+   "name": "多聞寺",
+   "kana": "たもんじ",
+   "lat": 35.738489,
+   "lon": 139.819313,
+   "address": "東京都墨田区墨田五丁目31-13",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "茅葺きの門が、この区に残る最も古い建物といわれる。いたずらをした化け狸を供養した塚があり、本尊は隅田川七福神の一つ。この寺の名を探せ。",
+   "hints": [
+    {
+     "text": "墨田五丁目。隅田川の東岸、区内の最北端にあたる一帯。",
+     "radius_m": 500
+    },
+    {
+     "text": "関東大震災や戦災を免れた、昔の面影を残す数少ない寺。門は茅葺き。",
+     "radius_m": 250
+    },
+    {
+     "text": "本尊は毘沙門天。「寺」の前は、聞く・耳を意味する漢字を含む。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "多聞寺",
+    "accept": [
+     "多聞寺",
+     "たもんじ",
+     "隅田山多聞寺",
+     "たぬき寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "茅葺き切妻造の四脚門（山門）、石造の六地蔵、狸塚。",
+   "short": "毘沙門天を本尊とし、隅田川七福神の一つ。茅葺きの山門は区内最古の建造物とされる。化け狸を供養した狸塚があり「たぬき寺」とも呼ばれる。関東大震災や戦災を免れた寺でもある。",
+   "long": "多聞寺は墨田区墨田五丁目31番13号にある寺で、本尊は毘沙門天、隅田川七福神の一つである。墨田区観光協会の資料によれば、区の最北端にあり、関東大震災や戦災を免れて昔の面影を残す数少ない寺で、寺の前の道は古代からの街道の名残とされる。Wikipedia は、天徳年間（957〜961）に現在の隅田川神社の付近で「大鏡山明王院隅田寺」と称して不動明王を本尊としていたが、天正年間（1573〜1593）に鑁海が現在地へ移して「隅田山吉祥院多聞寺」と改め、本尊を毘沙門天にしたと記す。文化年間（1804〜1818）に隅田川七福神に組み込まれた。\n\n山門は木造茅葺き、切妻造の四脚門で、寺に残る唯一の江戸期の木造建築であり、区内最古の建造物と考えられている。享保3年（1718）に焼失し、現在のものは後に再建された。境内には、悪さをした化け狸を葬ったという「狸塚」があり、「たぬき寺」とも呼ばれる。このほか、区データには板碑2基、石造庚申塔（阿弥陀如来）、石造六地蔵坐像（6体）が載る。\n\n榎本武揚が当時向島に住んでいたことから、山門の左の毘沙門天の案内碑は榎本の筆だとされる（Wikipedia）。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区指定文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumidak_shitei.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "多聞寺（墨田区観光協会）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/?p=731",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鎌倉街道下ノ道 歴史と伝統が交差する幻の道を歩こう！（散策コース）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "多聞寺 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/多聞寺_(墨田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "多聞寺（個人の解説ページ）",
+     "publisher": "個人サイト（asahi-net）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/tamonji.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 座標は区データ（35.738489,139.819313）。Wikipedia の座標（35.73833,139.81944）と一致。ただし国土地理院の住所検索（墨田五丁目31番13号）は 35.738255,139.820068 で約70m東。住所検索側がずれているのか区データ側かは確かめられていない。実地で確認してほしい。(2) 山門の建築年が出典で食い違う：観光協会とWikipediaは「享保3年（1718）に焼失し、のち再建」、個人サイト（asahi-net）は「慶安2年（1649）築、のち焼失、1803年の火災を免れた記録」とする。本文は前者のみ。(3) 区の山門の指定日も食い違う：区の指定文化財一覧は平成16年（2004）1月10日、区データは「1989-12-08（2004-10-01）」。本文には指定日を書かなかった。(4) 榎本武揚筆の案内碑は Wikipedia の多聞寺の項のみ。(5) 区データには、区のページ（登録文化財一覧）に「多聞寺の木造地蔵菩薩立像（令和7年7月登録）」もあるが入力にないので触れていない。(6) accept の「たぬき寺」は観光協会PDFの通称。(7) 境内の公開・参拝可否は出典で確かめられず access は null。庚申塔・板碑・六地蔵の境内での位置は未確認。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は山門。茅葺き屋根の切妻造の四脚門",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/?p=731"
+    },
+    {
+     "text": "境内に狸塚と、六地蔵、映画人の碑がある",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/?p=731"
+    },
+    {
+     "text": "山門の左に毘沙門天の案内碑がある（榎本武揚の筆とされる）",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/多聞寺_(墨田区)"
+    },
+    {
+     "text": "最寄りは東武伊勢崎線の鐘ヶ淵駅（徒歩7分）で、寺前の道は古代の街道の名残とされる",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/?p=731"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-20",
+   "name": "圓徳寺",
+   "kana": "えんとくじ",
+   "lat": 35.734315,
+   "lon": 139.819065,
+   "address": "東京都墨田区墨田五丁目42-17",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "曹洞宗のこの寺は、門の色から別の名で呼ばれる。三匹の猿を彫った台座の上には、夜通し起きて過ごす庚申待の信仰を伝える石の像が立つという。この寺を探せ。",
+   "hints": [
+    {
+     "text": "墨田五丁目。隅田川の東岸、毘沙門天を祀る多聞寺の南、約450mの一帯。",
+     "radius_m": 500
+    },
+    {
+     "text": "曹洞宗の寺。庚申待の行事があった地域に立つ。",
+     "radius_m": 250
+    },
+    {
+     "text": "通称は「〇〇門寺」（色の名前が入る）。正式名は「えん」で始まる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "圓徳寺",
+    "accept": [
+     "圓徳寺",
+     "円徳寺",
+     "えんとくじ",
+     "赤門寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "三猿を彫った台座に乗る石造庚申塔。寺の通称（赤門寺）から赤い門があるかもしれないが、門の色は出典で確かめていない。",
+   "short": "曹洞宗の寺で、通称は赤門寺とされる。三猿を彫った台座に乗る石造庚申塔があり、区の有形民俗文化財に登録されている。この地域には、一夜を寝ずに明かす庚申待の行事があった。",
+   "long": "圓徳寺は墨田区墨田五丁目42番17号にある曹洞宗の寺で、墨田区観光協会の散策コースの資料は、「赤門寺」とも呼ばれると紹介する。同じ資料は、三猿を彫った台座に乗る庚申の石像が墨田区の指定文化財になっており、この地域には一夜を寝ずに明かす「庚申待」の行事があったと記す。\n\n区の文化財データでは、「圓徳寺の石造庚申塔（釈迦如来）」が有形民俗文化財として昭和59年（1984）3月15日に登録され、ほかに寺の所蔵品として「絹本着色涅槃図 神田吉左衛門筆」が平成20年（2008）に登録されている。涅槃図は非公開で、普段は見られない。\n\n圓徳寺の庚申塔は、観光協会の資料が「三猿を彫った台座」と記すこと以外、像の姿や銘、境内のどこにあるかは、今回開いた出典では確かめられていない。同じ墨田五丁目の多聞寺にも、区の登録する庚申塔（阿弥陀如来）がある。観光協会の散策コースでは、圓徳寺は多聞寺や正福寺、木母寺などと並べて紹介されている。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区登録文化財一覧",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kosodate_kyouiku/tiiki_kyouiku_shien/bunkazai_hogo/bunkazai_itiran/sumida_touroku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鎌倉街道下ノ道 歴史と伝統が交差する幻の道を歩こう！（散策コース）",
+     "publisher": "墨田区観光協会",
+     "url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf",
+     "kind": "観光協会",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 座標は区データ（35.734315,139.819065）。国土地理院の住所検索（墨田五丁目42番17号）は 35.73423,139.818802 で約25m。(2) 出典は観光協会の散策コースPDF（course16.pdf）の数行だけで、第二の出典は見つからなかった。区の公式ページ・寺の公式ページも未確認。単一出典の地点として扱ってほしい。(3) 庚申塔の尊像が出典で食い違う：区データは「釈迦如来」、観光協会PDFは「庚申阿弥陀立像」。同PDFは多聞寺の項と並べて書かれており取り違えの可能性もある。本文では尊像名を断定せず区データの名称だけ示した。(4) 「赤門寺」は観光協会PDFの通称。門が実際に赤いか、どこにあるかは出典で確かめていない。(5) 行番号20（涅槃図）は非公開なので謎に使っていない。id は入力の最初のレコードの行番号20。(7) 境内の公開・参拝可否は出典になく access は null。(7) ヒント1の「多聞寺の南、約450m」は区データの座標から導いた位置関係。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は石造の庚申塔。三猿を彫った台座に乗る",
+     "confidence": "出典あり",
+     "source_url": "https://visit-sumida.jp/uploads/2017/03/course16.pdf"
+    },
+    {
+     "text": "通称は赤門寺。門の色に由来すると考えられるが、実際の門の色は出典で確かめていない",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "多聞寺は北、約470mにある（区データの座標から）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-77",
+   "name": "白鬚神社",
+   "kana": "しらひげじんじゃ",
+   "lat": 35.725193,
+   "lon": 139.81288,
+   "address": "東京都墨田区東向島3-5-2",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "旧寺島村の鎮守。江戸の文人たちが七福神めぐりを思いついたとき、寿老人にあたる神様が近所に見つからず、代わりにここの神様をあてたという。境内には、商人たちが奉納した石の狛犬と、当代一流の文人が集まって作った漢詩碑が残る。この神社の名は？",
+   "hints": [
+    {
+     "text": "東向島三丁目。向島百花園のすぐ近く、明治通りから少し入った一帯。",
+     "radius_m": 500
+    },
+    {
+     "text": "隅田川七福神の一つで、寿老人（寿老神）をまつる。墨堤通り沿い。",
+     "radius_m": 250
+    },
+    {
+     "text": "猿田彦大神をまつる神社。琵琶湖のほとりの同名の神社から分霊を受けたと伝わる。社名は「しらひげ」。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "白鬚神社",
+    "accept": [
+     "白鬚神社",
+     "しらひげじんじゃ",
+     "白髭神社",
+     "向島白鬚神社",
+     "むこうじましらひげじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "鳥居をくぐった参道の左手に古い石碑が並び、拝殿前に石造の狛犬一対がある。二之鳥居の手前右手に富士講の碑がある（第三者の参拝記事による）。",
+   "short": "天暦5年（951）に琵琶湖畔の白鬚神社から分霊を受けて祀ったと伝わる旧寺島村の鎮守。隅田川七福神では寿老神にあたる。境内には文化12年（1815）の狛犬や文政5年（1822）の「墨多三絶」碑など区の登録文化財がある。",
+   "long": "白鬚神社は墨田区東向島三丁目にある神社で、墨田区の広報紙は、琵琶湖のほとりにある猿田彦命を祀る白鬚神社から分霊を受けて西暦951年に創建されたと言われる、と伝えている。かつては近くの蓮花寺が白鬚神社を管理していた。祭神は猿田彦大神で、道案内の神として知られる。\n\n隅田川七福神では寿老神にあたる。江戸時代に文人たちが七福神めぐりを考えたとき、寿老神にふさわしいものがこの辺りで見つからず、白い鬚の長寿の神として白鬚の神様をあてはめたと伝えられる。\n\nこの地点には、墨田区の登録文化財が3件ある。一つは石造の狛犬一対で、文化12年（1815）2月の銘があり、松葉屋半左衛門・八百屋善四郎・駿河屋市兵衛が、神田今川橋の石工六兵衛明貴に作らせて奉納した。区の解説は、商売繁盛の神として信仰を集めてきたことを示すものとしている。二つめは文政5年（1822）の佐羽淡斎「墨多三絶」の漢詩碑で、墨堤から見た隅田川ののどかな景色を三連の七言絶句に詠んだもの。詩は桐生の豪商で漢詩人の佐羽淡斎、書は大窪詩仏、篆額は巻菱湖、裏面の題は亀田鵬斎、刻字は石工の廣群鶴・群亀で、当代一流の文人と石工が集まって作った碑である。三つめは、富士山を信仰する富士講の一つ「山玉向嶋講社」の碑で、大正11年（1922）3月の建立。講員111名の名前が刻まれ、当時の先達は氏子総代だった重城丈吉だったことが分かる。\n\n謎を解いたら、境内で狛犬と石碑を探してみよう。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区のお知らせ「すみだ」2022年12月1日号（8面）",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kuhou/backnum/221201/pdf/kuhou08.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「白鬚神社の石造狛犬」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101517",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「佐羽淡斎「墨多三絶」の漢詩碑」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101103",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「山玉向嶋講社の碑（白鬚神社）」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101132",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "白鬚神社 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/%E7%99%BD%E9%AC%9A%E7%A5%9E%E7%A4%BE_(%E5%A2%A8%E7%94%B0%E5%8C%BA)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "白髭神社（隅田川七福神 寿老人）",
+     "publisher": "個人サイト（asahi-net）",
+     "url": "https://www.asahi-net.or.jp/~zr8t-iskw/shirahige_jinjya.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "白鬚神社(東向島) / 東京都墨田区",
+     "publisher": "神社メモ",
+     "url": "https://jinjamemo.com/archives/shirahigejinja-higashimukoujima.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "【食い違い】(1)狛犬の年：区の資料と Wikipedia は文化12年（1815）、tesshow.jp と jinjamemo.com は文化3年（1806）。区の資料に従った。(2)創始の僧：Wikipedia は元三大師良源（慈恵）、tesshow.jp は慈覺大師。区報は人名を書かないので人名は載せなかった。(3)社殿：Wikipedia は1990年に放火で全焼し1992年再建、tesshow.jp は元治元年造営の白木造りで戦災を免れたと書く。矛盾するため社殿の沿革は書かなかった。(4)区の資料の狛犬の記述に「松葉屋・八百屋・駿河屋」とあるが、tesshow.jp などは八百善・吉原の松葉屋と書く。区の表記を使った。【確かめられなかった点】境内の参拝時間（access は null）。「墨多三絶」碑の境内での位置。講社碑は区DBでは2基1対（左碑・右碑、1922）、jinjamemo は二之鳥居手前右手の1基と書き、一致を確認できていない。DB 101119 の「山玉向嶋講社の碑」（明治31年、押上の高木神社）は別の物。【座標】区データ値（35.725193,139.81288）を採用。OpenStreetMap の白鬚神社（35.72506,139.81307）とほぼ一致。GSI住所検索は番地の代表点で約36mずれた。【統合】入力は3件（行77、104、123）を1地点にまとめた。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は拝殿前にある石造の狛犬一対（区登録文化財）",
+     "confidence": "出典あり",
+     "source_url": "https://jinjamemo.com/archives/shirahigejinja-higashimukoujima.html"
+    },
+    {
+     "text": "参道（一之鳥居の先）の左手に、古い石碑や歌碑が多く並ぶ",
+     "confidence": "出典あり",
+     "source_url": "https://jinjamemo.com/archives/shirahigejinja-higashimukoujima.html"
+    },
+    {
+     "text": "二之鳥居の手前右手に、富士講の石碑がある",
+     "confidence": "出典あり",
+     "source_url": "https://jinjamemo.com/archives/shirahigejinja-higashimukoujima.html"
+    },
+    {
+     "text": "墨堤通りを北上し、地蔵堂から約100m進んだ右側に境内の入口がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.asahi-net.or.jp/~zr8t-iskw/shirahige_jinjya.html"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-57",
+   "name": "蓮花寺",
+   "kana": "れんげじ",
+   "lat": 35.723048,
+   "lon": 139.816183,
+   "address": "東京都墨田区東向島3-23-17",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸のころ、川崎や西新井のお大師さまと並んで「江戸三大師」に数えられた寺。厄除けの弘法大師を拝みに来る人々のため、道しるべの石柱が建てられた。そのうち一本は火消しの組が建てたものらしい。寺の名を探せ。",
+   "hints": [
+    {
+     "text": "東向島三丁目。明治通り沿い、都立墨田川高校の近く。",
+     "radius_m": 500
+    },
+    {
+     "text": "真言宗智山派の寺。川崎大師・西新井大師とともに「江戸三大師」の一つに数えられた。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名は「蓮の花」と書いて「れんげ」と読む寺。かつて近くの神社の別当を務めた。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "蓮花寺",
+    "accept": [
+     "蓮花寺",
+     "れんげじ",
+     "寺島大師",
+     "てらじまだいし",
+     "清瀧山観音院蓮花寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "山門の前に立つ石柱の道標。正面に「厄除弘法大師」などと刻まれ、傍らに区の案内板がある（Commonsの写真で確認）。",
+   "short": "寺伝では寛元4年（1246）に鎌倉で創建され、のち当地へ移った真言宗智山派の寺。「寺島大師」と呼ばれ江戸三大師に数えられた。区登録文化財の石柱道標2基（文化15年・文政5年）は、大師参りの人々を導いた。",
+   "long": "蓮花寺は墨田区東向島三丁目の真言宗智山派の寺で、清瀧山観音院と号する。寺伝では、鎌倉幕府5代執権の北条時頼が兄・経時の追福のため寛元4年（1246）に鎌倉の佐介谷に創建し、経時の子の頼助がこの地に移したと伝わる（縁起には異論もある）。本尊は空海自筆と伝わる弘法大師画像で、「女人済度厄除弘法大師」とも呼ばれる。寺は「寺島大師」と呼ばれ、川崎大師・西新井大師とともに江戸三大師に数えられ、東向島の旧町名「寺島」の由来になったともいわれる。江戸時代の慶安元年（1648）には寺領7石の朱印が付いた。蓮花寺は近くの白鬚神社を管理する別当でもあった。\n\n区の登録文化財の石柱道標は2基ある。文化15年（1818）3月の道標は、正面に「女人済度御自筆　弘法大師」、右側面に「右　大しミち」、左側面に「左　たいしみち」、台座に「と組」と刻まれる。この「大師」は、寺島大師（蓮花寺）と西新井大師を指すと考えられ、もとは隅田堤の地蔵坂上周辺にあり、のちに山門前へ移されたようだと区の解説は述べる。文政5年（1822）4月の道標は、正面に「厄除弘法大師」、右側面に「右白しげ　はしば　みち」と刻まれる。どちらも道標としての役目は終えたが、江戸時代の大師信仰や交通事情を伝えている。\n\n境内には、そのほか地蔵堂や鐘楼、石碑や墓などがある。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「蓮花寺の石柱道標」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101490",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区のお知らせ「すみだ」2022年12月1日号（8面）",
+     "publisher": "墨田区",
+     "url": "https://www.city.sumida.lg.jp/kuhou/backnum/221201/pdf/kuhou08.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "蓮花寺｜江戸三大師の寺島大師、墨田区東向島にある真言宗智山派寺院",
+     "publisher": "tesshow.jp",
+     "url": "https://tesshow.jp/sumida/temple_emukojima_renge.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "蓮花寺 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E8%8A%B1%E5%AF%BA_(%E5%A2%A8%E7%94%B0%E5%8C%BA)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "【座標】区データ値（35.723048,139.816183）を採用。OpenStreetMapの蓮花寺（35.72304,139.81629）と一致。GSI住所検索は番地の代表点で約85m南（35.722282）にずれた。入力の値は外れ値ではない。【食い違い】Wikipedia・tesshow は寛元4年（1246）創建・弘安3年（1280）移転とし、区の資料には創建年の記載がない。縁起に異説があると tesshow が書くため、寺伝として書いた。「と組」＝火消しの組という解釈は区の資料にはなく tesshow の推定（riddle の「火消しの組が建てたものらしい」はこの推定）。【確かめられなかった点】境内の参拝時間。道標が今も山門前のどこに立つか：区の解説は「山門前に移されたようです」と推定表現。Commons写真には門前に「厄除弘法大師」の石柱と案内板が写る。on_foot は境内に入る可能性を見て true とした。文化15年銘の道標の現在位置は未確認。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は山門の前に立つ石柱の道標。正面に「厄除弘法大師」と刻まれた柱と、区の案内板が並ぶ",
+     "confidence": "出典あり",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Renge-ji_(Sumida)_15.jpg"
+    },
+    {
+     "text": "文化15年銘の道標は、もと隅田堤にあり、のちに山門前へ移されたようだ（区の解説の推定）",
+     "confidence": "出典あり",
+     "source_url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101490"
+    },
+    {
+     "text": "文政5年銘の道標の側面には「白しげ　はしば　みち」と刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101490"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Renge-ji_(Sumida)_15.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Renge-ji_%28Sumida%29_15.jpg/1280px-Renge-ji_%28Sumida%29_15.jpg",
+     "caption": "門前に立つ石柱の道標と区の案内板",
+     "author": "Higa4",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-22",
+   "name": "法泉寺",
+   "kana": "ほうせんじ",
+   "lat": 35.726204,
+   "lon": 139.813847,
+   "address": "東京都墨田区東向島3-8-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "鎌倉の初めに、東国の武将が両親の供養のために建てたと伝わる曹洞宗の寺。江戸の終わり近く、「為一」と名乗っていたころの葛飾北斎が、ここへ参る人々を一枚の摺物に描いた。境内には江戸時代の大きな銅の地蔵が祀られている。",
+   "hints": [
+    {
+     "text": "東向島三丁目。白鬚神社のすぐ北東にあたる一帯。",
+     "radius_m": 500
+    },
+    {
+     "text": "曹洞宗の寺。本寺は駒込の吉祥寺。江戸時代の北斎の摺物にも描かれた。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名は「ほうせん」。「法」と「泉」の二字に「寺」がつく。山号は「晴河山」。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "法泉寺",
+    "accept": [
+     "法泉寺",
+     "ほうせんじ",
+     "晴河山法泉寺",
+     "清河山法泉寺",
+     "寺島法泉寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "山門の左側に江戸時代の石柱と案内看板（個人の参拝記事）。境内左手の覆屋に銅造地蔵菩薩立像（区の資料）。境内に石造地蔵菩薩立像と区の案内板（Commonsの写真）。",
+   "short": "鎌倉初期に葛西清重が建てたと伝わる曹洞宗の寺。境内左手の覆屋に享保2年（1717）の銅造地蔵菩薩立像が祀られ、寛文2年（1662）の石造地蔵菩薩立像とともに区の登録文化財。北斎の摺物「寺島法泉寺詣」にも描かれた。",
+   "long": "法泉寺は墨田区東向島三丁目の曹洞宗の寺で、山号は晴河山（扁額や区の文化財叢書の題名に見える。清河山と書く資料もある）。伝えでは、鎌倉時代の初めに葛西清重が両親の菩提を弔うために建てた。のち荒れたが、天文年間に吉祥寺ゆかりの安充が中興し、真言宗から曹洞宗に改めたと伝わる。江戸時代の慶安元年（1648）には幕府から朱印状を受けた。\n\n区の登録文化財のうち、見て歩けるのは地蔵菩薩像である。銅造地蔵菩薩立像は享保2年（1717）9月の造立で、境内左手の覆屋に祀られる。蓮台に「奉造納東海道武蔵國葛飾郡西葛西領寺島村佛頂山法泉禅寺」の銘があり、法泉寺中興の祖と仰がれた大宣碧傳をはじめ、総勢338名の結衆と鋳物師の宇田川善兵衛の名が刻まれている。石造地蔵菩薩立像は寛文2年（1662）1月の造立で、舟形光背の上部に法華経の一節を刻み、「二月時正日」（春彼岸の中日）の銘から彼岸会に合わせて造られたと考えられている。24名の造立者の名が刻まれ、保存状態は良好と区は述べる。\n\nまた、区指定文化財の木版画「寺島法泉寺詣」は、葛飾北斎が「前北斎為一」と名乗った文政年間（1818〜1830）の作で、画面の石柱には、新田義貞の守本尊だったと伝わる髻不動明王の名が見える。区のデータには、涅槃図、釈迦如来坐像、達磨大師坐像、文書、板碑も載るが、いずれも通常は非公開か一部非公開で、外からは見られない。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「法泉寺の銅造地蔵菩薩立像」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101462",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「法泉寺の石造地蔵菩薩立像」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101533",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「木版画「寺島法泉寺詣」葛飾北斎筆」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101085",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "法泉寺 (墨田区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B3%95%E6%B3%89%E5%AF%BA_(%E5%A2%A8%E7%94%B0%E5%8C%BA)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "法泉寺入口バス停・つぶやき街角北西部ルート11",
+     "publisher": "スカイ姫のつぶやき（個人ブログ）",
+     "url": "https://www.sky-princess.com/northwest11.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "墨田区東向島にある寺島法泉寺、気持ち良い開かれたお寺でした。",
+     "publisher": "note（個人）",
+     "url": "https://note.com/yumi411/n/n65f2fcbae0d1",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "【食い違い】(1)山号：区の叢書名と扁額（Commons写真）は「晴河山」、個人ブログの縁起は「清河山」。(2)中興の年：Wikipedia は「1533年（天文元年）」と書くが天文元年は1532年。個人ブログは天文元年（1532）。年号は書かず「天文年間」とした。(3)中興の人名：Wikipedia は安充、個人ブログは吉祥寺二世の大州安充。【確かめられなかった点】境内の参拝時間（access は null）。個人記事は「開かれたお寺」としているが公式の記載ではない。入力の窪俊満「故郷の」の歌碑（行84、2014指定）は、区のDBに該当ページが見つからず、個人ブログが文政4年（1821）建立としか確認できなかったため、解説では触れていない（現地の見どころとして区データに載る）。千鳥庵鳥奏の歌碑も同様。石造地蔵が境内のどこにあるかは出典で確認できず（Commons写真は庭の植込みの中に案内板付きで写る）。【座標】区データ値（35.726204,139.813847）を採用。OpenStreetMapの法泉寺（35.72611,139.81376）とほぼ一致。GSI住所検索は約40mずれた。【統合】入力の8件（行22,23,29,30,43,49,84,113）を1地点にした。非公開の寺宝は外から見られないため謎には使っていない。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は山門。門前の右手に石柱があり、「寺嶌法泉寺」などの文字が見える",
+     "confidence": "出典あり",
+     "source_url": "https://www.sky-princess.com/northwest11.html"
+    },
+    {
+     "text": "銅造の地蔵は、境内の左手の覆屋に祀られている",
+     "confidence": "出典あり",
+     "source_url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101462"
+    },
+    {
+     "text": "石の地蔵（舟形の光背）や石碑のそばには、区の案内板が立っている",
+     "confidence": "出典あり",
+     "source_url": "https://commons.wikimedia.org/wiki/File:H%C5%8Dsen-ji_(Sumida)_11.jpg"
+    },
+    {
+     "text": "山門を入ると、本堂へ向かってまっすぐ参道が通る",
+     "confidence": "出典あり",
+     "source_url": "https://commons.wikimedia.org/wiki/File:H%C5%8Dsen-ji_(Sumida)_05.jpg"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:H%C5%8Dsen-ji_(Sumida)_05.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/H%C5%8Dsen-ji_%28Sumida%29_05.jpg/1280px-H%C5%8Dsen-ji_%28Sumida%29_05.jpg",
+     "caption": "山門から見た本堂",
+     "author": "Higa4",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:H%C5%8Dsen-ji_(Sumida)_11.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/H%C5%8Dsen-ji_%28Sumida%29_11.jpg/1280px-H%C5%8Dsen-ji_%28Sumida%29_11.jpg",
+     "caption": "境内の石造地蔵菩薩像と区の案内板",
+     "author": "Higa4",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-67",
+   "name": "歌川豊広辞世の狂歌碑",
+   "kana": "うたがわとよひろじせいのきょうかひ",
+   "lat": 35.721914,
+   "lon": 139.813071,
+   "address": "東京都墨田区東向島1-7-11（露伴児童遊園内）",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "「死んで行く地獄の沙汰は兎も角も、跡の始末はかね次第なる」。江戸の浮世絵師が、自分の死んだ後のことを皮肉たっぷりに詠んだ狂歌の碑がある。いまは、ある文豪の旧居跡にできた小さな遊園の中に立つ。この狂歌を詠んだ絵師の名は？",
+   "hints": [
+    {
+     "text": "東向島一丁目。旧地名で「寺島」と呼ばれたあたり。",
+     "radius_m": 500
+    },
+    {
+     "text": "明治から大正にかけて、ある文豪が「蝸牛庵」と名づけた家に暮らした跡地に造られた、区立の児童遊園の中。",
+     "radius_m": 250
+    },
+    {
+     "text": "歌川派の基礎を固めた浮世絵師。号は一柳斎。馬琴や一九の挿絵でも知られる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この狂歌を詠んだ浮世絵師の名前は？",
+    "display": "歌川豊広",
+    "accept": [
+     "歌川豊広",
+     "うたがわとよひろ",
+     "豊広",
+     "とよひろ",
+     "一柳斎豊広",
+     "一柳斎"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "露伴児童遊園の園内に立つ高さ157cmの石碑。正面に辞世の狂歌が刻まれ、区教育委員会の案内板（平成30年設置）がある（個人ブログ）。同じ園内に幸田露伴文学碑もある。",
+   "short": "浮世絵師・歌川豊広の60回目の命日を記念して明治20年（1887）に建てられた、辞世の狂歌碑。平成28年（2016）に向島五丁目から、幸田露伴の旧居跡に造られた露伴児童遊園へ移された。",
+   "long": "歌川豊広（号は一柳斎）は江戸時代後期の浮世絵師で、歌川豊春に学び、初代豊国とともに歌川派の基礎を固めた。瀧澤馬琴や十返舎一九ら人気作家の小説の挿絵や、肉筆の美人画を残している。\n\nこの碑は、豊広の60回目の命日を記念して建てられた。高さ157cm、幅44.5cm、厚さ10cmの石碑で、正面には「始祖豊広翁辞世」として、「死んで行く地獄の沙汰は兎も角も　跡の始末はかね次第なる」の狂歌と「二世広重建之」の文字が刻まれている。裏面には「明治貳拾年龍集丁亥第四月良辰」（明治20年4月）の建立年と「静松園隠士長禄翁建」の名があり、「守田宝丹」の印が刻まれる。区の解説は、建立年が明治20年であることを伝えている。\n\n碑はもと向島五丁目11番1号にあったが、平成28年（2016）2月10日に、東向島一丁目7番11号の区立露伴児童遊園へ移された。この遊園は、文豪・幸田露伴が明治41年（1908）から大正13年まで暮らした家「蝸牛庵」の跡で、地主が区に寄贈して児童遊園になったと、個人のブログは紹介している。園内には露伴の文学碑もある。\n\n区の登録文化財（有形文化財・歴史資料）で、平成13年（2001）3月22日に登録された。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「歌川豊広辞世の狂歌碑」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101480",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "露伴児童遊園（幸田露伴住居跡）",
+     "publisher": "東京都墨田区の歴史（個人ブログ）",
+     "url": "http://tokyosumida.blog.shinobi.jp/%E6%9D%B1%E5%90%91%E5%B3%B6/%E9%9C%B2%E4%BC%B4%E5%85%90%E7%AB%A5%E9%81%8A%E5%9C%92%EF%BC%88%E5%B9%B8%E7%94%B0%E9%9C%B2%E4%BC%B4%E4%BD%8F%E5%B1%85%E8%B7%A1%EF%BC%89",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "鳩の街通り商店街入口（墨堤通り・三とも通り）つぶやき街角北西部ルート14",
+     "publisher": "スカイ姫のつぶやき（個人ブログ）",
+     "url": "https://www.sky-princess.com/northwest14.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "歌川豊広（浮世絵師の略伝）",
+     "publisher": "個人サイト",
+     "url": "https://www.ne.jp/asahi/kato/yoshio/kobetuesi/toyohiro.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "【食い違い】碑の建立者：区のDBの碑文は正面「二世広重建之」・裏面「静松園隠士長禄翁建」（守田宝丹の印）。個人ブログは「三世広重が建立」と書く。区の碑文を採った。碑文の「龍集丁亥」は明治20年（1887）に当たる。豊広の没年は個人サイトで文政12年（1829）12月21日とされるが異説（文政11年）もあるため解説には書かなかった（区の解説は「60回目の命日」とだけ記す）。【確かめられなかった点】露伴児童遊園の開園時間（access は null）。碑が園内のどこにあるか、道から見えるか。案内板の設置（平成30年2月）は個人ブログのみの情報。露伴旧居跡の経緯（地主の寄贈など）も個人ブログ2件のみで公的な出典は未確認。【座標】区データ値（35.721914,139.813071）を採用。OpenStreetMapの露伴児童遊園（35.72183,139.81307）と一致。GSI住所検索は約21mずれた。【画像】豊広の肖像・碑の写真はCommonsで見つからず images は空。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は露伴児童遊園の園内にある石碑。正面に狂歌が彫られている（高さ約157cm）",
+     "confidence": "出典あり",
+     "source_url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101480"
+    },
+    {
+     "text": "近くに区教育委員会の案内板が立つ（平成30年2月設置）",
+     "confidence": "出典あり",
+     "source_url": "https://www.sky-princess.com/northwest14.html"
+    },
+    {
+     "text": "園内には幸田露伴の文学碑もある",
+     "confidence": "出典あり",
+     "source_url": "https://www.sky-princess.com/northwest14.html"
+    },
+    {
+     "text": "碑は2016年に別の場所から園内へ移されたので、古い地図の位置にはない",
+     "confidence": "出典あり",
+     "source_url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101480"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-103",
+   "name": "萬福寺",
+   "kana": "まんぷくじ",
+   "lat": 35.720736,
+   "lon": 139.835841,
+   "address": "東京都墨田区東墨田3-12-19",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "庚申の夜は眠らずに過ごすという江戸時代の信仰で建てられた石の塔が残る寺。浮き彫りの像は、剣・矛・弓・矢を持ち、邪鬼を踏みつけている。台座には「見ざる・言わざる・聞かざる」も彫られているという。明治の川の大工事で今の地に移ってきた寺の名は？",
+   "hints": [
+    {
+     "text": "東墨田三丁目の寺。明治44年の荒川改修工事で、今の場所へ移ってきた。",
+     "radius_m": 500
+    },
+    {
+     "text": "真言宗豊山派の寺。山号は光明山、本尊は阿弥陀如来。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名は「まんぷく」。「万」の旧字の「萬」に「福」、そして「寺」。南葛八十八ヶ所霊場の69番札所。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "萬福寺",
+    "accept": [
+     "萬福寺",
+     "まんぷくじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内に山門、六地蔵、石仏群、本堂がある（Commonsの写真と個人サイトの写真キャプション）。庚申塔が境内のどこにあるかは確認できていない。",
+   "short": "天和2年（1682）9月16日銘の石造庚申塔（青面金剛童子）が残る寺。剣・矛・弓・矢を持つ青面金剛を浮き彫りにし、区内の青面金剛の庚申供養塔では最古級とされる。明治44年の荒川改修で今の地に移った。",
+   "long": "萬福寺は墨田区東墨田三丁目の真言宗豊山派の寺で、山号は光明山、本尊は阿弥陀如来。大永7年（1527）に僧の東福坊が下木下川村で創建したと伝わり、明治44年（1911）の荒川改修工事で現在地へ移った。南葛八十八ヶ所霊場の69番札所でもある。\n\n区の登録文化財の石造庚申塔（青面金剛童子）は、天和2年（1682）9月16日の銘をもつ。区の解説によれば、合掌する手以外の4本の手に剣・矛・弓・矢を持つ青面金剛の立像が浮き彫りされ、両脚で邪鬼を踏みつけ、傍らに鶏が一羽ずつ彫られている。台座には三猿も確認できる。青面金剛の右側には「奉供養庚待」の文字、左側には「干時天和二壬戌天九月十六日　法主盛寶敬白」と刻まれ、光背の上部には大日如来を表す種字と日月が刻まれている。総高は96.5cm。区内に現存する青面金剛を彫った庚申供養塔の中で、最も古い例の一つと考えられている。\n\n庚申塔の背景には庚申信仰がある。区の別の解説によれば、かつては人の体内にいる三尸という虫が庚申の夜に抜け出して天帝にその人の罪を告げると寿命が縮むと信じられ、人々は当番の家に集まって夜通し眠らずに過ごした（庚申講）。人々は現世と来世の幸せを願って庚申塔を建てた。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「萬福寺の石造庚申塔（青面金剛童子）」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101525",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "すみだ文化財・地域資料データベース「多聞寺の石造庚申塔（阿弥陀如来）」",
+     "publisher": "墨田区教育委員会",
+     "url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101524",
+     "kind": "教育委員会",
+     "accessed": "2026-11-13"
+    },
+    {
+     "title": "萬福寺｜墨田区東墨田にある真言宗豊山派寺院",
+     "publisher": "tesshow.jp",
+     "url": "https://tesshow.jp/sumida/temple_esumida_manpuku.html",
+     "kind": "その他",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "status": "unverified",
+   "notes": "【確かめられなかった点】(1)庚申塔が境内のどこにあるか、境内や道路から見られるか：区の解説・個人サイトとも位置や公開の記載がない。現地で庚申塔が見られない可能性がある（本堂内や墓地内の可能性も否定できない）。(2)境内の参拝時間（access は null）。(3)謎の「台座の三猿」は区の解説の「確認できます」に基づく。【食い違い】末寺関係：新編武蔵風土記稿は上小松村の正福寺の末寺、墨田区史は東新小岩の正福寺の末寺と tesshow が書く（解説には書かず）。【座標】区データ値（35.720736,139.835841）を採用。OpenStreetMapでは見つからず、GSI住所検索は約17mの差。Commonsの写真（参道入口に「萬福寺」の石柱）は参道の様子の参考。【画像】Mampuku-ji, Sumida 1（CC BY-SA 4.0）を採用。「Sumida」の記載を根拠とし、写っているのが東墨田の萬福寺である点はファイル名以外で確認していない。【関連】依頼文にあった正覚寺の庚申塔は八広五丁目（入力外）のためこの入力では扱っていない。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は境内にある石の庚申塔。青面金剛の像が浮き彫りされた高さ約97cmの塔（区登録文化財）",
+     "confidence": "出典あり",
+     "source_url": "https://jmapps.ne.jp/sumida_bunkazai/det.html?data_id=101525"
+    },
+    {
+     "text": "寺の入口には「萬〇寺」と刻まれた石柱があり、まっすぐな参道が続く",
+     "confidence": "出典あり",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Mampuku-ji,_Sumida_1.jpg"
+    },
+    {
+     "text": "境内には山門・六地蔵・石仏群・本堂がある",
+     "confidence": "出典あり",
+     "source_url": "https://tesshow.jp/sumida/temple_esumida_manpuku.html"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Mampuku-ji,_Sumida_1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mampuku-ji%2C_Sumida_1.jpg/1280px-Mampuku-ji%2C_Sumida_1.jpg",
+     "caption": "参道入口の石柱と参道",
+     "author": "Beryllium Transistor",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+   ],
+   "last_checked": null
+  }
+ ]
+}
