@@ -1,0 +1,704 @@
+{
+ "schema": "machiaruki-pack/1",
+ "pack_id": "nishitokyo-hoya",
+ "version": "2026-11-14.1",
+ "title": "保谷・下保谷・ひばりが丘（西東京市）",
+ "prefecture": "東京都",
+ "city": "西東京市",
+ "created": "2026-11-14",
+ "rules": {
+  "arrival_radius_m": 50,
+  "difficulty": "ふつう"
+ },
+ "stations": [
+  {
+   "name": "西武柳沢",
+   "lines": [
+    "西武鉄道 新宿線"
+   ],
+   "lat": 35.72858,
+   "lon": 139.5524
+  },
+  {
+   "name": "ひばりヶ丘",
+   "lines": [
+    "西武鉄道 池袋線"
+   ],
+   "lat": 35.751438,
+   "lon": 139.545765
+  },
+  {
+   "name": "保谷",
+   "lines": [
+    "西武鉄道 池袋線"
+   ],
+   "lat": 35.748263,
+   "lon": 139.568237
+  }
+ ],
+ "attribution": [
+  {
+   "text": "西東京市 文化財一覧（西東京市、CC BY 4.0）を加工して作成",
+   "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  }
+ ],
+ "area": {
+  "bbox": [
+   35.737269999999995,
+   139.54733099999999,
+   35.755952,
+   139.56852800000001
+  ]
+ },
+ "points": [
+  {
+   "id": "nishitokyo-34",
+   "name": "寶晃院",
+   "kana": "ほうこういん",
+   "lat": 35.740964,
+   "lon": 139.549331,
+   "address": "東京都西東京市住吉町一丁目6-5",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内の公開時間は出典で確認できず。所蔵の仏像は一般公開の記載なし（市のページ）。",
+   "seasonal": [],
+   "riddle": "上保谷村の鎮守に祀られていた、剣に龍が巻きつく姿の神体は、明治の神仏分離で信仰を禁じられたが、氏子が守り続けた。いまはかつて鎮守を預かった寺にある。その寺の境内には、水子を救う地蔵も建つ。",
+   "hints": [
+    {
+     "text": "住吉町一丁目。近くの鎮守の神社が昔、別当として頼った寺。",
+     "radius_m": 500
+    },
+    {
+     "text": "境内には、江戸中期に廻国の僧が建てた、絵のように彫られた地蔵の石像がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "名に「晃」の字を持つ、住吉町の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "寶晃院",
+    "accept": [
+     "寶晃院",
+     "寳晃院",
+     "宝晃院",
+     "ほうこういん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "市指定文化財の水子地蔵菩薩立像（明和8年）が境内にある（市のページ）。倶利迦羅不動明王像は寺に収蔵され、公開は未確認。",
+   "short": "尉殿神社のかつての別当寺。上保谷村の鎮守の神体だった倶利迦羅不動明王像（市指定）を収め、廻国僧が建てた水子地蔵菩薩立像（明和8年）が境内にある。尾張藩の鷹場標杭も市指定。",
+   "long": "住吉町一丁目の寶晃院は、上保谷村の鎮守だった尉殿権現社（現・尉殿神社）のかつての別当寺である。市のページによれば、木彫彩色倶利迦羅不動明王像は、もとは尉殿権現社に祀られていた神体で、江戸時代前期頃の造立とされる。1868年の神仏分離令で権現号とともに信仰が禁じられたが、氏子が保存を続け、現在は寶晃院に収蔵されている。村の鎮守として不動像を祀った例は『新編武蔵風土記稿』にもほとんど見えず、非常に珍しいとされる。平成3年（1991年）11月に市指定。\n\n境内の水子地蔵菩薩立像は、明和8年（1771年）に、僧の直道が悲願を立てて諸国を巡る途中で建てたものである。水子を救う地蔵菩薩の説話をもとに、絵画のような構図を一つの石に彫っている。類例が少なく、市内でこの形式の廻国僧の塔はこの1基だけと、市は説明している。平成6年（1994年）3月に市指定。\n\nさらに保谷町の石製尾張藩鷹場標杭も市指定で、享保2年（1717年）以後に復活した尾張藩徳川家の鷹場の境界を示す石杭である。上保谷村には9本の御定杭があり、現在は5本が残るという。この標杭が寶晃院の境内にあるかどうかは、市のページには書かれていない。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "市指定第31号 木彫彩色倶利迦羅不動明王像（西東京市）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei31.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "市指定第35号 水子地蔵菩薩立像（西東京市）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei35.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "市指定第32号 石製尾張藩鷹場標杭（西東京市）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei32.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "尉殿神社 - Wikipedia",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/尉殿神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "鷹場標杭の所在地は市データで『保谷町』のみ。座標が寺とほぼ同じ（約30m）なのでまとめたが、標杭が寺の境内にあるかは出典なし。riddleでは『境内に伝わる』と書いたため、標杭の位置が違えば修正が必要（riddle・short・longの標杭の記述）。国土地理院の住所検索は約20m東。寺の読み・公開時間は寺の公式ページ未確認（読みは一般的な読みを記入）。",
+   "on_foot": true,
+   "images": [],
+   "onsite_hints": [
+    {
+     "text": "探す物は、境内の水子地蔵菩薩立像（絵のような構図を一つの石に彫った像）",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei35.html"
+    },
+    {
+     "text": "旧神体の不動明王像は寺に収蔵され、見られるかは不明",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei31.html"
+    },
+    {
+     "text": "尉殿神社のかつての別当寺",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei31.html"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-40",
+   "name": "東禅寺",
+   "kana": "とうぜんじ",
+   "lat": 35.742981,
+   "lon": 139.549757,
+   "address": "東京都西東京市住吉町一丁目2-12",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "境内の公開時間は出典で確認できず。",
+   "seasonal": [],
+   "riddle": "幕末の万延元年、この地の念仏講の人々が、六道で苦しむ人を救う仏を六体並べて建てた。台座には「上保谷村」の文字が彫られている。それを祀る寺を探せ。",
+   "hints": [
+    {
+     "text": "住吉町一丁目、旧上保谷村の寺。",
+     "radius_m": 500
+    },
+    {
+     "text": "江戸の終わりに、檀家の信徒の講が建てた石の仏が境内に並ぶ。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名に「禅」の字がある、住吉町の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "東禅寺",
+    "accept": [
+     "東禅寺",
+     "とうぜんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "市指定文化財の六地蔵菩薩立像が境内にある（市のページ。台座に「上保谷村念仏講中」と刻まれると記載）。",
+   "short": "万延元年（1860）に東禅寺の檀家信徒の念仏講が建てた六地蔵菩薩立像が残る。台座には「上保谷村念仏講中」と刻まれており、江戸末期の村の信仰を伝える。平成6年に市指定文化財となった。",
+   "long": "住吉町一丁目の東禅寺には、西東京市指定文化財の六地蔵菩薩立像がある。市のページによれば、幕末の万延元年（1860年）に、上保谷村にある東禅寺の檀家信徒による念仏講が建立したもので、台座には「上保谷村念仏講中」と刻まれている。平成6年（1994年）3月に市指定となった。\n\n地蔵菩薩は、六道を巡って苦しむ人々を救うと誓った仏である。そのため江戸時代には六地蔵への信仰が庶民の間に広まり、各地に六地蔵の石仏が建てられた。この像もその流れの中で造られたものと、市は説明している。\n\n念仏講は、信者が集まって念仏を唱える村の集まりである。台座の刻字は、江戸末期の上保谷村で檀家の人々が寺を支えていたことを今に伝える。指定時期の平成6年3月は、市内の水子地蔵菩薩立像や榛名大権現石造物群と同じ月で、石造物の文化財がこの頃まとめて指定されたことがうかがえる。市のページには公開時間や見学条件の記載がないため、訪れる際は寺の迷惑にならないよう、境内の様子を見て参拝したい。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "市指定第37号 六地蔵菩薩立像（西東京市）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei37.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "国土地理院の住所検索は約35m南（35.742664,139.549942）。念仏講の説明（信者の集まり）は一般的説明で出典記載ではない可能性があるので確認担当は削除可。寺の読み・宗派・公開時間は寺の公式ページ未確認。六地蔵が境内のどこにあるかは出典なし。",
+   "on_foot": true,
+   "images": [],
+   "onsite_hints": [
+    {
+     "text": "探す物は、境内の六地蔵の石仏。台座に「上保谷村念仏講中」と刻まれる",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei37.html"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-42",
+   "name": "尉殿神社",
+   "kana": "じょうどのじんじゃ",
+   "lat": 35.743815,
+   "lon": 139.550297,
+   "address": "東京都西東京市住吉町一丁目21-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "かつて上保谷村の惣鎮守だった神社。本殿の両脇に立つ江戸前期の石の灯籠の裏には、村人みなが氏子だったことを示す文字が彫られている。旧神体は、いまは別の寺に預けられている。",
+   "hints": [
+    {
+     "text": "住吉町一丁目にある、旧上保谷村の鎮守。",
+     "radius_m": 500
+    },
+    {
+     "text": "江戸前期（天和2年）の石燈籠が、本殿の左右に一対ある。風の神を祀る。",
+     "radius_m": 250
+    },
+    {
+     "text": "社名の最初の字は、役人を表す『尉』。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "尉殿神社",
+    "accept": [
+     "尉殿神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "本殿の両脇に市指定文化財の石燈籠一対（天和2年）が立つ（市のページ）。拝殿・狛犬一対も境内にある（Wikipedia）。",
+   "short": "旧称は尉殿権現社で、古くは上保谷村の惣鎮守。本殿両脇の石燈籠一対（天和2年・1682）の背面に「上保谷村惣氏子」と刻まれ、市指定文化財になっている。",
+   "long": "住吉町一丁目の尉殿神社は、旧称を尉殿権現社といい、古くは上保谷村の総鎮守だった。本殿の両脇には、天和2年（1682年）建立の石燈籠が一対立つ。江戸前期のこの時代は古文書が少ない保谷地域で、背面に刻まれた「上保谷村惣氏子」の銘は貴重な記録であり、尉殿権現社が古くから村の惣鎮守だったことを示している。平成7年（1995年）3月に市指定文化財となった。\n\nWikipediaによれば、祭神は風の神の級長戸辺命で、旧神体は水の神とされる倶利迦羅不動明王である。この像は現在、旧別当寺の寳晃院に安置されている。水が少なく、秋から冬に強い風が吹く保谷の風土に合わせて神々が祀られたと考えられるという。創建当初は宮山（現在の谷戸町付近）にあったと伝わるが、創建時期は上保谷では建長年間、田無では正応年間とするなど伝承が異なり、確定していない。\n\nまた、明治末の神社合祀令の後、大正4年（1915年）には下柳沢集落の榛名権現社がこの神社に合祀された（東伏見の氷川神社の項を参照）。境内には拝殿や狛犬一対があるとされる。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "市指定第39号 石燈籠一対（西東京市）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei39.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "市指定第38号 榛名大権現石造物群（西東京市）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei38.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "尉殿神社 - Wikipedia",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/尉殿神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "読み『じょうどのじんじゃ』は出典で確認できず（一般的と思われる読みを仮置き。accept にも入れていない）。祭神名はWikipediaが『級長戸編命』と表記（誤植の可能性）。longでは一般的な『級長戸辺命』と書いたので確認担当は要確認。国土地理院の住所検索は約40m南西。1682年は天和2年、市のページどおり。境内の公開時間は出典なし。",
+   "on_foot": true,
+   "images": [],
+   "onsite_hints": [
+    {
+     "text": "探す物は、本殿の左右に立つ一対の石燈籠。背面に「上保谷村惣氏子」と刻まれる",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei39.html"
+    },
+    {
+     "text": "拝殿の前に狛犬が一対ある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/尉殿神社"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-27",
+   "name": "又六石仏群",
+   "kana": "またろくせきぶつぐん",
+   "lat": 35.747822,
+   "lon": 139.549585,
+   "address": "東京都西東京市住吉町三丁目18",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "旧上保谷村の五つ角に、講中が江戸時代から明治にかけて造り並べた石の仏たちがいる。庚申の塔と、六人の地蔵を刻んだ柱が一か所に集まっている場所を探そう。",
+   "hints": [
+    {
+     "text": "西武線の保谷駅と東伏見駅の間、住吉町の北寄りの道が交わる辺り。",
+     "radius_m": 500
+    },
+    {
+     "text": "都道が広がる前から続く、道が五方向に集まる角を探す。",
+     "radius_m": 250
+    },
+    {
+     "text": "角に祠のように石仏が並んでいる。中央は六地蔵を刻んだ石の柱。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この石仏の集まりの名前は？",
+    "display": "又六石仏群",
+    "accept": [
+     "又六石仏群",
+     "またろくせきぶつぐん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "旧上保谷村又六の五つ角に建つ石仏群。中心は安永5年の六地蔵石幢で、元禄10年の青面金剛庚申塔など、地蔵と庚申の信仰が重なる様子を伝える。",
+   "long": "西東京市住吉町三丁目、旧上保谷村又六の五つ角に建つ石仏群で、市指定文化財（昭和61年7月指定）です。すべて又六の講中が造立しました。中心にあるのは安永5年（1776年）造立の六地蔵石幢です。左側には、上保谷で最も古い元禄10年（1697年）の青面金剛庚申塔と、寛政10年（1798年）の庚申塔があります。右側には明治30年（1897年）造立の地蔵菩薩立像が2体あり、造立年不詳の地蔵菩薩坐像も1体あります。市の解説は、江戸時代に地蔵信仰と庚申信仰が重なっていたことを示す良い資料としています。また、都道が広がる前は8月24日に盂蘭盆の縁日が立ち、又六の念仏講中が祠の前庭で念仏申しを行っていたと伝えます。道端の石仏から、村の人々が講を組んで信仰を守ってきた暮らしがうかがえます。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 又六石仏群",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei24.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "市ページの本文は要約形式で取得（小型モデル経由）。現地に説明板があるか、石仏が道路から見える配置かは出典で確かめられていない。座標は国土地理院と約20m差で一致。祠の有無は未確認。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は石仏群。中央に六地蔵を刻んだ石の柱（石幢）、左右に庚申塔と地蔵がある",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei24.html"
+    },
+    {
+     "text": "道路沿いの五つ角にあり、道から見る",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "説明板があるかどうかは不明",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-45",
+   "name": "天神社",
+   "kana": "てんじんしゃ",
+   "lat": 35.753952,
+   "lon": 139.561041,
+   "address": "東京都西東京市北町六丁目7-19",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸時代、この村の鎮守は日蓮宗ゆかりの三十の神々だった。明治の初めに信仰が禁じられ、氏子たちは残った学問の神の石像を本殿に移して社の名を改めた。その社を探そう。",
+   "hints": [
+    {
+     "text": "下保谷の北、北町六丁目の住宅街にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "鳥居と境内を持つ、村の鎮守だった神社。",
+     "radius_m": 250
+    },
+    {
+     "text": "学問の神を祀る神社。名前に「天」の字が付く。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "天神社",
+    "accept": [
+     "天神社",
+     "てんじんしゃ",
+     "てんじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "下保谷村の鎮守だった三十番神は神仏分離で禁じられ、菅原道真石像を本殿に移して天神社と改めた。境内に題目塔2基が残り、日蓮宗の村だった名残を伝える。",
+   "long": "西東京市北町六丁目の天神社には、市指定文化財の菅原道真石像、氏子中奉納題目塔二基、拝殿（指定一覧に記載）があります。市の解説によると、江戸時代の下保谷村の鎮守は三十番神で、その中に北野大明神（菅原道真）が配列されていた由緒から、境内に道真の石像を御神体とする天神社が摂社として祀られていました。明治元年（1868年）の神仏分離の施策で三十番神信仰が禁止されると、氏子たちはこの由緒をもとに石像を本殿へ移し、社号を天神社に改めました。題目塔二基は安永2年（1773年）と安永9年（1780年）の建立で、村の大願を祈り、鎮守の神に日蓮宗の題目を唱えた記念の塔です。神仏分離と廃仏毀釈を経ても境内に残され、下保谷村が日蓮宗であったことを示します。かつての三十番神の神像は、別当寺だった福泉寺に移され保存されたと市は説明しています。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 菅原道真石像",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei42.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 氏子中奉納題目塔二基",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei45.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 木彫彩色三十番神神像（福泉寺）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei30.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "拝殿の指定ページ（sitei50.html）は取得失敗で内容未確認。拝殿の建築年・様式は書いていない。境内の入場可否・説明板・題目塔の位置は出典で確かめられていない。座標は国土地理院と約40m差で一致。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は神社の境内にある題目塔2基（江戸時代後期の石塔）",
+     "confidence": "出典あり",
+     "source_url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei45.html"
+    },
+    {
+     "text": "拝殿は市指定文化財（内容は未確認）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.nishitokyo.lg.jp/siseizyoho/sesaku_keikaku/keikaku/kyouiku/dai2kihozonkatuyou.files/2kibunkazai-gaiyou.pdf"
+    },
+    {
+     "text": "石像は本殿に納められ、外から見えない可能性がある",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-33",
+   "name": "福泉寺",
+   "kana": "ふくせんじ",
+   "lat": 35.753744,
+   "lon": 139.566528,
+   "address": "東京都西東京市下保谷三丁目11-17",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "明治の神仏分離で、村の鎮守の三十の神々は禁じられ、神社の名も変わった。そのとき神々の像を預かって守り伝えた、かつての別当の寺を探そう。",
+   "hints": [
+    {
+     "text": "下保谷三丁目の住宅街。村の鎮守だった神社から東へ500mほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "日蓮宗の信仰を伝える、村の鎮守に関わった寺。",
+     "radius_m": 250
+    },
+    {
+     "text": "名前に「泉」の字が入る寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "福泉寺",
+    "accept": [
+     "福泉寺",
+     "ふくせんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "下保谷村の鎮守だった三十番神の神像を、別当寺だった福泉寺が神仏分離のあとも預かって保存してきた。江戸時代後期頃の作で市指定文化財。",
+   "long": "西東京市下保谷三丁目の福泉寺には、市指定文化財の木彫彩色三十番神神像（平成3年7月指定）が伝わります。三十番神は、日蓮宗で1か月30日を30柱の神々が交代で、僧侶・寺院・信徒を守護するとされた神です。明治元年（1868年）の神仏分離政策で三十番神への信仰は禁止され、多くの神像が失われました。下保谷村の村鎮守だった三十番神は廃止されて天神社となり、その神像は別当寺だった福泉寺に移されて保存され、現在に至ると市は説明しています。江戸時代後期頃の作とされ、下保谷村で近世末期まで続いた村鎮守信仰の伝統を伝える歴史遺産です。神像は寺の所蔵品で、普段は見られないと考えられるため、ここでは寺を訪ねて、村の鎮守と寺の結びつきを思い浮かべる地点とします。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 木彫彩色三十番神神像",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei30.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 菅原道真石像（天神社の由緒）",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei42.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "山門・本堂など外観や宗派・創建は出典で確かめられていない（市ページは神像の所在のみ）。神像の公開状況も未確認で、long の「普段は見られないと考えられる」は推定。境内参拝の可否も未確認。座標は国土地理院と一致。天神社（nishitokyo-45）とは約500m離れ重ならない。市ページ本文は要約形式で取得。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は寺の山門と本堂（外観は未確認）",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "神像は寺の所蔵で、普段は見えないと思われる",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-47",
+   "name": "如意輪寺",
+   "kana": "にょいりんじ",
+   "lat": 35.741475,
+   "lon": 139.551457,
+   "address": "東京都西東京市泉町二丁目15-7",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "明治17年、観音堂に奉納された大きな絵馬には、村の祭りの日に馬が駆ける市のにぎわいが、実際に見て描いたような細かさで残されている。その市が開かれた寺を探そう。",
+   "hints": [
+    {
+     "text": "泉町二丁目の住宅街。西武柳沢駅に近い方面。",
+     "radius_m": 500
+    },
+    {
+     "text": "かつて村の祭りで馬駈けの市が立った寺の境内。",
+     "radius_m": 250
+    },
+    {
+     "text": "名前に仏の名「輪」の字が入る観音ゆかりの寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "如意輪寺",
+    "accept": [
+     "如意輪寺",
+     "にょいりんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "明治17年に観音堂へ奉納された大絵馬2枚は、如意輪寺の景色の中で行われた村祭り「馬駈け市」を写実的に描く。周辺に同種の絵馬はなく、市指定文化財。",
+   "long": "西東京市泉町二丁目の如意輪寺には、市指定文化財の馬駈け市大絵馬二枚（平成9年3月指定）が伝わります。明治17年（1884年）に観音堂へ奉納されたもので、村の祭りの日である「馬駈け市」をしのばせる一等資料と市は説明しています。絵師は実際に市を見て描いたとみられ、如意輪寺の景色の中で行われた市の様子を非常に写実的に描いています。市の周辺地域に同じ種類の絵馬はなく、馬駈け市の記憶や言い伝えが失われつつある今、貴重な文化財です。絵馬は寺の所蔵で普段は見られないと思われますが、今の境内に立ち、かつて馬が駆け人が集まった祭りの日を想像してみる地点です。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 馬駈け市大絵馬二枚",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei44.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "寺の創建・宗派・観音堂の現状は出典で確かめられていない。絵馬の公開状況は未確認（long の「普段は見られないと思われる」は推定）。ヒント1の「西武柳沢駅に近い方面」は一般的な位置の推定で出典なし（要確認、不適なら削除）。座標は国土地理院と約45m差。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は寺の観音堂（現状は未確認）",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "絵馬は所蔵品で、見えない可能性が高い",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "nishitokyo-44",
+   "name": "寶樹院",
+   "kana": "ほうじゅいん",
+   "lat": 35.73927,
+   "lon": 139.550767,
+   "address": "東京都西東京市泉町二丁目7-25",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸時代、目の病を治したい人々がこの寺に絵馬を納めた。寛永通宝を貼って平仮名の文字を向かい合わせにした、ふつうとは違う作りの絵馬が伝わる寺を探そう。",
+   "hints": [
+    {
+     "text": "泉町二丁目の住宅街。",
+     "radius_m": 500
+    },
+    {
+     "text": "薬師信仰で知られるとされる寺。",
+     "radius_m": 250
+    },
+    {
+     "text": "宝の樹と書く名の寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "寶樹院",
+    "accept": [
+     "寶樹院",
+     "宝樹院",
+     "ほうじゅいん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "寶樹院には、江戸時代に眼病の回復を願って奉納された、寛永通宝を並べた向い目絵馬2枚が伝わる。薬師信仰を伝える市指定文化財。",
+   "long": "西東京市泉町二丁目の寶樹院には、市指定文化財の一文銭向い目絵馬二枚（平成7年3月指定）が伝わります。市の解説によれば、薬師如来への病気平癒の祈願として江戸時代に眼病の回復を願って奉納された絵馬で、縁日などに多く奉納された向い目絵馬のうち、現存する貴重な2枚です。多くの向い目絵馬は墨書きですが、この2枚は寛永通宝を並べ、平仮名の「め」の字を向かい合わせるように貼り付けてあります。寶樹院の薬師信仰を伝える資料です。絵馬は寺の所蔵で普段は見られないと思われるため、ここでは寺を訪ねて、江戸の人々の目の病の祈りに思いを巡らす地点とします。",
+   "sources": [
+    {
+     "title": "西東京市 文化財一覧（オープンデータ）",
+     "publisher": "西東京市",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/nishitokyo/132292_cultural_property.xlsx",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西東京市 市指定文化財 一文銭向い目絵馬二枚",
+     "publisher": "西東京市",
+     "url": "http://www.city.nishitokyo.lg.jp/smph/enjoy/rekishi_bunka/bunkazai/shishitei/sitei41.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "市ページは要約形式で取得され、寺の由緒（薬師如来が本尊か）はページ本文で厳密に確かめられていない可能性がある。読み（ほうじゅいん）は出典で未確認。寺の外観・参拝可否は未確認。絵馬の公開状況も未確認（「普段は見られないと思われる」は推定）。座標は国土地理院と約45m差。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は寺の山門・本堂（外観は未確認）",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "絵馬は所蔵品で、見えない可能性が高い",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  }
+ ]
+}
