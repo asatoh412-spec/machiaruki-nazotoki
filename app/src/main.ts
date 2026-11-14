@@ -5,7 +5,7 @@ import { assemble, isEligible, planOf } from './course.ts';
 import { checkShare, OPERATORS, type Operator } from './gbfs.ts';
 import { routeMeters } from './routing.ts';
 import { sunsetOf, weatherFor } from './sky.ts';
-import { createMap, showPorts } from './map.ts';
+import { createMap, createPackPicker, showPorts } from './map.ts';
 import * as db from './store.ts';
 import { deleteAllPhotos, photoStats } from './photos.ts';
 import { getSettings, saveSettings } from './settings.ts';
@@ -321,7 +321,11 @@ async function newCourse() {
     <header><button class="back" id="back">← 戻る</button><h1>新しいコース</h1></header>
     <main>
       <form id="f">
-        <label>地区<select name="pack">${packs.map((p) => `<option value="${esc(p.pack_id)}">${esc(p.title)}</option>`).join('')}</select></label>
+        <div class="field"><b>地区</b><span class="muted small">（地図の枠をタップして選ぶ）</span>
+          <div id="packmap" class="pack-map"></div>
+          <p id="packname" class="pack-chosen"></p>
+          <label class="small">一覧から選ぶ<select name="pack">${packs.map((p) => `<option value="${esc(p.pack_id)}">${esc(p.title)}（${p.points.length}地点）</option>`).join('')}</select></label>
+        </div>
         <fieldset><legend>移動手段</legend>
           <label class="radio"><input type="radio" name="mode" value="walk" checked>徒歩</label>
           <label class="radio"><input type="radio" name="mode" value="share">電車＋シェアサイクル</label>
@@ -363,7 +367,24 @@ async function newCourse() {
           : '';
   };
   fillStations();
-  packSel.addEventListener('change', fillStations);
+  // 地図で地区を選ぶ。一覧（select）と連動させる
+  const packName = app.querySelector<HTMLElement>('#packname')!;
+  const showName = () => {
+    const p = packs.find((x) => x.pack_id === packSel.value)!;
+    packName.textContent = `選択中：${p.title}（${p.points.length}地点）`;
+  };
+  showName();
+  const picker = createPackPicker(app.querySelector<HTMLElement>('#packmap')!, packs, packSel.value, (id) => {
+    packSel.value = id;
+    showName();
+    fillStations();
+  }, settings.home);
+  setMap(picker.map);
+  packSel.addEventListener('change', () => {
+    picker.select(packSel.value);
+    showName();
+    fillStations();
+  });
   const nowHM = new Date(Date.now() + 10 * 60000).toTimeString().slice(0, 5);
   // 初期値：今日の日没の1時間前を過ぎていれば「明日の10:00」、そうでなければ「今から10分後」
   {

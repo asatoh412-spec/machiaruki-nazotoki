@@ -130,3 +130,9 @@ fieldset select { display: block; width: 100%; margin-top: 4px; }
 .timing th:first-child, .timing td:first-child { text-align: left; }
 .timing { width: 100%; border-collapse: collapse; font-size: 14px; }
 .timing tr { border-bottom: 1px solid var(--line); }
+.pack-map { height: 320px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: #e9e4da; margin: 6px 0; }
+.pack-label { font-size: 11px; line-height: 1.2; padding: 2px 5px; min-height: 0; border-radius: 6px; border: 1px solid #2f5d3a; background: rgba(255,255,255,.88); color: #2f5d3a; white-space: nowrap; }
+.pack-label.chosen { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 700; z-index: 2; }
+.pack-chosen { font-weight: 600; margin: 4px 0 0; }
+.pack-map .pack-label { display: none; }
+.pack-map .pack-label.chosen, .pack-map.zoomed .pack-label { display: block; }
