@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "sumida-ryogoku",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "両国・本所・押上・立花（墨田区）",
  "prefecture": "東京都",
  "city": "墨田区",
@@ -2051,6 +2051,163 @@
     }
    ],
    "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "sumida-x-hokusai",
+   "name": "すみだ北斎美術館",
+   "kana": "すみだほくさいびじゅつかん",
+   "lat": 35.6964,
+   "lon": 139.800232,
+   "address": "東京都墨田区亀沢2-7-2",
+   "kind": "博物館",
+   "indoor": true,
+   "access": "開館時間は9:30〜17:30（入館は閉館の30分前まで）。休館日は毎週月曜日（月曜が祝日・振替休日の場合は翌平日）と年末年始（12月27日〜1月1日）で、臨時の開館・休館もある（公式サイト、2026-11-14確認）。観覧料：常設の『北斎を学ぶ部屋』は一般400円、高校生・大学生と65歳以上300円、中学生以下と障がい者は無料。企画展は展覧会ごとに異なり、開催中の特別展（2026年11月23日まで）は一般1,500円、高校生・大学生と65歳以上1,000円、中学生500円、小学生以下無料（観覧日当日に限り『北斎を学ぶ部屋』も観覧可）。次の企画展（2026年12月16日〜）の料金は未確認。駐車場はない。",
+   "seasonal": [],
+   "riddle": "外壁は淡い鏡面の銀色で、町の景色をやわらかく映し、建物は細い隙間でゆるやかに分けられている。江戸の昔にはここに弘前藩の大名屋敷があり、いまは、この町に生まれた浮世絵師の作品を集めて紹介する施設が建つ。その建物を探せ。",
+   "hints": [
+    {
+     "text": "墨田区の亀沢。両国駅から歩いて5〜9分ほどの住宅街で、総武線の線路の北側にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "江戸時代は弘前藩津軽家の上屋敷があった場所。建物のすぐ前には緑町公園がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "設計は妹島和世。「冨嶽三十六景」の作者の名を冠した、墨田区の展示施設。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この建物の名前は？",
+    "display": "すみだ北斎美術館",
+    "accept": [
+     "すみだ北斎美術館",
+     "北斎美術館",
+     "すみだほくさいびじゅつかん",
+     "ほくさいびじゅつかん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "外壁は淡い鏡面のアルミパネルで、建物はスリットで分割されている。地上階のスリットは外部通路のアプローチになっている（公式サイトの建築ページによる）。",
+   "short": "妹島和世が設計した、北斎の作品を集める墨田区の美術館。鏡面のアルミ外壁に下町の風景が映る。敷地は弘前藩津軽家の屋敷跡で、ピーター・モースと楢崎宗重の旧蔵品が収蔵の柱。",
+   "long": "すみだ北斎美術館は、浮世絵師・葛飾北斎を区民の誇りとして顕彰し、世界へ発信することをめざす美術館で、2026年11月に開館10周年を迎える。設計は妹島和世。建物は大きな一棟ではなく、スリット（細い隙間）でゆるやかに分割され、周囲の下町の市街地になじむようにしてある。外壁は淡い鏡面のアルミパネルで、町の風景が映り込み、見る角度によって表情が変わる。\n\n敷地は江戸時代、弘前藩津軽家の大名屋敷があった場所で、藩主の依頼で北斎が屏風に馬の絵を描いて帰ったという話が残る。美術館の解説によれば、北斎は宝暦10年（1760）に本所割下水付近で生まれ、天保年間（1830〜1844）の末頃には、娘の栄とともに本所亀沢町の榛馬場に移り住んだという。\n\n収蔵品の柱は、墨田区が一括して取得したピーター・モース（1935〜1993）の北斎コレクションと、平成7年（1995）に寄贈された浮世絵研究者・楢崎宗重（1904〜2001）のコレクションである。モース氏のコレクションは欧米における北斎の個人収集としては最高・最大の内容と言われ、区が取得した北斎作品や研究資料は600点近い。\n\n常設の展示室「北斎を学ぶ部屋」では、北斎の生涯を6つの時代に分けてたどる。浮世絵は熱や光に弱いため、実物の展示は1年に30日以内とされ、この部屋に並ぶのは実物大の高精細レプリカである。",
+   "sources": [
+    {
+     "title": "墨田区 文化財一覧（オープンデータ）",
+     "publisher": "墨田区",
+     "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_cultural_property.csv",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "ご利用案内（開館時間・休館日・観覧料）",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/1111",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "開館10周年記念 特別展 ベスト オブ すみだ北斎美術館（観覧料）",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Exhibition/exhibitions/view/5021",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "北斎を学ぶ部屋",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/1067",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "建築",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/605",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "コレクション",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Collection/",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "北斎の生涯",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/402",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "ゆかりの地MAP",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/403",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "周辺施設案内",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/104",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "交通アクセス",
+     "publisher": "すみだ北斎美術館",
+     "url": "https://hokusai-museum.jp/modules/Page/pages/view/3570",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) この地点は区の文化財データにない追加地点（指示による）。sources の区データは規則上入れたが、美術館そのものの記載はない。(2) 座標は国土地理院の住所検索（東京都墨田区亀沢2-7-2）の35.6964,139.800232。番地の代表点で、建物の中心とは数十m違う可能性がある。回向院（sumida-61）までは約820m、江島杉山神社（sumida-37）までは約930mで、半径50mの判定は重ならない。(3) 美術館公式サイトの本文で確かめた内容だけを書いた。開館年月日は開いたページに明記がなく、「2026年11月に開館10周年」とだけ書いた。(4) 北斎の生誕は美術館の解説（北斎の生涯、ゆかりの地MAP）に基づく「本所割下水付近」で、断定していない。(5) 常設の展示は『北斎を学ぶ部屋』（高精細レプリカ。実物展示は年30日以内）で、実物の常設展示室ではない。(6) 観覧料は2026-11-14に公式サイトで確認。特別展の中学生料金は、10月1日から墨田区在学・在住の中学生は無料との注記がある。常設の『北斎を学ぶ部屋』は中学生以下無料。(7) 設計の妹島和世は公式の建築ページの記載。プリツカー賞などの受賞はSANAAとしてのもので、解説には書いていない。(8) 謎の「この町に生まれた」はゆかりの地MAPの記載による。ヒント1・2に「北斎」「美術館」は入れていない。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は、淡い鏡面のアルミパネルの外壁をもつ建物。スリットで何棟かに分かれて見える",
+     "confidence": "出典あり",
+     "source_url": "https://hokusai-museum.jp/modules/Page/pages/view/605"
+    },
+    {
+     "text": "すぐ前に緑町公園がある",
+     "confidence": "出典あり",
+     "source_url": "https://hokusai-museum.jp/modules/Page/pages/view/104"
+    },
+    {
+     "text": "区内循環バスの停留所名は「すみだ北斎美術館前（津軽家上屋敷跡）」",
+     "confidence": "出典あり",
+     "source_url": "https://hokusai-museum.jp/modules/Page/pages/view/3570"
+    },
+    {
+     "text": "入館は閉館30分前まで。月曜は休館（祝日の場合は翌平日）",
+     "confidence": "出典あり",
+     "source_url": "https://hokusai-museum.jp/modules/Page/pages/view/1111"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:2018_Sumida_Hokusai_Museum_2.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2018_Sumida_Hokusai_Museum_2.jpg/1280px-2018_Sumida_Hokusai_Museum_2.jpg",
+     "caption": "すみだ北斎美術館の外観",
+     "author": "Kakidai",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hokusai_Katsushika,_Selfportrait_at_the_age_of_eighty-three_(crop).png",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hokusai_Katsushika%2C_Selfportrait_at_the_age_of_eighty-three_%28crop%29.png",
+     "caption": "北斎の自画像（83歳のとき、1840年代頃。部分）",
+     "author": "葛飾北斎（Hokusai）",
+     "license": "パブリックドメイン（PD-old-70-expired）",
+     "license_url": "https://commons.wikimedia.org/wiki/Template:PD-old-70-expired"
+    }
+   ],
    "last_checked": null
   }
  ]
