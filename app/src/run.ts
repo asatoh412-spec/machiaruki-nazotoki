@@ -278,7 +278,7 @@ function explainScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Point[]
     <main>
       <p class="verdict ${res.outcome === 'correct' ? 'ok' : ''}">${res.outcome === 'correct' ? (res.method === 'photo' ? '正解（写真で確認）' : '正解') : '答え'}：${esc(p.answer.display)}</p>
       <h2>${esc(p.name)}</h2>
-      ${imagesHtml(p)}
+      ${imagesHtml(p, run.id)}
       <p>${esc(p.short)}</p>
       <details id="oldmapbox"><summary>古地図で見る</summary>
         <div class="periods">${OLD_PERIODS.map((x, i) => `<button data-period="${x.id}" class="${i === 0 ? 'chosen' : ''}">${x.label}</button>`).join('')}</div>
@@ -321,8 +321,9 @@ function explainScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Point[]
   });
 }
 
-function imagesHtml(p: Point): string {
-  if (!p.images?.length) return '';
+function imagesHtml(p: Point, runId = ''): string {
+  // 公開ライセンスの画像がない地点は、自分で撮った写真（端末内）を解説の画像に使う
+  if (!p.images?.length) return `<div class="figs" data-own="${esc(p.id)}" data-run="${esc(runId)}"></div>`;
   return `<div class="figs">${p.images
     .map(
       (im) => `<figure><img data-src="${esc(im.image_url)}" alt="${esc(im.caption)}"><figcaption>${esc(im.caption)}<br><small>${esc(im.author)}・${
@@ -332,8 +333,36 @@ function imagesHtml(p: Point): string {
     .join('')}</div>`;
 }
 
+// 自分で撮った写真を解説の画像として出す（いちばん新しい1枚）。まだなければ撮るボタンを出す
+async function loadOwn() {
+  for (const box of app.querySelectorAll<HTMLElement>('[data-own]')) {
+    const id = box.dataset.own!;
+    const list = await photosOf(id);
+    const ph = list[list.length - 1];
+    if (ph) {
+      const u = URL.createObjectURL(ph.blob);
+      onLeave(() => URL.revokeObjectURL(u));
+      box.innerHTML = `<figure><img src="${u}" alt=""><figcaption>自分で撮った写真（${new Date(ph.at).toLocaleDateString('ja-JP')}）<br><small>この端末の中だけにあります。下の「写真を付ける」で足すと、いちばん新しい写真に替わります。</small></figcaption></figure>`;
+    } else {
+      box.innerHTML = `<p class="muted small">この地点には使える画像がまだありません。撮った写真が、ここに解説の画像として出ます（次に来たときも）。</p><label class="file small">写真を撮って解説の画像にする<input type="file" data-ownin accept="image/*" capture="environment"></label>`;
+      box.querySelector<HTMLInputElement>('[data-ownin]')!.addEventListener('change', async (e) => {
+        const f = (e.target as HTMLInputElement).files?.[0];
+        if (!f) return;
+        try {
+          await addPhoto(id, box.dataset.run ?? '', f);
+        } catch {
+          alert('写真を読み込めませんでした。');
+        }
+        await loadOwn();
+        app.dispatchEvent(new Event('photos-changed'));
+      });
+    }
+  }
+}
+
 // 画像は端末に縮小して保存し、表示する。通信できないときは説明文だけ残す。
 function loadImages() {
+  loadOwn();
   app.querySelectorAll<HTMLImageElement>('img[data-src]').forEach(async (img) => {
     const url = await imageUrl(img.dataset.src!);
     if (url) img.src = url;
@@ -526,6 +555,7 @@ export function bindRecordSection(pointId: string, runId: string, saveMemo: ((me
         if (!confirm('この写真を削除します。')) return;
         await deletePhoto(b.dataset.del!);
         draw();
+        loadOwn();
       }),
     );
   };
@@ -542,7 +572,11 @@ export function bindRecordSection(pointId: string, runId: string, saveMemo: ((me
     }
     input.value = '';
     draw();
+    loadOwn();
   });
+  const onChanged = () => draw();
+  app.addEventListener('photos-changed', onChanged);
+  onLeave(() => app.removeEventListener('photos-changed', onChanged));
   const memo = app.querySelector<HTMLTextAreaElement>('#memo');
   if (memo && saveMemo) memo.addEventListener('change', () => saveMemo(memo.value.trim()));
   else if (memo) memo.closest('label')!.hidden = true;
