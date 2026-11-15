@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "sumida-ryogoku",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "両国・本所・押上・立花（墨田区）",
  "prefecture": "東京都",
  "city": "墨田区",
@@ -823,7 +823,16 @@
    ],
    "status": "unverified",
    "notes": "碑の位置が出典で違う：寺の公式は「山門を入ってすぐ右手」、区DBは「境内北側の覆屋」。onsiteは寺公式に拠った。碑の年代も寺公式（詩1752、建碑1762）と区DB（1859年以降、安政の地震後の再建）で書き方が異なるため、両方を併記した。井戸名「夜寉井」の読みは出典になく書かなかった（碑名の読み やかくいめい は寺公式と区DBに拠る）。「みょうえんじ」の読みは出典ページで確認していない。参拝可否・開門時間は出典なし（access null）。住所と駅の近さはフォートラベルの口コミに拠る（hint1は『駅近く』の表現にとどめた）。Wikipedia『妙縁寺』は開けず未使用。座標は国土地理院の住所検索とほぼ一致（約25m）、区の値のまま。寺の公式の表記は「夜隺井」、区のデータは「夜寉井」で字が違う。",
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:My%C5%8Den-ji_(Sumida)_06.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/My%C5%8Den-ji_%28Sumida%29_06.jpg",
+     "caption": "妙縁寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "onsite_hints": [
     {
      "text": "探す物は屋根のついた石碑。山門を入ってすぐ右手にあるとされる",

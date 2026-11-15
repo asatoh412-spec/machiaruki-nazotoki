@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "sumida-mukojima",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "向島・墨堤・東向島（墨田区）",
  "prefecture": "東京都",
  "city": "墨田区",
@@ -288,7 +288,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E3%81%99%E3%81%BF%E3%81%A0%E9%83%B7%E5%9C%9F%E6%96%87%E5%8C%96%E8%B3%87%E6%96%99%E9%A4%A8.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/%E3%81%99%E3%81%BF%E3%81%A0%E9%83%B7%E5%9C%9F%E6%96%87%E5%8C%96%E8%B3%87%E6%96%99%E9%A4%A8.jpg",
+     "caption": "すみだ郷土文化資料館",
+     "author": "遠枝",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -751,7 +760,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kofukuji_(Sumida)_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kofukuji_%28Sumida%29_02.jpg",
+     "caption": "弘福寺",
+     "author": "Suikotei",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1237,7 +1255,16 @@
      "source_url": "https://ja.wikipedia.org/wiki/隅田川神社"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E9%9A%85%E7%94%B0%E5%B7%9D%E7%A5%9E%E7%A4%BE_%E5%A2%A8%E7%94%B0%E5%8C%BA%E5%A0%A4%E9%80%9A2%E4%B8%81%E7%9B%AE_2013.5.18_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/%E9%9A%85%E7%94%B0%E5%B7%9D%E7%A5%9E%E7%A4%BE_%E5%A2%A8%E7%94%B0%E5%8C%BA%E5%A0%A4%E9%80%9A2%E4%B8%81%E7%9B%AE_2013.5.18_-_panoramio.jpg",
+     "caption": "隅田川神社",
+     "author": "Nankou Oronain (as36…",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {

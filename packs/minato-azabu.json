@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "minato-azabu",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "麻布・赤坂・六本木（港区）",
  "prefecture": "東京都",
  "city": "港区",
@@ -266,7 +266,16 @@
      "source_url": "https://www.minato-rekishi.com/museum/2009/10/90.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:TengenjiMon.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/TengenjiMon.jpg",
+     "caption": "天現寺",
+     "author": "荒木三太",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1574,7 +1583,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hodo-ji_(Minato,_Tokyo).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hodo-ji_%28Minato%2C_Tokyo%29.JPG",
+     "caption": "報土寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "suginami-ogikubo",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "荻窪・天沼・善福寺（杉並区）",
  "prefecture": "東京都",
  "city": "杉並区",
@@ -214,7 +214,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/documents/7576/r7-tekigaisoukyuzounagadoutaiko.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tekigaiso_Park.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tekigaiso_Park.jpg",
+     "caption": "荻外荘",
+     "author": "Gungun01",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -412,7 +421,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/documents/7578/124.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:TORII_TABATA_SHRINE.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/TORII_TABATA_SHRINE.JPG",
+     "caption": "田端神社",
+     "author": "N1229",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -626,7 +644,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/documents/7575/72.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kasuga-jinja_hall_of_worship_2024-12-08.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kasuga-jinja_hall_of_worship_2024-12-08.jpg",
+     "caption": "大宮前春日神社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -808,7 +835,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ozaki_Kumano-jinja_hall_of_worship_2024-10-24.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ozaki_Kumano-jinja_hall_of_worship_2024-10-24.jpg",
+     "caption": "尾崎熊野神社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1341,7 +1377,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hon-amanuma_Inari-jinja_entrance_2023-10-22.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Hon-amanuma_Inari-jinja_entrance_2023-10-22.jpg",
+     "caption": "本天沼稲荷神社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "status": "unverified",
    "last_checked": null
@@ -1425,7 +1470,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Amanuma_Kumano-jinja_entrance_2026-07-30.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Amanuma_Kumano-jinja_entrance_2026-07-30.jpg",
+     "caption": "天沼熊野神社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "status": "unverified",
    "last_checked": null

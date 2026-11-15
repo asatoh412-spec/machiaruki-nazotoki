@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "itabashi-juku",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "板橋宿・仲宿（板橋区）",
  "prefecture": "東京都",
  "city": "板橋区",
@@ -168,7 +168,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sundays_Temple.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Sundays_Temple.jpg",
+     "caption": "日曜寺",
+     "author": "Missmikage",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -253,7 +262,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Chisei-ji_(Itabashi).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Chisei-ji_%28Itabashi%29.JPG",
+     "caption": "智清寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1333,7 +1351,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Koyasu-jinja_east_entrance_2025-05-03.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Koyasu-jinja_east_entrance_2025-05-03.jpg",
+     "caption": "子易神社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   }
  ]

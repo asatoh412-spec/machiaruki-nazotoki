@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinjuku-yotsuya",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "四谷・信濃町・荒木町（新宿区）",
  "prefecture": "東京都",
  "city": "新宿区",
@@ -179,7 +179,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Eishin-ji_(Shinjuku).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eishin-ji_%28Shinjuku%29.JPG",
+     "caption": "永心寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "status": "unverified",
    "last_checked": null
   },
@@ -482,7 +491,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11348070"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sasadera_temple_yotsuya.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Sasadera_temple_yotsuya.JPG",
+     "caption": "長善寺",
+     "author": "Kamemaru2000",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "status": "unverified",
    "last_checked": null
   },
@@ -1209,7 +1227,16 @@
      "source_url": "https://www.jinjyagoshuin.com/entry/toonominenaitou"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%9A%E6%AD%A6%E5%B3%AF%E5%86%85%E8%97%A4%E7%A5%9E%E7%A4%BE_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/%E5%A4%9A%E6%AD%A6%E5%B3%AF%E5%86%85%E8%97%A4%E7%A5%9E%E7%A4%BE_-_panoramio.jpg",
+     "caption": "多武峯内藤神社",
+     "author": "tertrerouge",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -1939,7 +1966,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kaigyo-ji.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kaigyo-ji.JPG",
+     "caption": "戒行寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {

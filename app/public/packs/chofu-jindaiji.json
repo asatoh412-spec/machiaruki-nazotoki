@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "chofu-jindaiji",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "深大寺・飛田給・上石原（調布市）",
  "prefecture": "東京都",
  "city": "調布市",
@@ -461,7 +461,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kohaku-jinja(Chofu).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kohaku-jinja%28Chofu%29.jpg",
+     "caption": "虎狛神社",
+     "author": "Taisuke.Kasuya",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -570,7 +579,16 @@
      "source_url": "https://www.jeepe.jp/ja/articles/jindaiji-temple-visit-guide-3374"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jindaiji-4.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jindaiji-4.jpg",
+     "caption": "深大寺",
+     "author": "江戸村のとくぞう",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -661,7 +679,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Aoi_Jinjya_shrine_(38549922785).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Aoi_Jinjya_shrine_%2838549922785%29.jpg",
+     "caption": "青渭神社",
+     "author": "nakashi from Chofu, Tokyo, JAPAN",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

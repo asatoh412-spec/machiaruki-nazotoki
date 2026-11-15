@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "minato-shiba",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "芝・増上寺・愛宕・新橋（港区）",
  "prefecture": "東京都",
  "city": "港区",
@@ -2367,7 +2367,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E6%9D%BE%E5%AF%BA.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/%E9%9D%92%E6%9D%BE%E5%AF%BA.JPG",
+     "caption": "青松寺",
+     "author": "Dondekkon",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2539,7 +2548,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tranomon_Kotohiragu4.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tranomon_Kotohiragu4.JPG",
+     "caption": "虎ノ門金刀比羅宮",
+     "author": "江戸村のとくぞう (Edomura no Tokuzo)",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   }
  ]

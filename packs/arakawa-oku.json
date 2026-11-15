@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "arakawa-oku",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "尾久・町屋（荒川区）",
  "prefecture": "東京都",
  "city": "荒川区",
@@ -554,7 +554,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sekiun-ji_(Arakawa).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sekiun-ji_%28Arakawa%29.JPG/1280px-Sekiun-ji_%28Arakawa%29.JPG",
+     "caption": "碩運寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -629,7 +638,16 @@
    ],
    "status": "unverified",
    "notes": "板碑の指定区分が出典で違う：区CSVの備考は「光明遍照偈板碑のみ指定」、区の寺社ページの文化財欄は「板碑（年不詳）＝区登録」「光明遍照偈板碑＝区指定」の2件。本文は「光明遍照偈板碑ほか2基」と書いた。開創：区は「未詳」、Wikipediaは「室町末〜江戸初期の開山と推測」「江川家屋敷内に建てられたとの説」で未確定のため本文に入れなかった。庚申塔（享保9年銘）は区の文化財欄にあるが、境内のどこにあるかは出典なし。山門は区のページに写真の説明（「華藏院山門」）があるだけで、形の説明はない。墓参の可否・境内の開門時間は出典なし。読み「けぞういん」は区のページの表記による。座標は国土地理院の住所検索と約25mで一致、区の値のまま。",
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%8D%92%E5%B7%9D%E5%8C%BA%E3%81%AE%E8%8F%AF%E8%94%B5%E9%99%A2_4.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%8D%92%E5%B7%9D%E5%8C%BA%E3%81%AE%E8%8F%AF%E8%94%B5%E9%99%A2_4.jpg/1280px-%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%8D%92%E5%B7%9D%E5%8C%BA%E3%81%AE%E8%8F%AF%E8%94%B5%E9%99%A2_4.jpg",
+     "caption": "華蔵院",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "onsite_hints": [
     {
      "text": "探す物は山門。区のページに「華藏院山門」の写真がある",

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "koganei",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "小金井・貫井・はけ（小金井市）",
  "prefecture": "東京都",
  "city": "小金井市",
@@ -166,7 +166,16 @@
      "source_url": "https://www.city.koganei.lg.jp/kankobunka/bunkazai/shiteibunkazai/shibunkazai6.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Koganei-jinja_Haiden.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Koganei-jinja_Haiden.jpg",
+     "caption": "小金井神社",
+     "author": "運動会プロテインパワー",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -818,7 +827,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Yokuonkan,_Koganei.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Yokuonkan%2C_Koganei.jpg",
+     "caption": "浴恩館公園",
+     "author": "運動会プロテインパワー",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1014,7 +1032,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Open_Air_Architectural_Museum_PB252276.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Edo-Tokyo_Open_Air_Architectural_Museum_PB252276.jpg",
+     "caption": "江戸東京たてもの園",
+     "author": "Kestrel",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   }
  ]

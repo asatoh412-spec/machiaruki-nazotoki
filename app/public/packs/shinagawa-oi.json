@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinagawa-oi",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "大井・大森（品川区）",
  "prefecture": "東京都",
  "city": "品川区",
@@ -584,7 +584,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kashima_jinja_shinagawa_2009.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Kashima_jinja_shinagawa_2009.JPG",
+     "caption": "大井の水神",
+     "author": "Kamemaru2000",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -867,7 +876,16 @@
      "source_url": "https://www.city.shinagawa.tokyo.jp/ct/other000079200/su131o.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Y%C5%8Dgyoku-in_Nyorai-ji_temple,_Shinagawa_-_Nov_26,_2011_(1).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Y%C5%8Dgyoku-in_Nyorai-ji_temple%2C_Shinagawa_-_Nov_26%2C_2011_%281%29.jpg",
+     "caption": "養玉院如来寺",
+     "author": "Farhan Perdana (Blek)",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -1518,7 +1536,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hakusen-ji_(Shinagawa).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Hakusen-ji_%28Shinagawa%29.JPG",
+     "caption": "泊船寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   }

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinagawa-juku",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "品川宿・北品川・南品川（品川区）",
  "prefecture": "東京都",
  "city": "品川区",
@@ -449,7 +449,16 @@
      "source_url": "https://rurubu.jp/andmore/spot/80011605"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Honsenji20100518.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Honsenji20100518.jpg",
+     "caption": "品川寺",
+     "author": "のどごし隊長",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -548,7 +557,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tenmyoukokuji20100714.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Tenmyoukokuji20100714.jpg",
+     "caption": "天妙国寺",
+     "author": "のどごし隊長",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2054,7 +2072,16 @@
      "source_url": "https://tabi-mag.jp/tk1664/"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shinagawajinja_syaden.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shinagawajinja_syaden.jpg",
+     "caption": "品川神社",
+     "author": "不明",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2266,7 +2293,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11350681"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Yogan-ji_(Shinagawa).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Yogan-ji_%28Shinagawa%29.JPG",
+     "caption": "養願寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2597,7 +2633,16 @@
      "source_url": "https://www.city.shinagawa.tokyo.jp/ct/pdf/20220310113331_1.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kagata_jinja.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Kagata_jinja.jpg",
+     "caption": "利田神社",
+     "author": "Suikotei",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   }
  ]

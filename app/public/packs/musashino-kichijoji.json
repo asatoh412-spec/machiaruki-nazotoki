@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "musashino-kichijoji",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "吉祥寺・武蔵境（武蔵野市）",
  "prefecture": "東京都",
  "city": "武蔵野市",
@@ -184,7 +184,16 @@
      "source_url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/045/641/202403_musashino_bunkazai_ver2-s_02_yukei.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kizuki_Taisha.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Kizuki_Taisha.jpg",
+     "caption": "杵築大社",
+     "author": "立花左近",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

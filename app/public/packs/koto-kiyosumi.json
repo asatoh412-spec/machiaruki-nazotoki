@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "koto-kiyosumi",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "清澄・白河・森下・猿江（江東区）",
  "prefecture": "東京都",
  "city": "江東区",
@@ -2126,7 +2126,16 @@
      "source_url": "https://ja.wikipedia.org/wiki/猿江恩賜公園"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sarue_onshi_park05s3200.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Sarue_onshi_park05s3200.jpg",
+     "caption": "猿江恩賜公園",
+     "author": "663highland",
+     "license": "CC BY 2.5",
+     "license_url": "https://creativecommons.org/licenses/by/2.5"
+    }
+   ],
    "last_checked": null
   },
   {

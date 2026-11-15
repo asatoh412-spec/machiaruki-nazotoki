@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "katsushika-shibamata",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "柴又・金町・水元（葛飾区）",
  "prefecture": "東京都",
  "city": "葛飾区",
@@ -175,7 +175,16 @@
     }
    ],
    "on_foot": false,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Katsushika_Tokyo_Koumon_Bridge_1_201304.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Katsushika_Tokyo_Koumon_Bridge_1_201304.jpg",
+     "caption": "閘門橋",
+     "author": "京浜にけ (Keihin Nike)",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -286,7 +295,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kasai_shrine_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Kasai_shrine_01.jpg",
+     "caption": "葛西神社",
+     "author": "Aporon1",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -379,7 +397,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Handainarijinjya.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Handainarijinjya.JPG",
+     "caption": "半田稲荷神社",
+     "author": "Suehi Canon EOS 70D",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -583,7 +610,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shibamata_hachiman_shrine.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Shibamata_hachiman_shrine.jpg",
+     "caption": "柴又八幡神社",
+     "author": "Shokupan",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -682,7 +718,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shibamata_Taishakuten_March_11_2021_various_20_44_16_882000.jpeg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Shibamata_Taishakuten_March_11_2021_various_20_44_16_882000.jpeg",
+     "caption": "題経寺",
+     "author": "Nesnad",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -767,7 +812,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Yamamototei_2022.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Yamamototei_2022.jpg",
+     "caption": "葛飾区山本亭",
+     "author": "皓月旗",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   }
  ]

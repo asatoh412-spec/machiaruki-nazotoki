@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "koto-fukagawa",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "門前仲町・深川・木場（江東区）",
  "prefecture": "東京都",
  "city": "江東区",
@@ -1876,7 +1876,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Zorin-ji_(Koto).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Zorin-ji_%28Koto%29.JPG",
+     "caption": "増林寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {

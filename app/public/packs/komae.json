@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "komae",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "狛江・和泉・猪方（狛江市）",
  "prefecture": "東京都",
  "city": "狛江市",
@@ -165,7 +165,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Izumi_shrine_(Komae)-1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Izumi_shrine_%28Komae%29-1.jpg",
+     "caption": "伊豆美神社",
+     "author": "イカしたイカ",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

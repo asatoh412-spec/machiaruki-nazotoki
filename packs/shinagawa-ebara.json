@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinagawa-ebara",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "五反田・戸越・荏原（品川区）",
  "prefecture": "東京都",
  "city": "品川区",
@@ -1766,7 +1766,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Irugi_jinja.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Irugi_jinja.JPG",
+     "caption": "居木神社",
+     "author": "Jerry fish tkc",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2261,7 +2270,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kizi_jinja.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kizi_jinja.JPG",
+     "caption": "雉子神社",
+     "author": "Jerry fish tkc",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

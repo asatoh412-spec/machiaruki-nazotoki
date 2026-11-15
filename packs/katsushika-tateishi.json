@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "katsushika-tateishi",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "立石・堀切・四つ木・奥戸（葛飾区）",
  "prefecture": "東京都",
  "city": "葛飾区",
@@ -327,7 +327,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Katsushika_City_Museum.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Katsushika_City_Museum.JPG",
+     "caption": "葛飾区郷土と天文の博物館",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -418,7 +427,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%A0%80%E5%88%87%E8%8F%96%E8%92%B2%E5%9C%92_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%E5%A0%80%E5%88%87%E8%8F%96%E8%92%B2%E5%9C%92_-_panoramio.jpg",
+     "caption": "堀切菖蒲園",
+     "author": "くろふね",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -666,7 +684,16 @@
      "source_url": "https://www.japan47go.travel/en/detail/34be2bac-67af-4e59-89d5-6c7d079763dc"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jyokoji_temple_higashiyotsugi_katsushika_2015.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Jyokoji_temple_higashiyotsugi_katsushika_2015.jpg",
+     "caption": "浄光寺",
+     "author": "Kentin",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "chofu-fuda",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "布田・下石原・若葉町（調布市）",
  "prefecture": "東京都",
  "city": "調布市",
@@ -177,7 +177,16 @@
     }
    ],
    "on_foot": false,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shimofuda_Site,_gaikan.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Shimofuda_Site%2C_gaikan.jpg",
+     "caption": "下布田遺跡",
+     "author": "Saigen Jiro",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -809,7 +818,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Fudaten-Shrine-02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fudaten-Shrine-02.jpg",
+     "caption": "布多天神社",
+     "author": "Rs1421",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -926,7 +944,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%AE%9F%E7%AF%A4%E5%85%AC%E5%9C%92_-_panoramio_(14).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%E5%AE%9F%E7%AF%A4%E5%85%AC%E5%9C%92_-_panoramio_%2814%29.jpg",
+     "caption": "実篤公園",
+     "author": "珈琲牛乳",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "last_checked": null
   }
  ]

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "nishitokyo-hoya",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "保谷・下保谷・ひばりが丘（西東京市）",
  "prefecture": "東京都",
  "city": "西東京市",
@@ -135,7 +135,16 @@
    "status": "unverified",
    "notes": "鷹場標杭の所在地は市データで『保谷町』のみ。座標が寺とほぼ同じ（約30m）なのでまとめたが、標杭が寺の境内にあるかは出典なし。riddleでは『境内に伝わる』と書いたため、標杭の位置が違えば修正が必要（riddle・short・longの標杭の記述）。国土地理院の住所検索は約20m東。寺の読み・公開時間は寺の公式ページ未確認（読みは一般的な読みを記入）。",
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hokoin_sanmon.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hokoin_sanmon.jpg",
+     "caption": "寶晃院",
+     "author": "河太郎",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "onsite_hints": [
     {
      "text": "探す物は、境内の水子地蔵菩薩立像（絵のような構図を一つの石に彫った像）",
@@ -292,7 +301,16 @@
    "status": "unverified",
    "notes": "読み『じょうどのじんじゃ』は出典で確認できず（一般的と思われる読みを仮置き。accept にも入れていない）。祭神名はWikipediaが『級長戸編命』と表記（誤植の可能性）。longでは一般的な『級長戸辺命』と書いたので確認担当は要確認。国土地理院の住所検索は約40m南西。1682年は天和2年、市のページどおり。境内の公開時間は出典なし。",
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jodono-jinja_hall_of_worship_2024-08-18.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jodono-jinja_hall_of_worship_2024-08-18.jpg",
+     "caption": "尉殿神社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "onsite_hints": [
     {
      "text": "探す物は、本殿の左右に立つ一対の石燈籠。背面に「上保谷村惣氏子」と刻まれる",

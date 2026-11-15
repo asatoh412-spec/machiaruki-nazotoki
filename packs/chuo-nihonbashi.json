@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "chuo-nihonbashi",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "日本橋・人形町・茅場町（中央区）",
  "prefecture": "東京都",
  "city": "中央区",
@@ -1623,7 +1623,16 @@
      "source_url": "https://tabi-mag.jp/tk0744/"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:014_%E6%9F%B3%E6%A9%8B%E6%96%99%E4%BA%AD_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/014_%E6%9F%B3%E6%A9%8B%E6%96%99%E4%BA%AD_-_panoramio.jpg",
+     "caption": "柳橋",
+     "author": "arashio1",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {

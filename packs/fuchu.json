@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "fuchu",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "府中・分倍河原・白糸台（府中市）",
  "prefecture": "東京都",
  "city": "府中市",
@@ -584,7 +584,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:FuchuTokyoJapan003.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/FuchuTokyoJapan003.jpg",
+     "caption": "府中市郷土の森博物館",
+     "author": "Keyaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1461,7 +1470,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%C5%8Ckunitama_Shrine2.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%C5%8Ckunitama_Shrine2.jpg",
+     "caption": "大國魂神社",
+     "author": "Fuchu",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -1556,7 +1574,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Baba-Daimon-Keyaki-Namiki_North_autumn.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Baba-Daimon-Keyaki-Namiki_North_autumn.jpg",
+     "caption": "馬場大門のケヤキ並木",
+     "author": "excl-zoo",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": false,
    "last_checked": null
   },
@@ -1636,7 +1663,16 @@
      "source_url": "https://ja.wikipedia.org/wiki/%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE_(%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%BA%9C%E4%B8%AD%E5%B8%82%E7%99%BD%E7%B3%B8%E5%8F%B0%E4%B8%80%E4%B8%81%E7%9B%AE)"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hachiman_Jinja_(Shiraitodai_1-chome,_Fuchu,_Tokyo)_01.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Hachiman_Jinja_%28Shiraitodai_1-chome%2C_Fuchu%2C_Tokyo%29_01.JPG",
+     "caption": "上染屋八幡神社",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -1839,7 +1875,16 @@
      "source_url": "https://www.city.fuchu.tokyo.jp/gyosei/fuchusinogaiyo/bunka/fuchucity_siteibunkazai.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Musashi-Fuchu_Kumano-jinja_Kofun,_funkyu-1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Musashi-Fuchu_Kumano-jinja_Kofun%2C_funkyu-1.jpg",
+     "caption": "武蔵府中熊野神社古墳",
+     "author": "Saigen Jiro",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

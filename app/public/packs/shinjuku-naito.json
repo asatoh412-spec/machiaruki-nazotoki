@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinjuku-naito",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "内藤新宿・歌舞伎町（新宿区）",
  "prefecture": "東京都",
  "city": "新宿区",
@@ -1051,7 +1051,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11356125"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E6%AD%A3%E5%8F%97%E9%99%A2.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E6%AD%A3%E5%8F%97%E9%99%A2.jpg",
+     "caption": "正受院",
+     "author": "多摩に暇人",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "status": "unverified",
    "notes": "・参拝時間・拝観の可否・奪衣婆像の現在の公開日は、公式ページが見つからず確認できなかった（access は null）。4travel は口コミで、現状と異なる可能性がある。\n・区データでは正受院（新宿二丁目15-20）と成覚寺（15-18）の緯度経度が同一値（隣接する寺）。\n・onsite_hints の「右手のお堂」「入口の様子」は個人の口コミのみが根拠。\n・梵鐘は第二次大戦の供出と返還の経緯が区データ・tabi-mag・4travel で一致。tabi-mag は鋳造を「江戸神田の鋳物師」とするが、区データは「江戸鋳物師」とのみ記す（矛盾ではない）。",
    "last_checked": null
@@ -1916,7 +1925,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Cafe_Ramble.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cafe_Ramble.jpg",
+     "caption": "名曲喫茶らんぶる",
+     "author": "Eugene Ormandy",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": false,
    "last_checked": null
   },

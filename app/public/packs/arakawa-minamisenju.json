@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "arakawa-minamisenju",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "南千住・三河島（荒川区）",
  "prefecture": "東京都",
  "city": "荒川区",
@@ -363,7 +363,16 @@
      "source_url": "https://www.city.arakawa.tokyo.jp/a022/shisetsuannai/jinja/minamisenju008.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ishihama_Jinja.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ishihama_Jinja.JPG/1280px-Ishihama_Jinja.JPG",
+     "caption": "石浜神社",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -459,7 +468,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jokan-ji.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Jokan-ji.JPG/1280px-Jokan-ji.JPG",
+     "caption": "浄閑寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -645,7 +663,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kyu_Mikawajima_Osui_Shobunjo_Pump-jo_Shisetsu.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kyu_Mikawajima_Osui_Shobunjo_Pump-jo_Shisetsu.jpg/1280px-Kyu_Mikawajima_Osui_Shobunjo_Pump-jo_Shisetsu.jpg",
+     "caption": "旧三河島汚水処分場喞筒場施設",
+     "author": "Suikotei",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -833,7 +860,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Koshun-in_(Arakawa).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Koshun-in_%28Arakawa%29.JPG/1280px-Koshun-in_%28Arakawa%29.JPG",
+     "caption": "公春院",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1051,7 +1087,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Susanoo_jinja_Mar_31_2021_06-43AM.jpeg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Susanoo_jinja_Mar_31_2021_06-43AM.jpeg/1280px-Susanoo_jinja_Mar_31_2021_06-43AM.jpeg",
+     "caption": "素盞雄神社",
+     "author": "Nesnad",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1226,7 +1271,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Nichikei-ji_(Minami-Senju,_Arakawa)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Nichikei-ji_%28Minami-Senju%2C_Arakawa%29_01.jpg/1280px-Nichikei-ji_%28Minami-Senju%2C_Arakawa%29_01.jpg",
+     "caption": "日慶寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1321,7 +1375,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%86%86%E9%80%9A%E5%AF%BA_-_panoramio_(3).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%E5%86%86%E9%80%9A%E5%AF%BA_-_panoramio_%283%29.jpg/1280px-%E5%86%86%E9%80%9A%E5%AF%BA_-_panoramio_%283%29.jpg",
+     "caption": "円通寺",
+     "author": "珈琲牛乳",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2401,7 +2464,16 @@
      "source_url": "https://tesshow.jp/arakawa/temple_ssenju_shinyo.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shinyoji_temple_Jun_17_2019_05-10PM.jpeg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Shinyoji_temple_Jun_17_2019_05-10PM.jpeg/1280px-Shinyoji_temple_Jun_17_2019_05-10PM.jpeg",
+     "caption": "真養寺",
+     "author": "Nesnad",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "last_checked": null
   }
  ]

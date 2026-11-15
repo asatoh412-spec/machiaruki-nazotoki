@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinjuku-ushigome",
- "version": "2026-11-12.3",
+ "version": "2026-11-12.4",
  "title": "牛込・神楽坂・早稲田（新宿区）",
  "prefecture": "東京都",
  "city": "新宿区",
@@ -296,7 +296,16 @@
      "source_url": "https://commons.wikimedia.org/wiki/File:田村寅蔵先生顕彰碑.jpg"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tokyo_Tsukudo_Hachiman_Jinja_081016.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Tokyo_Tsukudo_Hachiman_Jinja_081016.jpg",
+     "caption": "筑土八幡神社",
+     "author": "CLOCKTOWER",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": true
   },
   {
@@ -1783,7 +1792,16 @@
      "source_url": "https://www.city.shinjuku.lg.jp/content/000082837.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kokoku-ji_(Shinjuku).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Kokoku-ji_%28Shinjuku%29.JPG",
+     "caption": "幸国寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": false
   },
   {
@@ -2620,7 +2638,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tokyo---2022-05-29_047.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Tokyo---2022-05-29_047.jpg",
+     "caption": "市谷亀岡八幡宮",
+     "author": "RuinDig/Yuki Uchida",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

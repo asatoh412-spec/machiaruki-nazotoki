@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "nakano-kamitakada",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "中野・新井・上高田（中野区）",
  "prefecture": "東京都",
  "city": "中野区",
@@ -1261,7 +1261,16 @@
      "source_url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_33/CSV/opendata_550120.csv"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Bansho-in_Koun-ji_main_gate_2023-04-16.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bansho-in_Koun-ji_main_gate_2023-04-16.jpg",
+     "caption": "萬昌院功運寺",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2052,7 +2061,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hikawa_nakano_2302_b.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hikawa_nakano_2302_b.jpg",
+     "caption": "中野氷川神社",
+     "author": "鋸香具師",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2151,7 +2169,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hosen-ji_(Nio-mon).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Hosen-ji_%28Nio-mon%29.jpg",
+     "caption": "宝仙寺",
+     "author": "Lombroso",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
