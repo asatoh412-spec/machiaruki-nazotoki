@@ -72,6 +72,6 @@ export async function exportRecords(): Promise<string> {
     return fname;
   }
   const w = await Filesystem.writeFile({ path: fname, data, directory: Directory.Cache, encoding: Encoding.UTF8 });
-  await Share.share({ title: '街歩き謎解きの記録', files: [w.uri], dialogTitle: '記録の送り先を選ぶ' });
+  await Share.share({ title: 'まち謎の記録', files: [w.uri], dialogTitle: '記録の送り先を選ぶ' });
   return fname;
 }

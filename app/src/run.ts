@@ -98,8 +98,8 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
       ${departHtml}
       <h2>謎 ${run.index + 1}</h2>
       <p class="riddle">${esc(p.riddle)}</p>
-      <div id="map" class="map"></div>
       <p id="guide" class="guide">${esc(guideText(from, circleNow, fromName))}</p>
+      <div id="map" class="map"></div>
       <p id="status" class="status">位置を確かめています…</p>
       <ol class="hints">${p.hints
         .slice(0, run.hintsShown)

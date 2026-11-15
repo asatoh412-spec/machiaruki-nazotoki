@@ -43,7 +43,7 @@ export async function home() {
   const done = runs.filter((r) => r.finishedAt).length;
   const packTitle = new Map(packs.map((p) => [p.pack_id, p.title]));
   render(`
-    <header><h1>街歩き謎解き</h1><p class="sub">謎を解いて、街の歴史をたどる</p></header>
+    <header class="brand"><img src="icon-512.png" alt="" class="logo"><div><h1>まち謎</h1><p class="sub">謎を解いて、街の歴史をたどる</p></div></header>
     <main>
       ${active ? `<button class="primary big" id="resume">続きから（${esc(packTitle.get(active.packId) ?? '')}・${active.index + 1}地点目）</button>` : ''}
       ${active ? '<button class="linkish" id="abort">途中のコースを中止する</button>' : ''}
@@ -59,8 +59,10 @@ export async function home() {
         })()}
       </section>
       <section>
-        <h2>地区のパック</h2>
-        <p class="muted">${packs.length}地区：${packs.map((p) => esc(p.title)).join('、') || 'なし'}</p>
+        <h2>地区（${packs.length}）</h2>
+        <div id="homemap" class="pack-map"></div>
+        <p id="homepick" class="pack-chosen muted small">枠をタップすると、その地区でコースを作れます。</p>
+        <details class="wards"><summary>区・市ごとの一覧</summary>${wardGroups(packs)}</details>
         <button id="packs">パックを管理する</button>
       </section>
       <section>
@@ -84,6 +86,20 @@ export async function home() {
   on('#settings', 'click', () => settingsScreen());
   on('#new', 'click', () => newCourse());
   on('#packs', 'click', () => packsScreen());
+  app.querySelectorAll<HTMLElement>('[data-pack]').forEach((b) => b.addEventListener('click', () => newCourse(b.dataset.pack!)));
+  const hm = app.querySelector<HTMLElement>('#homemap');
+  if (hm && packs.length) {
+    const st = await getSettings();
+    const pick = app.querySelector<HTMLElement>('#homepick')!;
+    const pk = createPackPicker(hm, packs, '', (id) => {
+      const p = packs.find((x) => x.pack_id === id)!;
+      pk.select(id);
+      pick.innerHTML = `<b>${esc(p.title)}</b>（${p.points.length}地点）<button class="primary" id="gopack">この地区でコースを作る</button>`;
+      pick.classList.remove('muted');
+      on('#gopack', 'click', () => newCourse(id));
+    }, st.home);
+    setMap(pk.map);
+  }
   on('#courses', 'click', () => coursesScreen());
   on('[data-course]', 'click', async (e) => {
     e.preventDefault();
@@ -314,7 +330,21 @@ async function packsScreen(msg = '') {
 }
 
 // ---------- コースの条件 ----------
-async function newCourse() {
+// 区・市ごとに地区をまとめる（見出しの区名でたたむ）
+function wardGroups(packs: Pack[]): string {
+  const g = new Map<string, Pack[]>();
+  for (const p of packs) g.set(p.city, [...(g.get(p.city) ?? []), p]);
+  const ORDER = '千代田区 中央区 港区 新宿区 文京区 台東区 墨田区 江東区 品川区 目黒区 大田区 世田谷区 渋谷区 中野区 杉並区 豊島区 北区 荒川区 板橋区 練馬区 足立区 葛飾区 江戸川区 八王子市 立川市 武蔵野市 三鷹市 青梅市 府中市 昭島市 調布市 町田市 小金井市 小平市 日野市 東村山市 国分寺市 国立市 福生市 狛江市 東大和市 清瀬市 東久留米市 武蔵村山市 多摩市 稲城市 羽村市 あきる野市 西東京市'.split(' ');
+  const rank = (c: string) => (ORDER.indexOf(c) < 0 ? 999 : ORDER.indexOf(c));
+  return [...g]
+    .sort((a, b) => rank(a[0]) - rank(b[0]))
+    .map(([city, ps]) => `<div class="ward"><b>${esc(city)}</b>${ps
+      .map((p) => `<button class="chip" data-pack="${esc(p.pack_id)}">${esc(p.title.replace(/（.*?）$/, ''))}<small>${p.points.length}</small></button>`)
+      .join('')}</div>`)
+    .join('');
+}
+
+async function newCourse(preset?: string) {
   const packs = await db.listPacks();
   if (packs.length === 0) return packsScreen('先に地区のパックを読み込んでください。');
   render(`
@@ -348,6 +378,7 @@ async function newCourse() {
   const form = app.querySelector<HTMLFormElement>('#f')!;
   const packSel = form.querySelector<HTMLSelectElement>('select[name=pack]')!;
   const startSel = app.querySelector<HTMLSelectElement>('#start')!;
+  if (preset && packs.some((p) => p.pack_id === preset)) packSel.value = preset;
   const settings = await getSettings();
   const mode = () => (form.querySelector('input[name=mode]:checked') as HTMLInputElement).value as Mode;
   const fillStations = () => {
