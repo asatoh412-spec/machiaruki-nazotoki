@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "itabashi-shimura",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "志村・蓮根（板橋区）",
  "prefecture": "東京都",
  "city": "板橋区",
@@ -143,7 +143,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Azusawayakushinoizumi.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Azusawayakushinoizumi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "薬師の泉庭園",
+     "author": "Missmikage",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -248,7 +257,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ryufuku-ji_main_gate_(2)_2025-05-03.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ryufuku-ji_main_gate_%282%29_2025-05-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "龍福寺",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -868,7 +886,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Chotoku-ji_main_gate_2025-04-27.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Chotoku-ji_main_gate_2025-04-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "長徳寺",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   }
  ]

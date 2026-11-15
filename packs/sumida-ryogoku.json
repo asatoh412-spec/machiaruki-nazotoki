@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "sumida-ryogoku",
- "version": "2026-11-14.3",
+ "version": "2026-11-14.4",
  "title": "両国・本所・押上・立花（墨田区）",
  "prefecture": "東京都",
  "city": "墨田区",
@@ -1318,7 +1318,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Fukugon-ji_(Sumida)_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Fukugon-ji_%28Sumida%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "福厳寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

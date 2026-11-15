@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "suginami-ogikubo",
- "version": "2026-11-13.2",
+ "version": "2026-11-13.3",
  "title": "荻窪・天沼・善福寺（杉並区）",
  "prefecture": "東京都",
  "city": "杉並区",
@@ -330,7 +330,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Chudoji_temple_suginami.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Chudoji_temple_suginami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "中道寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -932,7 +941,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/s113/7524.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Narimune_Benzaiten-sha_2024-10-24.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Narimune_Benzaiten-sha_2024-10-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "成宗弁財天社",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1725,7 +1743,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/s113/7418.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Igusa_kannondo_temple_suginami.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Igusa_kannondo_temple_suginami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "井草観音堂",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "status": "unverified",
    "last_checked": null

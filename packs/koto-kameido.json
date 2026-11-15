@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "koto-kameido",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "亀戸（江東区）",
  "prefecture": "東京都",
  "city": "江東区",
@@ -397,7 +397,16 @@
      "source_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r06/text/010102_3.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ry%C5%ABgen-ji_(Kameido)_13.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ry%C5%ABgen-ji_%28Kameido%29_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "龍眼寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2260,7 +2269,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E9%8A%AD%E5%BA%A7%E3%83%BB%E4%BA%80%E6%88%B8%E9%8A%AD%E5%BA%A7%E8%B7%A1%E3%83%BB1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/%E9%8A%AD%E5%BA%A7%E3%83%BB%E4%BA%80%E6%88%B8%E9%8A%AD%E5%BA%A7%E8%B7%A1%E3%83%BB1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "亀戸銭座跡",
+     "author": "Nzrst1jx",
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
    "last_checked": null
   },
   {

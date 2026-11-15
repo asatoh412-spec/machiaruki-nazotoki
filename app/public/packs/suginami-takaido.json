@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "suginami-takaido",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "高井戸・久我山（杉並区）",
  "prefecture": "東京都",
  "city": "杉並区",
@@ -298,7 +298,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Chosenji_temple_kamitakaido_suginami.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Chosenji_temple_kamitakaido_suginami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "長泉寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -665,7 +674,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hoshoji_temple_suginami.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hoshoji_temple_suginami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "宝昌寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

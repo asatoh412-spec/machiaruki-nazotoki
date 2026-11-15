@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "katsushika-shibamata",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "柴又・金町・水元（葛飾区）",
  "prefecture": "東京都",
  "city": "葛飾区",
@@ -499,7 +499,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E5%8D%81%E5%85%AD%E5%A4%9C%E5%A1%94%EF%BC%88%E9%87%91%E8%93%AE%E9%99%A2%EF%BC%89.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/%E4%BA%8C%E5%8D%81%E5%85%AD%E5%A4%9C%E5%A1%94%EF%BC%88%E9%87%91%E8%93%AE%E9%99%A2%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "金蓮院",
+     "author": "小池 隆",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "last_checked": null
   },
   {

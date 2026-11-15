@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "koto-kiyosumi",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "清澄・白河・森下・猿江（江東区）",
  "prefecture": "東京都",
  "city": "江東区",
@@ -807,7 +807,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Rinsen-ji_(Kiyosumi,_Koto)_03.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Rinsen-ji_%28Kiyosumi%2C_Koto%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "臨川寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1278,7 +1287,16 @@
      "source_url": "https://japanese-religions.com/en/jr5010605000265"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Y%C5%ABsh%C5%8D-in_(Shirakawa,_Koto)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Y%C5%ABsh%C5%8D-in_%28Shirakawa%2C_Koto%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "雄松院",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

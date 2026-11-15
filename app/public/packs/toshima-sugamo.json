@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "toshima-sugamo",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "巣鴨・西巣鴨・駒込（豊島区）",
  "prefecture": "東京都",
  "city": "豊島区",
@@ -229,7 +229,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:BanchouzanKouganji1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/BanchouzanKouganji1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "高岩寺",
+     "author": "KENPEI",
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1281,7 +1290,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shobo-in_2025-09-07.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Shobo-in_2025-09-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "正法院",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

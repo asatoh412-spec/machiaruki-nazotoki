@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "nishitokyo-hoya",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "保谷・下保谷・ひばりが丘（西東京市）",
  "prefecture": "東京都",
  "city": "西東京市",
@@ -570,7 +570,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Fukusenji_sanmon.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fukusenji_sanmon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "福泉寺",
+     "author": "河太郎",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

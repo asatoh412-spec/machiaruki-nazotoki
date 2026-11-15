@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "arakawa-oku",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "尾久・町屋（荒川区）",
  "prefecture": "東京都",
  "city": "荒川区",
@@ -328,7 +328,16 @@
      "source_url": "https://www.city.arakawa.tokyo.jp/a022/shisetsuannai/jinja/ogu002.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Mank%C5%8D-ji_(Higashi-Ogu,_Arakawa)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mank%C5%8D-ji_%28Higashi-Ogu%2C_Arakawa%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "満光寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -410,7 +419,16 @@
      "source_url": "https://www.city.arakawa.tokyo.jp/a022/shisetsuannai/jinja/ogu009.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jiz%C5%8D-ji_(Nishi-Ogu,_Arakawa)_07.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Jiz%C5%8D-ji_%28Nishi-Ogu%2C_Arakawa%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "地蔵寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -482,7 +500,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Dairin-in_(Nishi-Ogu,_Arakawa)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Dairin-in_%28Nishi-Ogu%2C_Arakawa%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "大林院",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1145,7 +1172,16 @@
      "source_url": "https://www.city.arakawa.tokyo.jp/unet/issue/saihakken/0405/machiya04.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ippon_matsu_greenspot.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Ippon_matsu_greenspot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "一本松グリーンスポット",
+     "author": "jmho",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {

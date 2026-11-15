@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "koganei",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "小金井・貫井・はけ（小金井市）",
  "prefecture": "東京都",
  "city": "小金井市",
@@ -428,7 +428,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kanaihara_Historic_Battlefield.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kanaihara_Historic_Battlefield.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "金井原古戦場",
+     "author": "文屋将監",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -533,7 +542,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Konzo-in_(Koganei)_Gate.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Konzo-in_%28Koganei%29_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "金蔵院",
+     "author": "運動会プロテインパワー",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -721,7 +739,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Memorial_monument_of_Heiemon.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Memorial_monument_of_Heiemon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "真蔵院",
+     "author": "遠枝",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

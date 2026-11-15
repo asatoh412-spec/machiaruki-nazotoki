@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "nakano-ekoda",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "沼袋・江古田・鷺宮（中野区）",
  "prefecture": "東京都",
  "city": "中野区",
@@ -208,7 +208,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E14_%E7%A6%8F%E8%94%B5%E9%99%A2_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E14_%E7%A6%8F%E8%94%B5%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "福蔵院",
+     "author": "福原邦展",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -616,7 +625,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Seikokuji_temple_nakano.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Seikokuji_temple_nakano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "清谷寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -845,7 +863,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%AF%86%E8%94%B5%E9%99%A2_(%E4%B8%AD%E9%87%8E%E5%8C%BA).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/%E5%AF%86%E8%94%B5%E9%99%A2_%28%E4%B8%AD%E9%87%8E%E5%8C%BA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "密蔵院",
+     "author": "柏木村民",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -983,7 +1010,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E48_%E7%A6%85%E5%AE%9A%E9%99%A2_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E48_%E7%A6%85%E5%AE%9A%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "禅定院",
+     "author": "福原邦展",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2053,7 +2089,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E58_%E5%85%89%E5%BE%B3%E9%99%A2_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E58_%E5%85%89%E5%BE%B3%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "光徳院",
+     "author": "福原邦展",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   }

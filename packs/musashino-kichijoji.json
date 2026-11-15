@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "musashino-kichijoji",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "吉祥寺・武蔵境（武蔵野市）",
  "prefecture": "東京都",
  "city": "武蔵野市",
@@ -520,7 +520,16 @@
      "source_url": "https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/045/641/202403_musashino_bunkazai_ver2-s_02_yukei.pdf"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E8%93%AE%E4%B9%97%E5%AF%BA(%E5%90%89%E7%A5%A5%E5%AF%BA)IMG_20221105_123158_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%E8%93%AE%E4%B9%97%E5%AF%BA%28%E5%90%89%E7%A5%A5%E5%AF%BA%29IMG_20221105_123158_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "蓮乗寺",
+     "author": "経済特区",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -633,7 +642,16 @@
      "source_url": "https://www.city.musashino.lg.jp/heiwa_bunka_sports/furusatorekishikan/1049152/index.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Musashino_FurusatoRekishikan.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Musashino_FurusatoRekishikan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "武蔵野ふるさと歴史館",
+     "author": "Unimoi",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

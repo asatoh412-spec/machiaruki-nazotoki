@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "nerima-shakujii",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "石神井・関町・高野台（練馬区）",
  "prefecture": "東京都",
  "city": "練馬区",
@@ -2180,7 +2180,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E7%B7%B4%E9%A6%AC%E5%8C%BA%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%8F%B0_%E7%94%B0%E6%9F%84%E7%94%A8%E6%B0%B4%E8%B7%A1_20240905.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/%E7%B7%B4%E9%A6%AC%E5%8C%BA%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%8F%B0_%E7%94%B0%E6%9F%84%E7%94%A8%E6%B0%B4%E8%B7%A1_20240905.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "田柄用水跡",
+     "author": "Mikagekawase",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "last_checked": null
   }
  ]

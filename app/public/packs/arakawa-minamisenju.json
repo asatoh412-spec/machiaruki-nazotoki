@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "arakawa-minamisenju",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "南千住・三河島（荒川区）",
  "prefecture": "東京都",
  "city": "荒川区",
@@ -1199,7 +1199,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kozukahara_Ek%C5%8D-in_(Arakawa)_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Kozukahara_Ek%C5%8D-in_%28Arakawa%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "小塚原回向院",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1473,7 +1482,16 @@
      "source_url": "https://www.city.arakawa.tokyo.jp/a022/shisetsuannai/jinja/arakawa007.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:J%C5%8Dsh%C5%8D-ji_(Arakawa,_Arakawa)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/J%C5%8Dsh%C5%8D-ji_%28Arakawa%2C_Arakawa%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "浄正寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

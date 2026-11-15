@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "kokubunji",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "国分寺・恋ヶ窪・本多（国分寺市）",
  "prefecture": "東京都",
  "city": "国分寺市",
@@ -434,7 +434,16 @@
     }
    ],
    "on_foot": false,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kyuu.kamakurakaido.kokubunji.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Kyuu.kamakurakaido.kokubunji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "伝鎌倉街道",
+     "author": "Fuchu",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

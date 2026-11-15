@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "suginami-koenji",
- "version": "2026-11-13.2",
+ "version": "2026-11-13.3",
  "title": "高円寺・堀ノ内・大宮（杉並区）",
  "prefecture": "東京都",
  "city": "杉並区",
@@ -217,7 +217,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hosho-ji_entrance_2025-02-09.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Hosho-ji_entrance_2025-02-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "法照寺",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -312,7 +321,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%B3%B6%E6%B5%B7%E9%9B%B2%E7%BF%81%E9%A1%95%E5%BD%B0%E7%A2%91_%E7%AF%89%E5%9C%B0%E6%9C%AC%E9%A1%98%E5%AF%BA_%E5%92%8C%E7%94%B0%E5%A0%80%E5%BB%9F%E6%89%80_Honoring_monument_for_MISHIMA_Kaiun.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%E4%B8%89%E5%B3%B6%E6%B5%B7%E9%9B%B2%E7%BF%81%E9%A1%95%E5%BD%B0%E7%A2%91_%E7%AF%89%E5%9C%B0%E6%9C%AC%E9%A1%98%E5%AF%BA_%E5%92%8C%E7%94%B0%E5%A0%80%E5%BB%9F%E6%89%80_Honoring_monument_for_MISHIMA_Kaiun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "築地本願寺 和田堀廟所",
+     "author": "ウィキ太郎(Wiki Taro)",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -607,7 +625,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E88_%E6%96%87%E6%AE%8A%E9%99%A2_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%E5%BE%A1%E5%BA%9C%E5%86%85%E5%85%AB%E5%8D%81%E5%85%AB%E3%83%B6%E6%89%80_%5E88_%E6%96%87%E6%AE%8A%E9%99%A2_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "文殊院",
+     "author": "福原邦展",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -799,7 +826,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%86%86%E5%AF%BA(%E5%A4%A7%E5%9C%93%E5%AF%BA)_Suginami_City_Tokyo_%E6%9D%89%E4%B8%A6%E5%8C%BA.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%E5%A4%A7%E5%86%86%E5%AF%BA%28%E5%A4%A7%E5%9C%93%E5%AF%BA%29_Suginami_City_Tokyo_%E6%9D%89%E4%B8%A6%E5%8C%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "大円寺",
+     "author": "ウィキ太郎(WikiTaro)",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -913,7 +949,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E6%9D%89%E4%B8%A6%E5%8C%BA_%E5%A4%A7%E5%AE%AE%E5%85%AB%E5%B9%A1%E5%AE%AE_2.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/%E6%9D%89%E4%B8%A6%E5%8C%BA_%E5%A4%A7%E5%AE%AE%E5%85%AB%E5%B9%A1%E5%AE%AE_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "大宮八幡宮",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1401,7 +1446,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/s113/7534.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Fukusoji_temple_suginami.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Fukusoji_temple_suginami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "福相寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1588,7 +1642,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%B8%B8%E4%BB%99%E5%AF%BA_(%E6%9D%89%E4%B8%A6%E5%8C%BA).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/%E5%B8%B8%E4%BB%99%E5%AF%BA_%28%E6%9D%89%E4%B8%A6%E5%8C%BA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "常仙寺",
+     "author": "柏木村民",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1687,7 +1750,16 @@
      "source_url": "https://www.city.suginami.tokyo.jp/s113/7431.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E5%8D%81%E4%B8%80%E5%A4%9C%E5%A1%94%EF%BC%88%E8%A5%BF%E6%96%B9%E5%AF%BA%EF%BC%89.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/%E4%BA%8C%E5%8D%81%E4%B8%80%E5%A4%9C%E5%A1%94%EF%BC%88%E8%A5%BF%E6%96%B9%E5%AF%BA%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "西方寺",
+     "author": "小池 隆",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2293,7 +2365,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shoou-ji_main_hall_2024-10-27.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shoou-ji_main_hall_2024-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "松応寺",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "status": "unverified",
    "notes": "入力の「高円寺南2-30-1」は区の標示板頁で松応寺と確認（寺名は入力に無し）。墓の参拝可否・境内の入れる時間は出典で確かめられず access は null。区の解説PDFはスキャン画像で目視した。PDFの墓碑銘の一部は寺名を旧字体「松應寺」と記すため accept に併記。西照寺の座標との距離は約60mで、到着半径50mは重ならない。座標は区データのまま（国土地理院の住所検索は約27m南西）。画像は見つからず空。",
    "last_checked": null
@@ -2372,7 +2453,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Saisyoji_temple_suginami.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Saisyoji_temple_suginami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "西照寺",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "status": "unverified",
    "notes": "入力の「高円寺南2-29-3」は西照寺道了堂（区登録有形文化財）で、区の標示板頁により西照寺と確認。道了堂の外観や公開状況は区の解説PDFを開いていないため未確認。松応寺との距離は約60m。座標は区データのまま（国土地理院の住所検索は約13m南西。OSMの西照寺とは約20m差）。画像は見つからず空。",
    "last_checked": null
@@ -2576,7 +2666,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Chosen-ji_main_gate_2024-10-27.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chosen-ji_main_gate_2024-10-27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "長仙寺",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "status": "unverified",
    "notes": "入力の「高円寺南3-58-4」は、依頼文では地名の由来の寺「高円寺」とみられていたが、区の標示板頁では長仙寺（区指定の木造不動明王立像）。地名の由来の髙圓寺は南4-18-11で、今回の入力にない（別途作る価値あり）。区データの座標は長仙寺の位置とOSMでほぼ一致。国土地理院の住所検索は約58m南で合わないが、街区代表点とみて区データを採用。本尊が区指定か区登録かは、区の標示板頁は「区指定有形文化財」と書き、区データは有形文化財。仁王像「京都美術院制作」は区の記述のまま。画像は見つからず空。",
    "last_checked": null

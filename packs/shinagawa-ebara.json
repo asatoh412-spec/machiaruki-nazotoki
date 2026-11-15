@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinagawa-ebara",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "五反田・戸越・荏原（品川区）",
  "prefecture": "東京都",
  "city": "品川区",
@@ -2158,7 +2158,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%BE%B3%E8%94%B5%E5%AF%BA_2.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%E5%BE%B3%E8%94%B5%E5%AF%BA_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "徳蔵寺",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2363,7 +2372,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E5%B2%B8%E5%AF%BA.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/%E6%B8%85%E5%B2%B8%E5%AF%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "清岸寺",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

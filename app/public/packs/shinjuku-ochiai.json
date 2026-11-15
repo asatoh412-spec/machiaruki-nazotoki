@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinjuku-ochiai",
- "version": "2026-11-12.1",
+ "version": "2026-11-12.2",
  "title": "落合・中井・下落合（新宿区）",
  "prefecture": "東京都",
  "city": "新宿区",
@@ -811,7 +811,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kuzugaya_goryo_jinja_shinjuku.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Kuzugaya_goryo_jinja_shinjuku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "葛谷御霊神社",
+     "author": "Tengusabaki",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -1710,7 +1719,16 @@
      "source_url": "https://www.city.shinjuku.lg.jp/seikatsu/midori02_001013.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E5%AE%BF%E5%8C%BA%E7%AB%8B%E3%81%8A%E3%81%A8%E3%82%81%E5%B1%B1%E5%85%AC%E5%9C%92_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/%E6%96%B0%E5%AE%BF%E5%8C%BA%E7%AB%8B%E3%81%8A%E3%81%A8%E3%82%81%E5%B1%B1%E5%85%AC%E5%9C%92_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "おとめ山公園",
+     "author": "koji_h",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "katsushika-tateishi",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "立石・堀切・四つ木・奥戸（葛飾区）",
  "prefecture": "東京都",
  "city": "葛飾区",
@@ -220,7 +220,16 @@
     }
    ],
    "on_foot": false,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tateishi-sama_16.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tateishi-sama_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "立石様",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -780,7 +789,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shinzen-ji_(Higashi-Tateishi,_Katsushika)_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Shinzen-ji_%28Higashi-Tateishi%2C_Katsushika%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "真禅寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

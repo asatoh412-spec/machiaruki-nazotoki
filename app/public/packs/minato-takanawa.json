@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "minato-takanawa",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "三田・高輪・白金（港区）",
  "prefecture": "東京都",
  "city": "港区",
@@ -180,7 +180,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Takayama_jinja.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Takayama_jinja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "高山稲荷神社",
+     "author": "Wiki Central Office",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -764,7 +773,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E8%8B%B1%E4%B8%80%E8%9D%B6%E3%81%AE%E5%A2%93.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/%E8%8B%B1%E4%B8%80%E8%9D%B6%E3%81%AE%E5%A2%93.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "承教寺",
+     "author": "Memosa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1311,7 +1329,16 @@
      "source_url": "https://tesshow.jp/minato/temple_shirokane_shoshu.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dsh%C5%AB-ji_(Shirokane,_Minato)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sh%C5%8Dsh%C5%AB-ji_%28Shirokane%2C_Minato%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "松秀寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -2173,7 +2200,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11330677"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Gyokuh%C5%8D-ji_(Mita,_Minato)_05.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Gyokuh%C5%8D-ji_%28Mita%2C_Minato%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "玉鳳寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

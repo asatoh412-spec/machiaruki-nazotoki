@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "taito-asakusa",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "浅草・今戸・蔵前（台東区）",
  "prefecture": "東京都",
  "city": "台東区",
@@ -1345,7 +1345,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Keiy%C5%8D-ji_(Taito)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Keiy%C5%8D-ji_%28Taito%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "慶養寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1860,7 +1869,16 @@
      "source_url": "https://www.gltjp.com/ja/directory/item/13933/"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Taito_Shobo-in_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Taito_Shobo-in_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "正寶院",
+     "author": "Suikotei",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

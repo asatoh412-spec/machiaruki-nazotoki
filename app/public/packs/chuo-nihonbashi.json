@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "chuo-nihonbashi",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "日本橋・人形町・茅場町（中央区）",
  "prefecture": "東京都",
  "city": "中央区",
@@ -229,7 +229,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11326793"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Edo_hakariza_ato.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Edo_hakariza_ato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "江戸秤座跡",
+     "author": "Halowand",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
    "on_foot": false,
    "last_checked": null
   },

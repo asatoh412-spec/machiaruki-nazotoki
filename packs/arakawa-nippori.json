@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "arakawa-nippori",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "日暮里・西日暮里の寺町（荒川区）",
  "prefecture": "東京都",
  "city": "荒川区",
@@ -180,7 +180,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11293417"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Y%C5%8Dfuku-ji_(Nishi-Nippori,_Arakawa)_08.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Y%C5%8Dfuku-ji_%28Nishi-Nippori%2C_Arakawa%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "養福寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -274,7 +283,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ky%C5%8D%C5%8D-ji_(Nishi-Nippori,_Arakawa)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ky%C5%8D%C5%8D-ji_%28Nishi-Nippori%2C_Arakawa%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "経王寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": false,
    "last_checked": null
   },
@@ -383,7 +401,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Suwa_jinja_(Arakawaku)_torii.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Suwa_jinja_%28Arakawaku%29_torii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "諏方神社",
+     "author": "Tadill",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -617,7 +644,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Enmei-in_(Nishi-Nippori,_Arakawa)_11.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Enmei-in_%28Nishi-Nippori%2C_Arakawa%29_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "延命院",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -708,7 +744,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:J%C5%8Dk%C5%8D-ji_(Nishi-Nippori,_Arakawa)_10.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/J%C5%8Dk%C5%8D-ji_%28Nishi-Nippori%2C_Arakawa%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "浄光寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -802,7 +847,16 @@
      "source_url": "https://4travel.jp/dm_shisetsu/11347088"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Keiun-ji_(Nishi-Nippori,_Arakawa)_07.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Keiun-ji_%28Nishi-Nippori%2C_Arakawa%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "啓運寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },

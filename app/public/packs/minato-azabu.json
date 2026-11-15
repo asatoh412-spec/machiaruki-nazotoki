@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "minato-azabu",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "麻布・赤坂・六本木（港区）",
  "prefecture": "東京都",
  "city": "港区",
@@ -181,7 +181,16 @@
      "source_url": "https://ja.wikipedia.org/wiki/%E5%85%89%E6%9E%97%E5%AF%BA_(%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%AF%E5%8C%BA)"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:HenryHeuskenTomb.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/HenryHeuskenTomb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "光林寺",
+     "author": "荒木三太",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -466,7 +475,16 @@
      "source_url": "https://www.minato-rekishi.com/museum/2009/10/158.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E7%9C%9F%E5%AF%BA.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/%E5%A4%A9%E7%9C%9F%E5%AF%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "天真寺",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -570,7 +588,16 @@
      "source_url": "https://tabi-mag.jp/zenpukuji/"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Zenpukuji_(Minato,_Tokyo)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Zenpukuji_%28Minato%2C_Tokyo%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "善福寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -655,7 +682,16 @@
      "source_url": "https://ja.wikipedia.org/wiki/%E8%B3%A2%E5%B4%87%E5%AF%BA"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kens%C5%8D-ji_(Minato,_Tokyo)_03.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kens%C5%8D-ji_%28Minato%2C_Tokyo%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "賢崇寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

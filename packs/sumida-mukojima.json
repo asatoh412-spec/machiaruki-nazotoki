@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "sumida-mukojima",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "向島・墨堤・東向島（墨田区）",
  "prefecture": "東京都",
  "city": "墨田区",
@@ -1460,7 +1460,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dfuku-ji_(Sumida)_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sh%C5%8Dfuku-ji_%28Sumida%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "正福寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1579,7 +1588,16 @@
      "source_url": "https://visit-sumida.jp/?p=731"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tamon-ji_(Sumida)_04.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tamon-ji_%28Sumida%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "多聞寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

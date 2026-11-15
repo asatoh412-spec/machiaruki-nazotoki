@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "chuo-tsukiji",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "銀座・築地・明石町・佃（中央区）",
  "prefecture": "東京都",
  "city": "中央区",
@@ -1196,7 +1196,16 @@
      "source_url": "https://www.city.chuo.lg.jp/a0052/shisetsu/genre/koukyoushisetsu/koukyoushisetsu00033.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Honnomori_Chuo_ac_(2).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Honnomori_Chuo_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "中央区立郷土資料館",
+     "author": "Asturio Cantabrio",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1752,7 +1761,16 @@
    "seasonal": [],
    "status": "unverified",
    "indoor": false,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Oiwa_inari_tamiya_jinja01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Oiwa_inari_tamiya_jinja01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "於岩稲荷田宮神社",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

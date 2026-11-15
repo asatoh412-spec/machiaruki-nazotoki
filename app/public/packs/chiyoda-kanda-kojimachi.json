@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "chiyoda-kanda-kojimachi",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "神田・九段・麹町・永田町（千代田区）",
  "prefecture": "東京都",
  "city": "千代田区",
@@ -353,7 +353,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%BF%83%E6%B3%95%E5%AF%BA.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/%E5%BF%83%E6%B3%95%E5%AF%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "心法寺",
+     "author": "柏木村民",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {

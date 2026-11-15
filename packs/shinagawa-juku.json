@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "shinagawa-juku",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "品川宿・北品川・南品川（品川区）",
  "prefecture": "東京都",
  "city": "品川区",
@@ -319,7 +319,16 @@
      "source_url": "https://rurubu.jp/andmore/spot/20001195"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Kaiun-ji_(Shinagawa)_07.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Kaiun-ji_%28Shinagawa%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "海雲寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -849,7 +858,16 @@
      "source_url": "https://shinagawa-kanko.or.jp/spot/toukaiji/"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Toukaiji20100521.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Toukaiji20100521.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "東海寺",
+     "author": "のどごし隊長",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1030,7 +1048,16 @@
      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/sangyo/sangyo-bunkazai/sangyo-bunkazai-shitebunkazai/shina/20240108171224.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E9%BE%8D%E5%AF%BA.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%E5%A4%A7%E9%BE%8D%E5%AF%BA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "大龍寺",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1124,7 +1151,16 @@
      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/sangyo/sangyo-bunkazai/sangyo-bunkazai-shitebunkazai/shina/20240108181905.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Honk%C5%8D-ji_(Minami-Shinagawa,_Shinagawa)_08.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honk%C5%8D-ji_%28Minami-Shinagawa%2C_Shinagawa%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "本光寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1916,7 +1952,16 @@
      "source_url": "https://www.rodsshinto.com/25-01"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Yoriki-jinja_(Higashi-Shinagawa,_Shinagawa)_07.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Yoriki-jinja_%28Higashi-Shinagawa%2C_Shinagawa%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "寄木神社",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2406,7 +2451,16 @@
      "source_url": "https://www.opendata.metro.tokyo.lg.jp/shinagawa/bunkazai_shinagawa.csv"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Hozen-ji_(Shinagawa)_10.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hozen-ji_%28Shinagawa%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "法禅寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

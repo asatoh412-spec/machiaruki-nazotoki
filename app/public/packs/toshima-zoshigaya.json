@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "toshima-zoshigaya",
- "version": "2026-11-13.2",
+ "version": "2026-11-13.3",
  "title": "雑司が谷・目白・西池袋（豊島区）",
  "prefecture": "東京都",
  "city": "豊島区",
@@ -2002,7 +2002,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Konsho-in_main_gate_2026-07-09.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Konsho-in_main_gate_2026-07-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "根生院",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {

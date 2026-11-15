@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "taito-ueno-yanaka",
- "version": "2026-11-13.1",
+ "version": "2026-11-13.2",
  "title": "上野・谷中・根岸（台東区）",
  "prefecture": "東京都",
  "city": "台東区",
@@ -443,7 +443,16 @@
      "source_url": "https://www.uenotoshogu.com/"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ueno_Toshogu_shrine_2008_Oct.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ueno_Toshogu_shrine_2008_Oct.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "上野東照宮",
+     "author": "User:(WT-shared) ResTpeTw",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1459,7 +1468,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Zuirin-ji_(Taito)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Zuirin-ji_%28Taito%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "瑞輪寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1762,7 +1780,16 @@
      "source_url": null
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Rinko-ji_(Taito,_Tokyo)_05.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Rinko-ji_%28Taito%2C_Tokyo%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "臨江寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1871,7 +1898,16 @@
      "source_url": "https://www.city.taito.lg.jp/gakushu/shogaigakushu/shakaikyoiku/bunkazai/yuukeibunkazai/tyoukoku/mokuzou/nitiren4.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Honju-ji_(Taito,_Tokyo)_04.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Honju-ji_%28Taito%2C_Tokyo%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "本寿寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2543,7 +2579,16 @@
      "source_url": "https://www.city.taito.lg.jp/gakushu/shogaigakushu/shakaikyoiku/bunkazai/yuukeibunkazai/tenseki/25.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Seson-ji_(Negishi,_Taito)_06.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Seson-ji_%28Negishi%2C_Taito%29_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "世尊寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2646,7 +2691,16 @@
      "source_url": "https://www.city.taito.lg.jp/gakushu/shogaigakushu/shakaikyoiku/bunkazai/yuukeibunkazai/syoseki/ren.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Eish%C5%8D-ji_(Negishi,_Taito)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Eish%C5%8D-ji_%28Negishi%2C_Taito%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "永称寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   },
@@ -2737,7 +2791,16 @@
      "source_url": "https://www.city.taito.lg.jp/gakushu/shogaigakushu/shakaikyoiku/bunkazai/yuukeibunkazai/rekisisiryou/66bu.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Chokyu-in_(Taito,_Tokyo)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Chokyu-in_%28Taito%2C_Tokyo%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "長久院",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
    "on_foot": true,
    "last_checked": null
   }

@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "itabashi-kamiitabashi",
- "version": "2026-11-14.1",
+ "version": "2026-11-14.2",
  "title": "上板橋・常盤台（板橋区）",
  "prefecture": "東京都",
  "city": "板橋区",
@@ -609,7 +609,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Nenoueiseki.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nenoueiseki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "根ノ上遺跡",
+     "author": "Missmikage",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {

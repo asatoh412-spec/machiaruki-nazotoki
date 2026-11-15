@@ -1,7 +1,7 @@
 {
  "schema": "machiaruki-pack/1",
  "pack_id": "fuchu",
- "version": "2026-11-14.2",
+ "version": "2026-11-14.3",
  "title": "府中・分倍河原・白糸台（府中市）",
  "prefecture": "東京都",
  "city": "府中市",
@@ -267,7 +267,16 @@
     }
    ],
    "on_foot": false,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E5%88%86%E5%80%8D%E6%B2%B3%E5%8E%9F%E5%8F%A4%E6%88%A6%E5%A0%B4_%E7%9F%B3%E7%A2%91_-_panoramio.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E5%88%86%E5%80%8D%E6%B2%B3%E5%8E%9F%E5%8F%A4%E6%88%A6%E5%A0%B4_%E7%9F%B3%E7%A2%91_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "分倍河原古戦場",
+     "author": "Hotate Chan",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -367,7 +376,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Gate_of_Former_Mitsuoka_Family_of_House.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gate_of_Former_Mitsuoka_Family_of_House.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "旧三岡家長屋門",
+     "author": "Dddeco",
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -887,7 +905,16 @@
     }
    ],
    "on_foot": true,
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Koanji_2009c.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Koanji_2009c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "高安寺",
+     "author": "江戸村のとくぞう",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "last_checked": null
   },
   {
@@ -1770,7 +1797,16 @@
      "source_url": "https://www.city.fuchu.tokyo.jp/event/bunka/ShiraitodaiEntaigoExhibition.html"
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E7%99%BD%E7%B3%B8%E5%8F%B0%E6%8E%A9%E4%BD%93%E5%A3%95.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/%E7%99%BD%E7%B3%B8%E5%8F%B0%E6%8E%A9%E4%BD%93%E5%A3%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "caption": "旧陸軍調布飛行場白糸台掩体壕",
+     "author": "Kirin7739",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
    "on_foot": false,
    "last_checked": null
   },
