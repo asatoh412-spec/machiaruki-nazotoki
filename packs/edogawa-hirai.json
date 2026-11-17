@@ -1,0 +1,1274 @@
+{
+ "schema": "machiaruki-pack/1",
+ "pack_id": "edogawa-hirai",
+ "version": "2026-11-17.1",
+ "title": "平井・小松川・松島（江戸川区）",
+ "prefecture": "東京都",
+ "city": "江戸川区",
+ "created": "2026-11-17",
+ "rules": {
+  "arrival_radius_m": 50,
+  "difficulty": "ふつう"
+ },
+ "stations": [
+  {
+   "name": "東大島",
+   "lines": [
+    "東京都 10号線新宿線"
+   ],
+   "lat": 35.689864,
+   "lon": 139.84728
+  },
+  {
+   "name": "平井",
+   "lines": [
+    "東日本旅客鉄道 総武線"
+   ],
+   "lat": 35.706573,
+   "lon": 139.842582
+  },
+  {
+   "name": "東あずま",
+   "lines": [
+    "東武鉄道 亀戸線"
+   ],
+   "lat": 35.707375,
+   "lon": 139.831595
+  }
+ ],
+ "attribution": [
+  {
+   "text": "江戸川区の文化財のページ（江戸川区）をもとに作成",
+   "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  }
+ ],
+ "area": {
+  "bbox": [
+   35.694036999999994,
+   139.836257,
+   35.718717000000005,
+   139.88406500000002
+  ]
+ },
+ "points": [
+  {
+   "id": "edogawa-11",
+   "name": "逆井の富士塚（浅間神社）",
+   "kana": "さかさいのふじづか",
+   "lat": 35.700928,
+   "lon": 139.842529,
+   "address": "東京都江戸川区平井3-1-18",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      7
+     ],
+     "note": "7月1日に幟を立てて祭礼（のぼり祭り）が行われる（区の説明）"
+    }
+   ],
+   "riddle": "富士山をかたどった石積みの塚で、区内では最も古い築造とされる。「当山再築」と記した明治17年の碑があり、昔は中川を背に、塚と樹木と鳥居が美しく並んでいたという。その塚を探せ。",
+   "hints": [
+    {
+     "text": "江戸川区の平井3丁目。総武線の平井駅の近く。",
+     "radius_m": 500
+    },
+    {
+     "text": "川沿いの近く。かつて中川を背にした景色だった（区の説明）。",
+     "radius_m": 250
+    },
+    {
+     "text": "高さ約5mの石積みの塚。頂上は玉垣で四角く囲まれ、石祠がある。名前の頭は、この一帯の旧村名。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この塚の名前は？",
+    "display": "逆井の富士塚",
+    "accept": [
+     "逆井の富士塚",
+     "さかさいのふじづか",
+     "浅間神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "石積みの大きな塚（高さ約5m）。正面に石段の登山道があり、頂上は玉垣で方形に囲まれて石祠がある。登山道の両側に講の石碑が多数建つ（区の説明）。昭和30年代にコンクリートで覆われている（区の説明）。",
+   "short": "区内で最も古い築造の富士塚。高さ約5mの石積みで、明治17年の「当山再築」の碑がある。旧逆井村の鎮守・白髭神社の持社で、7月1日にのぼり祭り（祭礼）が行われる。",
+   "long": "逆井の富士塚（浅間神社）は、建造年代は不明ですが、「当山再築小松川村」と記した明治17年（1884）の碑があることから、区内で最も古い築造とされます。高さは約5メートルです。\n\n登山道は塚の正面に直接設けられた石段で、頂上部分は玉垣で方形に囲まれ、石祠が祀られています。登山道の両側には多数の石碑が建ち、地元の丸岩講のほか、小松川山本講や平井の丸冨講の碑もあります。\n\nこの富士塚そのものが浅間神社で、旧逆井村の鎮守である白髭神社の持社になっています。7月1日には幟を立てて祭礼（のぼり祭り）が行われます。石を積んだ型の大型のもので、かつては中川を背に、塚と樹木と鳥居の取り合わせが美しかったといいます。倒壊を防ぐため、昭和30年代にコンクリートで覆われました。区の登録有形民俗文化財で、昭和57年（1982）に告示されています。",
+   "sources": [
+    {
+     "title": "逆井の富士塚（浅間神社）（江戸川区の文化財）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo030.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区の説明のみを出典とした。(2) 区の説明に「碑がありるため」と誤植がある（出典の誤字）。(3) 読み「さかさい」は出典で確認していない。(4) 境内に入れる時間、登拝の可否は未確認。(5) 答えの accept に「浅間神社」を入れたが、他の浅間神社（篠崎など）と紛れる懸念がある。確認担当で判断。(6) 「逆井」が旧村名であることは区の説明の「旧逆井村」による。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は石積みの大きな塚。正面に石段の登山道がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo030.html"
+    },
+    {
+     "text": "頂上は玉垣で方形に囲まれ、石祠がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo030.html"
+    },
+    {
+     "text": "登山道の両側に、講の石碑が多数建つ",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo030.html"
+    },
+    {
+     "text": "塚はコンクリートで覆われている（昭和30年代）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo030.html"
+    },
+    {
+     "text": "塚の入口や鳥居の位置、境内に入れる時間は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-20",
+   "name": "小松川神社",
+   "kana": "こまつがわじんじゃ",
+   "lat": 35.696037,
+   "lon": 139.848007,
+   "address": "東京都江戸川区小松川3-1-2",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "延享元年（1744）、西小松川村の庚申講の人びとが建てた、四角い駒の形の石塔がある。種子や日月、二人の童子、四夜叉、三猿まで彫り込まれた凝った作りだ。この石塔のある神社を探せ。",
+   "hints": [
+    {
+     "text": "江戸川区の小松川3丁目。総武線の平井駅から東へ500mほどの住宅街。",
+     "radius_m": 500
+    },
+    {
+     "text": "公園に隣り合っている。公園の隣には、大正に建てられた区の古い建物が残る。",
+     "radius_m": 250
+    },
+    {
+     "text": "社名は、この一帯の地名「小松川」を冠する。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "小松川神社",
+    "accept": [
+     "小松川神社",
+     "こまつがわじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "駒型の石塔（青面金剛立像の庚申塔）。種子、日月、二童子、四夜叉、三猿が刻まれている（区の説明）。",
+   "short": "小松川神社には、延享元年（1744）に西小松川村新町の庚申講中が庚申供養のために建てた、駒型の青面金剛立像庚申塔があり、種子、日月、二童子、四夜叉、三猿が刻まれている。",
+   "long": "小松川神社の庚申塔は、駒型の石に像を刻んだ刻像庚申塔で、延享元年（1744）9月に西小松川村字新町の庚申講中の人びとが、庚申供養のために造立しました。石には、種子（梵字）、日月像、二童子、四夜叉、三猿が刻まれています。\n\n施主の欄には、八丁堀の和泉三国左門が作成したと刻まれていますが、その経緯は不明と区の説明は述べています。\n\n区の有形民俗文化財（民俗資料）で、昭和61年（1986）2月12日に告示されました。小松川神社の近くには、区の指定有形文化財である旧江戸川区役所文書庫もあります。",
+   "sources": [
+    {
+     "title": "小松川神社所在の青面金剛立像庚申塔（江戸川区の文化財）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo108.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区の説明のみを出典とした。神社自体の由緒は出典を開けておらず書いていない。long は400字に届かない。(2) 座標は番まで一致、号は不一致（国土地理院は小松川三丁目1番）。入力のまま。(3) 「公園に隣り合う」「近くに旧文書庫がある」は区の公式ページの写真キャプション「小松川神社公園と旧江戸川区役所文書庫」と座標（約150m）による。神社と公園の位置関係は未確認。(4) 境内に入れる時間は未確認。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は小さな駒型の石塔（庚申塔）。像が刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo108.html"
+    },
+    {
+     "text": "石塔には三猿、日月、二童子などが刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo108.html"
+    },
+    {
+     "text": "石塔の境内での位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Komatsugawa-3.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Komatsugawa-3.jpg",
+     "caption": "小松川神社",
+     "author": "江戸村のとくぞう",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-21",
+   "name": "旧江戸川区役所文書庫",
+   "kana": "きゅうえどがわくやくしょぶんしょこ",
+   "lat": 35.697018,
+   "lon": 139.849319,
+   "address": "東京都江戸川区小松川3-6-2",
+   "kind": "建造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "大正13年、郡の役所の倉庫として建てられた2階建て。関東大震災のあと、高価な鉄筋コンクリートに代わる安い工法で造られた。昭和20年の空襲では中まで炎が回ったが焼け残り、壁には今も黒い焦げ跡が残る。公園の中にあるこの建物を探せ。",
+   "hints": [
+    {
+     "text": "江戸川区の小松川3丁目。総武線の平井駅から東へ600mほどの公園の中。",
+     "radius_m": 500
+    },
+    {
+     "text": "昔、南葛飾郡の役所と江戸川区役所があった敷地の跡の公園にあり、隣にはホールがある。",
+     "radius_m": 250
+    },
+    {
+     "text": "公園に残る、コンクリートブロック造の古い2階建て。「旧」の字を冠した区役所の建物。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この建物の名前は？",
+    "display": "旧江戸川区役所文書庫",
+    "accept": [
+     "旧江戸川区役所文書庫",
+     "江戸川区役所文書庫",
+     "きゅうえどがわくやくしょぶんしょこ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "小松川さくら公園内に残る鉄筋の2階建ての建物。外壁はコンクリートブロック造（区の説明）。内部の黒く焼け焦げた壁は保全されている（区の説明、見学の可否は未確認）。隣に小松川さくらホールがある（区の説明）。",
+   "short": "大正13年築の旧郡役所の倉庫。中村鎮の鎮ブロック工法の数少ない現存例で、昭和20年の東京大空襲で内部が焼けながら焼け残り、令和8年3月に区の指定文化財となった。",
+   "long": "旧江戸川区役所文書庫は、大正13年（1924）に南葛飾郡役所の倉庫として建てられ、昭和7年（1932）に区が誕生してからは、江戸川区役所の行政文書を収める文書庫になりました。関東大震災のあと、耐火建築としての鉄筋コンクリートが普及し始めましたが、当時は非常に高価でした。それを安価に実現したのが、建築家・中村鎮が考案した鎮ブロック工法で、この建物はその数少ない現存例です。区の調査で設計者が判明し、建設は大正13年9月から11月の2か月間だったことが、設計者本人の制作年表で確認されています。\n\n昭和20年（1945）3月10日の東京大空襲で小松川地区は大きな被害を受け、木造の区役所本館は全焼しました。2名の当直職員が重要書類を20個の麻袋に詰めて運び出し、庁舎脇の用水路に沈めて守りました。コンクリートブロック造の文書庫は内部に火が回りましたが焼け残り、黒く焼け焦げた壁など戦災の痕は、できる限り保全されています。\n\n昭和63年（1988）に区は保存を決め、補修工事を経て平成元年（1989）3月に公開されました。令和8年（2026）3月10日に区の指定有形文化財となっています。",
+   "sources": [
+    {
+     "title": "旧江戸川区役所文書庫（江戸川区の文化財）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shite/kokoshiryo112.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "旧江戸川区役所文書庫",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e090/kurashi/jinken/heiwa/bunshoko.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "2026年3月10日 旧江戸川区役所文書庫が区文化財に指定",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/03/0310-3.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区の公式ページ（平和のページ、報道発表）を開いて確かめた。(2) 内部の見学の可否・日時は出典で確認できず、access は null。公開は「平成元年3月9日に公開」と区の平和ページにあるが、現在の公開状況は未確認。(3) 座標は番まで一致、号は不一致（国土地理院は小松川三丁目6番）。入力のまま。(4) hint1の「新中川に近い」は未確認の位置関係で、不安なら確認担当は削除可（入力の位置から確かめていない）。(4) 小松川神社（edogawa-20）まで約160mで、50mの判定は重ならない。(5) hint2の「隣にはホール」は区のページの小松川さくらホールの記述による。(6) 区の2つのページで、昭和7年の区役所が郡役所の庁舎だったこと、旧区役所の火災での出来事は一致している。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は、公園の中にあるコンクリートブロック造の2階建ての古い建物",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e090/kurashi/jinken/heiwa/bunshoko.html"
+    },
+    {
+     "text": "建物は小松川さくら公園内にあり、隣に小松川さくらホールがある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/03/0310-3.html"
+    },
+    {
+     "text": "内部には焼け焦げた壁が保全されているが、中に入れるかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "説明板や標示板の位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-17",
+   "name": "善通寺（平井）",
+   "kana": "ぜんつうじ",
+   "lat": 35.70298,
+   "lon": 139.851257,
+   "address": "東京都江戸川区平井1-25-38",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "寺にある無縁塔の最上部に、高さ132cmの石の仏が立つ。舟形の光背には寛文7年（1667）の年号と、庚申供養のための「結衆」の文字が刻まれている。この塔のある寺を探せ。",
+   "hints": [
+    {
+     "text": "江戸川区の平井1丁目。総武線の平井駅から東へ700mほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "平井駅から東へ歩いて10分ほどにある寺院。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名は「善」の字で始まる。無縁塔の最上部に石の阿弥陀如来立像が立つ。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "善通寺",
+    "accept": [
+     "善通寺",
+     "ぜんつうじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "無縁塔の最上部に立つ、高さ132cmの石造の阿弥陀如来立像。舟形光背に銘文がある（区の説明）。",
+   "short": "善通寺の無縁塔の最上部に立つ高さ132cmの石の阿弥陀如来立像は、寛文7年（1667）に庚申結衆が庚申供養のために建てた庚申塔で、区の登録有形民俗文化財である。",
+   "long": "善通寺の無縁塔の最上部には、石造の阿弥陀如来立像が立っています。高さは132センチメートルで、舟形の光背に銘文があり、寛文7年（1667）に「庚申結衆」とあることから、庚申供養のために建てられたことがわかります。\n\n無縁塔の頂に据えられた仏像が庚申塔でもある、という点が特徴で、同じ区内の西光寺（南篠崎）の地蔵菩薩像庚申塔（万治3年銘）とともに、仏像の姿をとる庚申塔の例です。区は昭和59年（1984）2月28日に、これを江戸川区登録有形民俗文化財（民俗資料）として告示しました。\n\n寺の所蔵する仏像や文書は普段見られませんが、この塔は境内の無縁塔の最上部にあるため、外から見ることができます。",
+   "sources": [
+    {
+     "title": "善通寺所在の阿弥陀如来像庚申塔(寛文七年銘)（江戸川区の文化財）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo087.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "(1) 区の説明のみを出典とした。善通寺自体の由緒は出典を開いておらず書いていない。long は400字に届かない。(2) 「外から見ることができる」は区の説明からの推定で、境内に入れる時間は未確認。(3) hint1・2の距離（平井駅から東へ約700m）は座標からの概算で、駅の座標は入力にない。(4) 読み（ぜんつうじ）は出典で確認していない。(5) 「仏像の姿をとる庚申塔の例」は西光寺・善通寺の区の説明からの一般化。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は、境内の無縁塔の最上部に立つ石の阿弥陀如来立像",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo087.html"
+    },
+    {
+     "text": "像は高さ132cm、舟形の光背に銘文がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo087.html"
+    },
+    {
+     "text": "無縁塔の境内での位置、境内に入れる時間は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-16",
+   "name": "妙光寺",
+   "kana": "みょうこうじ",
+   "lat": 35.707466,
+   "lon": 139.838257,
+   "address": "東京都江戸川区平井6-12-9",
+   "kind": "寺社",
+   "indoor": false,
+   "on_foot": true,
+   "access": null,
+   "riddle": "江戸の終わりごろから家で子どもに読み書きを教え、のちに私立の小学校になった「田口学校」の師匠をしのぶ石塔がある寺を探せ。",
+   "hints": [
+    {
+     "text": "江戸川区の平井6丁目にある寺。",
+     "radius_m": 500
+    },
+    {
+     "text": "江戸時代に寺子屋を開いた田口家の墓所にあたる石塔が、寺の境内にある。",
+     "radius_m": 250
+    },
+    {
+     "text": "寺名の1字目は「妙」。仏の教えをたたえる「光」の字が続く。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "妙光寺",
+    "accept": [
+     "妙光寺",
+     "みょうこうじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "寺の境内にある田口初右衛門筆子塚。ただし境内での位置は出典で確かめられていない",
+   "onsite_hints": [
+    {
+     "text": "探す物は田口初右衛門筆子塚（寺子屋の師匠をしのぶ石塔）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo149.html"
+    },
+    {
+     "text": "塔の形・大きさ・境内での位置は出典なし",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "境内に入れる時間や、区の説明板の有無は確かめられていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "short": "平井の寺子屋の師匠、田口初右衛門の筆子塚がある。初代は文化9年（1812）に寺子屋を開き、2代は安政4年（1857）開業。明治13年（1880）には私立小学校田口学校となった。",
+   "long": "妙光寺には、江戸川区登録の歴史資料「田口初右衛門筆子塚」があります。筆子塚とは、江戸時代に庶民の教育機関だった寺子屋や家塾で、読み書きそろばんや実務教育を教わった教え子が、師匠が亡くなったとき遺徳をしのび、自分たちで費用を出し合って建てた墓や供養塔のことです。\n区の解説によれば、初代田口初右衛門は文化9年（1812）に寺子屋を開業しました。安政4年（1857）に開業した2代初右衛門は、明治になっても家塾を続け、明治13年（1880）には私立小学校の田口学校となりました。\n江戸時代の寺子屋が、明治の学校制度のもとで私立の小学校へとつながっていった例です。師匠の家塾が、時代が変わっても地域の子どもたちの学びの場として続いたことを、石塔が伝えています。この筆子塚は、平成3年（1991）2月26日に区の登録文化財として告示されました。\n塔の形や大きさ、境内での位置については、区の解説ページに記述がありません。実際に探すときは、境内を静かに見て回りましょう。",
+   "sources": [
+    {
+     "title": "田口初右衛門筆子塚（江戸川区 文化財・史跡）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo149.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "notes": "区の公式ページの分類表記は「無形文化文化財・歴史資料」だが内容は筆子塚（歴史資料）で、区データの「江戸川区無形文化文化財」は誤記と思われる。寺の由緒・外観は区ページ以外の出典を確かめていない。筆子塚の位置・拝観可否は出典で確認できず。",
+   "seasonal": [],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:My%C5%8Dk%C5%8D-ji_(Hirai,_Edogawa)_01.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/My%C5%8Dk%C5%8D-ji_%28Hirai%2C_Edogawa%29_01.jpg",
+     "caption": "妙光寺",
+     "author": "Higa4",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
+   "status": "unverified",
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-7",
+   "name": "平井聖天（燈明寺）・諏訪神社",
+   "kana": "ひらいしょうてん（とうみょうじ）・すわじんじゃ",
+   "lat": 35.708454,
+   "lon": 139.840271,
+   "address": "東京都江戸川区平井6-17-30",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      2
+     ],
+     "note": "節分会に柴燈護摩（火渡り）が行われる（区の「えどがわ百景」）"
+    }
+   ],
+   "riddle": "浅草の待乳山、埼玉の妻沼と並べて「関東三つ」の一つに数えられる、聖天さまの寺を探せ。関東大震災で本堂が全壊したあと、歌人たちと親しかった住職が再建を計画し、境内には歌人の設計した茶室もある。",
+   "hints": [
+    {
+     "text": "JR平井駅の近く、平井6丁目の住宅街。浅草と行徳を結ぶ古い道が通っていた一帯にある",
+     "radius_m": 500
+    },
+    {
+     "text": "同じ敷地の並びに、江戸後期の本殿を移して残す神社がある。外壁の彫刻が見どころ",
+     "radius_m": 250
+    },
+    {
+     "text": "山門、本堂、お堂が並ぶ真言宗の寺。毎年の節分に火渡りの行事をする。寺名は「あかりを灯す」意味の字を含む",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "燈明寺",
+    "accept": [
+     "燈明寺",
+     "とうみょうじ",
+     "灯明寺",
+     "平井聖天",
+     "ひらいしょうてん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "区の説明にある境内の茶室、山門・本堂・お堂、隣接する諏訪神社の旧本殿・道標・富士塚（現地の配置は区の資料の範囲）",
+   "short": "関東三聖天の一つとされる平井の名刹。関東大震災で全壊した本堂は平等院風に再建され、茶室は歌人の伊藤左千夫の設計。隣の諏訪神社には江戸後期の旧本殿が移されて残る。",
+   "long": "燈明寺は平井駅の近くにある寺で、妻沼聖天（埼玉県）、浅草待乳山聖天と並ぶ関東三聖天の一つとして、平井聖天の名でも知られます。開山は元暁法印と言われますが年代は明らかでなく、中興は恵裕法印（1749年没）、本尊の不動明王は三木宋策の作と区の資料にあります。江戸時代には将軍鷹狩りの御膳所にもあてられました。安政地震（1855）で堂宇を損傷し、関東大震災（1923）では本堂が全壊。当時の関澄道貫主が再建を計画し、平等院風の優雅な本堂が建てられました。澄道貫主は文人としても知られ、正岡子規や伊藤左千夫らと親交が深く、境内の茶室は左千夫の設計です。また、鹿鳴館の解体時に売却されたシャンデリアが保存されているとWikipediaにあります。節分会には柴燈護摩（火渡り）が行われます。隣接する諏訪神社は、恵裕法印が郷里信州の諏訪の神を祀ったのが始まりと伝わります。旧本殿は天保14年（1843）の再建で、精緻な外壁彫刻と彩色が残り、1967年に現在地へ移されました。拝殿は松江1丁目の稲荷神社（赤稲荷）に移築されています。境内には享保19年（1734）の浅草道道標や、丸富講の富士塚もあります。",
+   "sources": [
+    {
+     "title": "平井聖天（燈明寺）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shite/shiseki032.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "諏訪神社旧本殿",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/kenzobutsu073.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "下平井の観世音菩薩浅草道石造道標",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo046.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "平井の富士塚　附・板絵着色富士講奉納図額一面",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo092.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "11 燈明寺と平井聖天節分の火渡り（えどがわ百景）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/011.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "12 外壁彫刻が映える旧本殿 平井諏訪神社（えどがわ百景）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/012.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "燈明寺 (江戸川区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/燈明寺_(江戸川区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "Hirai Shoten",
+     "publisher": "Traveling Traditional Japan",
+     "url": "https://www.visiting-japan.com/en/articles/tokyo/e13ed-hirai-shoten.htm",
+     "kind": "その他",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "入力の2件（燈明寺・諏訪神社）を統合。座標は区のデータで同一値（燈明寺17-30と諏訪神社17-36は隣接）。拝観時間は確認できず。シャンデリアはWikipediaのみの記述なので解説では出典明記。平井聖天の開山・中興などは区の「むかし百景」に準拠。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "山門・本堂・お堂（聖天をまつる）が境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.visiting-japan.com/en/articles/tokyo/e13ed-hirai-shoten.htm"
+    },
+    {
+     "text": "境内に伊藤左千夫の設計した茶室がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shite/shiseki032.html"
+    },
+    {
+     "text": "隣の諏訪神社では、境内北隅に旧本殿が移されて残る",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/012.html"
+    },
+    {
+     "text": "下平井の浅草道道標は、諏訪神社の西側道路の社務所脇の植え込みにある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo046.html"
+    },
+    {
+     "text": "節分（2月3日）には火渡りの行事がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/011.html"
+    },
+    {
+     "text": "境内に入れる時間は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-12",
+   "name": "天祖神社（平井）",
+   "kana": "てんそじんじゃ（ひらい）",
+   "lat": 35.712376,
+   "lon": 139.841446,
+   "address": "東京都江戸川区平井7-28-5",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸時代にはこの辺りの村の鎮守で、近くの寺が別当をつとめた社を探せ。茅葺きを銅板で覆った本殿の外壁には、松に鶴、梅に鶯などの鳥の彫刻が並ぶ。",
+   "hints": [
+    {
+     "text": "平井駅の北、平井7丁目の住宅地。旧中平井村にあたる一帯",
+     "radius_m": 500
+    },
+    {
+     "text": "天照大御神を中心に、香取・鹿島の神を合わせて祀る神社",
+     "radius_m": 250
+    },
+    {
+     "text": "鳥居に鍛えた銅のしめ縄が懸かる、平井7丁目の鎮守",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "天祖神社",
+    "accept": [
+     "天祖神社",
+     "てんそじんじゃ",
+     "平井天祖神社",
+     "ひらいてんそじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "鳥居に懸かる銅のしめ縄、拝殿、本殿（三間社流れ造り、外壁に鳥の彫刻）",
+   "short": "旧中平井村の鎮守で、1874年に村社となった。区指定有形文化財の本殿は江戸末期の三間社流れ造りで、外壁には松に鶴・梅に鶯など鳥の精緻な彫刻が数多く施されている。",
+   "long": "平井7丁目の天祖神社は旧中平井村の鎮守で、1874年（明治7）に村社となりました。創建は明らかではありません。祭神は天照皇大御神（神明）で、合殿に布都主命（香取）と武甕槌命（鹿島）を祀ります。別当は近隣の安養寺でした。『新編武蔵風土記稿』の中平井村の項には、神明・鹿島・香取の合社が村の鎮守で、貞享4年再興の棟札があると記されます。この記述から江戸時代にはすでに三社が合祀されていたようですが、詳細は明らかではありません。地元の話では、香取社は平井6丁目にあったものが荒川放水路の開削のため1902年（明治35）頃に現在地へ移されたといいます。本殿は三間社流れ造りで、主部材はケヤキ、屋根の茅葺きは銅板で覆われ、屋内には八角の柱を立てるなど江戸時代末期の神社建築として貴重です。外壁には松に鶴、梅に鶯、鶏、雀、雉、水鳥、鷲、鷺など鳥をモチーフにした彫刻が多数あります。大小2本の鳥居には鍛銅製のしめ縄が懸かり、1928年（昭和3）の鳥居改修の際に地元のブリキ屋、川本清吉氏が製作して奉納したものです。",
+   "sources": [
+    {
+     "title": "天祖神社本殿",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shite/kenzobutsu067.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "10 銅造のしめ縄　平井天祖神社（えどがわ百景）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/010.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "本殿の彫刻が外から見えるかは確認できず。『新編武蔵風土記稿』は区ページの引用による。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "鳥居は大小2本で、鍛銅製のしめ縄が懸かる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/010.html"
+    },
+    {
+     "text": "本殿は三間社流れ造りで、外壁に鳥の彫刻がある（外から見える範囲は不明）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shite/kenzobutsu067.html"
+    },
+    {
+     "text": "境内に入れる時間は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-13",
+   "name": "安養寺（平井）",
+   "kana": "あんようじ（ひらい）",
+   "lat": 35.711876,
+   "lon": 139.842682,
+   "address": "東京都江戸川区平井6-53-1",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "明治の中頃、寺の池を広げたときに出た土を盛って築いた、お椀形の小さな丘が残る。頂には浅間さまの石祠があり、かつては「七つの浅間参り」の巡り先の一つだった。",
+   "hints": [
+    {
+     "text": "平井6丁目。平井駅の北側、旧中平井村の鎮守の近く",
+     "radius_m": 500
+    },
+    {
+     "text": "区の登録文化財の富士塚と、江戸初期（寛文7年）の石の地蔵尊をもつ寺",
+     "radius_m": 250
+    },
+    {
+     "text": "天祖神社から南東へ約100m。地蔵尊の念仏供養塔と庚申供養塔が向かい合う",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "安養寺",
+    "accept": [
+     "安養寺",
+     "あんようじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内の富士塚（丸石で覆われたお椀形の小丘、頂に石祠）。念仏供養塔・庚申供養塔は飛び墓地の入口脇",
+   "short": "平井6丁目の寺。明治17年頃に弁天池の残土で築いた富士塚（頂に浅間神社の石祠）と、寛文7年（1667）の地蔵菩薩立像の念仏・庚申供養塔が区の登録文化財になっている。",
+   "long": "安養寺の富士塚は、明治17年（1884）頃、境内の弁天池を拡張したときの残土を盛り上げて築いたと伝わります。お椀形の小丘で、主に丸石で覆われ、一部に溶岩石も使われています。昭和40年代前半ごろまでは「七浅間参り」のコースに入っていましたが、現在は講もなく、塚の一部を石がんに改造して弘法大師の石像を納めています。頂上の石祠（浅間神社）には「氏子中」と刻まれます。また、寛文7年（1667）の年紀をもつ石造地蔵菩薩立像が2体あり、区内では古いものです。念仏供養塔（総高147cm）には「念仏講為結衆男女八十人菩提也」と刻まれ、江戸初期にここで念仏講が組織されたことがわかります。庚申供養塔（総高138cm）は庚申講の人びとの造立で、2体は同時期の造立と考えられ、飛び墓地の入口脇に向かい合ってまつられています。念仏供養塔は1978年の会館改築前は会館の中にまつられていたそうです。安養寺の念仏講は現在もその習俗を伝えています。なお、安養寺は近隣の天祖神社の別当でもありました。",
+   "sources": [
+    {
+     "title": "安養寺の富士塚",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo136.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "石造地蔵菩薩立像念仏供養塔",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo142.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "石造地蔵菩薩立像庚申供養塔",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo143.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "天祖神社本殿（別当の記述）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/shite/kenzobutsu067.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区のデータでは3件とも所在地が6丁目53番1号だが、地蔵尊のある「安養寺飛び墓地」が寺本堂と同じ敷地かは出典で確認できなかった。富士塚が境内のどこかも未確認。墓地の参拝可否は確認できず。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "富士塚は丸石で覆われたお椀形の小丘で、頂に石祠がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo136.html"
+    },
+    {
+     "text": "念仏供養塔は飛び墓地の会館（地蔵堂）側面の木造小祠の中にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo142.html"
+    },
+    {
+     "text": "庚申供養塔は飛び墓地の入口脇で、念仏供養塔と向かい合う",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo143.html"
+    },
+    {
+     "text": "境内に入れる時間と、飛び墓地が寺と同じ敷地かは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-18",
+   "name": "庚申堂の浅草道石造道標（平井5丁目）",
+   "kana": "こうしんどうのあさくさみちいしづくりどうひょう",
+   "lat": 35.707489,
+   "lon": 139.843567,
+   "address": "東京都江戸川区平井5-24-10",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": "道路から見る（マンション1階の堂の横）",
+   "seasonal": [],
+   "riddle": "江戸中期、浅草や行徳・市川、小松新宿への行き先を刻んで旅人に道を示した石の道しるべ。今は区画整理で元の場所が分からなくなり、駅の近くのマンション1階にある小さな堂の脇に立つ。",
+   "hints": [
+    {
+     "text": "平井5丁目。平井駅北口のすぐ近く",
+     "radius_m": 500
+    },
+    {
+     "text": "駅北口から荒川の方へ、線路沿いに約100m歩く",
+     "radius_m": 250
+    },
+    {
+     "text": "マンション1階の小さな堂の横。堂には庚申さまがまつられている",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この道標が立つ堂の名前は？",
+    "display": "庚申堂",
+    "accept": [
+     "庚申堂",
+     "こうしんどう"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "マンション1階の庚申堂の横にある石の道標（正面に「左あさくさ道」）",
+   "short": "安永8年（1779）建立の石造道標。「左あさくさ道」「行徳市川道、小松新宿道」と刻まれる。区画整理で原位置は不明となり、いまはマンション1階の庚申堂の横にある。",
+   "long": "庚申堂の浅草道石造道標は、安永8年（1779）に建てられた道しるべです。正面に「左あさくさ道」、左側面に「安永八己亥六月吉日」、右側面に「行徳市川道、小松新宿道」と刻まれています。区の説明では、平井駅北口から荒川に向かって線路沿いに約100mほど行ったマンションの1階、庚申堂の横にあるとされます。原位置は区画整理のためわからなくなっています。江戸川区を直線で横切る旧浅草道は浅草と行徳を結ぶ道筋で、近くの平井の渡しは中川（旧中川）を渡る行徳道の渡し場として、平井聖天への参詣路としても賑わいました。この道標は、そうした古い道が行き交った平井の町の記憶を伝える石造物です。江戸川区の登録有形文化財（歴史資料）に昭和58年（1983）に登録されています。　なお、区の別の道標（下平井の観世音菩薩浅草道石造道標）の説明によれば、旧浅草道は浅草と行徳を結ぶ道筋で、平井の渡しに近いこのあたりの道は曲がりくねっていたといいます。同じ平井でも、享保19年（1734）の道標とこの安永8年（1779）の道標は45年の隔たりがあり、時代を越えて旅人の道案内が必要とされたことがうかがえます。",
+   "sources": [
+    {
+     "title": "庚申堂の浅草道石造道標",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo050.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "平井の渡し跡（関連の背景）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/shiseki102.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "下平井の観世音菩薩浅草道石造道標（旧浅草道の説明）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo046.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "マンション名・堂の開閉状況は確認できず。座標は区画整理前の位置ではなく現在の所在地住所の値（国土地理院で一致確認）。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は、マンション1階の庚申堂の横に立つ石の道標",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo050.html"
+    },
+    {
+     "text": "平井駅北口から荒川方面へ線路沿いに約100m",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo050.html"
+    },
+    {
+     "text": "道標の正面に「左あさくさ道」と刻まれる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo050.html"
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-108",
+   "name": "東福院（松島3丁目）",
+   "kana": "とうふくいん（まつしま）",
+   "lat": 35.711109,
+   "lon": 139.863525,
+   "address": "東京都江戸川区松島3-38-18",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "太陽と月、青面金剛、邪鬼、二羽の鶏、二人の童子、四夜叉まで揃った庚申塔は、都内でもめずらしい。台石には旧西小松川村の庚申講の仲間12人の名が刻まれている。",
+   "hints": [
+    {
+     "text": "松島3丁目の住宅地。旧西小松川村にあたる地域",
+     "radius_m": 500
+    },
+    {
+     "text": "区の登録民俗文化財の庚申塔をまつる寺",
+     "radius_m": 250
+    },
+    {
+     "text": "名に「福」の字がつく、「院」の号をもつ寺",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "東福院",
+    "accept": [
+     "東福院",
+     "とうふくいん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内にある青面金剛立像の庚申塔（石造。日月・邪鬼・二鶏・二童子・三猿・四夜叉を刻む）",
+   "short": "享保12年（1727）造立と伝わる青面金剛立像の庚申塔。日月・邪鬼・二鶏・二童子・三猿・四夜叉を備え、都内でも少なく貴重。台石に旧西小松川村上組の講員12名の名がある。",
+   "long": "東福院にある青面金剛立像の庚申塔は、区の登録有形民俗文化財です。上部に日・月像、中央に青面金剛像とその足下の邪鬼、左右に童子立像、その下に二鶏像、下部には三猿像と四夜叉像が彫られ、台石には旧西小松川村上組の庚申講員12名の名が記されています。区の説明では、日、月、青面金剛、邪鬼、二鶏、二童子、四夜叉の像を備えた庚申塔は、区内はもちろん都内でも少なく貴重とされ、享保12年（1727）の造立と伝えています（「伝」とあり、年は伝承です）。庚申塔は、長寿と幸福を願い庚申講の人びとによって造立されたもので、この塔でも講員の名が台石に残っています。区の登録文化財には、ほかにも「真蔵院所在の青面金剛立像庚申塔（元禄十一年銘）」「小松川神社所在の青面金剛立像庚申塔」など、寺社に伝わる庚申塔が並びます。昭和61年（1986）2月12日に区が登録しました。寺の所蔵品は普段見られませんが、境内の石造物から地域の信仰を知ることができます。",
+   "sources": [
+    {
+     "title": "東福院所在の青面金剛立像庚申塔（伝享保十二年銘）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo107.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "石造地蔵菩薩立像庚申供養塔（庚申塔と庚申講の説明）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo143.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "庚申塔が境内のどこにあるか、境内に入れる時間は出典で確認できず。庚申講が長寿・幸福を願った点は区ページ143号（庚申供養塔）に依拠。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物は石造の庚申塔で、青面金剛を中心に日月・二鶏・三猿などが彫られている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/minzokushiryo107.html"
+    },
+    {
+     "text": "庚申塔が寺の境内のどこにあるか、道路から見えるかは未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-109",
+   "name": "東小松川中道の庚申塔道標（中央3丁目）",
+   "kana": "ひがしこまつがわなかみちのこうしんとうどうひょう",
+   "lat": 35.711639,
+   "lon": 139.871033,
+   "address": "東京都江戸川区中央3-2-16",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": "道路から見る（小祠）",
+   "seasonal": [],
+   "riddle": "江戸の両国まで二里、市川まで一里と刻まれた、文化5年の道しるべ。古い街道の分かれ道にあり、川の渡し場へ向かう道を示す。今はブロックの小さな祠におさまっている。",
+   "hints": [
+    {
+     "text": "中央3丁目。千葉街道（旧道）に沿う地域",
+     "radius_m": 500
+    },
+    {
+     "text": "元佐倉道から、川の渡し場へ向かう分岐点",
+     "radius_m": 250
+    },
+    {
+     "text": "ブロック造の小祠に庚申塔として祀られる石。台座に「是より〇〇道」と彫る",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "台座に「是より〇〇道」と刻まれた、渡し場へ向かう道の名は？",
+    "display": "河原道",
+    "accept": [
+     "河原道",
+     "かわらみち",
+     "かわら道",
+     "かハら道"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "ブロック造の小祠の中の石の庚申塔（上部に青面金剛像、台座に「是よりかハら道」）",
+   "short": "文化5年（1808）建立の庚申塔兼道標。元佐倉道から河原の渡しへ向かう分岐点に原位置のまま立つ。台座に「是よりかハら道」「両国マテ二里、市河マテ一里」と刻まれる。",
+   "long": "東小松川中道の庚申塔河原道石造道標は、千葉街道の旧河原道の起点にあり、ブロックの小祠に庚申塔として祀られています。元佐倉道から河原の渡しに向かう分岐点の道標で、文化5年（1808）の建立、原位置のままと認められます。上部正面には青面金剛像が陽刻され、台座の正面には「是よりかハら道」、右側面には「両国マテ二里、市河マテ一里」と刻まれています。河原道はこのルートだけではなく、行徳道から西一之江4丁目の間を抜けるルートなどもあり、河原の渡しから区の中央部へ手を広げたようなこの道は、地域にとって大切な道だったに違いないと区は述べています。一方、この道がどうしてつくられ、どのように機能していたかは明らかではありません。昭和58年（1983）3月15日に区の登録有形文化財（歴史資料）になりました。庚申塔でありながら道しるべの役目も果たした、江戸時代の街道の姿を伝える石造物です。区の解説シートによれば、江戸川の対岸、下総国河原村へ渡る河原の渡しは下篠崎村にあり、区内にはそこへ至る道がいくつかありました。元佐倉道から松本村を通る道と、行徳道から西一之江、谷河内を通る道が代表的で、両道の分岐点にはそれぞれ河原道を示す道標がありました。",
+   "sources": [
+    {
+     "title": "東小松川中道の庚申塔河原道石造道標",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo052.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "江戸時代の道（解説シート3-1）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/documents/9204/3-01.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "解説の河原の渡し・河原道の説明は区の解説シート3-1に依拠。この道標が上記どちらの道の分岐点に当たるかは断定していない。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は、ブロック造の小祠に祀られた石の庚申塔",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo052.html"
+    },
+    {
+     "text": "台座の正面に「是よりかハら道」、右側面に「両国マテ二里、市河マテ一里」と刻まれる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo052.html"
+    },
+    {
+     "text": "道路沿いの分岐点にあり、外から見られる前提と推定",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-107",
+   "name": "寿昌院（松本弁天臥竜の松）",
+   "kana": "じゅしょういん（まつもとべんてんがりゅうのまつ）",
+   "lat": 35.71389,
+   "lon": 139.877625,
+   "address": "東京都江戸川区松本1-9-14",
+   "kind": "樹木",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "推定500年のクロマツ。大風で幹が折れて地を這う姿になり、天に昇る前の竜が横たわる様子になぞらえて名がついた。江戸の地誌が「奇木」と記した木にあたるといわれる。",
+   "hints": [
+    {
+     "text": "松本1丁目。弁天さまをまつる寺の境内",
+     "radius_m": 500
+    },
+    {
+     "text": "幹の中はうつろだが、葉の色は青く元気。枝は東西に16mほど広がる",
+     "radius_m": 250
+    },
+    {
+     "text": "高さ約5m。横たわる姿から、ある生き物の名で呼ばれる松",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この松の呼び名は？",
+    "display": "臥竜の松",
+    "accept": [
+     "臥竜の松",
+     "がりゅうのまつ",
+     "臥龍の松",
+     "松本弁天臥竜の松",
+     "臥竜松"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内のクロマツ（地を這うように枝を張る）と、貞享元年創建の弁天堂",
+   "short": "寿昌院境内の推定樹齢500年のクロマツ。大正期の大風で幹が折れて這い松の形となり「臥竜の松」と呼ばれる。区の登録天然記念物で、区の景観重要樹木にも指定されている。",
+   "long": "松本弁天臥竜の松は、寿昌院境内にある推定樹齢500年のクロマツで、区の登録天然記念物です。『葛西志』や『新編武蔵国風土記稿』に「奇木」「珍らかなる木」と記されたものにあたるといわれます。大正期の大風で幹が折れ、這い松の形となり、その姿から「臥竜の松」と称します。幹の中がうつろになっていますが、葉色も青く樹勢も良好で、区内でも有数の美観を呈しています。区の「えどがわ百景」によれば、高さは5m、枝張りは東西16.5m、南北18.4mで、区の景観重要樹木にも指定されています。境内の弁天堂は貞享元年（1684）に禅尼が創建したもので、弘法大師作と伝わる弁財天女像が祀られています。昭和61年（1986）2月12日に区が登録しました。「臥竜」は伏せている竜の意で、地を這うように横へ広がる枝ぶりを竜に見立てた名です。高さ5mに対して東西16.5m、南北18.4mという枝張りの広さが、この松の最大の特徴といえます。",
+   "sources": [
+    {
+     "title": "松本弁天臥竜の松",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/shokubutsu115.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "34 樹齢500年　松本弁天臥竜の松（えどがわ百景）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/034.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "寿昌院そのものの由緒・参拝時間は出典で確認できず。松が道路から見えるか、境内に入れるかは未確認。",
+   "on_foot": true,
+   "onsite_hints": [
+    {
+     "text": "探す物はクロマツで、幹が折れて這い松のように横へ枝を広げている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/shokubutsu115.html"
+    },
+    {
+     "text": "境内に弁天堂がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e016/sports/kankomidokoro/edogawa100/edogawarashisa/rekishi/034.html"
+    },
+    {
+     "text": "境内に入れる時間・松の見える位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Jusho-in,_Edogawa_1.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Jusho-in%2C_Edogawa_1.jpg",
+     "caption": "寿昌院",
+     "author": "Beryllium Transistor",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-110",
+   "name": "東小松川田子沼の庚申塔道標（大杉4丁目）",
+   "kana": "ひがしこまつがわたごぬまのこうしんとうどうひょう",
+   "lat": 35.710304,
+   "lon": 139.882065,
+   "address": "東京都江戸川区大杉4-25-6",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": "道路から見る",
+   "seasonal": [],
+   "riddle": "庚申塔として祀られてきた石像が、区民の調査をきっかけにした発掘で、実は道しるべでもあったとわかった。道路工事のとき、道標の部分は土の中に埋められていた。",
+   "hints": [
+    {
+     "text": "大杉4丁目。旧東小松川村にあたる地域",
+     "radius_m": 500
+    },
+    {
+     "text": "正面上部に青面金剛の坐像を彫った、文化8年建立の石",
+     "radius_m": 250
+    },
+    {
+     "text": "地名は「田」「子」「沼」の三文字",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この道標の名に付く地名は？",
+    "display": "田子沼",
+    "accept": [
+     "田子沼",
+     "たごぬま"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "庚申塔として祀られている石（正面上部に青面金剛坐像、下部に「かハら道」）",
+   "short": "文化8年（1811）建立の庚申塔兼道標。道路工事で道標部分が土中に埋まっていたが、区の発掘調査で判明。正面上部に青面金剛坐像、下部に「かハら道（河原道）」を刻む。",
+   "long": "東小松川田子沼の庚申塔河原道石造道標は、庚申塔として祀られてきた石造物です。区民の方の調査を機会に文化財係が発掘調査を行ったところ、道標であることがわかりました。道路工事の際に道標部分が土中に埋められたもので、原位置のままであると推定されています。正面上部には青面金剛坐像が彫られ、下部には「かハら道（河原道）」と刻まれています。文化8年（1811）の建立です。区の解説シートによれば、江戸川の対岸、下総国河原村へ渡る河原の渡しは下篠崎村にあり、区内にはそこへ至る道がいくつかありました。元佐倉道から松本村を通る道と、行徳道から西一之江、谷河内を通る道が代表的で、両道の分岐点にはそれぞれ河原道を示す道標がありました。この石も、そうした河原道を示す道標の一つです。昭和58年（1983）3月15日に区の登録有形文化財（歴史資料）になっています。庚申塔が土中に埋められたまま長く祀られ、のちの調査で道標でもあったと判明した経緯は、地域の石造物が住民の調査と行政の発掘によって読み直される例といえます。",
+   "sources": [
+    {
+     "title": "東小松川田子沼の庚申塔河原道石造道標",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo053.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "東小松川中道の庚申塔河原道石造道標（河原道の説明）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo052.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "江戸時代の道（解説シート3-1）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/documents/9204/3-01.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "「田子沼」が地名（字名など）であるとの説明は区ページにない（名称の一部のみ）。祠の有無・外観は未確認。解説の河原道の説明は区の解説シート3-1に依拠（この石がどの道に当たるかは断定していない）。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は、庚申塔として祀られている石で、正面上部に青面金剛の坐像がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo053.html"
+    },
+    {
+     "text": "石の正面下部に「かハら道」と刻まれる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo053.html"
+    },
+    {
+     "text": "道路沿いにあり外から見られる前提と推定。小祠の有無は不明",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "edogawa-106",
+   "name": "北野神社（本一色の石造道標）",
+   "kana": "きたのじんじゃ",
+   "lat": 35.716717,
+   "lon": 139.873795,
+   "address": "東京都江戸川区本一色2丁目22番5号",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "山形の三つの山を信仰する人びとが建てた石の碑が、道に面して立つ。四つの面のうち三つに、行き先が刻まれている。",
+   "hints": [
+    {
+     "text": "都営新宿線瑞江駅の北、本一色二丁目の住宅街。",
+     "radius_m": 500
+    },
+    {
+     "text": "神社の境内。道路に面した南の隅に石の碑が立つ。",
+     "radius_m": 250
+    },
+    {
+     "text": "本一色二丁目の神社。境内の南隅に立つ、高さ165cmの石碑。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この道標が立つ神社の名前は？",
+    "display": "北野神社",
+    "accept": [
+     "北野神社",
+     "きたのじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "北野神社境内の南隅、道路に面して立つ石造道標（高さ165cm）",
+   "short": "文政2年（1819）建立の石造道標。月山・湯殿山・羽黒山の出羽三山信仰の講中の碑で、「是より左上小松平井道」「是より右新宿道」「是より右市川道」と刻む道標でもある。",
+   "long": "本一色2丁目の北野神社の境内には、江戸川区登録有形文化財（歴史資料）の石造道標があります。区の解説によると、境内の南隅に道路に面して建てられていますが、もとの位置はさらに北へ50メートル、江戸川本一色郵便局のところでした。高さは165センチメートルです。\n月山・湯殿山・羽黒山の出羽三山信仰の講中の碑ですが、道標を兼ねており、正面には「是より左上小松平井道」、左側面には「是より右新宿道」、右側面には「是より右市川道」と刻まれ、背面には「本一色村」とあります。文政2年（1819）に建てられたものです。\n江戸時代の道しるべは、街道の分岐点など人が行き交う場所に立てられ、方向や行き先を示しました。この碑からは、本一色村から上小松・平井方面、新宿方面、市川方面へ道が通じていたことがうかがえます。信仰の碑でありながら、人びとの移動を支える実用の道標でもあったことが、この碑の特色です。\n移設された石碑ですので、いま立つ場所は当時の道筋そのものではありませんが、道路に面して建てられているため、行き先の刻字を間近に読むことができます。",
+   "sources": [
+    {
+     "title": "本一色の石造道標（江戸川区の文化財）",
+     "publisher": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo057.html",
+     "kind": "自治体",
+     "accessed": "2026-11-17"
+    },
+    {
+     "title": "道標",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/道標",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-17"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データと国土地理院が一致。北野神社そのものの由緒・祭神は出典を開けず未確認（由緒は出典なしのため謎・ヒントでは使っていない）。境内の開放時間も未確認。long 末尾の「間近に読める」は『道路に面して建てられている』という区ページの記述からの推定。",
+   "on_foot": false,
+   "onsite_hints": [
+    {
+     "text": "探す物は、北野神社境内の南隅に、道路に面して立つ高さ165cmの石造道標。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo057.html"
+    },
+    {
+     "text": "正面に「是より左上小松平井道」、左側面に「是より右新宿道」、右側面に「是より右市川道」、背面に「本一色村」と刻まれている。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo057.html"
+    },
+    {
+     "text": "もとの位置はさらに北へ50メートルの、江戸川本一色郵便局のところにあった。",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.edogawa.tokyo.jp/e_bunkazai/bunkazai/toroku/rekishishiryo057.html"
+    },
+    {
+     "text": "区の説明板が近くに立っている可能性がある。",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "last_checked": null
+  }
+ ]
+}
