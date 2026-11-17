@@ -22,6 +22,9 @@
  "higashikurume.json",
  "higashimurayama.json",
  "higashiyamato.json",
+ "hino-shuku.json",
+ "hino-takahata.json",
+ "inagi.json",
  "itabashi-akatsuka.json",
  "itabashi-juku.json",
  "itabashi-kamiitabashi.json",
@@ -74,8 +77,11 @@
  "suginami-takaido.json",
  "sumida-mukojima.json",
  "sumida-ryogoku.json",
+ "tachikawa-shibasaki.json",
+ "tachikawa-sunagawa.json",
  "taito-asakusa.json",
  "taito-ueno-yanaka.json",
+ "tama.json",
  "toshima-sugamo.json",
  "toshima-zoshigaya.json"
 ]
