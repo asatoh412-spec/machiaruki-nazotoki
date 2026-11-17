@@ -1,0 +1,1720 @@
+{
+ "schema": "machiaruki-pack/1",
+ "pack_id": "ota-senzoku",
+ "version": "2026-11-14.1",
+ "title": "洗足池・雪谷・田園調布・鵜の木（大田区）",
+ "prefecture": "東京都",
+ "city": "大田区",
+ "created": "2026-11-14",
+ "rules": {
+  "arrival_radius_m": 50,
+  "difficulty": "ふつう"
+ },
+ "stations": [
+  {
+   "name": "北千束",
+   "lines": [
+    "東急電鉄 大井町線"
+   ],
+   "lat": 35.60628,
+   "lon": 139.69327
+  },
+  {
+   "name": "大岡山",
+   "lines": [
+    "東急電鉄 大井町線",
+    "東急電鉄 目黒線"
+   ],
+   "lat": 35.607135,
+   "lon": 139.684842
+  },
+  {
+   "name": "雪が谷大塚",
+   "lines": [
+    "東急電鉄 池上線"
+   ],
+   "lat": 35.591965,
+   "lon": 139.681125
+  },
+  {
+   "name": "石川台",
+   "lines": [
+    "東急電鉄 池上線"
+   ],
+   "lat": 35.59686,
+   "lon": 139.68509
+  },
+  {
+   "name": "御嶽山",
+   "lines": [
+    "東急電鉄 池上線"
+   ],
+   "lat": 35.585153,
+   "lon": 139.68242
+  },
+  {
+   "name": "長原",
+   "lines": [
+    "東急電鉄 池上線"
+   ],
+   "lat": 35.60223,
+   "lon": 139.69797
+  },
+  {
+   "name": "洗足池",
+   "lines": [
+    "東急電鉄 池上線"
+   ],
+   "lat": 35.599675,
+   "lon": 139.690925
+  },
+  {
+   "name": "多摩川",
+   "lines": [
+    "東急電鉄 東急多摩川線",
+    "東急電鉄 東横線"
+   ],
+   "lat": 35.589488,
+   "lon": 139.668733
+  },
+  {
+   "name": "田園調布",
+   "lines": [
+    "東急電鉄 東横線",
+    "東急電鉄 目黒線"
+   ],
+   "lat": 35.59729,
+   "lon": 139.667285
+  },
+  {
+   "name": "沼部",
+   "lines": [
+    "東急電鉄 東急多摩川線"
+   ],
+   "lat": 35.58249,
+   "lon": 139.67317
+  },
+  {
+   "name": "洗足",
+   "lines": [
+    "東急電鉄 目黒線"
+   ],
+   "lat": 35.61009,
+   "lon": 139.694105
+  }
+ ],
+ "attribution": [
+  {
+   "text": "大田区の文化財・歴史史跡のページ（大田区）をもとに作成",
+   "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.html"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  }
+ ],
+ "area": {
+  "bbox": [
+   35.578208,
+   139.655822,
+   35.613439,
+   139.69719
+  ]
+ },
+ "points": [
+  {
+   "id": "ota-66",
+   "name": "東部八幡神社",
+   "kana": "とうぶはちまんじんじゃ",
+   "lat": 35.580208,
+   "lon": 139.69519,
+   "address": "東京都大田区久が原2-18-4",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "区の指定文化財一覧の公開状況は「通年」。社殿を外から見る",
+   "seasonal": [],
+   "riddle": "幕末に建てられたといわれる拝殿が、いまも神社に残っている。入母屋造りの屋根は、のちに金属の板でふき替えられた。大田区の文化財になっている、その社殿を探そう。",
+   "hints": [
+    {
+     "text": "久が原の住宅地。バス停から歩いて10分ほどの場所。",
+     "radius_m": 500
+    },
+    {
+     "text": "八幡の名がつく神社で、住宅街の中の境内にある。",
+     "radius_m": 250
+    },
+    {
+     "text": "区の文化財に指定された拝殿のある、久が原の八幡神社。名の初めは方角の「東」を含む。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この拝殿のある神社の名前は？",
+    "display": "東部八幡神社",
+    "accept": [
+     "東部八幡神社",
+     "とうぶはちまんじんじゃ",
+     "久が原東部八幡神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "拝殿（入母屋造り、銅板ぶきの屋根）",
+   "short": "大田区の紹介ページによると、拝殿は文久2年（1862年）に建てられたといわれ、江戸末期の神社建築の特色を伝える。入母屋造りの屋根は銅板にふき替えられている。区指定文化財。",
+   "long": "久が原二丁目の東部八幡神社には、江戸後期の社殿が残っています。大田区の史跡紹介ページ（「江戸後期の社殿（久が原　東部八幡神社）」）によると、拝殿は文久2年（1862年）に建てられたといわれ、江戸末期の神社建築の特色を伝えるものです。入母屋造りの屋根は、現在は銅板にふき替えられています。区の指定文化財で、区の一覧では種別は有形文化財（建造物）、指定は昭和49年（1974年）2月2日、公開状況は「通年」とされています。文久2年は幕末にあたり、この拝殿は江戸時代の終わりごろの姿を伝える建物です。屋根は後世にふき替えられているため、現在見える屋根材は建築当初のものではない点にも注意して見ると、文化財としての保存の歩みが分かります。区の紹介ページの案内では、JR大森駅西口または蒲田駅西口から東急バスで久が原特別出張所前バス停まで行き、徒歩10分です。祭礼などの問い合わせ先として徳持神社の電話番号が掲載されています。",
+   "sources": [
+    {
+     "title": "江戸後期の社殿（久が原　東部八幡神社）｜大田区ホームページ",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/kugahara/edokouki_shaden.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区指定文化財一覧（2020年9月1日現在のPDF）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20200901bunka_ku_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "notes": "区の紹介ページの問い合わせ先に「徳持神社」とあるが、東部八幡神社との関係（別称か、管理する神社か）は出典で確かめられなかった。読み（とうぶはちまんじんじゃ）は出典になく、文字からの付与。拝殿の位置が境内のどこかは未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は境内の拝殿。入母屋造りで屋根は銅板ぶき",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/kugahara/edokouki_shaden.html"
+    },
+    {
+     "text": "区の一覧で公開状況は「通年」",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20200901bunka_ku_shitei.pdf"
+    },
+    {
+     "text": "最寄りは久が原特別出張所前バス停で、そこから徒歩10分",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/kugahara/edokouki_shaden.html"
+    }
+   ],
+   "on_foot": true,
+   "images": [],
+   "status": "unverified",
+   "last_checked": null
+  },
+  {
+   "id": "ota-60",
+   "name": "清水窪湧水（清水窪弁天神社）",
+   "kana": "しみずくぼゆうすい",
+   "lat": 35.611439,
+   "lon": 139.687103,
+   "address": "東京都大田区北千束1-26 清水窪弁天神社境内",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "区指定文化財一覧の公開状況は「通年」。境内に入れる時間などは確認できず",
+   "seasonal": [],
+   "riddle": "洗足池には流れ込む川がないのに、池はいつも水をたたえている。その主な水源のひとつが、池の北の台地で今も湧き続けている。弁天さまを祀る境内を探せ。",
+   "hints": [
+    {
+     "text": "洗足池の北側、北千束一丁目あたりにある。",
+     "radius_m": 500
+    },
+    {
+     "text": "東急の北千束駅から歩いて行ける範囲。住宅地の中の小さな境内。",
+     "radius_m": 250
+    },
+    {
+     "text": "弁財天を祀る神社の境内で、水が湧いている。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この湧水がある神社の名前は？",
+    "display": "清水窪弁天神社",
+    "accept": [
+     "清水窪弁天神社",
+     "しみずくぼべんてんじんじゃ",
+     "清水窪弁財天",
+     "清水窪湧水",
+     "しみずくぼゆうすい"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "洗足池の水源のひとつとされる湧水。大田区の天然記念物で、いまも水量が豊富だと伝えられ、浸透管で池へ流れている。",
+   "long": "清水窪湧水は、北千束一丁目の清水窪弁天神社の境内にある湧水で、大田区の区指定天然記念物です。区の指定文化財一覧では昭和50年（1975年）3月19日の指定、公開状況は通年とされています。洗足池は湧水池で、流れ込む川はありません。付近にはかつて農家が作物の洗い場に使った大小の湧水が多くあり、用水路を通じて池へ流れ込んでいたとされます。洗足池の主要な水源になる湧水は4か所あったとされ、現在まで残るのが、清水窪弁財天（北千束1-26）の湧水で、東京の名湧水57選のひとつです（以上、ウィキペディアの洗足池の項による）。同項には、今も水量が豊富で、浸透管を使って洗足池へ流れているとあります。住宅地の台地の下に水が湧き出る場所が残っていることが、この湧水を訪ねる魅力です。",
+   "sources": [
+    {
+     "title": "大田区 区指定文化財一覧（PDF）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20200901bunka_ku_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "洗足池（ウィキペディア）",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/洗足池",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区の records の URL は指定文化財一覧PDFで、説明文はなく、天然記念物・昭和50.03.19指定・公開状況「通年」のみ確認。由緒・境内の様子（鳥居・池など）は区のページでも他でも確かめられなかった。長文の水源の記述はウィキペディア（洗足池）のみが根拠で、独立した第2の出典はない（tabi-mag.jp の記事も洗足池の水源のひとつと述べるのみで、これもウィキペディア同様の内容）。清水窪の表記は区が「弁天」、ウィキペディアが「弁財天」。座標は GSI で一致（番地まで）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は清水窪弁天神社の境内。湧水はその境内にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20200901bunka_ku_shitei.pdf"
+    },
+    {
+     "text": "湧水は浸透管で洗足池へ流れている",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/洗足池"
+    },
+    {
+     "text": "区の説明板などが立っている可能性があるが、設置は確かめられていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "ota-59",
+   "name": "石橋供養塔（石川橋際）",
+   "kana": "いしばしくようとう",
+   "lat": 35.597527,
+   "lon": 139.68277,
+   "address": "東京都大田区石川町2-8番地先",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": "道端の石塔。外から見る",
+   "seasonal": [],
+   "riddle": "安永3年、橋の安泰と通る人の安全だけを祈って建てられた石の塔。同じ種類の塔は、ほかの民間信仰の供養を兼ねたものが多く、交通の安全だけを目的としたこの塔は珍しいという。",
+   "hints": [
+    {
+     "text": "大田区の西寄り、東急の支線の駅から歩いて10分ほど。雪谷・千束のあたり。",
+     "radius_m": 500
+    },
+    {
+     "text": "探すのは、橋のたもとに立つ江戸時代中期（1774年）の石塔。",
+     "radius_m": 250
+    },
+    {
+     "text": "石の橋の安全を祈る供養塔。名前に「橋」の字が入る。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この石塔の名前は？",
+    "display": "石橋供養塔",
+    "accept": [
+     "石橋供養塔",
+     "いしばしくようとう",
+     "せっきょうくようとう"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "安永3年（1774年）に石橋の安泰と通行人の安全を祈って建てられた塔。他の民間信仰の供養塔を兼ねたものが多い中、交通の安全祈願だけを目的とした例は珍しい。",
+   "long": "石橋供養塔は、安永3年（1774年）に、石橋の安泰と通行人の安全を祈って建てられました。大田区指定有形文化財（金石文）で、区のページによると所在地は石川町2丁目8番地先の石川橋際で、東急池上線石川台駅から徒歩約10分です。\n\n区のページは、石橋供養塔には他の民間信仰の供養塔を兼ねたものが多く、交通上の安全祈願だけを目的としたこの塔は珍しいと説明しています。橋の安全と通行人の安全を祈って建てられた、江戸時代中期の道の石造物です。\n\n区の史跡紹介では、雪谷・千束地区の項目の一つに挙げられています。",
+   "sources": [
+    {
+     "title": "石橋供養塔",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/ishibashikuyoutou.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区のデータの座標は番地（石川町2-8）まで。「地先」の石川橋際のどの位置かは確かめられていない。読み（いしばしくようとう/せっきょうくようとう）は出典に書かれておらず、一般的な読みを置いた。現地の説明板・塔の大きさ・向きは確かめられていない（onsite は null）。「石川橋」の現状（橋が今も架かるか、川か）も確かめていない。長文は出典の事実が少なく短め。座標は国土地理院の住所検索と一致。",
+   "onsite_hints": [
+    {
+     "text": "探す物は道端の石塔。区のページに写真がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/ishibashikuyoutou.html"
+    },
+    {
+     "text": "所在地は「石川橋際」。橋のたもとを探す",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/ishibashikuyoutou.html"
+    },
+    {
+     "text": "橋の現状や塔の高さ、説明板の有無は確かめていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": false,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "ota-50",
+   "name": "勝海舟夫妻の墓（洗足池公園内）",
+   "kana": "かつかいしゅうふさいのはか",
+   "lat": 35.602859,
+   "lon": 139.689362,
+   "address": "東京都大田区南千束2-14-5 洗足池公園内",
+   "kind": "墓",
+   "indoor": false,
+   "access": "洗足池公園内（公園は都の一覧で公開状況「通年」）。墓所の参拝可能な時間は出典で確認できなかった",
+   "seasonal": [],
+   "riddle": "慶応4年、江戸開城の談判へ向かう途中でこの池のほとりに立ち寄った幕臣は、のちに池の近くへ別荘を構え、死後はこの畔に葬られた。簡素な五輪塔の墓石を、池の畔で探せ。",
+   "hints": [
+    {
+     "text": "東急池上線の駅から徒歩10分ほど。池を囲む公園の中にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "公園の中の池の畔。墓のそばには、寄付者の名を裏に刻んだ手水石（水盤）がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "簡素な五輪塔が二基並ぶ。向かって右が幕臣本人、左が妻の墓。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "ここに葬られた幕臣の名は？",
+    "display": "勝海舟",
+    "accept": [
+     "勝海舟",
+     "かつかいしゅう",
+     "勝安芳"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "五輪塔形の墓石二基（向かって右が海舟、左が妻・たみ）と、傍らの水盤（手水石）。西郷南洲留魂詩碑と中原街道改修碑も同じ公園内にある",
+   "short": "勝海舟（安芳）と妻たみの墓。海舟は江戸開城の談判の途次に洗足池へ立ち寄った縁で別荘を構え、明治32年の死去後、遺志により池畔に葬られた。墓石は海舟自身が描いた図をかたどった五輪塔。",
+   "long": "勝海舟（安芳。1823-99）と妻・たみ（1821-1905）の墓で、大田区の指定文化財です。慶応4年4月、海舟は江戸開城の談判のため中原街道を経て池上本門寺の新政府軍本営へ向かいました。この道中、洗足池畔で刺客に襲われましたが、地元の人々の協力で難を逃れ、束の間の休息を得たと区のページは記しています。この時の感慨から、海舟は明治23年に洗足池を再訪し、津田仙の口利きで土地を得て、同25年にかけて別荘「洗足軒」を造りました。毎年4月に旧幕臣の仲間を招いて詩会を催すなど度々この地に遊び、死後はここに葬られることを望むようになったとされます（一説に、池から望む富士山を好んだとも伝わります）。明治32年1月19日に海舟が没すると、遺志のとおり現在地に埋葬されました。墓石は海舟自身が描いた図をかたどった簡素な五輪塔で、青山の石工・鈴木猛麟が同年11月に仕上げています。水輪に彫られた「海舟」の二字は、徳川慶喜の筆とする説がありましたが、調査により徳川家達の筆と分かっています。妻・たみの墓は、没後は青山墓地にあったものが戦後にここへ移されました。傍らの水盤（手水石）は、海舟の知己らが寄付を募って同年に設置したもので、裏には榎本武揚ら寄付者56名の名が刻まれています。同じ公園内には、西郷南洲留魂詩碑と中原街道改修碑もあります。",
+   "sources": [
+    {
+     "title": "勝海舟夫妻の墓（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/katsukaishuu_bosho.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "西郷南洲留魂詩碑（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/saigoutakamori_ryuukonhi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "中原街道改修碑（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/nakaharakaidou_kaishuuhi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区歴史スポットマップ 洗足池公園周辺編",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/hakubutsukan/bunkazai_kikousyu.files/senzokuike-setsumei2.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "東京都指定文化財一覧（大田区）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240227bunka_to_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データ・国土地理院とも住所（南千束2-14-5）の代表点で、墓の正確な位置とは限らない（一致は確認済み）。墓所の参拝時間・立入可否は区のページに記載なし。洗足池公園（都名勝）、留魂詩碑（元は葛飾区の木下川浄光寺に建立、大正2年に移設）、中原街道改修碑を同一地点に統合。留魂詩碑・改修碑の公園内での具体的な位置は未確認。",
+   "onsite_hints": [
+    {
+     "text": "探すのは五輪塔形の墓石二基。向かって右が海舟、左が妻・たみの墓",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/katsukaishuu_bosho.html"
+    },
+    {
+     "text": "墓の傍らに水盤（手水石）があり、裏に寄付者56名の名が刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/katsukaishuu_bosho.html"
+    },
+    {
+     "text": "西郷南洲留魂詩碑と中原街道改修碑も同じ洗足池公園内にある（所在地が同一）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/saigoutakamori_ryuukonhi.html"
+    },
+    {
+     "text": "区の説明板が立っていることが多い（区の史跡一般の推定）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "ota-54",
+   "name": "勝海舟記念館（旧清明文庫）",
+   "kana": "かつかいしゅうきねんかん",
+   "lat": 35.602005,
+   "lon": 139.692413,
+   "address": "東京都大田区南千束2-3-1",
+   "kind": "博物館",
+   "indoor": true,
+   "access": "開館時間は午前10時から午後6時まで（入館は30分前まで）。休館日は月曜（祝日の場合は翌日）、年末年始、臨時休館日。入館料300円（小中学生100円）。展示入れ替えによる休館もある（大田区の2025年11月26日付プレスリリースによる。最新は要確認）",
+   "seasonal": [],
+   "riddle": "江戸城の無血開城に尽くした幕臣の遺蹟を守り、資料を集めるため、昭和の初めに建てられた図書館兼公会堂がある。鉄筋コンクリート造の正面には4本の柱型が並び、窓や内装には幾何学模様が見られる。いまは区立の施設として人の生涯を伝えている。",
+   "hints": [
+    {
+     "text": "東急池上線の駅から徒歩6分ほど。池の東側の住宅地にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "日蓮ゆかりの伝承をもつ寺の、すぐ近くにある洋風の建物。",
+     "radius_m": 250
+    },
+    {
+     "text": "正面に4本の柱型が並ぶ昭和初期の建物。令和元年に、幕臣の名を冠した記念館として開館した。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この建物は現在、何として公開されている？",
+    "display": "勝海舟記念館",
+    "accept": [
+     "勝海舟記念館",
+     "旧清明文庫",
+     "清明文庫",
+     "せいめいぶんこ",
+     "鳳凰閣",
+     "ほうおうかく",
+     "かつかいしゅうきねんかん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "左側が旧清明文庫（国登録有形文化財）の建物。外観正面中央に4本の柱型がある",
+   "short": "昭和3年竣工の旧清明文庫を整備し、令和元年に開館した区立記念館。アール・デコの意匠を採り入れた鉄筋コンクリート造で、国登録有形文化財。区のページは昭和初期のモダンな雰囲気を今も楽しめると紹介する。",
+   "long": "旧清明文庫は、財団法人清明会が、勝海舟関係史跡（墓所と別荘「洗足軒」）や西郷隆盛（南洲）関連遺蹟の保存、幕末・維新期の書籍や資料の収集・閲覧、東洋文明の講義などを目的に設立した、図書館兼公会堂の機能を持つ施設です。昭和3年（1928）に竣工し、同8年に開館しました。当初は木造で建てる予定でしたが、途中で鉄筋コンクリート造に計画が変更されています。清明会の主幹は宮原六郎で、幹事には徳川家関係者や旧幕臣、政財界の要人が招かれ、その中には渋沢栄一もいました。昭和10年に清明会が活動を終えると、所有者は団体や東京府などを転々とし、のちに学習研究社（学研）の所有となって「鳳凰閣」と呼ばれた時期があります。平成12年（2000）に国登録有形文化財となり、同24年に大田区が取得。増築・整備を経て、令和元年（2019）9月7日に勝海舟記念館として開館しました。外観正面中央の4本の柱型は、ネオ・ゴシック（ゴシック・リバイバル）の特徴を反映したものです。一方、窓や内装には、直線や立体感を多用した幾何学的な模様などアール・デコ様式の造作が随所に採り入れられています。区のページは、こうした西洋由来の技法を採り入れた昭和初期のモダンな雰囲気を今も間近で楽しめると紹介しています。",
+   "sources": [
+    {
+     "title": "勝海舟記念館（旧清明文庫）（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/hououkaku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "国登録文化財一覧（大田区）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240306bunka_kuni_toroku.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "【プレスリリース】勝海舟記念館 新企画展（開館時間・入館料）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR07/2025112601.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区歴史スポットマップ 洗足池公園周辺編",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/hakubutsukan/bunkazai_kikousyu.files/senzokuike-setsumei2.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "開館時間・休館日・料金は2025年11月26日付のプレスリリース（企画展の案内）に書かれたもの。館の公式サイトは開けておらず、現行の情報は要確認。区のデータの説明は「昭和3年竣工」、区ページは「昭和3年竣工、同8年開館」。座標は国土地理院の住所検索と一致。ヒント2の「日蓮ゆかりの伝承をもつ寺」は妙福寺（約100m）を指す。",
+   "onsite_hints": [
+    {
+     "text": "探す建物は旧清明文庫（向かって左側が国登録有形文化財の部分）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/hououkaku.html"
+    },
+    {
+     "text": "外観正面の中央に4本の柱型がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/hououkaku.html"
+    },
+    {
+     "text": "洗足池駅から徒歩約6分",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/hououkaku.html"
+    },
+    {
+     "text": "館内に入れる（有料）。駐輪場の有無は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Seimei_Bunko_Library_(Katsu_Kaishu_Memorial_Museum)_02.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Seimei_Bunko_Library_%28Katsu_Kaishu_Memorial_Museum%29_02.jpg",
+     "caption": "勝海舟記念館",
+     "author": "Suikotei",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "ota-55",
+   "name": "妙福寺",
+   "kana": "みょうふくじ",
+   "lat": 35.601093,
+   "lon": 139.692123,
+   "address": "東京都大田区南千束2-2-7",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "拝観は無料、日中のみ受け付け（Wikipediaによる。公式の確認は取れていない）。祖師堂は外観のみ（立入りや過度な写真撮影は控える）",
+   "seasonal": [],
+   "riddle": "日蓮が池のほとりの松に法衣をかけ、足を洗ったとき、七面天女が現れたという伝承がある。その袈裟と松を彫った向拝をもつ堂と、道しるべを兼ねて建てられた馬の供養塔が、境内に並ぶ寺はどこか。",
+   "hints": [
+    {
+     "text": "洗足池の近く。東急池上線の駅から徒歩3分から5分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "池の東側。勝海舟ゆかりの区立の記念館のすぐ近く。",
+     "radius_m": 250
+    },
+    {
+     "text": "日蓮宗の寺。山号は星頂山。境内に祖師堂と馬頭観世音供養塔がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "妙福寺",
+    "accept": [
+     "妙福寺",
+     "みょうふくじ",
+     "星頂山妙福寺",
+     "御松庵",
+     "ごしょうあん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "祖師堂（旧七面大明神堂）の向拝に袈裟と松の彫刻。境内に馬頭観世音供養塔（四方に行き先の銘文）",
+   "short": "日蓮が池畔の松に法衣をかけ、七面天女が現れたとの伝承を伝える日蓮宗の寺で、御松庵とも称される。国登録有形文化財の祖師堂と、区指定の馬頭観世音供養塔（天保11年建立）が境内にある。",
+   "long": "妙福寺には、日蓮聖人が池のかたわらの松に法衣をかけて足を洗ったとき、七面天女が現れたという「袈裟懸（掛）の松」の伝承が残り、御松庵とも称されます。祖師堂（旧七面大明神堂）は国の登録有形文化財で、向拝には伝承にある袈裟と松が彫刻されています（中央に袈裟、両脇に松）。建立年は、区の資料は明治中期としています。建物は外観のみの見学で、立入りや過度な撮影は控えるよう区は求めています。境内の馬頭観世音供養塔は区指定の有形民俗文化財で、天保11年（1840）に、飼い馬の健康と死後の冥福、交通安全を祈って、地元の馬医師や馬の持ち主らが建てました。もとは中原街道と、現在の目黒区碑文谷から池上へ至る道との交差する所に、道しるべを兼ねて建てられていたと考えられ、のちに現在地へ移されました。銘文には「北 堀之内・碑文谷」「南 池上・大師」「東 江戸中延」「西 丸子稲毛」と、四方の行き先が彫られています。なお、寺の来歴についてWikipediaは、日本橋馬喰町に草創され、浅草を経て関東大震災後の昭和2年に当地へ移り、既存の御松庵を合併して再建されたと記しています。",
+   "sources": [
+    {
+     "title": "馬頭観音供養塔（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/batoukannonkuyoutou.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区歴史スポットマップ 洗足池公園周辺編",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/hakubutsukan/bunkazai_kikousyu.files/senzokuike-setsumei2.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "国登録文化財一覧（大田区）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240306bunka_kuni_toroku.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "Wikipedia「妙福寺 (大田区)」",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/妙福寺_(大田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "祖師堂の建立年に食い違い：区のデータ・歴史スポットマップは「明治中期」、Wikipediaは「天保4年（1833年）の築」。本文は区の記述に従い、年は書いていない。寺の沿革・拝観時間はWikipediaのみ（区の資料では確認できていない）。座標は国土地理院と一致。馬頭観世音供養塔の境内での位置は未確認。",
+   "onsite_hints": [
+    {
+     "text": "祖師堂の向拝に、袈裟と松の彫刻がある（中央に袈裟、両脇に松）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/hakubutsukan/bunkazai_kikousyu.files/senzokuike-setsumei2.pdf"
+    },
+    {
+     "text": "馬頭観世音供養塔の四面に、堀之内・碑文谷、池上・大師、江戸中延、丸子稲毛の行き先が彫られている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/hakubutsukan/bunkazai_kikousyu.files/senzokuike-setsumei2.pdf"
+    },
+    {
+     "text": "祖師堂は外観のみ。立入りや過度な撮影は控える",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240306bunka_kuni_toroku.pdf"
+    },
+    {
+     "text": "拝観は日中のみ、無料",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/妙福寺_(大田区)"
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "ota-58",
+   "name": "庚申塔（南千束二丁目）",
+   "kana": "こうしんとう",
+   "lat": 35.600136,
+   "lon": 139.688873,
+   "address": "東京都大田区南千束2-29-2",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸時代、旅人はここで道を選んだ。中原街道から九品仏へ向かう道の分かれ道に、道しるべを兼ねて建てられ、文化11年に建て直されたという、角柱型の文字塔を探せ。",
+   "hints": [
+    {
+     "text": "東急池上線の駅から徒歩5分ほど。池の南の住宅地の道沿い。",
+     "radius_m": 500
+    },
+    {
+     "text": "かつて街道から別の街道へ分かれる所にあった、江戸後期の特色をもつ角柱の石塔。",
+     "radius_m": 250
+    },
+    {
+     "text": "区指定文化財の、角柱型の文字塔。江戸後期の特色をもつ。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この石塔は何という塔？（○○塔）",
+    "display": "庚申塔",
+    "accept": [
+     "庚申塔",
+     "こうしんとう",
+     "庚申供養塔"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "角柱型の文字塔（区のページの記述）。区の説明板の有無は確認できていない",
+   "short": "元は延宝6年（1678）の建立で、文化11年（1814）に再建された庚申塔。中原街道から九品仏へ至る道の分岐点に、道しるべを兼ねて建てられた角柱型の文字塔。区指定文化財。",
+   "long": "南千束二丁目の庚申塔は、元は延宝6年（1678）に建てられ、文化11年（1814）に再建されたものです。区のページによれば、中原街道から九品仏に至る道の分岐点に、道しるべを兼ねて建てられました。形は、江戸時代後期の特色を持つ角柱型の文字塔で、区指定文化財です。中原街道は、洗足池公園内の改修碑の説明によると、沼部、石川、千束付近に急坂が多く、物資の輸送や交通の難所でした。大正6年から12年にかけて改修工事が行われ、その碑が公園内に建っています。このように、街道の分かれ道には道しるべを兼ねた石塔が建てられていました。近くの妙福寺にある馬頭観世音供養塔（天保11年）も、中原街道と別の道が交わる所に道しるべを兼ねて建てられていたと考えられており、このあたりの道が人や馬の往来で使われた様子がうかがえます。南千束二丁目の庚申塔は、洗足池駅から徒歩約5分と区のページに案内されています。なお、現在の場所が建立当初の分岐点そのものかどうかは、出典では確かめられていません。",
+   "sources": [
+    {
+     "title": "庚申塔（南千束二丁目）（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/koushintou_minamisenzoku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "中原街道改修碑（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/nakaharakaidou_kaishuuhi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "馬頭観音供養塔（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/batoukannonkuyoutou.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区のページは「元は延宝6年に建てられ、文化11年に再建」とだけ記し、現在の塔が再建後のものかなど細部は不明。現在地が元の分岐点かどうかは記載なし。庚申信仰そのものの説明は出典がないため書いていない。座標は国土地理院と一致。",
+   "onsite_hints": [
+    {
+     "text": "探す物は角柱型の文字塔（庚申塔）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/koushintou_minamisenzoku.html"
+    },
+    {
+     "text": "道端にある石塔で、道路から見る",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "区の説明板が添えられていることが多い（区の史跡一般の推定）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": false,
+   "last_checked": null
+  },
+  {
+   "id": "ota-46",
+   "name": "照善寺",
+   "kana": "しょうぜんじ",
+   "lat": 35.59444,
+   "lon": 139.657822,
+   "address": "東京都大田区田園調布5-30-7",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "天正14年に草庵が結ばれたのが始まりという浄土宗の寺。境内には、江戸時代前期から中期に建てられた三基の庚申塔が残る。丸子川に近い台地の下にある。",
+   "hints": [
+    {
+     "text": "多摩川の近く、丸子川に近い台地のふもと。田園調布の駅から徒歩で15分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "この寺の東側の坂道（馬坂）を北へ登った先に、東京都の天然記念物の大きな松がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "浄土宗の寺。山号は常光山。境内に寛文5年・寛文12年・元文元年の庚申塔がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "照善寺",
+    "accept": [
+     "照善寺",
+     "しょうぜんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "境内に庚申塔3基（寛文5年、寛文12年、元文元年）。山門などの外観は未確認",
+   "short": "浄土宗の寺。境内に寛文5年（1665）、寛文12年（1672）、元文元年（1736）に建てられた庚申塔3基がある。近くには都の天然記念物・秋葉のクロマツが立つ。",
+   "long": "照善寺は田園調布五丁目にある浄土宗の寺です。区のページによれば、境内には3基の庚申塔があり、建立年はそれぞれ寛文5年（1665）、寛文12年（1672）、元文元年（1736）です。約70年にわたる三つの年代の塔が並ぶことになります。Wikipediaによると、寺は天正14年（1586）にこの地にできた草庵をもとに、寛永16年（1639）に相蓮社廣誉全公が開山となって創建されたとされ、山号は常光山、院号は無量光院です。また、近くの観音塚から文化14年（1817）に出土した人物埴輪が土器十一面観音として崇められ、寺宝になったとも伝わります（Wikipedia）。寺から東側の坂道（馬坂）を北に約200メートル登ると、都の天然記念物・秋葉のクロマツがあります。この木の根元にある祠は、照善寺の守護神にあたる秋葉神社のものとされます。寺と松をあわせて歩くと、この一帯の歴史が見えてきます。なお、境内に入れる時間などは、出典で確かめられていません。",
+   "sources": [
+    {
+     "title": "庚申塔（田園調布五丁目　照善寺）（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/koushintou_denenchoufu.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "Wikipedia「照善寺」",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/照善寺",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "Wikipedia「秋葉のクロマツ」",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/秋葉のクロマツ",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "寺の沿革・埴輪の話はWikipediaのみ（新編武蔵風土記稿などを引く）。区のページは庚申塔3基の年代しか記していない。境内の参拝可否・時間は未確認。「約70年にわたる」は寛文5年と元文元年の差からの計算。庚申塔の境内での位置は未確認。座標は国土地理院と一致。秋葉のクロマツまで直線約150mで別地点として作成。",
+   "onsite_hints": [
+    {
+     "text": "境内に庚申塔が3基ある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/koushintou_denenchoufu.html"
+    },
+    {
+     "text": "寺の東側の坂道（馬坂）を北へ約200m登ると秋葉のクロマツ",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/秋葉のクロマツ"
+    },
+    {
+     "text": "境内に入れるか、時間の制約は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Shozen-ji,_Ota.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Shozen-ji%2C_Ota.jpg",
+     "caption": "照善寺",
+     "author": "運動会プロテインパワー",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "ota-45",
+   "name": "秋葉のクロマツ",
+   "kana": "あきばのくろまつ",
+   "lat": 35.595764,
+   "lon": 139.659332,
+   "address": "東京都大田区田園調布5-3-19",
+   "kind": "樹木",
+   "indoor": false,
+   "access": "都の一覧で公開状況は「通年」。敷地の扱いは出典で確認できなかったため、道から見る前提",
+   "seasonal": [],
+   "riddle": "多摩川近くの台地の上に立つ、樹齢約300年と推定される老松。遠くからもよく目立つ。根元に小さな祠があり、そこに祀られる神の名が、この木の通称になったと伝わる。",
+   "hints": [
+    {
+     "text": "多摩川に近い台地の上、田園調布の住宅地の中。田園調布駅から徒歩15分ほど。",
+     "radius_m": 500
+    },
+    {
+     "text": "丸子川近くの寺の東側にある坂道（馬坂）を、北へ約200m登った右手。",
+     "radius_m": 250
+    },
+    {
+     "text": "昭和38年に東京都の天然記念物に指定された黒松。根元に小さな祠と指定の石碑がある。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この木の名前は？（通称は祠の神の名を冠する）",
+    "display": "秋葉のクロマツ",
+    "accept": [
+     "秋葉のクロマツ",
+     "秋葉のマツ",
+     "秋葉の黒松",
+     "あきばのくろまつ",
+     "あきばのまつ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "根元の祠と東京都天然記念物の石碑（Wikipedia掲載の写真の説明による）",
+   "short": "樹齢約300年と推定されるクロマツの巨木。昭和38年に東京都の天然記念物に指定された。多摩川近くの台地上に立ち、根元にある秋葉神社の祠にちなんだ通称でも呼ばれる。",
+   "long": "秋葉のクロマツは、田園調布五丁目に生育するクロマツの巨木で、昭和38年（1963）3月19日に東京都の天然記念物に指定されました（都の指定文化財一覧では公開状況「通年」）。Wikipediaによれば、推定の樹齢は約300年、樹高は約17メートル、幹回りは約4メートルで、主幹は直立し、地上7メートル付近で四方に枝を広げて傘状の樹形を見せます。多摩川近くの台地上（武蔵野台地の最南端にあたる）に生育しているため、遠くからもよく目立つ木です。この木が生えている場所は、もと照善寺の所有地内だったとされ、根元には照善寺の守護神にあたる秋葉神社の小さな祠があります。この祠にちなんで「秋葉のマツ」「秋葉のクロマツ」と呼ばれるようになったと伝わります。東京都が昭和61年に行った調査では樹勢旺盛で、近くの建造物の上まで枝が伸びていたため整枝が行われましたが、その後の降雪で残った枝が折れ、再度切り戻されたといいます。木の詳しい数値や来歴はWikipedia（東京都の資料などを引用）に拠るもので、区の公式ページでは今回確かめられていません。",
+   "sources": [
+    {
+     "title": "東京都指定文化財一覧（大田区）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240227bunka_to_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "Wikipedia「秋葉のクロマツ」",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/秋葉のクロマツ",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "Wikipedia「照善寺」",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/照善寺",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区データの説明は「公開状況は通年」のみ。樹齢・寸法・由来はWikipediaのみ（脚注は『東京都の文化財3』『大田区の歴史』ほかを引用。独立した複数の一次確認は未実施）。Wikipedia記載の座標（35.595806,139.659083）は区データ・国土地理院の住所点（35.595764,139.659332）と約20mずれるが、50m範囲内。土地が現在も照善寺所有かは不明（Wikipediaは過去形）。大田区「樹木のみどころ」ページは未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は大きなクロマツ。根元に小さな祠と、東京都天然記念物の石碑がある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/秋葉のクロマツ"
+    },
+    {
+     "text": "照善寺の東側の坂道（馬坂）を北に約200m登った右手側に立つ",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/秋葉のクロマツ"
+    },
+    {
+     "text": "樹高約17m、傘状の樹形で遠くからも目立つ",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/秋葉のクロマツ"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Pinus_thunbergii_of_Akiba.A.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pinus_thunbergii_of_Akiba.A.JPG",
+     "caption": "秋葉のクロマツ",
+     "author": "Sakaori (talk)",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ],
+   "on_foot": false,
+   "last_checked": null
+  },
+  {
+   "id": "ota-36",
+   "name": "密蔵院",
+   "kana": "みつぞういん",
+   "lat": 35.582169,
+   "lon": 139.674927,
+   "address": "東京都大田区田園調布南24-18",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "寛文元年に建てられた、区内でいちばん古い庚申供養塔がある。舟型の石に地蔵の立像を半肉彫りにした、江戸初期の典型的な形だ。真言宗の寺で、落雷を止めたという観音の逸話でも知られる。",
+   "hints": [
+    {
+     "text": "東急多摩川線の沼部駅から徒歩3分ほど。多摩川に近い住宅地。",
+     "radius_m": 500
+    },
+    {
+     "text": "鎌倉時代に観音堂が建てられたと伝わる、真言宗智山派の寺。",
+     "radius_m": 250
+    },
+    {
+     "text": "山号は明楽山。かつて地元の有力者・森家の菩提寺として創建された寺。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "密蔵院",
+    "accept": [
+     "密蔵院",
+     "みつぞういん",
+     "明楽山密蔵院",
+     "森立寺"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "庚申供養塔（舟型の石に地蔵立像を半肉彫り）が境内にある（区のページの所在地は密蔵院）。位置の詳細は未確認",
+   "short": "真言宗智山派の寺。境内に寛文元年（1661）建立の庚申供養塔があり、区内で最も古い庚申供養塔として区の文化財に指定されている。沼部駅から徒歩約3分。庚申供養塔は舟型の石に地蔵立像を半肉彫りしたもの。",
+   "long": "密蔵院は田園調布南にある真言宗智山派の寺です。区のページによれば、境内の庚申供養塔は寛文元年（1661）に建てられた区内で最も古いもので、舟型の石に地蔵立像を半肉彫りした、江戸初期の典型的な様式を示しています。区指定文化財です。Wikipediaによると、寺の創建年代は不明ながら鎌倉時代に前身の観音堂が建てられ、永正年間（1504〜1521）に地元の有力者・森家の菩提寺として創建されたとされ、森家が建てたことから「森立寺」とも呼ばれます。慶長年間に火災にあいましたが、森家によって再建されました。寺には7体の観音菩薩像があり、新田義興の怨霊が、自分を殺した江戸遠江守（江戸長門と比定される）めがけて落とそうとした雷を防いだという逸話から「雷止観音」と呼ばれる、とも記されています（Wikipedia。『大田区史跡散歩』などによる）。最寄りは東急多摩川線の沼部駅で、区のページによれば徒歩約3分です。なお、境内に入れる時間などは出典で確かめられていません。",
+   "sources": [
+    {
+     "title": "庚申塔（田園調布南　密蔵院）（大田区公式サイト）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/koushintou_denenchoufum.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "Wikipedia「密蔵院 (大田区)」",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/密蔵院_(大田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区のデータの説明は「境内には大田区最古の庚申供養塔がある（歴史スポットマップ）」「見学可」とあるが、歴史スポットマップ（嶺町・田園調布編）は今回開いておらず、「見学可」は確かめられていない。access は null。寺の沿革・逸話はWikipediaのみ。Wikipedia記載座標（35.582389,139.675306）は国土地理院の住所点と約40m違うが、50m圏内。区のページは位置の詳細を記していない。ヒント2の「鎌倉時代に観音堂」もWikipedia。",
+   "onsite_hints": [
+    {
+     "text": "探す物は庚申供養塔。舟型の石に地蔵立像が半肉彫りされている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/koushintou_denenchoufum.html"
+    },
+    {
+     "text": "寺は沼部駅から徒歩約3分",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/koushintou_denenchoufum.html"
+    },
+    {
+     "text": "境内に入れるか、塔の位置は未確認",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "images": [],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "ota-40",
+   "name": "浅間神社（多摩川浅間神社）",
+   "kana": "せんげんじんじゃ",
+   "lat": 35.586887,
+   "lon": 139.669128,
+   "address": "東京都大田区田園調布1-55-12",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "夫の武運を祈る将軍の妻が、この丘から富士の姿を拝んだと伝わる。丘は古代の墓で、社殿はその後円部に建つ。川の堤を築いた記念の碑も、すぐそばで守られている。",
+   "hints": [
+    {
+     "text": "多摩川の土手に近い、東急の線路のすぐ脇の高まりを探そう。",
+     "radius_m": 500
+    },
+    {
+     "text": "社殿へ向かう参道には溶岩が多数置かれ、富士登山を模している。",
+     "radius_m": 250
+    },
+    {
+     "text": "丸子橋のたもとの治水記念碑のそば。富士山の神を祀る「せんげん」さま。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "浅間神社",
+    "accept": [
+     "浅間神社",
+     "せんげんじんじゃ",
+     "多摩川浅間神社",
+     "たまがわせんげんじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "社殿が建つ古墳の丘、参道に並ぶ溶岩、そばに建つ多摩川治水記念碑（高さ約4m）と愛桜碑",
+   "short": "北条政子が源頼朝の武運を祈り観音像をまつったのが始まりと伝わる神社。社殿は5世紀末〜6世紀前半の埴輪が出た浅間神社古墳（前方後円墳）の上にあり、そばに多摩川治水記念碑と愛桜碑が建つ。",
+   "long": "田園調布一丁目の多摩川寄り、東急東横線の線路を挟んで多摩川台公園の台地と向き合うあたりにある神社です。区の史跡紹介ページによると、北条政子が信仰する富士浅間神社に、夫の源頼朝の武運長久を祈り、この地に持仏の観音像をまつったのが始まりと伝えられます。社殿を改築した際には5世紀末から6世紀前半の人物埴輪や動物埴輪などが出土し、この古墳は全長60メートルの前方後円墳と推定されて「浅間神社古墳」と呼ばれています。ウィキペディアの記述では、本殿は古墳の後円部にあたる場所に建ち、様式は浅間造で、東京都内では唯一とされています。参道には多数の溶岩が置かれ、富士塚のように富士登山を模しているといいます。神社のすぐそばには二つの碑があります。多摩川治水記念碑は、大正7年に羽田の河口部から始まった治水工事の完成を記念して昭和11年に建てられたものです。国土交通省関東地方整備局京浜河川事務所の資料では、国が昭和11年6月に建てた高さ約4メートルの碑で、表には多摩川改修事務所の初代所長の書が刻まれているとされます。愛桜碑は、堤防の補強と沿岸の美化のために桜約4,000本を植えたことを記念した碑です。",
+   "sources": [
+    {
+     "title": "浅間神社と浅間神社古墳",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/sengenjinjya_kofun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "多摩川治水記念碑",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/tamagawa_chisuikinenhi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "愛桜碑",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/aiouhi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "多摩川の資料（多摩川治水記念碑・愛櫻碑・多摩川浅間神社）",
+     "publisher": "国土交通省関東地方整備局京浜河川事務所",
+     "url": "https://www.ktr.mlit.go.jp/ktr_content/content/000099114.pdf",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "多摩川浅間神社",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/多摩川浅間神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "入力は3レコード（浅間神社・治水記念碑・愛桜碑）。3か所は座標差が約16mのため1地点にまとめ、座標は浅間神社の住所（GSI確認済み、一致）。Wikipediaの座標は約65m西にずれるが採用せず。愛桜碑の建立年：区ページは『昭和4年に建てられた』、京浜河川事務所資料は『昭和4年3月に植樹、昭和5年11月に碑を建立』で食い違う（解説は区ページの表現に沿い年を断定せず）。治水工事の区間・完成年も区ページ（羽田河口〜砧、昭和9年完成）と京浜河川事務所資料（河口〜二子橋22km、昭和8年）で異なる。神社の公式サイトは開けておらず、参拝可能時間は未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は多摩川治水記念碑。丸子橋のたもとにある高さ約4mの大きな碑",
+     "confidence": "出典あり",
+     "source_url": "https://www.ktr.mlit.go.jp/ktr_content/content/000099114.pdf"
+    },
+    {
+     "text": "愛桜碑は治水記念碑のそばに寄り添って建つ",
+     "confidence": "出典あり",
+     "source_url": "https://www.ktr.mlit.go.jp/ktr_content/content/000099114.pdf"
+    },
+    {
+     "text": "社殿は古墳（後円部）の上に建ち、参道に溶岩が多数置かれている",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/多摩川浅間神社"
+    },
+    {
+     "text": "境内への出入り時間・社務所の有無は確かめられていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tamagawa_Sengenjinja_shrine_001.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Tamagawa_Sengenjinja_shrine_001.jpg",
+     "caption": "浅間神社",
+     "author": "東京特許許可局",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "ota-43",
+   "name": "丸子の渡し跡（多摩川渡し跡）",
+   "kana": "まるこのわたしあと",
+   "lat": 35.5826,
+   "lon": 139.672089,
+   "address": "東京都大田区田園調布本町31番付近",
+   "kind": "史跡",
+   "indoor": false,
+   "access": "区の一覧では公開状況「通年」（屋外の標識板）。付近は住宅地",
+   "seasonal": [],
+   "riddle": "江戸の初めには参勤交代の道として使われ、秦野のたばこや大山の薪炭が運ばれてにぎわった多摩川の渡し場。昭和の初めに上流へ橋ができて、長い歴史を閉じた。その跡の標識を探せ。",
+   "hints": [
+    {
+     "text": "多摩川沿い、東急多摩川線の沼部駅から歩いてすぐの住宅地（田園調布本町）。",
+     "radius_m": 500
+    },
+    {
+     "text": "昭和9年にできた橋は、この場所より上流（川上）にある。川の堤の近くを探そう。",
+     "radius_m": 250
+    },
+    {
+     "text": "橋の名と同じ地名が付いた渡し場。区指定史跡の標識板が目印。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この渡し場の名前は？",
+    "display": "丸子の渡し",
+    "accept": [
+     "丸子の渡し",
+     "まるこのわたし",
+     "多摩川渡し跡",
+     "たまがわわたしあと"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "区指定史跡の標識板（区の分類は「大田区指定史跡（標識板）」）",
+   "short": "江戸時代初期に参勤交代の道として、また秦野のたばこや大山の薪炭の搬入路としてにぎわった多摩川の渡し場。昭和9年に中原街道が改修され、上流に丸子橋ができるまで長く使われた。区指定史跡。",
+   "long": "多摩川を挟んで東京側と神奈川側を結んだ渡し場の跡で、区の史跡紹介ページでは「多摩川渡し跡（丸子の渡し）」の名で紹介されています。所在地は田園調布本町31番付近で、東急多摩川線の沼部駅から徒歩2分とされています。区のページによれば、この渡しは昭和9年（1934年）に中原街道が改修され、上流に丸子橋ができるまで、長い間利用されました。江戸時代初期には参勤交代の道路として利用され、また秦野（現在の神奈川県秦野市）産のタバコや、大山（現在の神奈川県伊勢原市にある山）の薪炭などの搬入路としてにぎわったと説明されています。区の指定文化財一覧には「丸子の渡し跡」として史跡の項に載り、昭和50年（1975年）3月19日の指定、所在地は田園調布本町31番の地先、公開状況は通年です。区の「新大田区百景」のページによれば、丸子橋は東京と神奈川を結ぶ国道に架かる橋で、昭和10年（1935年）に完成し、建設費は東京都と神奈川県が半分ずつ負担しました。橋のたもとを通る中原街道は、平塚の中原から江戸の白銀に至る街道で、相州街道とも呼ばれていました。渡しが担っていた多摩川の横断は、のちに橋が受け持つことになります。",
+   "sources": [
+    {
+     "title": "多摩川渡し跡（丸子の渡し）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/marukono_watashi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区指定文化財一覧（令和2年9月）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20200901bunka_ku_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "新大田区百景「丸子橋と中原街道」",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/gallary/choufu/nakahara.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "標識板が実際に立つ正確な位置は出典で確かめられず、座標は住所（田園調布本町31番）のGSI値（番地まで）。入力のとおり。丸子橋の完成：区の史跡ページは昭和9年の中原街道改修と関連づけ、区百景ページは昭和10年完成とする。標識板の文面は未確認。入力にあった『旧中原街道（桜坂付近標識板）』は外した（報告参照）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は区指定史跡の標識板",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20200901bunka_ku_shitei.pdf"
+    },
+    {
+     "text": "沼部駅から徒歩2分ほどの場所",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/marukono_watashi.html"
+    },
+    {
+     "text": "渡し場の施設そのものは残っていないと思われる",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": false,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "ota-37",
+   "name": "亀甲山古墳・多摩川台古墳群（多摩川台公園）",
+   "kana": "かめのこやまこふん",
+   "lat": 35.589977,
+   "lon": 139.666458,
+   "address": "東京都大田区田園調布1-63-1（多摩川台公園内）",
+   "kind": "史跡",
+   "indoor": false,
+   "access": "古墳は周囲を柵で囲まれ立入不可。公園の開園時間は未確認",
+   "seasonal": [
+    {
+     "months": [
+      3,
+      4
+     ],
+     "note": "多摩川台公園は桜の名所（Wikipedia）"
+    },
+    {
+     "months": [
+      6
+     ],
+     "note": "公園のあじさい園で7種類約3000株が咲く（Wikipedia）"
+    }
+   ],
+   "riddle": "四世紀の後半から終わり頃、多摩川を見下ろす台地に築かれた、南武蔵を代表する巨大な墓。上から見ると鍵穴の形で、今は公園の丘で柵に囲まれて入れない。",
+   "hints": [
+    {
+     "text": "東急多摩川駅から歩ける、多摩川を見下ろす台地の公園の中（田園調布一丁目）。",
+     "radius_m": 500
+    },
+    {
+     "text": "公園の展望広場のすぐ東にある、柵で囲まれた大きな高まり。",
+     "radius_m": 250
+    },
+    {
+     "text": "横から見た形が、ある水辺の生き物の甲羅に見立てられて名が付いた。国の史跡。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この古墳の名前は？",
+    "display": "亀甲山古墳",
+    "accept": [
+     "亀甲山古墳",
+     "かめのこやまこふん",
+     "きっこうやまこふん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "柵に囲まれた大きな墳丘と、区設置の史跡説明板（古墳は立入不可）",
+   "short": "南武蔵を代表する、多摩川流域最大の前方後円墳。全長107メートルあまり、4世紀後半（4世紀末ともされる）の築造と推定され、昭和3年に国の史跡に指定された。多摩川台公園内で、柵に囲まれている。",
+   "long": "多摩川台公園の中にある、多摩川流域で最大の前方後円墳です。区の史跡紹介ページによると全長は107メートルあまりで、近年の多摩川流域の古墳研究から4世紀後半の築造と推定されます。ウィキペディアによれば、後円部の高さは約10メートル、墳丘は2段築成で、築造時期を4世紀末〜5世紀初頭とする見方もあります。古墳名は、横から見た墳形がカメに見立てられたことに由来するとされ、前方部を北西に向けて、同じ公園内の宝萊山古墳と向き合っています。国の史跡で、昭和3年（1928年）に指定されました。周囲は柵で囲まれ、中に入ることはできませんが、柵の外から墳丘の大きさを実感できます。公園には、この2基の大型前方後円墳のあいだに、後期の小さな古墳8基からなる多摩川台古墳群（東京都指定史跡）が並んでいて、散策しながら間近に見られます。公園の管理事務所に併設された古墳展示室では、古墳の分布や出土品のレプリカが紹介されています。多摩川台公園は桜の名所でもあります。",
+   "sources": [
+    {
+     "title": "亀甲山古墳",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/kamenokoyama_kofun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区指定文化財一覧・東京都指定文化財一覧（多摩川台古墳群）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240227bunka_to_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "亀甲山古墳",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/亀甲山古墳",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "多摩川台公園",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/多摩川台公園",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は番地（田園調布1-63）のGSI値で、Wikipedia記載の墳丘座標（35.58928,139.66711）とは約55mずれる（園内の位置で、出典の違いによる）。築造時期は区ページ『4世紀後半』、Wikipedia『4世紀末〜5世紀初頭（または4世紀後半）』。多摩川台古墳群の記録（入力38）は区の都指定文化財一覧に『通年』とあるのみで、『8基』『後期古墳』はWikipediaによる。区設置の史跡説明板はWikipediaの参考文献による情報で、現地で未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は周囲を柵で囲まれた大きな墳丘。中には入れない",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/亀甲山古墳"
+    },
+    {
+     "text": "公園の展望広場は古墳の西側にある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/多摩川台公園"
+    },
+    {
+     "text": "古墳展示室は公園管理事務所に併設（運動広場側。月曜休館）",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/多摩川台公園"
+    },
+    {
+     "text": "区設置の史跡説明板が立つ",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Tamagawadai_park_plaza_0075.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Tamagawadai_park_plaza_0075.jpg",
+     "caption": "亀甲山古墳・多摩川台古墳群",
+     "author": "不明",
+     "license": "CC BY-SA 3.0",
+     "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "ota-39",
+   "name": "宝来山古墳（宝萊山古墳）",
+   "kana": "ほうらいさんこふん",
+   "lat": 35.593197,
+   "lon": 139.663635,
+   "address": "東京都大田区田園調布4-4-1（多摩川台公園内）",
+   "kind": "史跡",
+   "indoor": false,
+   "access": "古墳の周囲は柵で囲まれるが昼間は立入可、夜間のみ施錠（Wikipedia）",
+   "seasonal": [],
+   "riddle": "多摩川流域でいちばん古い前方後円墳。昭和9年の宅地造成で土が削られたとき、鏡や勾玉、鉄剣が見つかり、剣・玉・鏡という組み合わせが話題になった。",
+   "hints": [
+    {
+     "text": "多摩川台公園の北西側、東急多摩川駅から歩いて15分ほどの田園調布四丁目。",
+     "radius_m": 500
+    },
+    {
+     "text": "公園内で、自由広場（遊具のある広場）の手前にある。丘のくびれ部を園路が横切る。",
+     "radius_m": 250
+    },
+    {
+     "text": "国の史跡の亀甲山古墳と向き合う、もう一つの大型前方後円墳。名は「ほうらい」で始まる。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この古墳の名前は？",
+    "display": "宝来山古墳",
+    "accept": [
+     "宝来山古墳",
+     "宝萊山古墳",
+     "ほうらいさんこふん",
+     "ほうらいざんこふん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "柵に囲まれた墳丘と、くびれ部を横切る園路。東京都教育委員会と区の史跡説明板",
+   "short": "多摩川流域最古の前方後円墳で、荏原古墳群の最初の首長墓。全長97メートルあまり、4世紀前半の築造と推定。昭和9年の造成で倣製四獣鏡や勾玉、鉄剣などが出土した。多摩川台公園内。",
+   "long": "多摩川台公園の北西にある前方後円墳で、区の史跡紹介ページでは多摩川流域最古、荏原古墳群の最初の首長墓とされています。最近の発掘調査から全長は97メートルあまり、4世紀前半の築造と推定されます。昭和9年（1934年）の宅地造成工事で埋葬施設が発見され、倣製四獣鏡（中国製の獣帯鏡を模倣した日本製の鏡）、勾玉、ガラス製丸玉、鉄剣などが出土しました。区のページは、これらが剣・玉・鏡の「三種の神器」と同様のものであり、この古墳が初期大和政権と強い関係にあったと考えられると説明しています。ウィキペディアによれば、この造成の土取りで後円部の3分の2が失われました。現在の公園整備で墳丘は保存され、周囲は柵で囲まれていますが、昼間は立ち入ることができ、くびれ部を歩道が横切って、上がって反対側へ下りられます。東京都の指定は昭和30年に旧跡、平成8年に史跡へ種別変更されました。「来」の字は、正しくは草かんむりを付けた「萊」で、区のページはその字体が無いため「来」を使っています。出土品の原品は慶應義塾大学と大田区立郷土博物館が保管し、レプリカは公園の古墳展示室で見られます。",
+   "sources": [
+    {
+     "title": "宝来山古墳",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/houraiyama_kofun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "東京都指定文化財一覧（宝萊山古墳）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/kyouiku/bunkazai/bunkazai_hogo/shitei_torokubunkazai/bunkazai_list.files/20240227bunka_to_shitei.pdf",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "宝萊山古墳",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/宝萊山古墳",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "多摩川台公園",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/多摩川台公園",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "宝来山古墳のWikipedia記事は奈良の古墳（垂仁天皇陵）で、当地の項は『宝萊山古墳』。区の都指定一覧の表記も『宝萊山古墳』（旧：宝来山）。立入の可否・施錠時間・園路はWikipedia（多摩川台公園・宝萊山古墳）のみで、区の公式では未確認。区設置/都教委の説明板はWikipediaの参考文献による情報で現地未確認。出土の鏡は区ページ『倣製』、Wikipedia『仿製』（表記の違い）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は柵で囲まれた前方後円形の墳丘。くびれ部を歩道が横切る",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/多摩川台公園"
+    },
+    {
+     "text": "昼間は立入可能、夜間のみ施錠される",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/宝萊山古墳"
+    },
+    {
+     "text": "東京都教育委員会（1998年設置）と大田区設置の史跡説明板がある",
+     "confidence": "未確認",
+     "source_url": "https://ja.wikipedia.org/wiki/宝萊山古墳"
+    },
+    {
+     "text": "公園の自由広場は古墳の手前にある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/多摩川台公園"
+    }
+   ],
+   "on_foot": true,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Horaisan_Kofun_(Ota),_funkyu.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Horaisan_Kofun_%28Ota%29%2C_funkyu.jpg",
+     "caption": "宝来山古墳",
+     "author": "Saigen Jiro",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "ota-31",
+   "name": "御嶽神社",
+   "kana": "おんたけじんじゃ",
+   "lat": 35.585869,
+   "lon": 139.68129,
+   "address": "東京都大田区北嶺町37-20",
+   "kind": "寺社",
+   "indoor": false,
+   "access": "拝観は無料（Wikipedia記載。開門時間は確認できず）",
+   "seasonal": [
+    {
+     "months": [
+      11
+     ],
+     "note": "11月15日に七五三祝祭、11月に酉の市（Wikipediaの祭事欄）"
+    }
+   ],
+   "riddle": "木曽の山で修行した行者が、江戸時代の天保のはじめに大きな社殿を建てた。その周りには、浦島太郎や養老の滝、甕を割る少年など、和漢の物語の彫刻がぐるりと施されている。駅の名の由来ともなった神社を探せ。",
+   "hints": [
+    {
+     "text": "東急池上線の駅から歩いて3分ほど。北嶺町の高台の神社。",
+     "radius_m": 500
+    },
+    {
+     "text": "駅の名前そのものになっている神社を探そう。",
+     "radius_m": 250
+    },
+    {
+     "text": "山の名を冠した、嶺村の旧村社。社殿の彫刻を見上げよう。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "御嶽神社",
+    "accept": [
+     "御嶽神社",
+     "おんたけじんじゃ",
+     "嶺の御嶽神社",
+     "みねのおんたけじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "本殿の周囲の彫刻（浦島太郎、養老の滝、司馬温公甕割りなど）",
+   "short": "天保2年（1831年）建立の社殿には、浦島太郎や司馬温公の甕割りなど和漢の物語の彫刻が巡り、作者は藤原篤意と伝わる。大田区指定有形文化財。",
+   "long": "御嶽神社の本殿の周囲には、みごとな彫刻が施されています。作者は藤原篤意（ふじわらあつおき）と伝えられ、社殿と同じ天保2年（1831年）の製作です。題材は浦島太郎、養老の滝、司馬温公甕割りなど、和漢の物語や故事にちなんだもので、区指定有形文化財（建造物）です。Wikipediaによると、神社は天文4年（1535年）頃の創建と言われ、木曽の御嶽山で修行した修験者の一山行者が天保年間に中興し、天保2年に現在の大きな社殿を建てました。それ以後、江戸や関東各地から御嶽山の信者の参拝が増えたとされます。東急池上線の御嶽山駅の駅名は、この神社に由来するとも書かれています。なお、Wikipediaの記事自体に「出典が不十分」との注記があるため、創建年などは参考情報にとどめます。",
+   "sources": [
+    {
+     "title": "社殿の彫刻（御嶽神社）（大田区ホームページ）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/shaden_choukoku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "御嶽神社 (大田区北嶺町)（Wikipedia）",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/御嶽神社_(大田区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区の文化財データ（区の公式ページ収録）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/shaden_choukoku.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "Wikipediaの記事に出典不足の注記あり（創建年・一山行者・祭事・駅名由来は参考情報）。入力にある国登録有形文化財（水行堂・一山神社祖霊社・社務所、外観のみ・内部非公開）は、出典のPDFを開いていないため本文に書いていない。近接する本覚寺（題目講中逆修供養塔）は約45m離れ到着判定が重なるため、別地点にせずこの地点から外した。座標は区データと国土地理院の住所検索が一致（Wikipedia座標とは約50m差）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は本殿の周囲の彫刻。浦島太郎・養老の滝・司馬温公甕割りなどの題材",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/shaden_choukoku.html"
+    },
+    {
+     "text": "鳥居と拝殿がある。境内に水行堂などの建物がある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/御嶽神社_(大田区)"
+    },
+    {
+     "text": "最寄りは東急池上線の御嶽山駅から徒歩約3分",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/shaden_choukoku.html"
+    },
+    {
+     "text": "彫刻が拝殿の外から間近に見られるかは確認できていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "ota-49",
+   "name": "雪谷八幡神社（庚申供養塔群）",
+   "kana": "ゆきがやはちまんじんじゃ（こうしんくようとうぐん）",
+   "lat": 35.595989,
+   "lon": 139.686722,
+   "address": "東京都大田区東雪谷2-25-1",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸時代のはじめから終わりに近い頃まで、村人たちがあちこちに建てた石塔が、いまは一つの場所に集められている。道しるべを兼ねたものや、日蓮宗系のものも混じる七基。八幡さまの境内を探せ。",
+   "hints": [
+    {
+     "text": "東急池上線の石川台駅から歩いて2分ほど。東雪谷の住宅地。",
+     "radius_m": 500
+    },
+    {
+     "text": "かつての雪ヶ谷村の鎮守を探そう。",
+     "radius_m": 250
+    },
+    {
+     "text": "八幡さまの境内に、村内各所から集められた石塔が並ぶ。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "石塔が集められている神社の名前は？",
+    "display": "雪谷八幡神社",
+    "accept": [
+     "雪谷八幡神社",
+     "ゆきがやはちまんじんじゃ",
+     "雪ヶ谷八幡神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "庚申供養塔（7基）",
+   "short": "天和元年（1681年）から安政4年（1857年）に雪ヶ谷村の人々が建てた庚申供養塔7基。道しるべを兼ねたものや日蓮宗系のものがあり、もとは村内各所にあった。",
+   "long": "雪谷八幡神社の庚申供養塔群は、天和元年（1681年）から安政4年（1857年）までの間に、雪ヶ谷村の人々が建てたものです。道しるべを兼ねたものや、日蓮宗系のものなど7基あります。もとは村内各所に建てられていましたが、後に現在地に集められました。大田区指定有形民俗文化財です。所在地は東雪谷二丁目で、東急池上線石川台駅から徒歩約2分です。約170年にわたって建てられ続けた石塔が一か所に並んでいるため、江戸時代を通じて村人たちがこの信仰を続けたことがうかがえます。一方、庚申信仰そのものの解説や、7基それぞれの年号・文字、神社の由緒は、確かめたページには書かれていないため、ここでは触れません。",
+   "sources": [
+    {
+     "title": "庚申供養塔群（雪谷八幡神社）（大田区ホームページ）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/koushinkuyoutougun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区の文化財データ（区の公式ページ収録）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/koushinkuyoutougun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "神社の由緒、境内でのどこに7基があるか、境内の開放時間は確認できなかった。神社名は区ページの表記「雪谷八幡神社」を使用（入力の仮名「雪ヶ谷八幡神社」も accept に入れた）。long は出典の範囲に限ったため400字に満たない。座標は区データと国土地理院の住所検索（東雪谷二丁目25番1号）が一致。",
+   "onsite_hints": [
+    {
+     "text": "探す物は庚申供養塔7基。道しるべを兼ねたものや日蓮宗系のものがある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/koushinkuyoutougun.html"
+    },
+    {
+     "text": "もとは村内各所にあり、後に現在地に集められた",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/yukigaya_senzoku/koushinkuyoutougun.html"
+    },
+    {
+     "text": "境内のどのあたりに並ぶかは確認できていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E3%83%B6%E8%B0%B7%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE_(67467).jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/%E9%9B%AA%E3%83%B6%E8%B0%B7%E5%85%AB%E5%B9%A1%E7%A5%9E%E7%A4%BE_%2867467%29.jpg",
+     "caption": "雪谷八幡神社",
+     "author": "Syced",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "ota-47",
+   "name": "鵜木大塚古墳",
+   "kana": "うのきおおつかこふん",
+   "lat": 35.590912,
+   "lon": 139.677658,
+   "address": "東京都大田区雪谷大塚町14-13",
+   "kind": "史跡",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "荏原の古墳たちのなかで、いちばん東にある古墳。ここは別の村の飛び地だったので、その村の名が付いた。古墳の一部は、小さな神社になっている。",
+   "hints": [
+    {
+     "text": "東急池上線の雪が谷大塚駅から歩いて10分ほど。雪谷大塚町の住宅地。",
+     "radius_m": 500
+    },
+    {
+     "text": "古墳の一部が小さな神社になっている。それを探そう。",
+     "radius_m": 250
+    },
+    {
+     "text": "荏原古墳群の東端。稲荷神社になっている古墳。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この古墳の名前は？",
+    "display": "鵜木大塚古墳",
+    "accept": [
+     "鵜木大塚古墳",
+     "うのきおおつかこふん",
+     "鵜の木大塚古墳"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "古墳の一部にある稲荷神社",
+   "short": "荏原古墳群で最も東にある古墳。旧鵜の木村の飛び地にあったため「鵜の木大塚古墳」と名付けられた。古墳の一部は稲荷神社になっている。都指定文化財。",
+   "long": "鵜木大塚古墳は、荏原古墳群のうち、最も東側にある古墳です。旧鵜の木村の飛び地にあったので、「鵜の木大塚古墳」と名付けられました。古墳の一部は稲荷神社になっています。区の史跡紹介ページには、都指定文化財と記されています。所在地は雪谷大塚町で、東急池上線雪が谷大塚駅から徒歩約10分です。古墳の形（円墳か否か）、大きさ、築かれた時期、出土品などは、確かめたページには書かれていないため、ここでは触れません。地名に残る「鵜の木」は、古墳が属していた旧村の名であり、現在の町名と古墳の名前がずれているのは、この飛び地だった事情によるものと説明されています。",
+   "sources": [
+    {
+     "title": "鵜木大塚古墳（大田区ホームページ）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/unokiootsuka_kofun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大田区の文化財データ（区の公式ページ収録）",
+     "publisher": "大田区",
+     "url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/unokiootsuka_kofun.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区ページは「都指定文化財」とのみ記載。入力データに東京都指定旧跡とあるが、出典のPDFを開いていないため本文では「都指定文化財」とした。古墳の形・規模・築造時期は出典なし。表記は区ページが「鵜木大塚古墳」（見出し）と「鵜の木大塚古墳」（本文）を併用。最後の一文の「ずれている事情」は区ページの説明（旧鵜の木村の飛び地）に基づく言い換えで、「町名」との比較は筆者の補足のため確認担当は確認してほしい。long は出典の範囲に限ったため400字に満たない。座標は区データと国土地理院の住所検索（雪谷大塚町14番13号）が一致。",
+   "onsite_hints": [
+    {
+     "text": "古墳の一部が稲荷神社になっている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.ota.tokyo.jp/shisetsu/rekishi/minemachi_denenchoufu/unokiootsuka_kofun.html"
+    },
+    {
+     "text": "説明板や標柱があるかは確認できていない",
+     "confidence": "未確認",
+     "source_url": null
+    },
+    {
+     "text": "神社の敷地として入れるか、周囲から見るのかは確認できていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": false,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:%E9%B5%9C%E6%9C%A8%E5%A4%A7%E5%A1%9A%E5%8F%A4%E5%A2%B32_20230128.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/%E9%B5%9C%E6%9C%A8%E5%A4%A7%E5%A1%9A%E5%8F%A4%E5%A2%B32_20230128.jpg",
+     "caption": "鵜木大塚古墳",
+     "author": "Keeezawa",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ],
+   "last_checked": null
+  }
+ ]
+}

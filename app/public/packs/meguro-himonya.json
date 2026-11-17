@@ -1,0 +1,1345 @@
+{
+ "schema": "machiaruki-pack/1",
+ "pack_id": "meguro-himonya",
+ "version": "2026-11-14.1",
+ "title": "碑文谷・柿の木坂・八雲（目黒区）",
+ "prefecture": "東京都",
+ "city": "目黒区",
+ "created": "2026-11-14",
+ "rules": {
+  "arrival_radius_m": 50,
+  "difficulty": "ふつう"
+ },
+ "stations": [
+  {
+   "name": "緑が丘",
+   "lines": [
+    "東急電鉄 大井町線"
+   ],
+   "lat": 35.606475,
+   "lon": 139.67915
+  },
+  {
+   "name": "大岡山",
+   "lines": [
+    "東急電鉄 大井町線",
+    "東急電鉄 目黒線"
+   ],
+   "lat": 35.607135,
+   "lon": 139.684842
+  },
+  {
+   "name": "自由が丘",
+   "lines": [
+    "東急電鉄 大井町線",
+    "東急電鉄 東横線"
+   ],
+   "lat": 35.607346,
+   "lon": 139.668841
+  },
+  {
+   "name": "都立大学",
+   "lines": [
+    "東急電鉄 東横線"
+   ],
+   "lat": 35.61785,
+   "lon": 139.67644
+  },
+  {
+   "name": "洗足",
+   "lines": [
+    "東急電鉄 目黒線"
+   ],
+   "lat": 35.61009,
+   "lon": 139.694105
+  },
+  {
+   "name": "西小山",
+   "lines": [
+    "東急電鉄 目黒線"
+   ],
+   "lat": 35.615435,
+   "lon": 139.69871
+  }
+ ],
+ "attribution": [
+  {
+   "text": "目黒区の歴史・文化財のページ（目黒区）をもとに作成",
+   "url": "https://www.city.meguro.tokyo.jp/bunkasports/rekishibunkazai/index.html"
+  },
+  {
+   "text": "国土数値情報（鉄道データ）（国土交通省）を加工して作成",
+   "url": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N02-2024.html"
+  }
+ ],
+ "area": {
+  "bbox": [
+   35.610858,
+   139.662993,
+   35.622487,
+   139.69528300000002
+  ]
+ },
+ "points": [
+  {
+   "id": "meguro-79",
+   "name": "法界塚",
+   "kana": "ほうかいづか",
+   "lat": 35.620487,
+   "lon": 139.693253,
+   "address": "東京都目黒区目黒本町6-24",
+   "kind": "史跡",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "十六世紀の終わりの古文書にも名が見える、由緒ある塚。お経を納めた塚とも古墳とも伝わるが、詳しいことは分かっていない。隣には、鬼子母神を祀る堂が建っている。",
+   "hints": [
+    {
+     "text": "目黒区の目黒本町六丁目。住宅地の中。",
+     "radius_m": 500
+    },
+    {
+     "text": "鬼子母神と十八番神を祀る堂のすぐ隣にある。",
+     "radius_m": 250
+    },
+    {
+     "text": "「ほうかい」と読む塚。鬼子母神堂の隣。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この塚の名前は？",
+    "display": "法界塚",
+    "accept": [
+     "法界塚",
+     "ほうかいづか"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "法界塚と、その隣に建つ鬼子母神堂",
+   "short": "法界塚は目黒本町六丁目にある塚で、16世紀末の古文書にも名が見える由緒あるもの。法華寺に関係する経塚とも古墳とも伝えられ、詳細は不明。隣には鬼子母神堂が建つ。",
+   "long": "法界塚は目黒区目黒本町六丁目にある塚である。区の文化財めぐりのページによれば、この名は16世紀末の古文書にも見られ、由緒あるものと考えられている。塚そのものは、法華寺に関係する経塚とも古墳とも伝えられているが、詳しいことは分かっていない。\n塚の隣には鬼子母神堂が建つ。堂には鬼子母神と十八番神が祀られている。江戸時代に安藤氏が勧請したもので、明治末に品川区西小山の摩耶寺からこの地へ移された。\n目黒本町という町名は、1966年（昭和41年）3月1日の住居表示の施行で、東町、月光町、向原町の全域と、清水町、碑文谷一丁目から二丁目の一部を統合してできたもので。",
+   "sources": [
+    {
+     "title": "目黒区「文化財めぐり 碑文谷・目黒本町地域（法界塚・鬼子母神堂）」",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "目黒区「目黒の地名 目黒本町」",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/gyosei/shokai_rekishi/konnamachi/michi/chimei/nanbu/megurohoncho.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区データの値（GSIで目黒本町6-24と一致）。法界塚の外観（塚の形、説明板の有無）は区ページに記述がなく未確認。鬼子母神堂が隣にあることのみ出典で確認。longの目黒本町の町名由来の段落は区の地名ページによる（法界塚との関係は出典にない）。解説が短めで、塚の形や由来の詳細は出典がなく書けなかった。堂に上がれるか、境内に入れるかは確認できなかった。「安藤氏が勧請」の安藤氏がどの家かは出典に記載なし。",
+   "onsite_hints": [
+    {
+     "text": "塚の隣に鬼子母神堂が建つ（鬼子母神と十八番神を祀る）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html"
+    },
+    {
+     "text": "説明板や標柱があるかは確認できていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": false,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-65",
+   "name": "高木神社境内の庚申塔",
+   "kana": "たかぎじんじゃけいだいのこうしんとう",
+   "lat": 35.617222,
+   "lon": 139.688389,
+   "address": "東京都目黒区南2-1",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "かつて六番目の天の名で呼ばれた村の社に、道しるべも兼ねた文字だけの石の碑がある。もとは今の大きな環状の道の近くにあった。碑文谷の村の守り神をたずねよ。",
+   "hints": [
+    {
+     "text": "碑文谷の旧村の鎮守で、目黒区の南のはずれ、都立大学駅の南東にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "江戸のころは『第六天』と呼ばれていた小さな神社である。",
+     "radius_m": 250
+    },
+    {
+     "text": "祭神は大己貴命。いまは『高』の字がつく名の神社である。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "碑がある神社の名前は？",
+    "display": "高木神社",
+    "accept": [
+     "高木神社",
+     "たかぎじんじゃ",
+     "たかきじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "碑文谷村子ノ神の鎮守だった神社の境内にある、文字だけを刻んだ庚申塔。道標も兼ねた碑で、もとは今の環状七号線の辺りにあったと区のページは伝えている。",
+   "long": "目黒区南二丁目の高木神社の境内に、文字だけを刻んだ碑の庚申塔がある。区のページによれば、この碑は道標を兼ねており、本来は今の環状七号線の辺りにあったという。道標を兼ねた碑だったため、もとは道ばたに立っていたことになるが、境内に移された経緯は出典で確かめられていない。高木神社は祭神が大己貴命で、創建年代は不明だが江戸時代にはすでに存在し、碑文谷村子ノ神の鎮守だった。はじめは第六天社と称し、明治時代に高木神社と改称した。明治以前は、子ノ神（大国主）、第六天（他化自在天）、高木神（高御産巣日神）が渾然一体となった村の守護神として祀られていたと伝える。神社へは都立大学駅から徒歩17分（Wikipedia）。",
+   "sources": [
+    {
+     "title": "高木神社境内の庚申塔（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/takagi.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "高木神社 (目黒区)（Wikipedia）",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/高木神社_(目黒区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "区データの座標（南二丁目1番の街区の値）は、Wikipediaの高木神社の座標（35.617222, 139.688389、約60m差）に直した。碑が境内のどこにあるか、境内に入れる時間は確認できず access は null。区のページに写真はあるが説明は2文のみで、碑の大きさ・建立年・刻字の内容は確認できなかった。long は400字をやや下回る可能性があるため、確認担当で調整を。『のちに神社の境内に移された』は区のページの題名（境内の庚申塔）と『本来は環七辺りにあった』からの推定で、移設の経緯そのものは出典にない。",
+   "onsite_hints": [
+    {
+     "text": "探す物は神社の境内にある文字だけの石碑（庚申塔）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/takagi.html"
+    },
+    {
+     "text": "神社の所在は南二丁目1番",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/takagi.html"
+    },
+    {
+     "text": "碑の境内での位置は不明",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-31",
+   "name": "宮野古民家自然園（宮野家屋敷・宮野家主屋）",
+   "kana": "みやのこみんかしぜんえん",
+   "lat": 35.613613,
+   "lon": 139.693283,
+   "address": "東京都目黒区原町2-5-8",
+   "kind": "建造物",
+   "indoor": true,
+   "access": "入園時間10:00〜15:30（閉園16:00）。休園日は毎週月・火曜（祝休日の場合は翌日）、夏期休園8/8〜8/17、年末年始12/26〜1/16。入園料は大人200円、小学生100円（区の施設案内ページ。更新日2021年5月12日）",
+   "seasonal": [],
+   "riddle": "江戸時代の中ごろから後ごろの姿を今に伝える入母屋の民家と、二百本を超える木々の屋敷林が残る。木を切って家を建てたという話も伝わる屋敷を探せ。",
+   "hints": [
+    {
+     "text": "目黒線の洗足駅から歩いて行ける原町の住宅街にある。",
+     "radius_m": 500
+    },
+    {
+     "text": "大きなケヤキなどの屋敷林が、古い民家を取り囲んでいる。入るには入園料がかかる。",
+     "radius_m": 250
+    },
+    {
+     "text": "この家の名は『みやの』。区の史跡に指定された屋敷である。",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この屋敷を代々所有してきた家の名前は？",
+    "display": "宮野家",
+    "accept": [
+     "宮野家",
+     "みやのけ",
+     "宮野家屋敷",
+     "宮野古民家自然園",
+     "みやのこみんかしぜんえん"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "主屋（銅板葺の入母屋造）と屋敷林、併設の民具展示室（区の施設案内）。",
+   "short": "江戸時代中後期の姿を伝える入母屋造の主屋と、200本以上の木が茂る屋敷林が残る。主屋は区指定有形文化財、屋敷は区指定史跡で、有料で公開されている。",
+   "long": "宮野家屋敷は平成7年12月に目黒区の史跡に指定された。2000平方メートル余りの敷地に200本以上の樹木があり、主屋を取り囲むようにケヤキの大木と広葉樹が茂る。200〜250年ほど前から現在に近い形だったと思われ、敷地内の樹木を主屋の建設の用材に使ったという話も伝わる。屋敷林は生活と一体のものだった。主屋は平成6年8月に区指定有形文化財（建造物）となった。桁行8間、梁間4間の入母屋造で、間取りは四ツ間型、現在畳敷きや板敷きの東側部分も、もとは土間だった。外観上は茅葺を銅板葺に改めている。間取りなどから、寛政期（1789〜1804年）以前の建築と考えられ、桁行の割付けに新しい技術を用いる一方、大黒柱級の柱材を3本並べるなど旧来の配置を残す、古さと新しさが混在した建物である。主要構造部の根本的な改築や移設がなく、建築当初の姿を今に伝える。現在は宮野古民家自然園として公開され、民具展示室には江戸時代末期から現在までこの地域で使われた農具や生活用品が展示されている。",
+   "sources": [
+    {
+     "title": "宮野家屋敷　区指定史跡（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/miyanokeyasiki.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "宮野家主屋　区指定有形文化財（建造物）（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/miyanokeomoya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "宮野古民家自然園（目黒区施設案内）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shisetsu/bunkakouryuu/miyano_kominka.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "access は区の施設案内ページ（更新日2021年5月12日）の内容で、最新の開園状況は現地・園のサイトで要確認。indoor は『併設の民具展示室』がある有料公開施設であることから true としたが、主屋に上がれるかは出典で確認できなかった。区の2ページで交通が異なる（史跡ページ：洗足駅7分、施設案内：5分）。座標は区データ（住所の街区）のままで、門の位置までは確認していない。宮野家という家名は施設名・指定名から。",
+   "onsite_hints": [
+    {
+     "text": "探す物は主屋（入母屋造、屋根は銅板葺）と屋敷林",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/miyanokeomoya.html"
+    },
+    {
+     "text": "主屋は現存し、外観上は茅葺を銅板葺に改めている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/miyanokeomoya.html"
+    },
+    {
+     "text": "屋敷林にはケヤキの大木が主屋を取り囲む",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/miyanokeyasiki.html"
+    },
+    {
+     "text": "入園は有料、月・火曜休園",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shisetsu/bunkakouryuu/miyano_kominka.html"
+    }
+   ],
+   "on_foot": true,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-12",
+   "name": "円融寺",
+   "kana": "えんゆうじ",
+   "lat": 35.618328,
+   "lon": 139.68988,
+   "address": "東京都目黒区碑文谷1-22-22",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "23区内で最も古い木造建築が残る寺。門には、江戸時代に黒い仁王と親しまれた一対の力士像が立つ。かつては法華寺と名乗っていたこともあるという。",
+   "hints": [
+    {
+     "text": "碑文谷。目黒区南部の寺",
+     "radius_m": 500
+    },
+    {
+     "text": "バス停から歩いて6分ほど。茅葺から銅板葺に変わった古い門がある",
+     "radius_m": 250
+    },
+    {
+     "text": "天台宗。本堂は室町時代初期の建築で、釈迦堂とも呼ばれる",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "円融寺",
+    "accept": [
+     "円融寺",
+     "えんゆうじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "仁王門（左右に黒い金剛力士像）と、南向きの本堂（釈迦堂）、境内に移設された日源上人五重石塔",
+   "short": "室町時代初期建築の本堂は、23区内で最も古い木造建築物（重要文化財）。仁王門の金剛力士像は江戸中期に「碑文谷の黒仁王」と親しまれた（都指定文化財）。境内に日源上人五重石塔もある。",
+   "long": "円融寺は目黒区碑文谷一丁目にある天台宗の寺です。もとは天台宗の法服寺として創建され、鎌倉時代の弘安6年（1283年）に日源上人が日蓮宗に改宗して法華寺と名を改めました。現在は天台宗の円融寺です。\n南向きに建つ本堂（釈迦堂）は、桁行三間、梁間四間、単層入母屋造で、23区内で最も古い木造建築物です。明治44年（1911年）に重要文化財に指定されました。昭和27年の改修で屋根が茅葺から銅板葺に、蔀戸が腰唐戸に変わり、正面に石段が設けられるなどの変更がありましたが、唐様建築の手法に和様を取り入れた室町時代初期の優美な様式を残しています。\n仁王門は区の指定文化財で、三間一戸、八脚、入母屋造。主にけやきとひのきを用いた簡素な構造です。屋根は茅葺でしたが、現在は防火のため銅板葺です。門の左右には金剛力士像（東京都指定有形文化財）が立ちます。阿形211センチメートル、吽形205センチメートルの寄木造で黒漆塗り、像内の書付などから、永禄2年（1559年）に鎌倉扇谷の仏師大蔵法眼が作り、慶長17年（1612年）に彩色が補修されたことが分かります。江戸時代中期には「碑文谷の黒仁王」として江戸の人々の信仰を集めました。像が永禄2年の作と分かっていることから、仁王門も永禄年間（1558〜1570年）の建築と推測されています。\n境内には、日源上人の五重石塔（区指定）もあります。上人は正和4年（1315年）に没しましたが追善供養がなされなかったため、寛永13年（1636年）に供養碑が建てられ、文化11年（1814年）に整備されて現在の石塔になりました。",
+   "sources": [
+    {
+     "title": "円融寺本堂（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/enyujihondou.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "円融寺仁王門（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/enyujiniomon.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "木造金剛力士像（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/konngorikisizo.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "日源上人五重石塔（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/nitigengojyusekito.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "入力4件（本堂、仁王門、金剛力士像、五重石塔）を1地点にまとめた。留意点：(1)仁王門の年代は区のページの表では「室町時代」、本文で永禄年間と「推測される」としており、longも推測と明記した。(2)入力の説明は仁王門を「山門」と書くが、区のページの語は「仁王門」。(3)日源上人が改宗した年と、天台宗に戻って円融寺と改称した経緯・時期は区のページに記載がなく、longでは書いていない。(4)入力で金剛力士像を「仁王門内」としたのは像の所在地表記（仁王門内）による。境内の開放時間・拝観の可否は出典で確認できず（access null）。本堂は区のページに「屋外から見られる」とある。座標は国土地理院の住所検索と一致。",
+   "onsite_hints": [
+    {
+     "text": "探す物は仁王門。左右に黒漆塗りの金剛力士像（阿形・吽形）が安置される",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/enyujiniomon.html"
+    },
+    {
+     "text": "本堂（釈迦堂）は南向きで、屋根は銅板葺。正面に石段がある。屋外から見られる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/enyujihondou.html"
+    },
+    {
+     "text": "境内に日源上人五重石塔（高さ3.4メートル）が立つ",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/nitigengojyusekito.html"
+    },
+    {
+     "text": "寺の最寄りはバス停「円融寺前」で、そこから徒歩6分",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/enyujihondou.html"
+    }
+   ],
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ni%C5%8D-mon,_En%27y%C5%AB-ji_(Meguro)_20260801.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ni%C5%8D-mon%2C_En%27y%C5%AB-ji_%28Meguro%29_20260801.jpg",
+     "caption": "円融寺",
+     "author": "Suikotei",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ],
+   "on_foot": true,
+   "last_checked": null
+  },
+  {
+   "id": "meguro-80",
+   "name": "碑文谷八幡宮",
+   "kana": "ひもんやはちまんぐう",
+   "lat": 35.617638,
+   "lon": 139.686935,
+   "address": "東京都目黒区碑文谷3-7-3",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      3,
+      4
+     ],
+     "note": "参道から立会川緑道へ桜の樹が続き、春には花のトンネルになる（区の文化財めぐりの解説）"
+    }
+   ],
+   "riddle": "鎌倉時代、ある武将の守護神を家臣がこの地に祀ったのが始まりと伝わる、旧村の鎮守。本殿の隣には梵字を刻んだ石が保存され、この土地の珍しい地名の由来とする説がある。",
+   "hints": [
+    {
+     "text": "目黒区の南西部。東急東横線の都立大学駅から歩いて15分ほどの住宅地",
+     "radius_m": 500
+    },
+    {
+     "text": "立会川緑道へ向かって、桜の樹が並ぶ参道のある神社",
+     "radius_m": 250
+    },
+    {
+     "text": "地名の由来ともいわれる梵字の石が本殿の隣にある、応神天皇をまつる八幡さま",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "碑文谷八幡宮",
+    "accept": [
+     "碑文谷八幡宮",
+     "ひもんやはちまんぐう",
+     "碑文谷八幡神社",
+     "ひもんやはちまんじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "本殿の隣に、梵字を刻んだ碑文石が保存されている（区の文化財めぐりの解説）",
+   "short": "旧碑文谷村の鎮守。鎌倉時代に畠山重忠の守護神を家臣の宮野氏が祀ったのが起源といわれる。本殿の隣に保存された梵字の碑文石は、地名の由来とする説がある。この地名の由来には他の説もある。",
+   "long": "碑文谷八幡宮は、旧碑文谷村の鎮守で、応神天皇をまつっています。創建の年代は不明ですが、鎌倉時代に畠山重忠の守護神を、家臣であった宮野氏がこの地にまつったのが起源といわれています（目黒区の文化財めぐり碑文谷コースの解説）。\n\n本殿の隣には、梵字を刻んだ碑文石（ひもんせき）が保存されています。高さ約75センチメートル、幅約45センチメートルで、中央に「大日」、左右に「勢至」「観音」を表す梵字が刻まれています。この石は、地名「碑文谷」の由来とする説の拠りどころになっています。村内の鎌倉街道のそばに梵字を刻んだ碑があったが、たたりのため土中に埋めたと『新編武蔵風土記稿』『江戸名所図会』『帝国地名辞典』に記されていることから、この説が唱えられるようになったといいます。\n\nただし、区の解説は、碑文谷という地名の起源には円融寺にまつわる説などもあり、現在まで一つの説に確定するには至っていないとしています。応永32年（1425年）の「日運記」にはすでに碑文谷の地名が見えます。\n\n参道から立会川緑道へは桜の樹が続き、春には花のトンネルになると区の文化財めぐりの解説にあります。",
+   "sources": [
+    {
+     "title": "歴史を訪ねて「碑文谷」の起源を探る（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/nanbuhimonya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "文化財めぐり（碑文谷コース）（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "碑文谷八幡宮（Wikipedia）",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/碑文谷八幡神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "座標は区のデータ（国土地理院の住所検索と一致）を使用。Wikipediaの座標（35.617417, 139.685583）は約125m西にずれており採用していない。碑文石を現地で一般の参拝者が見られる位置にあるかは、区のページが「本殿の隣に保存」と書くのみで確認できていない。境内の開放時間は出典なし（access は null）。地名由来は諸説あり（区の解説に明記）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は、本殿の隣に保存されている梵字を刻んだ石（碑文石）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html"
+    },
+    {
+     "text": "碑文石は高さ約75cm、幅約45cmほどで、中央と左右に梵字が3つ刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/nanbuhimonya.html"
+    },
+    {
+     "text": "参道から立会川緑道に向かって桜の樹が続く",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html"
+    }
+   ],
+   "on_foot": true,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Himonya_hachimangu.JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Himonya_hachimangu.JPG",
+     "caption": "碑文谷八幡宮",
+     "author": "User:Kentin",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-33",
+   "name": "旧栗山家主屋（目黒区古民家）",
+   "kana": "きゅうくりやまけしゅおく",
+   "lat": 35.618317,
+   "lon": 139.68425,
+   "address": "東京都目黒区碑文谷3-11-22（すずめのお宿緑地公園内）",
+   "kind": "建造物",
+   "indoor": true,
+   "access": "公開は水曜日から日曜日の9時30分〜15時30分、見学無料。月曜・火曜（祝日は公開）と12月28日〜1月4日は休館。園内は自転車の乗り入れ不可。公園自体は24時間開放",
+   "seasonal": [],
+   "riddle": "江戸時代に村の「年寄」を代々務めた旧家の主屋。もとは別の町にあったものを、竹林の残る公園に移して復元した。茅葺だった屋根は、防火のため金属の板に替えられている。",
+   "hints": [
+    {
+     "text": "目黒区の南西部。環七通りの近くにある、かつて筍の産地だった一帯",
+     "radius_m": 500
+    },
+    {
+     "text": "竹林やシイ・ケヤキの大木が残る公園の北側の一角に建っている",
+     "radius_m": 250
+    },
+    {
+     "text": "江戸時代中期ごろの建築とされる古民家。公園の名前はスズメのねぐらに由来する",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この建物の名前（旧家の名を冠した主屋）は？",
+    "display": "旧栗山家主屋",
+    "accept": [
+     "旧栗山家主屋",
+     "きゅうくりやまけしゅおく",
+     "栗山家主屋",
+     "くりやまけしゅおく",
+     "目黒区古民家"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "すずめのお宿緑地公園の北側の一角に復元された、銅板葺の主屋（区の公園ページ・文化財ページ）",
+   "short": "旧衾村の年寄を務めた栗山家の主屋。江戸時代中期ごろの建築とされ、緑が丘一丁目からすずめのお宿緑地公園に移築復元された区指定の文化財。公開は水〜日曜の9時30分〜15時30分で、見学無料。",
+   "long": "旧栗山家主屋は、江戸時代に「年寄」という村の重要な役職を代々務めた、旧衾村（ほぼ現在の環七通りの西側）の栗山家の主屋です。昭和54年（1979年）に目黒区の有形文化財（建造物）に指定されました。もとは緑が丘一丁目にあり、現在のすずめのお宿緑地公園内に移築復元されました。\n\n構造は桁行7.5間、梁間5間の広間型平面、寄棟造です。もとは茅葺でしたが、防火のため銅板葺に変更されています。その他はほぼ元の状況を留めています。安政4年（1857年）に大改修が行われた記録があること、大黒柱を含めた軸組みの工法、南側の外縁などに見られる建築様式から、建築は江戸時代中期と推定されています。\n\n主屋とともに建っていた長屋門は、現在は解体保存中で非公開です。\n\nこの建物が建つすずめのお宿緑地公園は、江戸時代の安永年間に始まったという目黒の筍栽培の舞台となった竹林でした。昭和の初めごろには、この竹林が付近一帯のスズメのねぐらになっていたことが公園の名の由来です。今も竹林やシイ・ケヤキの大木が残り、公園の北側の一角に主屋が復元されています。古民家は水曜日から日曜日に公開され、見学は無料です。",
+   "sources": [
+    {
+     "title": "旧栗山家主屋（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/kyukuriyamakeomoya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "古民家の施設案内（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/shisetsu/bunkakouryuu/kominka.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "すずめのお宿緑地公園（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/douro/shisetsu/sports/suzume.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "旧栗山家長屋門（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/kyukuriyamakenagayamon.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "文化財めぐり（碑文谷コース）（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "入力の2件目の URL（rekishibunkazai/kominka.html）は区サイトのリニューアルで404になっており、現行の施設案内ページ（shisetsu/bunkakouryuu/kominka.html）を代わりに使った。入力の説明は「名主」だが、主屋のページ・施設案内は「年寄」、長屋門のページは「年寄・名主」。本文は「年寄」に統一。入力の説明にある「緑が丘」は、区のページでは「緑が丘一丁目」。座標は国土地理院の住所検索と一致。公園の入口や古民家の入口の位置は未確認。",
+   "onsite_hints": [
+    {
+     "text": "探す物は、公園の北側の一角に建つ古民家（銅板葺の寄棟造の主屋）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/douro/shisetsu/sports/suzume.html"
+    },
+    {
+     "text": "公園内には竹林とシイ・ケヤキの大木が残っている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/douro/shisetsu/sports/suzume.html"
+    },
+    {
+     "text": "敷地内は自転車の乗り入れができない。入館は水〜日の9時30分から15時30分まで",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/shisetsu/bunkakouryuu/kominka.html"
+    },
+    {
+     "text": "同じ旧家の長屋門は解体保存中で、見られない",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/kyukuriyamakenagayamon.html"
+    }
+   ],
+   "on_foot": true,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-77",
+   "name": "九品仏題目名号道標",
+   "kana": "くほんぶつだいもくみょうごうどうひょう",
+   "lat": 35.613419,
+   "lon": 139.664993,
+   "address": "東京都目黒区自由が丘3-1",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "浄土宗の大きな寺へ曲がる角に立つ道標なのに、片面には日蓮宗の題目が刻まれている。周辺に日蓮宗の信者が多かったためと考えられている。",
+   "hints": [
+    {
+     "text": "目黒区の南西部、自由が丘三丁目。大きな通りの交差点",
+     "radius_m": 500
+    },
+    {
+     "text": "目黒通りから、浄土宗の寺の方面へ曲がる角",
+     "radius_m": 250
+    },
+    {
+     "text": "左の面に「南無阿弥陀仏」、右の面に「南無妙法蓮華経」と刻まれた石",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この道標の名前は？（案内先の寺の通称で始まる）",
+    "display": "九品仏題目名号道標",
+    "accept": [
+     "九品仏題目名号道標",
+     "くほんぶつだいもくみょうごうどうひょう",
+     "題目名号道標",
+     "だいもくみょうごうどうひょう"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "目黒通りから九品仏浄真寺方面にまがる角に道標があり、左面に「南無阿弥陀仏」、右面に「南無妙法蓮華経」と刻まれている（区の文化財めぐりの解説）",
+   "short": "目黒通りから九品仏浄真寺方面へ曲がる角の道標。左面は「南無阿弥陀仏」、右面は「南無妙法蓮華経」。浄土宗の寺の道標だが、周辺に日蓮宗の信者が多かったため両方が刻まれたと思われる。",
+   "long": "九品仏題目名号道標は、目黒通りから九品仏浄真寺方面へ曲がる角にある道標です。左面には「南無阿弥陀仏」（名号）、右面には「南無妙法蓮華経」（題目）が刻まれています。\n\n九品仏浄真寺は浄土宗の寺ですが、この碑の周辺は日蓮宗の信者が多かったため、このように刻んだと思われる、と目黒区の文化財めぐりの解説は述べています。つまり、浄土宗の寺への道案内の石に、日蓮宗の題目も一緒に刻まれていることが、この道標の見どころです。\n\nこの道標は、平成22年（2010年）12月に実施された目黒区の文化財めぐり（衾コース）の見学場所の一つでした。衾コースは、江戸時代の目黒六か村のひとつ衾村の地域をまわるコースです。衾村はほぼ現在の環状七号線の西側にあたり、氷川神社や東光寺などの寺社が集中するあたりが中心地でした。目黒地域より都市化が遅く、昭和十年代までは呑川の流域に田畑や原野が広がる純農村地域でした。\n\nそのため、江戸近郊の行楽地として栄えた下目黒地域に比べて文化財の数は多くありませんが、江戸近郊の農村でさかんだった庚申講の様子を伝える庚申塔などが残っています。",
+   "sources": [
+    {
+     "title": "文化財めぐり（衾コース）（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "出典は区の文化財めぐり（衾コース、2010年実施）のページ1件のみ。道標の建立年、大きさ、現在も同じ場所に立っているかは出典にない。写真付きの公式ページでは確認していないため、答えは地点名にした（刻字を答えにしていない）。「九品仏」だけ、「九品仏道標」は別の場所（寺）の名や出典にない表記のため accept に入れていない。座標は国土地理院の住所検索と一致（番地までで号なし）。",
+   "onsite_hints": [
+    {
+     "text": "探す物は、目黒通り沿いの角に立つ道標の石",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    },
+    {
+     "text": "片面に「南無阿弥陀仏」、もう片面に「南無妙法蓮華経」と刻まれている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    }
+   ],
+   "on_foot": false,
+   "images": [],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-78",
+   "name": "立源寺",
+   "kana": "りゅうげんじ",
+   "lat": 35.612858,
+   "lon": 139.673386,
+   "address": "東京都目黒区中根2-21-17",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [],
+   "riddle": "江戸時代の初め、寛永元年に日蓮宗の上人が開いた寺。もとは大きな寺の末寺だったが、その本寺が元禄11年に天台宗へ改められるまで続いた。",
+   "hints": [
+    {
+     "text": "目黒区の中根二丁目。かつての衾村の一角",
+     "radius_m": 500
+    },
+    {
+     "text": "区の文化財めぐり（衾コース）で、目黒通りの角の道標の次に訪れる寺",
+     "radius_m": 250
+    },
+    {
+     "text": "日蓮宗の寺。「りゅう」で始まる三文字の寺",
+     "radius_m": 100
+    }
+   ],
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "立源寺",
+    "accept": [
+     "立源寺",
+     "りゅうげんじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": null,
+   "short": "寛永元年（1624年）に日運上人が開いた日蓮宗の寺。碑文谷の法華寺の末寺で、本堂には元禄年間に法華寺から移された区指定の木造三宝尊像が安置されている（本堂内の所蔵品）。",
+   "long": "立源寺は、寛永元年（1624年）に日運上人が開いた日蓮宗の寺です。碑文谷の法華寺（現在の円融寺）の末寺で、法華寺が元禄11年（1698年）に天台宗に改宗するまで、その末寺でした。\n\n法華寺は、慈覚大師が開いた寺といわれ、弘安6年（1283年）に日源上人により日蓮宗に改められて一大勢力を築きました。しかし、法華経信者以外からは施しを受けず他宗には施さないという不受不施の教義を守ったことで、江戸幕府によって元禄11年に天台宗へ戻されました。のちに天保5年（1834年）に円融寺と名を改めて今日に至ります。法華寺が栄えたことで、碑文谷村では日蓮宗の信仰がさかんでした。\n\n立源寺の本堂に安置されている区指定文化財の木造三宝尊像は、元禄年間に法華寺から移されたものです。三宝尊像は日蓮宗独自のもので、立源寺のものは中でも優れたものと言われています。この像は本堂内の寺の所蔵品です。\n\n立源寺は、平成22年（2010年）12月の目黒区の文化財めぐり（衾コース）で、九品仏題目名号道標の次に訪ねられた寺です。",
+   "sources": [
+    {
+     "title": "文化財めぐり（衾コース）（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "文化財めぐり（碑文谷コース）（目黒区）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihimonya.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "status": "unverified",
+   "notes": "入力の備考どおり、指定の三宝尊像は本堂内の所蔵品で、外観（山門・本堂・境内）や境内に入れる時間は出典で確かめられていない（優先度低）。由緒は区のページで確認できたが、現地で見る物は未確認のため、謎・ヒントは由緒中心にした。法華寺・円融寺の沿革は碑文谷コースのページによる（立源寺のページではない）。像が普段見られるかは出典にない。座標は国土地理院の住所検索と一致。",
+   "onsite_hints": [
+    {
+     "text": "日蓮宗の寺。本堂に区指定の木造三宝尊像が安置されているが、普段見られるかは未確認",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    }
+   ],
+   "on_foot": true,
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Ryugen-ji_(Meguro).JPG",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Ryugen-ji_%28Meguro%29.JPG",
+     "caption": "立源寺",
+     "author": "Abasaa",
+     "license": "Public domain",
+     "license_url": null
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-76",
+   "name": "東光寺",
+   "kana": "とうこうじ",
+   "lat": 35.619278,
+   "lon": 139.673004,
+   "address": "東京都目黒区八雲1-9-11",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "riddle": "南北朝の頃、幼くして亡くなったわが子を弔うために建てられたと伝わる寺。世田谷から目黒にかけて勢力を張った一族の石塔が、墓地に3基残るという。もとは別の宗派の寺で、江戸時代の初めに宗旨を改めた。",
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "東光寺",
+    "accept": [
+     "東光寺",
+     "とうこうじ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "曹洞宗の寺の境内。墓地に吉良氏の墓と伝えられる石塔3基がある（区の資料）",
+   "short": "吉良治家が貞治4年（1365年）に、幼くして亡くなった子息の菩提を弔うため建てたと伝わる曹洞宗の寺。当初は東岡寺と称した。墓地には吉良氏の墓と伝えられる石塔が3基残る。",
+   "long": "東光寺は目黒区八雲一丁目にある曹洞宗の寺です。目黒区の文化財めぐり（衾コース）の解説によれば、吉良治家が貞治4年（1365年）に、幼少で亡くなった子息の菩提を弔うために建てたと伝えられています。当初は「東岡寺」と称していましたが、天正19年（1591年）頃に「東光寺」と改め、江戸時代の初めに臨済宗から曹洞宗の寺になりました。墓地には吉良氏の墓と伝えられる3基の石塔が残っています。吉良氏は、中世より目黒・世田谷地域を勢力下に置いた、足利義氏の流れを汲む一族です。Wikipediaは、吉良治家を世田谷城の城主とし、子は10歳で夭折したと記しています。この寺のある一帯は、江戸時代の目黒六か村のひとつ、衾村の中心地でした。衾村は現在の環状七号線の西側の地域で、氷川神社や東光寺などの寺社が集中するあたりが中心とされます。昭和十年代までは呑川の流域に田畑や原野がのどかに広がる、純農村地域でした。そのため文化財の数は多くありませんが、寺社や石塔に、村の歴史が静かに伝わっています。",
+   "sources": [
+    {
+     "title": "文化財めぐり（衾コース）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "東光寺 (目黒区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/東光寺_(目黒区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "onsite_hints": [
+    {
+     "text": "探す物は曹洞宗の寺の境内。墓地に吉良氏の墓と伝えられる石塔が3基ある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    },
+    {
+     "text": "最寄りは東急東横線の都立大学駅で、徒歩約5分",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/東光寺_(目黒区)"
+    },
+    {
+     "text": "墓地に入って石塔を見られるかどうかは、出典では確かめられていない",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "notes": "墓地の参拝可否・開門時間は出典で確認できず（access は null）。改称の時期は、区の資料が天正19年頃、Wikipedia は徳川家康の朱印状（1590年、天正18年）に「東光寺」とあったため改称と説明し、年がわずかに異なる（Wikipedia の脚注では『新編武蔵風土記稿』は天正19年）。本文は区の資料に従った。座標は国土地理院の住所検索と一致。",
+   "seasonal": [],
+   "status": "unverified",
+   "images": [],
+   "hints": [
+    {
+     "text": "かつて「衾村」と呼ばれた地域で、東急東横線の駅から歩いて行ける八雲一丁目。",
+     "radius_m": 500
+    },
+    {
+     "text": "都立大学駅から歩いて数分。曹洞宗の寺で、墓地に中世の武家の墓と伝わる石塔がある。",
+     "radius_m": 250
+    },
+    {
+     "text": "八雲一丁目9番、吉良氏の墓と伝わる石塔3基がある曹洞宗の寺。寺名は「東」で始まる。",
+     "radius_m": 100
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-71",
+   "name": "氷川神社（八雲）",
+   "kana": "ひかわじんじゃ",
+   "lat": 35.617447,
+   "lon": 139.671143,
+   "address": "東京都目黒区八雲2-4-16",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "seasonal": [
+    {
+     "months": [
+      9
+     ],
+     "note": "9月（第3土・日曜日）の祭礼で、神楽殿で「剣の舞」が奉納される"
+    }
+   ],
+   "riddle": "旧衾村の人びとが祀った鎮守。江戸時代中ごろの鳥居の記録が残り、腹や胸の差し込む痛みを鎮める神として、遠くから参拝者が詰めかけたという。境内には、あぜ道から移された庚申塔もある。",
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "氷川神社",
+    "accept": [
+     "氷川神社",
+     "ひかわじんじゃ",
+     "八雲氷川神社",
+     "やくもひかわじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "鳥居と社殿、神楽殿のある境内。庚申塔（大辻の庚申）が拝殿裏の右奥にある（区の資料）",
+   "short": "旧衾村の鎮守。宝暦7年（1757年）の鳥居建立の記録が残り、癪封じの神として遠方から参拝者が集まった。境内には庚申塔「大辻の庚申」もあり、9月の祭礼では剣の舞が奉納される。",
+   "long": "八雲の氷川神社は、旧衾村の鎮守です。祭神はスサノオノミコトを主神として、稲田姫命、大己貴命をまつります。創建の年代は不明ですが、宝暦7年（1757年）の鳥居建立、天明7年（1787年）の普請に関する文書が残されています。9月の祭礼には、スサノオノミコトのヤマタノオロチ退治を表した剣の舞が神楽殿で奉納されます。目黒区の資料では、祭礼は毎年1月19日、5月19日、9月第3土・日曜日の3回とされています。この神社は癪封じの神としても知られ、遠くから参拝者がつめかけたといいます。御神木のアカガシの皮を煎じて飲むと効くといわれ、薬として珍重されたためか、区の資料は、社殿裏のアカガシは枯れてしまっていると記しています。境内には庚申塔の「大辻の庚申」もあります。もとは昭和の初め頃まで柿の木坂の畑のあぜ道にあり、耕地整理などで幾度も移され、昭和63年に柿の木坂ゴルフガーデン脇へ、平成23年に氷川神社拝殿裏の右奥へ移設されたと、区の資料は伝えています。",
+   "sources": [
+    {
+     "title": "文化財めぐり（衾コース）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "大辻の庚申",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/ootsuji.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "歴史を訪ねて　目黒の祭",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/matsuri.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "目黒の庚申塔",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "氷川神社 (目黒区八雲)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/八雲氷川神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "onsite_hints": [
+    {
+     "text": "探す物は神社の境内にある庚申塔（大辻の庚申）。拝殿の裏の右奥にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html"
+    },
+    {
+     "text": "社殿の裏にあった御神木のアカガシは枯れ、現在は根本のみ残ると説明されている",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/八雲氷川神社"
+    },
+    {
+     "text": "神楽殿が境内にある（剣の舞が奉納される場所）",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    },
+    {
+     "text": "西隣に金蔵院（かつての別当寺）がある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/八雲氷川神社"
+    }
+   ],
+   "on_foot": true,
+   "notes": "大辻の庚申（行番号72、同一住所）を1地点にまとめた。座標は国土地理院と一致。区の資料は社殿裏のアカガシが枯れたとし、Wikipedia は根本のみ残存とする（本文は区の資料に従った）。境内に入れる時間は出典で確認できず。",
+   "status": "unverified",
+   "images": [],
+   "hints": [
+    {
+     "text": "八雲二丁目。東横線の都立大学駅の近くにある、昔の村の鎮守。",
+     "radius_m": 500
+    },
+    {
+     "text": "隣の寺は、かつてこの社の別当を務めていた。祭礼では須佐之男命の大蛇退治にちなむ舞が奉納される。",
+     "radius_m": 250
+    },
+    {
+     "text": "八雲二丁目4番、スサノオノミコトを主神とする。名に「川」の字が入る神社。",
+     "radius_m": 100
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-73",
+   "name": "金蔵院",
+   "kana": "こんぞういん",
+   "lat": 35.618526,
+   "lon": 139.670456,
+   "address": "東京都目黒区八雲2-4-26",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "riddle": "となりの鎮守の別当を務めた真言宗の寺。明治のはじめに一度廃寺となり、一時は小学校の教室に使われたこともある。室町時代の仏像の胎内から、願文が見つかった。",
+   "answer": {
+    "prompt": "この寺の名前は？",
+    "display": "金蔵院",
+    "accept": [
+     "金蔵院",
+     "こんぞういん",
+     "氷川山金蔵院"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "本堂と歓喜天堂のある寺（Wikipediaの記述）。区指定の像は非公開",
+   "short": "八雲氷川神社の西隣にある真言宗智山派の寺。江戸時代は氷川神社の別当寺で、応仁2年（1468年）に造られたと推定される不動明王及び両童子立像（区指定有形文化財、非公開）を所蔵する。",
+   "long": "金蔵院は目黒区八雲二丁目にある真言宗智山派の寺です。Wikipediaによると、安土桃山時代に頼栄が開山し、隣の氷川神社の別当寺でした。明治7年（1874年）にいったん廃寺となり、一時は小学校（のちの八雲小学校）の教室として使われましたが、明治16年（1883年）に檀家総代らによって再興されました。寺には、目黒区指定有形文化財（彫刻）の木造不動明王及び両童子立像（昭和55年指定）があります。区の解説によれば、不動明王の頭部に文書が納められており、応仁2年（1468年）に大和国山辺郡・広瀬郡あたりで制作されたと推定されています。納められていた文書は経典と意趣願文、諷誦文の2巻で、造立の由来や当時の信仰を知ることができます。像は非公開で、普段は見られません。寄木造のひのき材で、不動明王は74.5センチメートル、矜羯羅童子と制た迦童子はそれぞれ約18センチメートルです。当初は彩色されていましたが、現在はほとんど剥落しています。そのため、この地点では寺の外観や、隣の氷川神社とのつながりを手がかりに訪ねます。",
+   "sources": [
+    {
+     "title": "木造不動明王及び両童子立像",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/hudomyooryodojizo.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "文化財めぐり（衾コース）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "金蔵院 (目黒区)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/金蔵院_(目黒区)",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "氷川神社 (目黒区八雲)",
+     "publisher": "Wikipedia",
+     "url": "https://ja.wikipedia.org/wiki/八雲氷川神社",
+     "kind": "Wikipedia",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "onsite_hints": [
+    {
+     "text": "八雲の氷川神社の西隣にある寺",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/八雲氷川神社"
+    },
+    {
+     "text": "境内に本堂と歓喜天堂がある",
+     "confidence": "出典あり",
+     "source_url": "https://ja.wikipedia.org/wiki/金蔵院_(目黒区)"
+    },
+    {
+     "text": "区指定の不動明王及び両童子立像は非公開で、外からは見られない",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/hudomyooryodojizo.html"
+    }
+   ],
+   "on_foot": true,
+   "notes": "入力の備考どおり優先度低。氷川神社（八雲）とは約135m離れており重ならない。像の制作地について、区の解説は『大和国山辺郡・広瀬郡あたり』、Wikipediaは『山辺郡の毘沙門堂から運ばれた』とし、記述が異なる（本文は区の解説のみ使用）。境内に入れる時間は出典で確認できず。座標は国土地理院と一致。",
+   "seasonal": [],
+   "status": "unverified",
+   "images": [
+    {
+     "file_page": "https://commons.wikimedia.org/wiki/File:Konzo-in_Kangiten_hall_2024-12-26.jpg",
+     "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Konzo-in_Kangiten_hall_2024-12-26.jpg",
+     "caption": "金蔵院",
+     "author": "Asanagi",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    }
+   ],
+   "hints": [
+    {
+     "text": "八雲二丁目。氷川の社と並んで建っている。",
+     "radius_m": 500
+    },
+    {
+     "text": "隣にある鎮守の別当だった。胎内から文書が見つかった不動明王像を所蔵する（像は非公開）。",
+     "radius_m": 250
+    },
+    {
+     "text": "八雲二丁目4番、真言宗智山派の寺。名は「蔵」の字を含み、「院」で終わる。",
+     "radius_m": 100
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-66",
+   "name": "桜森神社前庚申塔",
+   "kana": "さくらもりじんじゃまえこうしんとう",
+   "lat": 35.616695,
+   "lon": 139.678787,
+   "address": "東京都目黒区平町1-16",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": null,
+   "riddle": "病魔を払うと信じられた、腕が6本で目が3つの像を刻んだ石塔が、小さな祠の中に2基ならんでいる。右の像は、頭にへびがぐるぐると巻きついているという。",
+   "answer": {
+    "prompt": "この庚申塔の祠がある神社の名前は？",
+    "display": "桜森神社",
+    "accept": [
+     "桜森神社",
+     "さくらもりじんじゃ",
+     "桜森稲荷神社",
+     "櫻森稲荷神社"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "神社のそばのコンクリートブロック造の小堂。中に庚申塔が2基あり、右側の青面金剛は頭をへびが取り巻く",
+   "short": "桜森神社の鳥居の前にあるコンクリートブロックの小堂に、庚申塔が2基ある。右側の青面金剛は頭をへびがぐるぐると取り巻いている。区内に約70基ある庚申塔の一つで、庚申講の名残をとどめる。",
+   "long": "平町一丁目の桜森神社の前に、コンクリートブロックでつくられた小堂があり、庚申塔が2基おさめられています。目黒区の解説によれば、右側の青面金剛は頭をへびがぐるぐると取り巻いています。庚申信仰は、十干十二支の暦で60日ごとにめぐる庚申の日に行われる信仰行事です。中国の道教の庚申待ちが起源といわれ、人の体内にいる三尸という虫が、庚申の日の夜に眠った人の体から抜け出して行いを天帝に知らせる、という言い伝えにもとづきます。日本では平安時代以降に貴族の間で行われ、仏教や神道と結びついて庶民に広がり、江戸時代にもっとも盛んになりました。村では庚申講をつくり、庚申の日には講中の家を順番に宿として集まり、徹夜で飲食や歓談をしたといいます。目黒区内には現在、約70基の庚申塔があり、形は角柱型・板碑型・駒型・舟型などさまざまです。塔に刻まれる青面金剛は、腕が6本で目が3つ、病魔を払うとされる像です。道端の小さな祠の中にも、こうした村の暮らしの名残が静かに残っています。",
+   "sources": [
+    {
+     "title": "桜森神社前庚申塔",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/oshin.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "歴史を訪ねて　目黒の庚申信仰",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/koshin.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "目黒の庚申塔",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "櫻森稲荷神社（所在地の参考）",
+     "publisher": "Rods Shinto",
+     "url": "https://www.rodsshinto.com/13-110-13",
+     "kind": "その他",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "onsite_hints": [
+    {
+     "text": "探す物は、コンクリートブロック造の小さな祠。中に庚申塔が2基ある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/oshin.html"
+    },
+    {
+     "text": "右側の庚申塔の青面金剛は、頭をへびがぐるぐると取り巻いている",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/oshin.html"
+    },
+    {
+     "text": "神社の鳥居の前（または神社に入って左）にある。区の2つのページで位置の説明が異なる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html"
+    }
+   ],
+   "on_foot": true,
+   "notes": "祠の位置の説明が食い違う：庚申塔のページは『鳥居の前にブロックの小堂』、庚申塔一覧ページは『桜森稲荷神社に入って左にブロック造の祠』。神社名も『桜森神社』（個別ページ）と『桜森稲荷神社』（一覧ページ、Rods Shinto は櫻森稲荷神社 平町1-16-10）で異なるため、どちらも accept に入れた。神社そのものの由緒は出典なし（確かめられず）。ヒント3『稲荷』は accept の一部だが仕様上ヒント3は可。庚申塔の制作年は出典なし。座標は国土地理院と一致（番地までは地理院にも無い）。",
+   "seasonal": [],
+   "status": "unverified",
+   "images": [],
+   "hints": [
+    {
+     "text": "平町一丁目。東急東横線の都立大学駅から歩ける住宅地の中。",
+     "radius_m": 500
+    },
+    {
+     "text": "お稲荷さんを祀る神社のそば。ブロックで造られた小さな祠をさがす。",
+     "radius_m": 250
+    },
+    {
+     "text": "平町一丁目16番。祠のある神社は「桜」の字ではじまる名前（稲荷の社）。",
+     "radius_m": 100
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-59",
+   "name": "鉄飛坂庚申塔群",
+   "kana": "てっぴざかこうしんとうぐん",
+   "lat": 35.613247,
+   "lon": 139.680969,
+   "address": "東京都目黒区平町2-18-13",
+   "kind": "碑・石造物",
+   "indoor": false,
+   "access": "堂内の庚申塔4基は非公開。境内の2基は屋外にある（区の資料）",
+   "riddle": "庚申塔には、ふつう青面金剛や三匹の猿が彫られる。ところがここでは、仏教の守護神の像や、日蓮宗の題目を刻んだものが、小さな堂に納められている。講は今も続いているという。",
+   "answer": {
+    "prompt": "この帝釈天堂がある坂の名前は？",
+    "display": "鉄飛坂",
+    "accept": [
+     "鉄飛坂",
+     "てっぴざか",
+     "鉄飛坂庚申塔群",
+     "鉄飛坂帝釈天堂",
+     "鉄飛坂帝釈堂"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "帝釈天堂（帝釈堂）。堂内に庚申塔4基（非公開）、境内に2基の庚申塔がある",
+   "short": "帝釈天堂に江戸時代の庚申塔が6基。堂内の4基（区指定有形文化財）は、帝釈天像や日蓮宗の題目を刻む。帝釈天信仰と日蓮宗信仰が結びついた庚申塔は、約70基ある区内でここだけ。今も庚申講が祭祀を続ける。",
+   "long": "鉄飛坂の上にある帝釈天堂には、庚申塔が6基あります。このうち堂内の4基は、昭和57年（1982年）に目黒区の有形文化財（歴史資料）に指定されました。板碑型が3基、柱型が1基で、延宝8年（1680年）から明治14年（1881年）までの年号が確認でき、庚申信仰が長く受け継がれてきたことを物語っています。庚申塔は通常、青面金剛、太陽と月、二羽の鶏、三匹の猿が彫られることが多いのですが、この塔群は、板碑型のものには帝釈天像が、柱型のものには日蓮宗の題目が刻まれています。目黒区内には現在70基ほどの庚申塔が残っていますが、帝釈天信仰と日蓮宗信仰が結びついているのはここだけで、この地域の信仰のようすを伝える資料です。現在も帝釈天の祭祀を庚申講が行っており、地域の人により講が続けられている点も特色です。区の記事によれば、区内で最も古い庚申塔は寛永3年（1626年）に建てられた、目黒三丁目の十七が坂上の宝篋印塔です。堂内の4基は非公開で、境内には柱型の庚申塔などが屋外にあります。",
+   "sources": [
+    {
+     "title": "鉄飛坂庚申塔群",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/teppizakakousinto.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "文化財めぐり（衾コース）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "歴史を訪ねて　目黒の庚申信仰",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/koshin.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "目黒の庚申塔",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "onsite_hints": [
+    {
+     "text": "探す物は帝釈天堂。堂内の庚申塔4基は非公開で、外から見られるのは境内の2基",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/teppizakakousinto.html"
+    },
+    {
+     "text": "境内に柱型の庚申塔（平町二丁目、帝釈堂境内）がある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/koshin.html"
+    },
+    {
+     "text": "鉄飛坂の上にある",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html"
+    }
+   ],
+   "on_foot": true,
+   "notes": "入力の備考どおり堂内の指定分4基は非公開で、屋外の2基を見る前提で作った。堂内・境内の数は、区の指定ページと衾コースは『堂内4基・境内2基』、庚申塔一覧ページは『帝釈堂境内に6体』と書き方が異なるが矛盾はしないとみた。境内に入れる時間は出典で確認できず（access は区の資料の範囲）。座標は国土地理院と一致。",
+   "seasonal": [],
+   "status": "unverified",
+   "images": [],
+   "hints": [
+    {
+     "text": "平町二丁目。昔の坂の上にある、小さなお堂。",
+     "radius_m": 500
+    },
+    {
+     "text": "堂の名に仏教の守護神「帝釈天」がつく。庚申講の人々が今も祭祀を続けている。",
+     "radius_m": 250
+    },
+    {
+     "text": "平町二丁目18番、坂の名は「鉄」で始まる。境内には柱型の庚申塔もある。",
+     "radius_m": 100
+    }
+   ],
+   "last_checked": null
+  },
+  {
+   "id": "meguro-75",
+   "name": "北野神社（柿の木坂）",
+   "kana": "きたのじんじゃ",
+   "lat": 35.620407,
+   "lon": 139.674484,
+   "address": "東京都目黒区柿の木坂1-32-18",
+   "kind": "寺社",
+   "indoor": false,
+   "access": null,
+   "riddle": "衣冠束帯の姿の学問の神がまつられている。鳥居の右手には、昭和の初めに行われた、田畑の区画を整えた事業の完成を記念する碑が建つ。神社の前の坂は、この神の名で呼ばれる。",
+   "answer": {
+    "prompt": "この神社の名前は？",
+    "display": "北野神社",
+    "accept": [
+     "北野神社",
+     "きたのじんじゃ"
+    ],
+    "basis": "地点名"
+   },
+   "onsite": "鳥居と、その右手の衾第一耕地整理完成記念碑",
+   "short": "都立大学駅から旧都立大学跡地へ向かう途中にある神社。衣冠束帯姿の菅原道真像をまつり、鳥居の右手に衾第一耕地整理完成記念碑が建つ。神社前の坂は天神坂と呼ばれる。昭和初期の農村の整備を伝える。",
+   "long": "北野神社は目黒区柿の木坂一丁目にあります。目黒区の文化財めぐり（衾コース）の解説によれば、都立大学駅から都立大学跡地（八雲一丁目）へ向かう途中にあり、神社前の坂は天神坂と呼ばれています。社には、衣冠束帯姿の菅原道真の像がまつられています。鳥居の右手には、衾第一耕地整理完成記念碑が建っています。耕地整理とは、入り組んだ田畑の区画やあぜ道を整然と整理し直す事業です。衾村では昭和7年から昭和11年（1932年から1936年）に工事が行われたと碑に記されているとされています。衾村は目黒六か村のひとつで、昭和十年代までは呑川の流域に田畑や原野が広がる純農村地域でした。柿の木坂の名の由来には諸説あります。区の記事は、坂の上に押し上げられた大八車から子どもが柿を抜き取ったことから「柿ぬき坂」と呼ばれた説、坂のそばに大きな柿の木があった説、さびしい坂を駆け抜けたことから「かけ抜け坂」となった説を紹介しています。区の資料によれば、近くの八雲氷川神社に移された庚申塔「大辻の庚申」も、昭和の初め頃までは柿の木坂の畑のあぜ道にあり、耕地整理などで幾度も移されたといいます。碑と庚申塔が、同じ時代の土地の変化を伝えています。",
+   "sources": [
+    {
+     "title": "文化財めぐり（衾コース）",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "目黒の庚申塔",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/kouhou/bunkasports/areanavi/koushintou/index.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    },
+    {
+     "title": "目黒の坂　柿の木坂",
+     "publisher": "目黒区",
+     "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/areanavi/saka-seibukakinoki.html",
+     "kind": "自治体",
+     "accessed": "2026-11-14"
+    }
+   ],
+   "onsite_hints": [
+    {
+     "text": "探す物は鳥居の右手に建つ衾第一耕地整理完成記念碑",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    },
+    {
+     "text": "神社の前の坂は天神坂と呼ばれる",
+     "confidence": "出典あり",
+     "source_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/bunkasports/rekishibunkazai/bunkazaimegurihusuma.html"
+    },
+    {
+     "text": "社には衣冠束帯姿の菅原道真像がまつられている（像は社内で、外から見えるかは未確認）",
+     "confidence": "未確認",
+     "source_url": null
+    }
+   ],
+   "on_foot": true,
+   "notes": "出典は区の文化財めぐり（衾コース）のページのみ（社の創建年・由緒は出典なし、確かめられず）。耕地整理の工事年は区のページの『記されている』という記述に従った。柿の木坂の坂の由来は、この神社ではなく坂（柿の木坂）についての区の記事で、神社の前の坂（天神坂）の話ではない。座標は国土地理院と一致。",
+   "seasonal": [],
+   "status": "unverified",
+   "images": [],
+   "hints": [
+    {
+     "text": "柿の木坂一丁目。東急東横線の都立大学駅から、跡地へ向かう途中。",
+     "radius_m": 500
+    },
+    {
+     "text": "坂の名は「天神坂」。まつられているのは菅原道真。",
+     "radius_m": 250
+    },
+    {
+     "text": "柿の木坂一丁目32番。鳥居の右手に耕地整理の記念碑がある。社名は「野」の字を含む。",
+     "radius_m": 100
+    }
+   ],
+   "last_checked": null
+  }
+ ]
+}
