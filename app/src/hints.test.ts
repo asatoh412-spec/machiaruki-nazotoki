@@ -12,7 +12,8 @@ for (let i = 0; i < 3; i++) {
   const y = (c.lat - p.lat) * 111320, x = (c.lon - p.lon) * 111320 * Math.cos((35.7 * Math.PI) / 180);
   if (Math.hypot(x, y) > c.radius) { console.error('地点が円の外'); process.exit(1); }
 }
-const g = guideText({ lat: 35.69, lon: 139.7 }, hintCircle(p, 0, 'r'), '新宿駅');
-if (!g.includes('新宿駅から') || !g.includes('へ約')) { console.error('NG guide', g); process.exit(1); }
+const g = guideText({ lat: 35.69, lon: 139.7 }, p, '新宿駅');
+if (g !== '目標物は、新宿駅から北へ約1.1km。') { console.error('NG guide', g); process.exit(1); }
+if (!guideText({ lat: 35.7002, lon: 139.7 }, p, '現在地').includes('すぐ近く')) { console.error('NG near'); process.exit(1); }
 console.log(g, '/', narrowText(hintCircle(p, 0, 'r'), hintCircle(p, 1, 'r')));
 console.log('hints ok');

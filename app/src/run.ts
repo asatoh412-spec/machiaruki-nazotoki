@@ -98,7 +98,7 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
       ${departHtml}
       <h2>謎 ${run.index + 1}</h2>
       <p class="riddle">${esc(p.riddle)}</p>
-      <p id="guide" class="guide">${esc(guideText(from, circleNow, fromName))}</p>
+      <p id="guide" class="guide">${esc(guideText(from, p, fromName))}</p>
       <div id="map" class="map"></div>
       <p id="status" class="status">位置を確かめています…</p>
       <ol class="hints">${p.hints
@@ -135,7 +135,7 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     form.querySelector('input')!.focus();
   };
 
-  // 位置情報の監視。地点までの距離は画面に出さない（出すと答えが分かるため）。出すのは探す範囲の円の中心までの向きと距離だけ。
+  // 位置情報の監視。目標物（地点）までの向きと距離を出す（あきの指示 2026-11-21）。
   let watchId: string | null = null;
   let lastSave = 0;
   Geolocation.watchPosition({ enableHighAccuracy: true, timeout: 20000, maximumAge: 5000 }, (pos, err) => {
@@ -145,7 +145,7 @@ async function stopScreen(run: Run, ctx: { course: Course; pack: Pack; pts: Poin
     }
     const { latitude: lat, longitude: lon, accuracy } = pos.coords;
     showMe(map, lat, lon);
-    if (accuracy <= 100) guide.textContent = guideText({ lat, lon }, circleNow, '現在地');
+    if (accuracy <= 100) guide.textContent = guideText({ lat, lon }, p, '現在地');
     const last = run.track[run.track.length - 1];
     if (accuracy <= 50 && (!last || haversine(last[0], last[1], lat, lon) >= 15)) {
       run.track.push([lat, lon, Date.now()]);
