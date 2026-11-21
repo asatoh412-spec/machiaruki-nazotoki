@@ -14,6 +14,7 @@ for (let i = 0; i < 3; i++) {
 }
 const g = guideText({ lat: 35.69, lon: 139.7 }, p, '新宿駅');
 if (g !== '目標物は、新宿駅から北へ約1.1km。') { console.error('NG guide', g); process.exit(1); }
+if (guideText({ lat: 35.69, lon: 139.7 }, p, '新宿駅', false) !== '目標物は、新宿駅から北の方角。') { console.error('NG nodist'); process.exit(1); }
 if (!guideText({ lat: 35.7002, lon: 139.7 }, p, '現在地').includes('すぐ近く')) { console.error('NG near'); process.exit(1); }
 console.log(g, '/', narrowText(hintCircle(p, 0, 'r'), hintCircle(p, 1, 'r')));
 console.log('hints ok');

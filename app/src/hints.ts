@@ -40,11 +40,14 @@ export function meters(aLat: number, aLon: number, bLat: number, bLon: number): 
   const x = (bLon - aLon) * 111320 * Math.cos((aLat * Math.PI) / 180);
   return Math.hypot(x, y);
 }
-// 目標物（地点そのもの）への向きと距離。「目標物は〇〇から北東へ約700m」（2026-11-21 あきの指示で、円の中心から地点そのものに変更）
-export function guideText(from: { lat: number; lon: number }, t: { lat: number; lon: number }, fromName: string): string {
+// 目標物（地点そのもの）への向き。距離はヒント1を開いてから出す（2026-11-21 あきの指示：最初から距離まで出すと謎にならない。
+// 一方、半径500mの円だけでは街中で見つからないので、向きは最初から出す）
+export function guideText(from: { lat: number; lon: number }, t: { lat: number; lon: number }, fromName: string, withDistance = true): string {
   const d = meters(from.lat, from.lon, t.lat, t.lon);
+  const dir = bearing(from.lat, from.lon, t.lat, t.lon);
+  if (!withDistance) return `目標物は、${fromName}から${dir}の方角。`;
   if (d <= 50) return `目標物は${fromName}のすぐ近く（50m以内）です。`;
-  return `目標物は、${fromName}から${bearing(from.lat, from.lon, t.lat, t.lon)}へ${roughMeters(d)}。`;
+  return `目標物は、${fromName}から${dir}へ${roughMeters(d)}。`;
 }
 // 狭まった円が前の円のどのあたりか
 export function narrowText(prev: { lat: number; lon: number; radius: number }, next: { lat: number; lon: number; radius: number }): string {
